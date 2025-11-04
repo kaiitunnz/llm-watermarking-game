@@ -30,55 +30,16 @@ python experiments/attack_multiple_keys.py --model_name_or_path facebook/opt-1.3
 
 ----
 
-### Watermark spoofing attacks exploiting the robustness property.
-
-**Attack using toxic token insertion**
-
-This attack involves inserting toxic tokens into the text while preserving the watermark. Use the following command, ensuring you provide your OpenAI API key via the `--openaikey` argument:
-```bash
-python experiments/attack_robustness.py --model_name_or_path facebook/opt-1.3b --action insert --openaikey 'YOUR_OPENAI_API_KEY'
-```
-
-**Attack using inaccurate content modification**
-
-This attack modifies the text to introduce inaccuracies while preserving the watermark. Use the following command with your OpenAI API key:
-```bash
-python experiments/attack_robustness.py --model_name_or_path facebook/opt-1.3b --action modify --openaikey 'YOUR_OPENAI_API_KEY'
-```
-
-*Note: Perform the removal attack exploiting multiple keys first before running these spoofing attacks.*
-
-----
-
 ### Attacks exploiting the public detection APIs
 
 **Watermark removal attack exploiting the public detection API**
 
 This attack attempts to remove watermarks using public detection APIs:
 ```bash
-python experiments/attack_query.py --model_name_or_path facebook/opt-1.3b --action removal
+python experiments/attack_query.py --model_name_or_path facebook/opt-1.3b --action removal --data_file ...
 ```
 
 Requires an input .jsonl file containing the input data. Format is {'prefix' : 'Input_sequence', 'gold_completion' : 'reference_output'}.
-
-**Watermark spoofing attack exploiting the public detection API**
-
-This attack generates text that mimics watermarked content:
-```bash
-python experiments/attack_query.py --model_name_or_path facebook/opt-1.3b --action spoofing
-```
-
-**Evaluating Differential Privacy (DP) Defense**
-
-To evaluate the effectiveness of a DP-based defense mechanism, use the following command:
-```bash
-python experiments/attack_query.py --model_name_or_path facebook/opt-1.3b --action spoofing-defense
-```
-
-Benchmark the detection accuracy of the original watermarked and unwatermarked sentences:
-```bash
-python experiments/attack_query.py --model_name_or_path facebook/opt-1.3b --action dp-benchmark
-```
 
 **Requirements**
 

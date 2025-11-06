@@ -3,7 +3,7 @@ from typing import List
 import numpy as np
 from scipy.stats import norm
 import torch
-from transformers import LogitsWarper
+from transformers import LogitsProcessor
 
 
 class GPTWatermarkBase:
@@ -44,7 +44,7 @@ class GPTWatermarkBase:
         return int.from_bytes(hashlib.sha256(x).digest()[:4], 'little')
 
 
-class GPTWatermarkLogitsWarper(GPTWatermarkBase, LogitsWarper):
+class GPTWatermarkLogitsWarper(GPTWatermarkBase, LogitsProcessor):
     """
     LogitsWarper for watermarking distributions with fixed-group green-listed tokens.
 

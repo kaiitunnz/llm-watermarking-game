@@ -7,12 +7,17 @@ authors = []
 requires-python = ">=3.11"
 dependencies = [
     "accelerate>=1.11.0",
+    "bert-score>=0.3.13",
     "cython-npm>=0.2.4",
+    "datasets<3",
+    "evaluate>=0.4.6",
     "homoglyphs>=2.0.4",
     "nltk>=3.9.2",
+    "pytest>=8.4.2",
     "scipy>=1.16.3",
     "torch>=2.9.0",
     "transformers>=4.57.1",
+    "unbabel-comet>=2.2.7",
 ]
 
 [build-system]

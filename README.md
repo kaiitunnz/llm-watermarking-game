@@ -5,3 +5,9 @@
    ```sh
    uv sync
    ```
+
+# How to run
+Under `src` directory 
+```sh
+bash main.sh
+```

@@ -2,9 +2,10 @@ from .game_representations import (
     NormalFormWaterMarkGame
 )
 
-from .solve_game import solve_normal_form_ne
+from .solve_game import solve_ne, solve_stackelberg_equilibrium
 
 __all__ = [
     "NormalFormWaterMarkGame",
-    "solve_normal_form_ne",
+    "solve_ne",
+    "solve_stackelberg_equilibrium"
 ]

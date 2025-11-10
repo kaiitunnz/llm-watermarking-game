@@ -16,11 +16,19 @@ class NormalFormWaterMarkGame:
         self.c_w = c_w
         self.c_a = c_a
 
-    # payoff to defender is a_f * (1 - f) + a_uw * u_w + a_cw * c_w
-    # payoff to attacker is a_f * f + a_ua * u_a + a_ca * c_a
-    # defender is row player, attacker is col player
-    def rep_one(self, a_f, a_uw, a_ua, a_cw, a_ca):
-        U_w = a_f * np.copy(1 - self.f) + np.tile(a_uw * self.u_w, (self.a, 1)).transpose() + np.tile(a_cw * self.c_w, (self.a, 1)).transpose()
-        U_a = a_f * np.copy(self.f) + np.tile(a_ua * self.u_a, (self.w, 1)) + np.tile(a_ca * self.c_a, (self.w, 1))
-
+    def to_nf_game(self, a_f, a_uw, a_ua, a_cw, a_ca):
+        U_w = self.get_defender_payoffs(a_f, a_uw, a_cw)
+        U_a = self.get_attacker_payoffs(a_f, a_ua, a_ca)
         return pygambit.gambit.Game.from_arrays(U_w, U_a)
+    
+    # payoff to defender is a_f * (1 - f) + a_uw * u_w + a_cw * c_w
+    # defender is row player
+    def get_defender_payoffs(self, a_f, a_uw, a_cw):
+        return a_f * np.copy(1 - self.f) + np.tile(a_uw * self.u_w, (self.a, 1)).transpose() + np.tile(a_cw * self.c_w, (self.a, 1)).transpose()
+    
+    # payoff to attacker is a_f * f + a_ua * u_a + a_ca * c_a
+    # attacker is col player
+    def get_attacker_payoffs(self, a_f, a_ua, a_ca):
+        return a_f * np.copy(self.f) + np.tile(a_ua * self.u_a, (self.w, 1)) + np.tile(a_ca * self.c_a, (self.w, 1))
+
+

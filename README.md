@@ -9,5 +9,5 @@
 # How to run
 Under `src` directory 
 ```sh
-bash main.sh
+bash main_[Watermark_scheme].sh
 ```

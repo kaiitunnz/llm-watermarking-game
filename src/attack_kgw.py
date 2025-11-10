@@ -129,9 +129,6 @@ def main():
         else:
             raise ValueError(f"Unknown attack method: {attack_method}")
 
-        example_time = time.time() - example_start_time
-        total_generation_time += example_time
-
         generated_text = llm.tokenizer.decode(output[0], skip_special_tokens=True)
         
         if task=="translation":
@@ -151,21 +148,31 @@ def main():
             )
             bert_f1 = float(bert_res["f1"][0])
             total_bert_f1 += bert_f1
+        
+        logger.info("\n" + "=" * 60)
+        logger.info(f"Target: {target}")
+        logger.info(f"Generated text: {generated_text}")
+        logger.info(f"Example generation time: {example_time:.3f}s")
 
         # Detect watermark
         result = detector.detect(generated_text)
-        #logger.info(f"Detection result: z={result.z_score:.3f}, passed={result.passed}")
-        #if task == "translation":
-            #logger.info(f"COMET score: {comet_score:.3f}")
-        #else:
-            #logger.info(f"BERTScore F1: {bert_f1:.3f}")
+        logger.info(f"Detection result: z={result.z_score:.3f}, passed={result.passed}")
+        if task == "translation":
+            logger.info(f"COMET score: {comet_score:.3f}")
+        else:
+            logger.info(f"BERTScore F1: {bert_f1:.3f}")
         
+        logger.info("\n" + "=" * 60)
+
         # Track attack success
         total_examples += 1
         if not result.passed:  
             successful_attacks += 1
             
         #logger.info("-" * 60)
+        example_time = time.time() - example_start_time
+        total_generation_time += example_time
+        logger.info(f"One step executing time: {example_time:.3f} s")
 
     total_time = time.time() - start_time
 

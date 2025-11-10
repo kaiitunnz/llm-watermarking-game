@@ -265,6 +265,8 @@ class WatermarkDetector(WatermarkBase):
         expected_count = self.gamma
         numer = observed_count - expected_count * T
         denom = sqrt(T * expected_count * (1 - expected_count))
+        if abs(denom) < 1e-10:  # add small epsilon for numerical stability
+            return 0.0
         z = numer / denom
         return z
 
@@ -417,7 +419,7 @@ class WatermarkDetector(WatermarkBase):
                 score_dict.update(dict(num_green_tokens=green_token_count))
             if return_green_fraction:
                 score_dict.update(
-                    dict(green_fraction=(green_token_count / num_tokens_scored))
+                    dict(green_fraction=(green_token_count / num_tokens_scored if num_tokens_scored > 0 else 0))
                 )
             if return_z_score:
                 score_dict.update(

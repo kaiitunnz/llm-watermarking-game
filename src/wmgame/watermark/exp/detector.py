@@ -188,6 +188,9 @@ def phi(
     A = adjacency(tokens, xi, dist, k)
     closest = torch.min(A, dim=1)[0]
 
+    if closest.numel() == 0:
+        return torch.tensor(float("nan"), tokens.device)
+
     return torch.min(closest)
 
 

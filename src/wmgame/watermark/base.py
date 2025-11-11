@@ -13,7 +13,6 @@ from transformers import (
     LlamaForCausalLM,
     LlamaTokenizer,
 )
-from transformers.generation.utils import GenerateOutput
 
 
 class GenerationContext(ABC):
@@ -126,12 +125,9 @@ class WatermarkedLLM(ABC):
         ).to(self.model.device)
         return inputs
 
-    def decode(self, output: GenerateOutput) -> list[str]:
-        return self.tokenizer.batch_decode(output.sequences, skip_special_tokens=True)
-
     def generate(
         self, prompts: str | list[str] | BatchEncoding, **gen_kwargs
-    ) -> GenerateOutput:
+    ) -> torch.Tensor:
         if isinstance(prompts, (str, list)):
             inputs = self.tokenize(prompts, gen_kwargs)
         else:
@@ -141,7 +137,7 @@ class WatermarkedLLM(ABC):
     @abstractmethod
     def generate_with_watermark(
         self, prompt: str | BatchEncoding, *args, **kwargs
-    ) -> GenerateOutput:
+    ) -> torch.Tensor:
         pass
 
     @abstractmethod

@@ -173,7 +173,7 @@ class KGWWatermarkedLLM(WatermarkedLLM):
     
         return best_sequence
 
-    def generate_with_detection_attack(
+    def generate_with_frequency_attack(
         self,
         prompt: str | BatchEncoding,
         num_samples: int = 10,

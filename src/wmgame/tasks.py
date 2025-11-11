@@ -1,5 +1,7 @@
-## Using temporary dataset
+from typing import Any
+
 from datasets import load_dataset
+
 
 def split_into_sentences(text: str):
     """
@@ -32,6 +34,7 @@ def load_opengen_qa_from_wikitext(
     ds = load_dataset("wikitext", "wikitext-103-v1", split="validation")
 
     examples = []
+    ex: Any
     for ex in ds:
         text = ex["text"].strip()
         if not text:
@@ -61,6 +64,7 @@ def load_opengen_qa_from_wikitext(
 
     return examples
 
+
 def load_translation_examples(
     max_examples: int = 100,
     dataset_name: str = "Helsinki-NLP/opus-100",
@@ -72,7 +76,7 @@ def load_translation_examples(
       - prompt: translation instruction
       - target: reference translation
     """
-    ds = load_dataset(dataset_name, config, split="train")
+    ds: Any = load_dataset(dataset_name, config, split="train")
 
     examples = []
     for ex in ds.select(range(min(max_examples, len(ds)))):
@@ -102,7 +106,7 @@ def load_summarization_examples(
       - prompt: summarization instruction
       - target: gold summary
     """
-    ds = load_dataset(dataset_name, config, split=split)
+    ds: Any = load_dataset(dataset_name, config, split=split)
 
     examples = []
     for ex in ds.select(range(min(max_examples, len(ds)))):

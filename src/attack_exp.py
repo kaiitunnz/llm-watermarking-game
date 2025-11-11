@@ -96,10 +96,10 @@ def main():
                 prompt=prompt,
                 gamma=0.3,
                 delta=1.0,
-                n=256,
-                m=128,
+                n=32,
+                m=32,
                 seed=0,
-                max_new_tokens=128,
+                max_new_tokens=32,
                 do_sample=False,
             )
         elif attack_method == "frequency":
@@ -107,10 +107,10 @@ def main():
                 prompt=prompt,
                 gamma=0.3,
                 delta=1.0,
-                n=256,
-                m=128,
+                n=32,
+                m=32,
                 seed=0,
-                max_new_tokens=128,
+                max_new_tokens=32,
                 do_sample=False,
             )
         elif attack_method == "paraphrase":
@@ -118,10 +118,10 @@ def main():
                 prompt=prompt,
                 gamma=0.3,
                 delta=1.0,
-                n=256,
-                m=128,
+                n=32,
+                m=32,
                 seed=0,
-                max_new_tokens=128,
+                max_new_tokens=32,
                 do_sample=False,
             )
         elif attack_method == "none":
@@ -129,10 +129,10 @@ def main():
                 prompt=prompt,
                 gamma=0.3,
                 delta=1.0,
-                n=256,
-                m=128,
+                n=32,
+                m=32,
                 seed=0,
-                max_new_tokens=128,
+                max_new_tokens=32,
                 do_sample=False,
             )
         else:

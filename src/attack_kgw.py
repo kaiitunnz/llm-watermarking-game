@@ -152,7 +152,6 @@ def main():
         logger.info("\n" + "=" * 60)
         logger.info(f"Target: {target}")
         logger.info(f"Generated text: {generated_text}")
-        logger.info(f"Example generation time: {example_time:.3f}s")
 
         # Detect watermark
         result = detector.detect(generated_text)

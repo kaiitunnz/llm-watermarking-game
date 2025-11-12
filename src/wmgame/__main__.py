@@ -59,6 +59,7 @@ logging.basicConfig(
     ],
 )
 logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
 
 if args.watermark == "kgw":
     from wmgame.attack import attack_kgw

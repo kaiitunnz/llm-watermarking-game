@@ -20,7 +20,6 @@ def attack_unigram(
     logger: logging.Logger,
 ) -> None:
     start_time = time.time()
-    logger.setLevel(logging.INFO)
 
     # Initialize metrics
     comet = evaluate.load("comet")

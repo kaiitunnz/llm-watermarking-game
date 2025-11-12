@@ -1,0 +1,215 @@
+Lightning automatically upgraded your loaded checkpoint from v1.8.3.post1 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint ../../.cache/huggingface/hub/models--Unbabel--wmt22-comet-da/snapshots/2760a223ac957f30acfb18c8aa649b01cf1d75f2/checkpoints/model.ckpt`
+Encoder model frozen.
+Lightning automatically upgraded your loaded checkpoint from v1.8.3.post1 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint ../../.cache/huggingface/hub/models--Unbabel--wmt22-comet-da/snapshots/2760a223ac957f30acfb18c8aa649b01cf1d75f2/checkpoints/model.ckpt`
+Lightning automatically upgraded your loaded checkpoint from v1.8.3.post1 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint ../../.cache/huggingface/hub/models--Unbabel--wmt22-comet-da/snapshots/2760a223ac957f30acfb18c8aa649b01cf1d75f2/checkpoints/model.ckpt`
+Encoder model frozen.
+Detection result: z=0.000, passed=False
+BERTScore F1: 0.000
+Detection result: z=0.000, passed=False
+BERTScore F1: 0.000
+Detection result: z=1.789, passed=False
+BERTScore F1: 0.499
+Detection result: z=0.000, passed=False
+BERTScore F1: 0.000
+Detection result: z=-0.447, passed=False
+BERTScore F1: 0.500
+Detection result: z=2.111, passed=True
+BERTScore F1: 0.438
+Detection result: z=2.325, passed=True
+BERTScore F1: 0.500
+Detection result: z=2.530, passed=True
+BERTScore F1: 0.451
+Detection result: z=-0.707, passed=False
+BERTScore F1: 0.390
+Detection result: z=5.778, passed=True
+BERTScore F1: 0.562
+Detection result: z=2.333, passed=True
+BERTScore F1: 0.460
+Detection result: z=2.309, passed=True
+BERTScore F1: 0.392
+Detection result: z=1.414, passed=False
+BERTScore F1: 0.386
+Detection result: z=0.000, passed=False
+BERTScore F1: 0.000
+Detection result: z=4.444, passed=True
+BERTScore F1: 0.473
+Detection result: z=3.266, passed=True
+BERTScore F1: 0.285
+Detection result: z=0.707, passed=False
+BERTScore F1: 0.424
+Detection result: z=2.121, passed=True
+BERTScore F1: 0.385
+Detection result: z=0.000, passed=False
+BERTScore F1: 0.347
+Detection result: z=0.688, passed=False
+BERTScore F1: 0.395
+Detection result: z=0.000, passed=False
+BERTScore F1: 0.000
+Detection result: z=1.260, passed=False
+BERTScore F1: 0.358
+Detection result: z=0.000, passed=False
+BERTScore F1: 0.414
+Detection result: z=3.889, passed=True
+BERTScore F1: 0.510
+Detection result: z=0.000, passed=False
+BERTScore F1: 0.000
+Detection result: z=3.000, passed=True
+BERTScore F1: 0.373
+Detection result: z=0.000, passed=False
+BERTScore F1: 0.378
+Detection result: z=3.355, passed=True
+BERTScore F1: 0.396
+Detection result: z=0.092, passed=False
+BERTScore F1: 0.371
+Detection result: z=0.000, passed=False
+BERTScore F1: 0.000
+Detection result: z=0.333, passed=False
+BERTScore F1: 0.382
+Detection result: z=0.000, passed=False
+BERTScore F1: 0.000
+Detection result: z=-0.239, passed=False
+BERTScore F1: 0.528
+Detection result: z=1.414, passed=False
+BERTScore F1: 0.387
+Detection result: z=0.000, passed=False
+BERTScore F1: 0.000
+Detection result: z=1.677, passed=False
+BERTScore F1: 0.423
+Detection result: z=4.117, passed=True
+BERTScore F1: 0.536
+Detection result: z=2.183, passed=True
+BERTScore F1: 0.483
+Detection result: z=0.000, passed=False
+BERTScore F1: 0.000
+Detection result: z=0.667, passed=False
+BERTScore F1: 0.421
+Detection result: z=-0.707, passed=False
+BERTScore F1: 0.317
+Detection result: z=2.858, passed=True
+BERTScore F1: 0.407
+Detection result: z=0.000, passed=False
+BERTScore F1: 0.429
+Detection result: z=2.121, passed=True
+BERTScore F1: 0.471
+Detection result: z=1.414, passed=False
+BERTScore F1: 0.398
+Detection result: z=5.075, passed=True
+BERTScore F1: 0.506
+Detection result: z=0.282, passed=False
+BERTScore F1: 0.433
+Detection result: z=1.837, passed=False
+BERTScore F1: 0.507
+Detection result: z=4.849, passed=True
+BERTScore F1: 0.468
+Detection result: z=0.000, passed=False
+BERTScore F1: 0.000
+Detection result: z=2.157, passed=True
+BERTScore F1: 0.569
+Detection result: z=0.000, passed=False
+BERTScore F1: 0.000
+Detection result: z=-0.229, passed=False
+BERTScore F1: 0.383
+Detection result: z=0.000, passed=False
+BERTScore F1: 0.000
+Detection result: z=1.732, passed=False
+BERTScore F1: 0.551
+Detection result: z=1.000, passed=False
+BERTScore F1: 0.258
+Detection result: z=3.266, passed=True
+BERTScore F1: 0.431
+Detection result: z=2.500, passed=True
+BERTScore F1: 0.330
+Detection result: z=-1.584, passed=False
+BERTScore F1: 0.528
+Detection result: z=0.000, passed=False
+BERTScore F1: 0.000
+Detection result: z=0.000, passed=False
+BERTScore F1: 0.000
+Detection result: z=3.130, passed=True
+BERTScore F1: 0.433
+Detection result: z=0.000, passed=False
+BERTScore F1: 0.000
+Detection result: z=0.000, passed=False
+BERTScore F1: 0.000
+Detection result: z=2.500, passed=True
+BERTScore F1: 0.326
+Detection result: z=0.000, passed=False
+BERTScore F1: 0.000
+Detection result: z=-0.229, passed=False
+BERTScore F1: 0.401
+Detection result: z=3.800, passed=True
+BERTScore F1: 0.410
+Detection result: z=2.333, passed=True
+BERTScore F1: 0.538
+Detection result: z=1.604, passed=False
+BERTScore F1: 0.402
+Detection result: z=1.342, passed=False
+BERTScore F1: 0.528
+Detection result: z=1.117, passed=False
+BERTScore F1: 0.501
+Detection result: z=0.655, passed=False
+BERTScore F1: 0.502
+Detection result: z=1.155, passed=False
+BERTScore F1: 0.335
+Detection result: z=2.333, passed=True
+BERTScore F1: 0.426
+Detection result: z=3.922, passed=True
+BERTScore F1: 0.356
+Detection result: z=2.500, passed=True
+BERTScore F1: 0.412
+Detection result: z=0.000, passed=False
+BERTScore F1: 0.000
+Detection result: z=-0.707, passed=False
+BERTScore F1: 0.365
+Detection result: z=0.000, passed=False
+BERTScore F1: 0.440
+Detection result: z=1.195, passed=False
+BERTScore F1: 0.480
+Detection result: z=3.053, passed=True
+BERTScore F1: 0.425
+Detection result: z=0.707, passed=False
+BERTScore F1: 0.288
+Detection result: z=0.447, passed=False
+BERTScore F1: 0.391
+Detection result: z=-0.664, passed=False
+BERTScore F1: 0.468
+Detection result: z=0.000, passed=False
+BERTScore F1: 0.000
+Detection result: z=0.309, passed=False
+BERTScore F1: 0.660
+Detection result: z=2.063, passed=True
+BERTScore F1: 0.445
+Detection result: z=1.400, passed=False
+BERTScore F1: 0.522
+Detection result: z=3.055, passed=True
+BERTScore F1: 0.428
+Detection result: z=0.000, passed=False
+BERTScore F1: 0.000
+Detection result: z=0.943, passed=False
+BERTScore F1: 0.415
+Detection result: z=1.279, passed=False
+BERTScore F1: 0.502
+Detection result: z=1.021, passed=False
+BERTScore F1: 0.453
+Detection result: z=2.000, passed=True
+BERTScore F1: 0.416
+Detection result: z=-0.375, passed=False
+BERTScore F1: 0.550
+Detection result: z=2.828, passed=True
+BERTScore F1: 0.405
+Detection result: z=0.000, passed=False
+BERTScore F1: 0.000
+Detection result: z=3.305, passed=True
+BERTScore F1: 0.500
+Detection result: z=0.149, passed=False
+BERTScore F1: 0.544
+
+============================================================
+ATTACK SUMMARY
+------------------------------------------------------------
+Attack method: paraphrase
+Total examples: 100
+Attack success rate: 66.00%
+Average BERTScore F1: 0.341
+Total execution time: 675.78s
+============================================================

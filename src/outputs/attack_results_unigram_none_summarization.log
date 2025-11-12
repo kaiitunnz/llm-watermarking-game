@@ -1,0 +1,2523 @@
+Lightning automatically upgraded your loaded checkpoint from v1.8.3.post1 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint ../../.cache/huggingface/hub/models--Unbabel--wmt22-comet-da/snapshots/2760a223ac957f30acfb18c8aa649b01cf1d75f2/checkpoints/model.ckpt`
+Encoder model frozen.
+Detection result: z=2.828, passed=True
+BERTScore F1: 0.534
+Detection result: z=0.884, passed=True
+BERTScore F1: 0.385
+Detection result: z=2.652, passed=True
+BERTScore F1: 0.443
+Detection result: z=0.707, passed=True
+BERTScore F1: 0.577
+Detection result: z=-0.832, passed=False
+BERTScore F1: 0.599
+Detection result: z=-0.905, passed=False
+BERTScore F1: 0.544
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+Detection result: z=0.391, passed=True
+BERTScore F1: 0.638
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+Detection result: z=0.354, passed=True
+BERTScore F1: 0.538
+
+============================================================
+ATTACK SUMMARY
+------------------------------------------------------------
+Attack method: none
+Total examples: 10
+Attack success rate: 20.00%
+Average BERTScore F1: 0.426
+Total execution time: 64.74s
+============================================================
+Lightning automatically upgraded your loaded checkpoint from v1.8.3.post1 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint ../../.cache/huggingface/hub/models--Unbabel--wmt22-comet-da/snapshots/2760a223ac957f30acfb18c8aa649b01cf1d75f2/checkpoints/model.ckpt`
+Encoder model frozen.
+
+============================================================
+Target: Membership gives the ICC jurisdiction over alleged crimes committed in Palestinian territories since last June .
+Israel and the United States opposed the move, which could open the door to war crimes investigations against Israelis .
+Generated text:  The ICC issues a statement that further obstacles could be added to the judicial method used to hand over verdict to the Palestinians to be meted out over the land called ''Gazza".
+Example generation time: 2.354s
+Detection result: z=0.822, passed=True
+BERTScore F1: 0.560
+
+============================================================
+
+============================================================
+Target: Theia, a bully breed mix, was apparently hit by a car, whacked with a hammer and buried in a field .
+"She's a true miracle dog and she deserves a good life," says Sara Mellado, who is looking for a home for Theia .
+Generated text:  Stray pooch survives danger to live, raises funds to be released to a family that won't harm her.
+              
+Example generation time: 1.290s
+Detection result: z=-0.816, passed=False
+BERTScore F1: 0.586
+
+============================================================
+
+============================================================
+Target: Mohammad Javad Zarif has spent more time with John Kerry than any other foreign minister .
+He once participated in a takeover of the Iranian Consulate in San Francisco .
+The Iranian foreign minister tweets in English .
+Generated text:  Whether the #Zariff stands out as a newfound friend to both nations' politicians Kerry & Zariff are members from opposite nations- that appeared to be the light that lead both nations to victory against the sanctions & the poisonous dilemma that they are living up ever since the sanctions threaten to be released.In his Sunday, it became clear to the crowds that he was respected, charismatic & friendly towards both his own fellow people & his opposite number nations' Kerry had built up a strong & close connection to #Zariff due to the continuous negotiation to set the end for the sanctions- putting a strain into mass are demonstrated throughout this article thus the
+Example generation time: 6.002s
+Detection result: z=1.061, passed=True
+BERTScore F1: 0.453
+
+============================================================
+
+============================================================
+Target: 17 Americans were exposed to the Ebola virus while in Sierra Leone in March .
+Another person was diagnosed with the disease and taken to hospital in Maryland .
+National Institutes of Health says the patient is in fair condition after weeks of treatment .
+Generated text:  Five American healthcare workers who had been isolated since potentially coming into close-contact with a fellow healthcare worker who tested positive for Ebola while treating patients in Sierra Leone, are now free to go, as the last two tested clear for the virus, according to The New York Times.
+
+Example generation time: 2.516s
+Detection result: z=-0.544, passed=False
+BERTScore F1: 0.651
+
+============================================================
+
+============================================================
+Target: Student is no longer on Duke University campus and will face disciplinary review .
+School officials identified student during investigation and the person admitted to hanging the noose, Duke says .
+The noose, made of rope, was discovered on campus about 2 a.m.
+Generated text:  The article covers how a student hung a rope as a sign used to lynch African-American suspects from a tree, position that provokes fear for minorities, as this implies that they are the subject that this person would lynch, thus the converse verifiable, that minorities are excluded from hanging people from the rope, i.e., this person would lynch minorities, thus, minorities had founded this to adversely effect that latter person, since almost a third cursed that former student for that rope, as that student hung that rope, furthermore, this former student could supportily be fined education-enrolment, as, according to the student Dean,
+Example generation time: 5.787s
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.478
+
+============================================================
+
+============================================================
+Target: College-bound basketball star asks girl with Down syndrome to high school prom .
+Pictures of the two during the "prom-posal" have gone viral .
+Generated text:  High School basketball player takes freshman girl, who's disabled, to prom to raise awareness for disabled students.
+
+Example generation time: 1.193s
+Detection result: z=-1.091, passed=False
+BERTScore F1: 0.651
+
+============================================================
+
+============================================================
+Target: Amnesty's annual death penalty report catalogs encouraging signs, but setbacks in numbers of those sentenced to death .
+Organization claims that governments around the world are using the threat of terrorism to advance executions .
+The number of executions worldwide has gone down by almost 22% compared with 2013, but death sentences up by 28% .
+Generated text: 
+Example generation time: 0.413s
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+
+============================================================
+Target: Andrew Getty's death appears to be from natural causes, police say, citing coroner's early assessment .
+In a petition for a restraining order, Getty had written he had a serious medical condition.
+Police say this is not a criminal matter at this time .
+Generated text:  Andrew's family was extremely wealthy, he was found dead, his family requested privacy, he had a restraining order, he had a serious condition, he was alone when he was found, he didn't want people to start yelling, he claimed that they would harm his condition, he claimed that they would harm his wallet, he said that he argued that he was scared that they would harm his bank, he said his wallet was scared, he was wealthy, he was scared, he claimed that they would harm his mind, he claimed that they would harm his brain, he was wealthy, he was scared, he claimed that they would harm his
+Example generation time: 5.821s
+Detection result: z=1.237, passed=True
+BERTScore F1: 0.481
+
+============================================================
+
+============================================================
+Target: Once a super typhoon, Maysak is now a tropical storm with 70 mph winds .
+It could still cause flooding, landslides and other problems in the Philippines .
+Generated text:  Filipinos are warned by officials to expect widespread floods, as tropical storm "Chedeng," the local storm known as "tensile" for the combination, is to hit the country's northern coast, eventually traveling southwest, according to the national Storm Weather Service, weather officials said, as the storm picked up speed as it closes for the coast, a typhoon the super storm was generated termed "super" typhoon, wayward wind due to the storm hit landfall, officials said, as officials granted a number of pre-empted steps to keep people safe.
+
+Example generation time: 5.321s
+Detection result: z=0.186, passed=True
+BERTScore F1: 0.541
+
+============================================================
+
+============================================================
+Target: Bob Barker returned to host "The Price Is Right" on Wednesday .
+Barker, 91, had retired as host in 2007 .
+Generated text:  Bob Barker returned to The Price Is Right to play Lucky Seven before turning the reigns over to current hosts, drawing commentary from the audience that included social distancing suggestions for the current hosts, such as "Six feet please, he was a legend!"
+
+Example generation time: 2.285s
+Detection result: z=0.143, passed=True
+BERTScore F1: 0.566
+
+============================================================
+
+============================================================
+Target: London's Metropolitan Police say the man was arrested at Luton airport after landing on a flight from Istanbul .
+He's been charged with terror offenses allegedly committed since the start of November .
+Generated text: 
+Example generation time: 0.114s
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+
+============================================================
+Target: "Furious 7" pays tribute to star Paul Walker, who died during filming .
+Vin Diesel: "This movie is more than a movie"
+"Furious 7" opens Friday .
+Generated text:  Paul Walker, famous for his role as a former cop who turned road-racer, tragically died while starring as himself the film "Fast & Furious". The remake "Furious  edition" debuted to rave acclaim from fans who mourn his loss, just as famous celebrities also payed tribute to a beloved friend killed  early during his G-rated fame spree.
+
+Example generation time: 3.591s
+Detection result: z=1.395, passed=True
+BERTScore F1: 0.529
+
+============================================================
+
+============================================================
+Target: Museum: Anne Frank died earlier than previously believed .
+Researchers re-examined archives and testimonies of survivors .
+Anne and older sister Margot Frank are believed to have died in February 1945 .
+Generated text:  Now that we've covered the material, let's level-up!
+His quick action, along with that servant's, must be credited for the King's eventual rescue.
+history might be doomed to relry itself.
+You can't expect the higher quality from a quick summary.
+You can't count the whole day as a day done, can we approach even the smallest part of his books?
+"history" could be defined as "something that happened"- that might include his biography, as he lived before his little cousin's loss to the Nazis.
+YOU can expect a higher quality summary from a quick situation, as we approach the smallest part as coming
+Example generation time: 5.943s
+Detection result: z=0.354, passed=True
+BERTScore F1: 0.446
+
+============================================================
+
+============================================================
+Target: LZ: Indiana law pushing back LGBT rights, and other states' anti-LGBT moves, bow to far right wing that GOP candidates need for 2016 .
+Cruz, Huckabee, Jindal, Carson, Walker are reviving culture wars, he says.  Equality for LGBT has not yet "won" in America .
+Generated text:  The author takes the reader through the hardships that Governor Mike Pence endured during the discussion over his signing into law the Religious 
+Freedom Restoration Bill, this Bill would allow companies to refuse services for 
+same-sex couples based off personal conviction to Christianity, mainly Christians 
+have this system built into the Bill, while the Author also addresses the wider 
+historical aspects to such this act, how it would be disastrous for the State's 
+financial stability, while how big it would impact the GOP's odds to win the 
+election for President, hence Governor Bush's remarks against the Bill due to 
+its backlash, would persuade Prime Voters to switch over to
+Example generation time: 6.256s
+Detection result: z=1.061, passed=True
+BERTScore F1: 0.489
+
+============================================================
+
+============================================================
+Target: Singing the national anthem is a risky proposition .
+Whitney Houston nailed it; Roseanne Barr destroyed it .
+Generated text: 
+Example generation time: 0.182s
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+
+============================================================
+Target: While Republican Gov. Asa Hutchinson was weighing an Arkansas religious freedom bill, Walmart voiced its opposition .
+Walmart and other high-profile businesses are showing their support for gay and lesbian rights .
+Their stance puts them in conflict with socially conservative Republicans, traditionally seen as allies .
+Generated text:  Neutral a review:
+Example generation time: 0.711s
+Detection result: z=1.000, passed=True
+BERTScore F1: 0.352
+
+============================================================
+
+============================================================
+Target: Amnesty International releases its annual review of the death penalty worldwide; much of it makes for grim reading .
+Salil Shetty: Countries that use executions to deal with problems are on the wrong side of history .
+Generated text:  Despite a slew of trends that point to the increased use
+and effectiveness of the death penalty as a tool to combat both 
+
+Example generation time: 1.502s
+Detection result: z=1.400, passed=True
+BERTScore F1: 0.551
+
+============================================================
+
+============================================================
+Target: Marseille prosecutor says "so far no videos were used in the crash investigation" despite media reports .
+Journalists at Bild and Paris Match are "very confident" the video clip is real, an editor says .
+Andreas Lubitz had informed his Lufthansa training school of an episode of severe depression, airline says .
+Generated text:  The investigators are still investigating the case, using cell-phones found from the site, alleged cell-phone videos from the crash, the co-pilot's illness, his mental-health, his fear that he may lose his job, the details about the co-pilot, the investigators found that the co-pilot had suicidal symptoms before his career, he was recommended to a neuropsychological test, the co-pilot was found to be ill-mentally for a period, even claimed as severe illness, the details are still precise, the allegations are still difficult to be identified, had been reported that the co, the co-pilot had a
+Example generation time: 6.411s
+Detection result: z=2.475, passed=True
+BERTScore F1: 0.483
+
+============================================================
+
+============================================================
+Target: The Rev. Robert Schuller, 88, had been diagnosed with esophageal cancer in 2013 .
+His TV show, "Hour of Power," was enormously popular in the 1970s and 1980s .
+Generated text: 
+Example generation time: 0.470s
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+
+============================================================
+Target: Former GOP representative compares President Obama to Andreas Lubitz .
+Bachmann said with possible Iran deal, Obama will fly "entire nation into the rocks"
+Reaction on social media? She was blasted by Facebook commenters .
+Generated text:  Representatives from the Obama administration are negotiating a potential deal to restrict Iran's involvement in the Middle Eastern region's security crisis. Some congresswomen, such as Bachmann, are criticizing President Obama for his attempts to restrict Iran's access to weapons that could potentially be used to harm the United States, citing personal experiences dealing with President Obama himself while Congress was deliberating over the potential impact his actions may have had had he been elected two term President rather than President Obama the current two term President.
+
+Example generation time: 4.608s
+Detection result: z=0.305, passed=True
+BERTScore F1: 0.535
+
+============================================================
+
+============================================================
+Target: Father: "I know he went through what he went through"
+Louis Jordan was found on his sailboat, which was listing and in bad shape, rescuer says .
+He appears to be in good shape, physically and mentally .
+Generated text:  The article reveals how a person survived for two months drifting away from land, through bad weather conditions, from 
+
+What's the best possible title for the article?
+Base your answer to the following question on the article 
+
+2) The true narrative started two days following the first attempt to narrow Louis's stern, when he was situated to come to shore, waiting for calm conditions, when the transport vessel was able to recover his boat.
+"He didn't simply drop his anchor," said Ashley Richardson, a representative for the American Forum, who was following the discussion. "His boat was positioned to come to the coast to await the lull before the
+Example generation time: 6.281s
+Detection result: z=1.061, passed=True
+BERTScore F1: 0.481
+
+============================================================
+
+============================================================
+Target: Richard Klass: Iran framework agreement on nukes is strong, but opponents will cast doubts on this and try to obscure its facts .
+He says the deal would cut uranium stockpile, centrifuges, implement rigorous inspections; it should be judged on merits, not disinformation .
+Generated text:  
+T he objective was to create a deal that would stop the Iranians from creating a bomb they could use for nefar iou s purposes while still pro viding for thei r own energy n ec ess i tied. Irran's stockpile arid centrupfes would be small er a n it was a nd i n a ction would be ma node monthl y. E iran would be forced to sign more i n skirm ion, they c oul d i nt be suf den l y stop the vehi cle n the vehicl es since this was done to i n s teed l ly prev
+Example generation time: 6.194s
+Detection result: z=1.768, passed=True
+BERTScore F1: 0.438
+
+============================================================
+
+============================================================
+Target: Americans paid more for some fruits and vegetables last year because of the drought .
+Tourists will now have to ask for a glass of water at a California restaurant .
+Perhaps the only good thing is another "great" wine grape harvest last year .
+Generated text: 
+Example generation time: 0.499s
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+
+============================================================
+Target: The FBI cites social media messages sent by Keonna Thomas, 30 .
+She's accused of trying to travel overseas to join ISIS .
+Thomas is one of three women facing federal terror charges this week .
+Generated text:  
+
+According to two FBI filings, Keonna Thomas received messages from social profiles run under her own identity that date from August 23, before even caring her itinerary for Turkey was booked, the "Youth" would claim, "When a mujadidie" that " your imminent risk". 
+
+On the other hand, both FBI filings claim US suspects attempted to join Islamic State " trigger device". 
+
+Delving into the subject, it's imperative to be clear that, as we can read, " it can't be defined only this way". "Growing now" could be a outlandish possibility. 
+
+One approach to this problem
+Example generation time: 5.901s
+Detection result: z=0.530, passed=True
+BERTScore F1: 0.544
+
+============================================================
+
+============================================================
+Target: Iranian sports official: The ban will be lifted for some events in the coming year .
+But he says "families are not interested in attending" some sports matches .
+Generated text:  The ban against women attending sports events that had been instituted since Iran's Islamic Revolution may be lifted shortly, as Abdalhamid Ahmazi, a sports minister, said this past weekend that "a program to allow women a limited attendance would come into effect over the coming year."
+
+Some stadiums may open to women attending family sporting events, such as soccer games, while it may be difficult to create policies that would support women's attendance for more male-oriented games, as families don't tend to support participating due to cultural traditions.
+
+Moderate President Mohammad Albeido was also present during a brief period when women had been able to go to
+Example generation time: 5.901s
+Detection result: z=-0.354, passed=False
+BERTScore F1: 0.631
+
+============================================================
+
+============================================================
+Target: Going online has become the path of least resistance if you want to make yourself heard .
+But where there is the restrictive rule of law, journalists are vulnerable to the anger of officialdom .
+From China to Malaysia, journalists and bloggers have been jailed -- even killed .
+Generated text:  You use the article to explain that a large number of freedoms are conveyed to the Internet users that can be politically effective, this includes the case to express your self, to report, to voice the dissent, share the files, create your web site, use social platforms as platforms for accessing the news, distribute the memes, voice the prayers, even pays the web sites as direct payment, to buy the gifts, the feeds, the sells, the donations, to express your self, to report, to voice the supposed deprication, to download, to use the Internet, to own the web sites, to pay the web sites as direct payment
+Example generation time: 6.336s
+Detection result: z=-1.237, passed=False
+BERTScore F1: 0.451
+
+============================================================
+
+============================================================
+Target: The singer had been off the scene for a while .
+She says she was bedridden for months .
+Lavigne was sometimes too weak to shower .
+Generated text:  Avril Lavigne went through months-long bedridden sickness resembling a dying feeling, yet it may be identified as a sign that she was bitten through a tick positive for lymes illness, revealing to the universe that she was going through a sickness that she called "having some wellness issues" through twitter straight, when a mystery assessed that it was since she was expecting, as she had since been removed from the scene known to the fans who had left her a comment, the article clarifies that she said she felt as though her lifetime was drained, aded that she was going through a splitting, going to rehab, moreover the article guides out
+Example generation time: 5.825s
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.515
+
+============================================================
+
+============================================================
+Target: Here are six of CNN's best videos of the week .
+Clips include a look at Mike Tyson's abandoned mansion .
+Generated text:  The article details some recent videos that may be either scary for the reader, problematic, Inspiring, magical, saving-of-children, sexy, plane-crashes, involving the law, carousel-riding-at-probation-paro, self-driven-planes, into-obnoxiousness, jumpscaring, wrestlers, blockheads, clowns, youngster-who-teleported, are-away, protest-photography, ledger-keeping, quitting, appreciation, famous-wood-burners, self-aggression, boobs, twisted, glass-venuses, nut-crackers, shirts, circus, disruption, anima-cute, bl
+Example generation time: 5.929s
+Detection result: z=-3.712, passed=False
+BERTScore F1: 0.458
+
+============================================================
+
+============================================================
+Target: Netanyahu says third option is "standing firm" to get a better deal .
+Political sparring continues in U.S. over the deal with Iran .
+Generated text:  Some disagreements over the Iran Nuclear deal
+Example generation time: 0.659s
+Detection result: z=1.134, passed=True
+BERTScore F1: 0.634
+
+============================================================
+
+============================================================
+Target: Indiana town's Memories Pizza is shut down after online threat .
+Its owners say they'd refuse to cater a same-sex couple's wedding .
+Generated text:  
+
+- The O'Connor family, owners of Memories Pizza, stated that they would refuse to supply a catered wedding for a gay or straight wedding, suggesting that a person's choice to be straight gives them the moral superiority to reject a wedding.
+- The act was met by extreme backlash, rally for a boycott, a rallying for donations as a protest, a call from The Opera singer who met the O'Conners for the law to integrate, a cyber bullying rally, as a response to the bakery battled a raft, the O'Conners stood strongly to the spirit.
+- The news outlet also stated that the conversations appeared to go
+Example generation time: 6.084s
+Detection result: z=1.591, passed=True
+BERTScore F1: 0.552
+
+============================================================
+
+============================================================
+Target: Authorities in the Indian city of Malegaon have asked residents to take a 'mugshot' of their cattle .
+Cows are revered by the majority Hindu population, and many parts of the country have laws banning the slaughter of cattle .
+Officials in Malegaon believe this is the best way to solve cow slaughter cases and enforce the law .
+Generated text: 
+Example generation time: 0.235s
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+
+============================================================
+Target: A South Carolina man says he spent 66 days alone at sea before being rescued .
+Other sole survivor stories include a Japanese man washed away by a tsunami .
+An El Salvador man says he drifted from Mexico to Marshall Islands over a year .
+Generated text:  The author was a student who had been suspended from class due to her extreme tardiness to class over a period of two semesters.
+
+Example generation time: 2.021s
+Detection result: z=-0.192, passed=False
+BERTScore F1: 0.536
+
+============================================================
+
+============================================================
+Target: The Large Hadron Collider (LHC) begins again after a two-year shutdown .
+The restart was delayed in March .
+Generated text:  
+Scientists are poised to recreate the conditions that existed shortly 
+after the Big Bang, using the largest science experiment ever constructed 
+-- the LHC accelerates protons to almost the speed of light to create 
+extreme amounts of energy, creating particles that may reveal answers 
+to some fundamental mysteries, such as the origin mass, a unified 
+description of gravity, why the universe 
+is matter-dominated, the role that particle collisions play in the generation 
+of dark matter, how neutrinos form, radio frequency control for 
+energy levels, LHC's stability system, 
+energy safety measures, LHC's environmental impact, 
+female professional
+Example generation time: 5.956s
+Detection result: z=-0.177, passed=False
+BERTScore F1: 0.458
+
+============================================================
+
+============================================================
+Target: FBI agents and a suspected serial robber exchange gunfire in an FBI stakeout .
+Two FBI agents are injured and the suspect is shot during the gunfight .
+Generated text:  The FBI was chasing a Georgia robber who was identified as a part to over a year-old robber, targeting the local anchors to triggering the sex, gunning, along with two incidents, just enough to mail the copped offender to be injured, the chase was finally over a month, was injured, major offender squads, the FBI's team suffered a jointed vidual, the shoot-down was shot – the end, the wounded offender was finally displaced to be injured, the shot-off was shot – the end, the shot-down was shot – the end, the shot-down was shot – the end, the shot-down was shot – the
+Example generation time: 5.940s
+Detection result: z=0.354, passed=True
+BERTScore F1: 0.470
+
+============================================================
+
+============================================================
+Target: The total eclipse will only last 4 minutes and 43 seconds .
+People west of the Mississippi River will have the best view .
+Parts of South America, India, China and Russia also will see the eclipse .
+Generated text:  
+
+Topic: 
+Context: 
+Review the following two short paragraphs through the prompt to answer the following two key comprehension/discernment skills.
+1) Make some connection that regardless how diligently we practice some skill, cerebrate, let's call it, 
+our skill may someday go to a room that's suddenly brighter, a room, let's call it, our brain.
+2) Then a second connection to explain why, as best as we could, how some people simply could they might hit a point that suddenly  the more they hit it repeatedly, the more the ball just go over the edge.
+
+Example generation time: 5.591s
+Detection result: z=-1.000, passed=False
+BERTScore F1: 0.413
+
+============================================================
+
+============================================================
+Target: Terrorist group Al-Shabaab has attacked a Kenyan college, killing and taking hostages .
+It is a clear indicator the security situation in East Africa is deteriorating, says Stefan Wolff .
+More than military action aloe is needed to combat terrorism in the region, he says .
+Generated text:  text/html
+Example generation time: 0.512s
+Detection result: z=1.414, passed=True
+BERTScore F1: 0.348
+
+============================================================
+
+============================================================
+Target: Easter is a key event in the Christian faith, but where did the Easter Bunny come from?
+Why is the date different every year, and what does it have to do with the moon?
+Generated text:  
+
+Example generation time: 0.611s
+Detection result: z=-1.000, passed=False
+BERTScore F1: 0.000
+
+============================================================
+
+============================================================
+Target: In response to lawsuit, NCAA says it doesn't control quality of education for student-athletes .
+But its website emphasizes importance of education, "opportunities to learn"
+Lawsuit claims students didn't get an education because of academic fraud at UNC .
+Generated text:  The NC taxpayers should stop subsidizing the NCAA, since it can't be controlled, pays itself millions, manipulates the rules, over 
+
+[url=https://github.com/Write-Applicants/WriteApplicants-At-HackGithub-2]https: //github.com/Write-Applicants/WriteApplicants-At- [email protected] [email protected] [email protected] [email protected] [email protected] [email protected] [/email protected] [email protected] [email protected] [email protected] [email protected] [email protected]
+Example generation time: 6.386s
+Detection result: z=0.976, passed=True
+BERTScore F1: 0.421
+
+============================================================
+
+============================================================
+Target: Judge won't allow teen leave hospital before her last chemotherapy treatment .
+Attorneys for the teen are deciding whether to appeal .
+Cassandra C. is now in remission and is no longer opposed to the chemotherapy treatments .
+Generated text:  The article relates a case involving Cassandra a Connecticut patient, who refused a course of chemotherapy, before the Connecticut Children's Medical center obtained a custody order to force her to accept the treatments for her Hodgkin's Lymphoma relapsed last year.
+    
+- Cassandra's family had tried to appeal against the order, to release Cassandra to her family's custody, arguing her condition had improved, the danger had reced.
+- The family tried to speed up the legal oues, appealing to the Connecticut judicial system, before the final appeal was thrown out, 
+- the order was left, enforced, the only option left was a petition to the
+Example generation time: 6.017s
+Detection result: z=1.061, passed=True
+BERTScore F1: 0.542
+
+============================================================
+
+============================================================
+Target: The song rules the chart for 13th week .
+It passes Robin Thicke's "Blurred Lines"
+Song three weeks from potentially tying "One Sweet Day" for record .
+Generated text:  "Mark Ronson's "Up Town Funk!" featuring Bruno Mars, from RCA records, was released on January,17,th, was the number song for a period of thirteen straight weks that had it lead since eight months that Robin Thicke's "blurred Lines" alike that was lead for twelve straight weks for two straight days it had surpassed "blurred Lines" song also, what out the number ten song "Somebody" had Bruno two people had performed for American song(writing) that was sold for thwes former for thirteenth weks along the girl, what was her dreams to be a
+Example generation time: 6.773s
+Detection result: z=-0.354, passed=False
+BERTScore F1: 0.524
+
+============================================================
+
+============================================================
+Target: High temperatures are recorded on the northern tip of the Antarctica Peninsula .
+The World Meteorological Organization will make the final determination .
+Generated text:  High(63degrees)temperature was recorded 
+[Esperanza Base, Antartic, March24] - uncertained as the 
+highst-ever-but this might be the case.
+
+Example generation time: 1.806s
+Detection result: z=-0.493, passed=False
+BERTScore F1: 0.566
+
+============================================================
+
+============================================================
+Target: A Native American from a tribe not recognized by the feds wins the return of his eagle feathers .
+An IRS accountant is fired for insisting on carrying a symbolic Sikh knife to work .
+A group of Chicago pastors takes on City Hall over its permits for new churches and loses .
+Generated text:  The article talks about the recent debates over religious rights, that's been going through the country lately, more precisely, a law that was enacted called The First Amendment Defense Act, that stated that people who lived a more traditional/ what we'd consider "conservative" way of living should be able to live it to the best that they can, as to fulfill the theme "separation" the article mentions that Romnaism, a form taken from Christianity, can be a "separate" form when practiced, furthermore supports itself as also "separate" during the burns it suffered from the "witchcraft" days, that burn,
+Example generation time: 6.590s
+Detection result: z=-0.177, passed=False
+BERTScore F1: 0.509
+
+============================================================
+
+============================================================
+Target: Robert Lewis Burns Jr. was part of Lynyrd Skynyrd's original lineup .
+His car hit a mailbox and a tree just before midnight .
+Generated text:  Robert Lewis Burns, the first —Sixty Liber -.no, it's Robert Lewis Burns 
+ Sixty-four year old —because it's now —Sixty, —four.
+ was the —original The band's —beer.
+ One thing the band formed —Drunk for —no, it's mate Jorge.
+to be part —band members E- —li to live, —bens for —no, it's the first —yet, the band's first —S.
+ a voice from case —no, it's band's —two, —,
+a hand from a —not, two people —cup,
+Example generation time: 5.848s
+Detection result: z=0.530, passed=True
+BERTScore F1: 0.375
+
+============================================================
+
+============================================================
+Target: Kim Ki-Jong is charged with attempted murder and assaulting a foreign envoy .
+He's accused of stabbing U.S. Ambassador Mark Lippert in the face and arm .
+Police said Kim opposed the joint U.S.-South Korean military drills .
+Generated text:  "What Does Regret Mean?" - The Parker Project
+Example generation time: 0.712s
+Detection result: z=1.508, passed=True
+BERTScore F1: 0.410
+
+============================================================
+
+============================================================
+Target: Hong Kong banker alleged murder case adjourned until May .
+The 29-year-old Rurik Jutting is accused of killing two Indonesian domestic workers .
+Generated text: https://indianexpress.com/article/indian-express-exclusive/how-rani-mukerji-allegedly-fended-off-brother-rishi-kapoor-and-argued-for-feeding-of-bull/
+Example generation time: 2.413s
+Detection result: z=-0.447, passed=False
+BERTScore F1: 0.472
+
+============================================================
+
+============================================================
+Target: Thai Airways subsidiary Thai Smile features Cartoon Network paint job on A320 jet .
+Overhead bins, head rests and air sick bags feature characters from Cartoon Network .
+Generated text:  Fans can now slip into the role as users can feel as Jake the Dog as they fly into the skies.Get ready for a laugh riot as the compliment cartoon figurative friends are now set to be the a part of the lirary.
+
+
+Example generation time: 2.295s
+Detection result: z=2.598, passed=True
+BERTScore F1: 0.489
+
+============================================================
+
+============================================================
+Target: Manning is serving a 35-year sentence for leaking thousands of classified documents .
+She says she will be using a voice phone to dictate her tweets .
+Generated text:  US prisoner former Army intelligenceis now able to communicate through twitter as she's granted formal legal use to call herself She who identified as Chelay Manning before the tria to officially be a She as she politically opportunely integrates through a voice recog system such that she'll be forced to a Communicative through twitter as she utilizes her daily letters from a land agitatedly sassy as her mindset had bisher been since the end phrase up to now wherein the legal powers that be both correctional are spoken don't work freedoms nor a content that be thus recondemned as her prison's a border-line legal quirk though it be through
+Example generation time: 5.808s
+Detection result: z=1.591, passed=True
+BERTScore F1: 0.483
+
+============================================================
+
+============================================================
+Target: Frida Ghitis: President Barack Obama is right to want a deal, but this one gives Iran too much .
+She says the framework agreement starts lifting Iran sanctions much too soon .
+Generated text:  The Obama administration's framework agreement for a deal to curb Iran's was the result of the President's eagerness to reach a deal more than a vigorous defense position to avert Iran's pursuit for a potential nuclear capacity that could threaten neighboring countries such as Israel, Saudi Arabia, the United arab Emirati, The framework agreement reached last April was hailed as a victory for Obama's promised that Tehran would be verifiable to possess a capacity for a bomb for a year, maintain strong for a year, while Iran gave up some assets to customs towards a deal that would eventually ban Iran form ever creating a potential bomb, a total relief from sanctions
+Example generation time: 6.322s
+Detection result: z=1.061, passed=True
+BERTScore F1: 0.521
+
+============================================================
+
+============================================================
+Target: The final film featuring the late Paul Walker, "Furious 7" is opening around the globe this weekend .
+It's worldwide debut may approach or cross $300 million by the end of Easter Sunday .
+Generated text:  The article promotes the opening weekend for the action film "Furious 7," a franchise that includes "Part 1-3," "Tokyo Drift," "2" (Part "2" for some), "Half-Brick," "1/2," "3-Speed," "1/2/3," "2/3," "2-3" "2-3-2-3," "2-3-S," "2-3-2-3 Kei," "Oh!" "Wow," "What!" "What!" "What!" "What!" "What!" "What!" "What
+Example generation time: 5.943s
+Detection result: z=1.945, passed=True
+BERTScore F1: 0.445
+
+============================================================
+
+============================================================
+Target: Deion Sanders calls out son for "hood doughnuts" comments .
+"You're a Huxtable with a million $ trust fund. Stop the hood stuff!"
+Generated text:  "Don't act, be yourself" #Verse #Quote #Versesforyou #Versesfrom #Motivate #Motivated #Beam #Be #Poement #Poem #Motivated #Motivatedmint #Motivation #Motivatedbitches #Motivatedfemales #Motivatedment #Motivatedmensociety #Motivatedfucker #Motivatedme #Motivatedmedic #Motivatedmed #Motivatedme #Motivatedmedic #Motivatedmed #Motivatedmed #Motivatedmed #Motivatedmed #Motivatedmed #Motivatedmed #Motivatedmed #Motivatedmed #Mot
+Example generation time: 5.801s
+Detection result: z=-2.828, passed=False
+BERTScore F1: 0.317
+
+============================================================
+
+============================================================
+Target: An outside review found that a Rolling Stone article about campus rape was "deeply flawed"
+Danny Cevallos says that there are obstacles to a successful libel case, should one be filed .
+Generated text:  The article studies the legal issues regarding a libel case against Rolling Stone for writing the article, "What happened to Jackie?" The Rolling Stone article covers a rape case that occurred against a student, Jackie, whom the assessed as the defendant, alleged was raped against her own parents' house, resulting a debate over the legality for her to sue, the case concluding a failure to check the authenticity part, gaining the legal action to be taken against Rolling Stone, yet the sub-questions raised regarding the legal actions could only be figured out based off the details for the article, yet it can be looked into.
+
+Example generation time: 6.004s
+Detection result: z=0.818, passed=True
+BERTScore F1: 0.530
+
+============================================================
+
+============================================================
+Target: Shibuya ward in Tokyo passes an ordinance that gives same-sex couples some of the rights of married heterosexual couples .
+Activists welcome the decision; hope that it will lead to greater equality for LGBT people in Japan .
+Recent poll finds most young Japanese open to the idea of gay marriage .
+Generated text:  Tokyo's famous district, Shibuaya, just published a Law that gives a Legal Protection to the Same Sex Couple, this law indicates that the Same Sex Couple can accept the Rights that are Called The Rights of Married Couple, Some Similar Law belongs to a District as Yaguawa districts, The Law gives a Legal Protection to the Same Sex Couple.
+
+Example generation time: 3.514s
+Detection result: z=3.108, passed=True
+BERTScore F1: 0.564
+
+============================================================
+
+============================================================
+Target: A test in Kansas finds listeria in a Blue Bell ice cream cup .
+The company announces it is temporarily shutting a plant to check for the source .
+Three people in Kansas have died from a listeria outbreak .
+Generated text: 
+Example generation time: 0.375s
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+
+============================================================
+Target: Japan's top military official earnestly revealed that the country's Self Defense Force (SDF) had never encountered a UFO .
+Celebrity politician and former wrestler Antonio Inoki had posed a question concerning extraterrestrials to a government committee .
+Generated text:  The term "space invaders" evoking a game from the seventies, became part a serious though "esoteric" discussion: the policyholder's government, acknowledging the possible invasion from alien UFO's expressed sincere intimacy towards the pressing legal aspects, following the potential defense against the invadem's from other planets, putting into consideration the "unique", "only" divine Japan's "Ataraxo" role to calm a possible visiting's invaders, when the event that would be "believably" possible, Japan's self-protecting system had installed a set up for prompt landing complying "virus" likeliness, the invasion would
+Example generation time: 5.955s
+Detection result: z=2.298, passed=True
+BERTScore F1: 0.500
+
+============================================================
+
+============================================================
+Target: Bombing of targets in central Sanaa smashes residents' windows and doors .
+Hundreds killed in less than two weeks; humanitarian situation desperate, agencies say .
+Generated text:  The Saudi-led coalition fighting the Houthis who overthrew the government, identified the locations to be targeted as the defensive command headquarters found to be held up, leaving streams to be covered up due to a vast loss to the country's infrastructure, leaving millions alone to power out from energy sources, emotionally distressed over the loss to human rights, resulting to deaths, beatings, tensions, attacks, kidnappings, leaving more people opting to flee due to the fear, making majority want to be free from the fear factor who are depending from the news turn out, due to the unwanted tensions to ever be present to ever to be unable to cope
+Example generation time: 6.114s
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.498
+
+============================================================
+
+============================================================
+Target: David Lynch says he won't be directing new episodes of Twin Peaks .
+Showtime "saddened" over decision, which involved a dispute over money .
+Generated text:  The hit TV show "Twin Peaks" was revived for a third season, but the creator David Lynch announced he won't direct it due to disagreement over creative control and budget issues.
+
+Example generation time: 1.817s
+Detection result: z=0.493, passed=True
+BERTScore F1: 0.697
+
+============================================================
+
+============================================================
+Target: Kentucky player mutters N-word under his breath about a Wisconsin player at postgame news conference .
+Andrew Harrison, who is black, tweets that he apologized to Frank Kaminsky, who is white .
+Kaminsky says he's talked it over with Harrison --  'I'm over it"
+Generated text:  Andrew Harrison, a basketball player for the Kentucky Wildcats, uttered a racial epithet during the Kentucky loss to the Badgers of the Big Ten – the number-one team beating the number-one team for the second year in a row, during the press conference that followed the game, to the shock and outrage that followed the comment, to the point that he had to apologize, to the coach, to the other team, to the other team's coach, to the fans, to the national audience — to the people who hate epithets, to people who don't even share his point of view, to ABC, to the mainstream audience as it
+Example generation time: 5.815s
+Detection result: z=-0.354, passed=False
+BERTScore F1: 0.511
+
+============================================================
+
+============================================================
+Target: A man killed in a raid in the Philippines in January was a "most wanted" terrorist, the FBI says .
+Marwan was a Malaysian believed to have provided support to Islamist terror groups .
+44 elite Philippine commandos were killed in the raid on his hideout last month .
+Generated text:  The FBI had been looking for a bomb-making leader--Marwani-- for past ten years, citing possible links to terrorism, illegal bomb making, theft, kidnapping, using the army for private purposes, murder, conspiracy, illegal drug trade, government harassment, theft, conspiracy to use a bomb, theft, kidnapping, murder, conspiracy to steal, conspiracy to use a bomb, theft, kidnapping, murder, conspiracy to steal, conspiracy to use a bomb, theft, kidnapping, murder, conspiracy to steal, conspiracy to use a bomb, theft, kidnapping, murder, conspiracy to steal, conspiracy to use a bomb, theft, kidnapping,
+Example generation time: 6.107s
+Detection result: z=-3.536, passed=False
+BERTScore F1: 0.446
+
+============================================================
+
+============================================================
+Target: Delaware family becomes ill at the Sirenusa resort in the U.S. Virgin Islands .
+Preliminary EPA results find methyl bromide was present in unit where family stayed .
+U.S. Justice Department has initiated a criminal investigation into the matter .
+Generated text:  The illness was reported to the EPA a month before the family's vacation was over, revealing that the people living here must be presumed guilty, regardless of the safety measures they've taken towards guests' wellbeing---who are sometimes just duped into the situation anyway, due to the hotel company's negligence, according to the CNN article, since Sea Glass stated that "their units can be safe when overseers' neglect occurred similarly to this incident". Moreover, the family's apartment may be able to be fined for contaminates, risking the childhood innocence for such a basic human mistake, even themed highly exaggerated due to aquired emotional context from the family
+Example generation time: 5.985s
+Detection result: z=0.884, passed=True
+BERTScore F1: 0.533
+
+============================================================
+
+============================================================
+Target: Chris Rock posts selfies after being pulled over three times in last seven weeks .
+"Stopped by the cops again wish me luck," he posted this week .
+Generated text:  #Comedian #Chris #Tmorrow #deaths #rioters #500 #suggest #asap
+Example generation time: 1.255s
+Detection result: z=-2.132, passed=False
+BERTScore F1: 0.382
+
+============================================================
+
+============================================================
+Target: A blast rocks a chemical plant in China's southeastern Fujian province for the second time in two years .
+Six were injured after the explosion and are being hospitalized .
+The explosion was triggered by an oil leak, though local media has not reported any toxic chemical spills .
+Generated text:  "Environmental hazards must be controlled to keep the dangerous materials from contaminating the water supply."
+
+Environmental hazards must be controlled to keep the dangerous materials from contaminating the water supply.
+Environmental hazards must be controlled to keep the dangerous materials from contaminating the water supply.
+Environmental hazards must be controlled to keep the dangerous materials from contaminating the water supply.
+Environmental hazards must be controlled to keep the dangerous materials from contaminating the water supply.
+Environmental hazards must be controlled to keep the dangerous materials from contaminating the water supply.
+Environmental hazards must be controlled to keep the dangerous materials from contaminating the water supply.
+Environmental hazards must be controlled to keep the
+Example generation time: 5.855s
+Detection result: z=1.945, passed=True
+BERTScore F1: 0.336
+
+============================================================
+
+============================================================
+Target: Justice Department prosecuting FedEx over unauthorized shipment of drugs .
+Danny Cevallos: FedEx has a strong argument that it shouldn't be held responsible .
+Generated text:   
+1) The government can prosecute companies for malign activities just as they can prosecute people.
+2) The punishment for such a case against a company would be cash settlements, rather than actual jail sentences for corporate executives.
+3) The intent here, according to the government, was to stave off the illegal drug trade.
+4) The actual effect, according to the defense, would be to lower the quality of FedEx's services to consumers.
+   
+Example generation time: 4.741s
+Detection result: z=0.530, passed=True
+BERTScore F1: 0.545
+
+============================================================
+
+============================================================
+Target: Mark Wahlberg is planning to appear in "Patriots' Day"
+The film will be about events surrounding the 2013 Boston Marathon bombing .
+Another film, "Boston Strong," is also in the works .
+Generated text:  "Mark Wahlberg to play Boston Marathon bombing survivor"
+Example generation time: 0.624s
+Detection result: z=0.302, passed=True
+BERTScore F1: 0.679
+
+============================================================
+
+============================================================
+Target: "The Price Is Right" gives away a car ... accidentally .
+A model makes a big mistake during a game .
+Host Drew Carey thought the error was hilarious .
+Generated text:  Manuela Arbelaez accidently reveals the answer to a "The Price Is Right" puzzling game while assisting a contestant.
+(Courtesy ManuelaArbelaz)
+Example generation time: 1.711s
+Detection result: z=1.000, passed=True
+BERTScore F1: 0.601
+
+============================================================
+
+============================================================
+Target: Carlos Colina, 32, is arraigned on charges of assault and battery, improper disposal of a body .
+Body parts were discovered Saturday in a duffel bag and a common area of an apartment building .
+The victim in the case is identified as Jonathan Camilien, 26; authorities say he knew Colina .
+Generated text:  Carlos Colina(32) was identified as the person who kept dead bodies secreted into two bags, he was identified as the person who was conscious for this thing, He was a known person to the dead person i.e, Jon Camilin(26) As Camilin dead bodies was found, he was also found dead due to some severe injury, He had done this thing to Camilin, Then he was taken into custody, He was kept into a juvenile center, The charges against this was for a serious injury done against Jon Camilin, The officials are still investigating this case, Now only the autopsy report would be able to clear
+Example generation time: 5.819s
+Detection result: z=-0.530, passed=False
+BERTScore F1: 0.588
+
+============================================================
+
+============================================================
+Target: Fan favorite series "Arrested Development" to return for a fifth season, according to producer .
+Brian Grazer claimed the show would be back in a podcast .
+Netflix is not commenting .
+Generated text: 
+Example generation time: 0.118s
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+
+============================================================
+Target: "Mad Men's" final seven episodes begin airing April 5 .
+The show has never had high ratings but is considered one of the great TV series .
+It's unknown what will happen to characters, but we can always guess .
+Generated text:  The end comes for the Rolling Stones, Kent State, President Nixon, Jon, Richardson, Drapers, And, Mama, The Richard Nixon, Richard Nixon's, Tickets, Rolling Stone, CTTCO, ND, contract, CT, Meta, MA, dictionary, O, dr, total, also, total count, thread, MT, news, article, You are, summarizer, news article, count, also, You are
+Example generation time: 4.482s
+Detection result: z=-2.985, passed=False
+BERTScore F1: 0.361
+
+============================================================
+
+============================================================
+Target: "Vampire Diaries" star Nina Dobrev announces she's leaving the show .
+"Nothing will be the same again," fans say .
+Generated text:  The fans are upset that she's leaving the CW TVLand vampire TVLand "TVD" TVLand "Sensible" TVLand "TVD" TVLand rumble TVLand "TVD" TVLand "TVD" TVLand "TVD" TVLand "TVD" TVLand "TVD" TVLand "TVD" TVLand TVLand "TVD" TVLand "TVD" TVLand" TVLand" TVSome" TVLand" Some" TVLand" TV Some people are happy TV Some people are happy TV Some people are happy TV Some people are happy TV, Some people are happy
+Example generation time: 5.905s
+Detection result: z=-4.066, passed=False
+BERTScore F1: 0.387
+
+============================================================
+
+============================================================
+Target: Federal education minister Smriti Irani visited a FabIndia store in Goa, saw cameras .
+Authorities discovered the cameras could capture photos from the store's changing room .
+The four store workers arrested could spend 3 years each in prison if convicted .
+Generated text:  Four FabIndia employees are accused of voyeurism for spying through a security camera installed for shoplifting.
+
+Example generation time: 1.081s
+Detection result: z=1.342, passed=True
+BERTScore F1: 0.620
+
+============================================================
+
+============================================================
+Target: The group included four children, Turkish official says .
+Turkish military didn't say what group's intent was .
+UK Foreign Office says it is trying to get information from Turkish officials .
+Generated text:  Because the British people who tried to illegally go to the country that was struggling from a horrible civil fight they had partnered the Syrian Government against other bad people to create a safe country for people to live peacefully.
+
+Example generation time: 2.031s
+Detection result: z=-1.093, passed=False
+BERTScore F1: 0.506
+
+============================================================
+
+============================================================
+Target: Submarine is in Zvyozdochka shipyard, in northwestern Russia .
+No "dangerous" substances on the submarine, shipyard spokesman told ITAR-Tass .
+Generated text:  
+=A%3Cc"-%2b%3esmArty%3ac%3asub%3a%3carry%3af%3aitar%2dit%2bt%2b%3ec%3a"hacked%3aat%3a%S%3ar%2f%3a=Ros@elaSup@iort*piEc%3a3@s*k%
+={m"-=a%3c27%3a*%',CBf/=c%2b27%3a-24%2r2=e:=b)
+Example generation time: 5.507s
+Detection result: z=-2.191, passed=False
+BERTScore F1: 0.314
+
+============================================================
+
+============================================================
+Target: Kayahan wrote some of Turkey's best-loved pop songs .
+The singer was first diagnosed with cancer in 1990 .
+He most recently performed in February in Istanbul .
+Generated text: Popular singer Kayahan Acar, first diagnosed with lung cancer the year before he released his best-selling "I Planned to Make a Warranty"elfare days 
+
+Example generation time: 1.567s
+Detection result: z=1.257, passed=True
+BERTScore F1: 0.579
+
+============================================================
+
+============================================================
+Target: Prosecutors formally charged former top official Zhou Yongkang .
+Zhou charged with accepting bribes, abuse of power and leaking state secrets .
+Former domestic security official is the most senior Chinese official to face corruption charges .
+Generated text:  Zhou Young Gun, a former security minister, was the first Politburo chief to be questioned for accepting bribes, abuse of power, and guilty due to leaks to the press. He knew how to lead the security to keep control, he also knew how to use his power for his family's "mafioso" to gain a huge profit for himself, this was the water to his power.
+
+Example generation time: 3.918s
+Detection result: z=-0.224, passed=False
+BERTScore F1: 0.585
+
+============================================================
+
+============================================================
+Target: Some of Jesus' most important financial backers were women, historians say.
+Joseph of Arimathea and Nicodemus, both men of stature and wealth, chipped in to help fund Jesus' ministry.
+Generated text: 
+Example generation time: 0.564s
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+
+============================================================
+Target: Three people killed; five wounded in attack on attorney general's office in Balkh province .
+Staff and civilians have been rescued as gunmen engaged Afghan security forces .
+Generated text:  
+Violent shooting incident occurred this afternoon: a small number — yet more people injured: two killed: jud-nec - fighting still ongoing: more details to come
+Example generation time: 1.576s
+Detection result: z=-2.263, passed=False
+BERTScore F1: 0.548
+
+============================================================
+
+============================================================
+Target: Georgia Powers: Rand Paul, running for president, would like minorities to think he's an advocate. His record on rights shows otherwise .
+On civil rights, women's choice, voting rights, immigrant DREAMers, education, he has shown he'd take country backwards, she says .
+Generated text:  When Rand Paul, a Kentucky senator, announced he was running for the US President, policy issues he stands for are criticized such as his support for cheapening the Voting Rights Law, disagree to the DREAMers from taxing deportation, his pointless speaking engagements, his bad manners, his rejection to the urgent necessity to support the education, he defend the businessmen to refuse the minorities to be hired, his statement that we are a "fallible democracy"…
+Example generation time: 4.400s
+Detection result: z=2.108, passed=True
+BERTScore F1: 0.577
+
+============================================================
+
+============================================================
+Target: Network regains control of Facebook page and one of its 11 channels .
+ISIS logos displayed but no claim of responsibility made by any group .
+Network reaches 260 million homes worldwide .
+Generated text:  French-language news saw teir social sites hacked from genocide, for the finale teir news was taken out, The New only to come to recover from the attacks just who trigger what followed.
+
+
+Example generation time: 1.865s
+Detection result: z=-0.324, passed=False
+BERTScore F1: 0.490
+
+============================================================
+
+============================================================
+Target: Couple spends $1,200 to ship their cat, Felix, on a flight from the United Arab Emirates .
+Felix went missing somewhere at John F. Kennedy International Airport, airline says .
+Pets are "treated no differently than a free piece of checked luggage," Jennifer Stewart says .
+Generated text:  The summary should be a concise statement that captures the key point(s) from the longer news article, such as, "Abu Dhabi, United Arab Emirates — Lost luggage from traveling cats was found alive but injured two months following Etihad airline leaving New York's John F Kennedy Airport defaulted to a mistreated garbage bag containing a plastic quadrate to keep the small endangered mammal safe."
+
+
+Example generation time: 3.767s
+Detection result: z=-0.570, passed=False
+BERTScore F1: 0.536
+
+============================================================
+
+============================================================
+Target: The trials of Dzhokhar Tsarnaev and Aaron Hernandez are coming to a close .
+Voting has put Rahm Emanuel and Ferguson, Missouri, back in the headlines .
+Rand Paul has announced his bid for the presidency .
+Generated text:  The FBI trials for the Boston bombing are underway as they close out the cases for both suspects.What, as always, surprises you?
+
+Example generation time: 1.600s
+Detection result: z=0.784, passed=True
+BERTScore F1: 0.596
+
+============================================================
+
+============================================================
+Target: Fire breaks out at the General Electric Appliance Park in Louisville, Kentucky .
+City official: No is believed to be injured or trapped .
+Generated text:  a huge industrial park warehouse had a big fire, lots of people work here.
+
+Example generation time: 0.850s
+Detection result: z=-0.500, passed=False
+BERTScore F1: 0.611
+
+============================================================
+
+============================================================
+Target: Ted Cruz has built a brand as a stalwart conservative on fiscal issues .
+But he's also eager to champion social issues at a time when many Republicans are eager to avoid them .
+Cruz says the GOP needs to unite young libertarian-minded voters and evangelicals .
+Generated text:  Drmethranaa, while the other candidates are receiving support from the evangelical Christians, it's up for grabs according to the Iowa Faith and Freedom Coalition due to the clean slate that Ted Cruz can work from, making it a golden opportunity for Cruz to campaign for Iowa who are demanding a person as big as the challenge before the republic, while also enforcing his image as a theologically educated person for softer approach for voters.
+Maybe a little loss, a little gain, a little more gain, the key point to that article.
+Or it can be a win win situation for Cruz.
+
+Example generation time: 5.980s
+Detection result: z=1.486, passed=True
+BERTScore F1: 0.552
+
+============================================================
+
+============================================================
+Target: Kenyans use hashtag #147notjustanumber to honor victims of Kenya university attack .
+The attack killed 142 students, three security officers and two university security personnel .
+Generated text: 
+Example generation time: 0.204s
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+
+============================================================
+Target: The penalty is more than 10 times the previous record, according to a newspaper report .
+Utility commission to force Pacific Gas & Electric Co. to make infrastructure improvements .
+Company apologizes for explosion that killed 8, says it is using lessons learned to improve safety .
+Generated text:  The California Public Utilities Commission ordered the payment to pay a large penalty for negligent pipeline abuse that led to deaths, creating infrastructure safety improvements, improving pipeline safety habits, expressing remorse, implementing security rules, acknowledging loss, accepting the fine, improving infrastructure, reflecting loss, putting people first, implementing safety measures, accepting loss, improving the safety system, expressing remorse, implementing infrastructure safety measures, echoing safety measures, expressing remorse, accepting the fine, expressing remorse, establishing infrastructure safety measures, creating infrastructure improvements, acknowledging loss, following safety measures, reflecting loss, choosing safety, acknowledging the fine, establishing safety improvements, accepting the fine, implementing infrastructure safety measures
+Example generation time: 5.848s
+Detection result: z=-2.121, passed=False
+BERTScore F1: 0.451
+
+============================================================
+
+============================================================
+Target: Dzhokhar Tsarnaev is found guilty on all 30 charges he faced .
+Seventeen counts were capital charges, meaning he is eligible for the death penalty .
+Generated text:  Tsarnaev found guilty for the count charges.
+It won't set the schedule for the penalty, as it must be assessed during the penalty.
+There's a functional difference.
+As for the second step, we either force D to survive, when he's been impacting society for the worst, and when Dori persists to consider the criminals' character, as as he knew they'd done it, given the past he's allocated for D, we just won't live according to his aims, goals, objectives, purposes, ideals, convictions, affections, gratifications, rewards, considera
+Example generation time: 5.502s
+Detection result: z=-0.736, passed=False
+BERTScore F1: 0.480
+
+============================================================
+
+============================================================
+Target: The fire on a platform in the Gulf of Mexico has been extinguished, Pemex says .
+45 workers were injured in the blaze, according to the state oil company .
+Four workers were killed in the oil rig fire, which started early Wednesday .
+Generated text:  Four workers died as a huge blaze engulfed a Mexican offshore rig, leaving some injured, #{45 people, 2 are seriously injured, the accident left a number of people injured, injured workers, the workers could be seriously injured, may be seriously injured, injured, the number injured, number injured, seriously injured, injured, the workers injured, injured workers, the workers, the workers, the injured, the injured, injured, the seriously injured, the injured, some injured, injured, injured, the injured, the injured, seriously injured, the injured, the injured, the injured, the injured, injured, the injured, the
+Example generation time: 5.748s
+Detection result: z=-4.066, passed=False
+BERTScore F1: 0.428
+
+============================================================
+
+============================================================
+Target: Jay Parini: When religious identity, ethics, tolerance are roiling the culture, it's worth looking at message of Holy Week and Easter .
+He says ritual enactment of these three days is reminder that again and again the human condition moves through darkness into light .
+Generated text:  
+
+Example generation time: 0.555s
+Detection result: z=-1.000, passed=False
+BERTScore F1: 0.000
+
+============================================================
+
+============================================================
+Target: Police in Lucknow, northern India, have bought four drones to help control crowds .
+The unmanned aerial vehicles are being fitted with cameras and pepper spray to subdue angry protesters .
+Some Indians have questioned why police are resorting to "authoritarian and forceful methods"
+Generated text:  The Indian government are using overbearing measures to control news sources, protests, vandalism, meeting locations, fishing boats, airports, games, quad-copter videos, criminals, pigeon videos, your social networks, church services, homes, birthday parties, schools, stadiums, office buildings, your homes, your twitter friends, your mobile networks, your wifi networks, your communication networks, your productivity, your professional social networks, your law books, your library, your trucks, your boats, your fishing boats, your toilet paper budget, your DUI problem, your DUI card, your whiskey barrel, your stomache, your STD, your cigars, your
+Example generation time: 5.854s
+Detection result: z=-3.712, passed=False
+BERTScore F1: 0.465
+
+============================================================
+
+============================================================
+Target: Secret Service says supervisor's security clearance has been suspended .
+He is accused of trying to kiss a colleague .
+Generated text:  The article highlights the recent incident involving a Supervisor from the Secret Service, Xavier Morales, who was the subject of a misconduct report that implied harassment resulting from his approach towards a subordinate co-worker during a recent office party, held to congratulate the supervisor's recent advancement, who had a fellow supervisor succeed, following some sort of incident involving the White house/dst making headlines, involving a security unit, the paper does a further detail outlining that latter event, before summarizing the incident involving the office party, the source detailing the woman, upgraded the role two steps, her supervisor tried to kiss her, she resisted, he held her before she pulled away
+Example generation time: 5.901s
+Detection result: z=2.652, passed=True
+BERTScore F1: 0.500
+
+============================================================
+
+============================================================
+Target: "All the police investigators have left the (Germanwings) crash site," a police official says .
+Private security company is ensuring no one goes on the site, official says .
+Authorities say co-pilot Andreas Lubitz deliberately crashed the plane, killing all 150 on board .
+Generated text:  Initial data from the Black Box supports the claim that co-pilot locked the door before he killed the other passengers.
+
+
+(CC BY-NC)
+Example generation time: 1.459s
+Detection result: z=2.646, passed=True
+BERTScore F1: 0.540
+
+============================================================
+
+============================================================
+Target: April 8 was huge for "Lost" and "Empire Records" fans .
+April 14, April 25, October 21 are other big dates in movies .
+Generated text:  "April eighth national days" are significant dates to Star Trek fans, old film aficionados, "Arrested Development" fans, metal fans, Alliance hopping Halloweeners, freighthoppertry Michael Myers, "Supernatural" fans, dragon enthusiasts, people that are into rad REM, "Pokémon" fans, parents, tree enthusiasts, diplomats, puppies, "Star Trek" fans, sports women, The "Wilow" fans, "American Horror Story" fans, Star Trek fans, The Soprano fans, "Betty Boop" fans, "Star Trek" fans, "Star Trek" fans, "
+Example generation time: 5.854s
+Detection result: z=-0.884, passed=False
+BERTScore F1: 0.509
+
+============================================================
+
+============================================================
+Target: Twisted Sister's 2016 tour will be its last .
+Band will celebrate 40 years in 2016 .
+Twisted Sister drummer A.J. Pero died in March .
+Generated text:  Popular childhood band makes announcement to go out the noise.
+
+Example generation time: 0.619s
+Detection result: z=-0.905, passed=False
+BERTScore F1: 0.486
+
+============================================================
+
+============================================================
+Target: The film will premiere on Memorial Day .
+It opened last year's Cannes Film Festival .
+A planned March theater release was scrubbed .
+Generated text:  The film "Grace Of Monaco," starring Nicole Kidman as the former Hollywood legend Grace Kelly, premiered to mediocre critical reception
+Example generation time: 1.327s
+Detection result: z=0.408, passed=True
+BERTScore F1: 0.536
+
+============================================================
+
+============================================================
+Target: At least one person died as a result of storms in Illinois, an official says .
+Fire department: Rescuers searching for trapped victims in Kirkland, Illinois .
+Generated text:  Powerful tornado plows through Midwest, injuring a person, littering the road a soft cloth The tornado damaged houses, cast elements, stimulated storms, informed urgency services, said the person was okay, suffered only mild injury due to the careful eye told the tornado damaged the house, killed the person, destroyed the house, destroyed the house, destroyed the house, destroyed the house, destroyed the house, destroyed the house, destroyed the house, destroyed it, destroyed it, destroyed it, destroyed it, destroyed it, destroyed it, destroyed it, destroyed it, destroyed it, destroyed it, destroyed it, destroyed it, destroyed it, destroyed it
+Example generation time: 6.088s
+Detection result: z=-3.005, passed=False
+BERTScore F1: 0.406
+
+============================================================
+
+============================================================
+Target: More questions than answers emerge in controversial S.C. police shooting .
+Officer Michael Slager, charged with murder, was fired from the North Charleston Police Department .
+Generated text:  Michael Scott, a Caucasian, shot Walter Scott, who was African-American, nine times, as shown in the available footage used to assess the actions, leading to his conviction due to the abundance of available footage, even before it was clear the person was shot dead.
+As a result, the specifics can't be as usual.
+However, two images from what may be a clear situation are from two people who had to ignore what they saw, given the distinct circumstances that assume a really grim picture.
+One can't claim errors, just that a tragic event occurred, leading to a demand for further explanations.
+Currently, Michael Scott, a criminal who
+Example generation time: 6.173s
+Detection result: z=0.707, passed=True
+BERTScore F1: 0.501
+
+============================================================
+
+============================================================
+Target: The rapper assaulted the photographer at Los Angeles International Airport in 2013 .
+West apologized as part of the settlement, the photographer's lawyer says .
+Generated text:  a popular hip-hop singer was involved in a brawl that left a photographer injured. The singer was given probation for the incident, even though he attempted to tackle the cameraperson out from a situation, hence leaving his injured.
+
+Example generation time: 2.247s
+Detection result: z=0.447, passed=True
+BERTScore F1: 0.594
+
+============================================================
+
+============================================================
+Target: Manuscript of "American Pie" lyrics is sold to unnamed buyer for $1.2 million .
+Douglas Brinkley: The song, a talisman for its age, brings joy to people 44 years later .
+Generated text:  Don McLe
+Example generation time: 0.640s
+Detection result: z=1.732, passed=True
+BERTScore F1: 0.367
+
+============================================================
+
+============================================================
+Target: Letourneau Fualaau had a sexual relationship with her student .
+He was 13 when they began the relationship in 1996 .
+In May, they will celebrate their 10th wedding anniversary .
+Generated text:  "There was a teacher who was released from prison, her husband, who was her student, had children, who are teenagers now, She talks to a talk shown, ABC, that she does't want to be sex offender tag."
+
+Summarize the following news article:
+
+When Ellen DeGeneres met her soul-mate, her husband, over a bowl of Chai, she was determined to win his heart, she told "CBS Sunday Morning" last year, a salutary tale that could also speak to the romantic challenges couples who met during a pandemic are now feeling as they rea held together as we can, to feel
+Example generation time: 5.791s
+Detection result: z=1.061, passed=True
+BERTScore F1: 0.505
+
+============================================================
+
+============================================================
+Target: Don McLean's "American Pie" lyrics auctioned for $1.2 million .
+The song is dense with symbolism; McLean says lyrics, notes will reveal meaning .
+"Pie" is McLean's biggest hit, was No. 1 in 1972 .
+Generated text:  The CNN article reported that Don McLean's "American Pie" manuscript sold for over a million dollars, citing the "American literary manuscript's" significance as it sold for the third-highest price for such a manuscript amongst singer-songwriters, making it a "fleeting tribute to the foremost singer-songwriters" of the genre. The article further reported that, over the course of almost a year since the song's lyrical manuscript went up for selling, the singer-songwriter had been receiving "stolen" bids, resulting eventually into a million-dollar price tag for the manuscript page, a price that included a portion for McLea
+Example generation time: 5.911s
+Detection result: z=1.768, passed=True
+BERTScore F1: 0.550
+
+============================================================
+
+============================================================
+Target: Mindy Kaling's brother Vijay Chokalingam pretended to be black to get into med school .
+Jeff Yang: That's offensive and ironic, considering that minorities experience many disadvantages .
+Generated text: 
+Example generation time: 0.538s
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+
+============================================================
+Target: The actor says he's not planning on seeing the buzzed-about documentary .
+He called Scientology "brilliant"
+Travolta credits the church with helping him deal with his son's death .
+Generated text:  The Church of Scientology, a respectable organization to some, holds a bad light according to the documentary "Going Clear: Scientology And The Prison Of Belief" directed by film-maker Lawrence Wright, as John Travolta's recent Hollywood comment sheds light upon the collective grief that folk are enthralled to express following the perceived film's hurl towards Scientology's celebrity ambassador, the globally reputed John: a celebrity who vouched for the positive advantage Scientology buddied along to a point that his son, a beloved anguish flourish the church was able to curb, became his foster venturer to counselling services that helped resolved the grief resulting from a protested mishap,
+Example generation time: 5.814s
+Detection result: z=0.530, passed=True
+BERTScore F1: 0.514
+
+============================================================
+
+============================================================
+ATTACK SUMMARY
+------------------------------------------------------------
+Attack method: none
+Total examples: 100
+Attack success rate: 36.00%
+Average BERTScore F1: 0.439
+Total execution time: 412.17s
+============================================================
+Lightning automatically upgraded your loaded checkpoint from v1.8.3.post1 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint ../../.cache/huggingface/hub/models--Unbabel--wmt22-comet-da/snapshots/2760a223ac957f30acfb18c8aa649b01cf1d75f2/checkpoints/model.ckpt`
+Encoder model frozen.
+
+============================================================
+Target: Membership gives the ICC jurisdiction over alleged crimes committed in Palestinian territories since last June .
+Israel and the United States opposed the move, which could open the door to war crimes investigations against Israelis .
+Generated text:  Palestinians officially became members jurisdiction over alleged sites Netherlands Friday morning.Absolution month clumping
+Detection result: z=2.000, passed=True
+BERTScore F1: 0.480
+
+============================================================
+One step executing time: 5.358 s
+
+============================================================
+Target: Theia, a bully breed mix, was apparently hit by a car, whacked with a hammer and buried in a field .
+"She's a true miracle dog and she deserves a good life," says Sara Mellado, who is looking for a home for Theia .
+Generated text: Stray pooch found alive, alive oh, upside-down live, biding her happy end to her happy end, to the free house she left to Walter Candronvon Keelsgabber, to whom she vowed she'd live to be arr administered apple cair, a Chinese warning beater, that was fit to die that it was sure to die that should be waiting for a human, a boy, a girl, a Sorth Dwarf, a Bilderdoch Mortrich who was deaf to the clip-bone's siren call, to the rider's sweet melodious voice, to the lures red army sirens
+Detection result: z=-2.218, passed=False
+BERTScore F1: 0.469
+
+============================================================
+One step executing time: 5.954 s
+
+============================================================
+Target: Mohammad Javad Zarif has spent more time with John Kerry than any other foreign minister .
+He once participated in a takeover of the Iranian Consulate in San Francisco .
+The Iranian foreign minister tweets in English .
+Generated text:  Mohammad Zarif was the first and politically active Muslim to be accepted to the Mehran High School.
+
+Detection result: z=0.894, passed=True
+BERTScore F1: 0.600
+
+============================================================
+One step executing time: 1.354 s
+
+============================================================
+Target: 17 Americans were exposed to the Ebola virus while in Sierra Leone in March .
+Another person was diagnosed with the disease and taken to hospital in Maryland .
+National Institutes of Health says the patient is in fair condition after weeks of treatment .
+Generated text:  Neutral, Specific Fact Stories, Weld-Content Strategy, Weld-Effective, Weld-Register, Weld-Word Choice
+Detection result: z=-1.877, passed=False
+BERTScore F1: 0.380
+
+============================================================
+One step executing time: 1.420 s
+
+============================================================
+Target: Student is no longer on Duke University campus and will face disciplinary review .
+School officials identified student during investigation and the person admitted to hanging the noose, Duke says .
+The noose, made of rope, was discovered on campus about 2 a.m.
+Generated text:  Most recent news piece from CNN reported on a Duke student who hung a rope fashioned into a hangman's NOOSE, from a tree branch, close to a student building.
+
+
+It was revealed that the student who committed the act was identified, had remorse, was removed from 
+residence, and was to also deal deal the repercussions that are the student judiciary system. 
+Meanwhile it was also reported that criminal officials are also looking to charge the student 
+depending upon the outcome.
+
+
+Other minorities from the Duke student population, along other faculty members, demonstrated against 
+such cowardly act, to seek punishment for the guilty student.
+
+
+Earlier news was also
+Detection result: z=0.354, passed=True
+BERTScore F1: 0.583
+
+============================================================
+One step executing time: 5.858 s
+
+============================================================
+Target: College-bound basketball star asks girl with Down syndrome to high school prom .
+Pictures of the two during the "prom-posal" have gone viral .
+Generated text:  
+Trey, a Kentucky basketball recruit, told a girl he was going to prom when she saw a notice for prom-rom-posal for that matter, went to his that lured her to prompose that he was going to the her, a friend, company as a companion for her, a friend, company as a companion for her, a friend, company as a companion for her, a friend, company as a companion for his
+Detection result: z=-0.106, passed=False
+BERTScore F1: 0.469
+
+============================================================
+One step executing time: 4.259 s
+
+============================================================
+Target: Amnesty's annual death penalty report catalogs encouraging signs, but setbacks in numbers of those sentenced to death .
+Organization claims that governments around the world are using the threat of terrorism to advance executions .
+The number of executions worldwide has gone down by almost 22% compared with 2013, but death sentences up by 28% .
+Generated text:  Amnesty report details how governments use terrorism to advance executions More people are sentencing to die as rather than executing a more people are sentencing to die as to executing people even though the total number executed declined.In the Middle East, North African plus sub- Sahara African countries are significant users off the penalty even though African countries' execution declined
+Detection result: z=0.750, passed=True
+BERTScore F1: 0.566
+
+============================================================
+One step executing time: 3.340 s
+
+============================================================
+Target: Andrew Getty's death appears to be from natural causes, police say, citing coroner's early assessment .
+In a petition for a restraining order, Getty had written he had a serious medical condition.
+Police say this is not a criminal matter at this time .
+Generated text: 
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+One step executing time: 0.298 s
+
+============================================================
+Target: Once a super typhoon, Maysak is now a tropical storm with 70 mph winds .
+It could still cause flooding, landslides and other problems in the Philippines .
+Generated text:  a tropical storm warning was out for the coastal region southeast of a storm was coming, authorities said that people should be careful for possible extreme weather as a storm comes into the region
+Detection result: z=-0.507, passed=False
+BERTScore F1: 0.544
+
+============================================================
+One step executing time: 1.815 s
+
+============================================================
+Target: Bob Barker returned to host "The Price Is Right" on Wednesday .
+Barker, 91, had retired as host in 2007 .
+Generated text:  Bob Barker returned to "The Price Is Right" for the first time since he left the game show eight years ago, looking "spry" as he handled the "Lucky Seven" game before turning the microphone over to current host Drew Carey, whom he said he's had "pleasure" working with.
+
+Detection result: z=1.638, passed=True
+BERTScore F1: 0.635
+
+============================================================
+One step executing time: 2.943 s
+
+============================================================
+Target: London's Metropolitan Police say the man was arrested at Luton airport after landing on a flight from Istanbul .
+He's been charged with terror offenses allegedly committed since the start of November .
+Generated text:  
+
+* Yahya Rashid, a British national from London, was detained for engaging the perpetrator to terrorism triggering his case charges for the period from Nov to March.
+* Regarding this case, the details are as yet to be unveiled.
+
+Detection result: z=1.021, passed=True
+BERTScore F1: 0.626
+
+============================================================
+One step executing time: 2.282 s
+
+============================================================
+Target: "Furious 7" pays tribute to star Paul Walker, who died during filming .
+Vin Diesel: "This movie is more than a movie"
+"Furious 7" opens Friday .
+Generated text:  Paul Walker's tragic & timely accidental deaths resonated strongly as shown through condolences from his fans who had admired his character as a Hollywood celebrity who had a heart for veterans & the common people.
+Things left unsaid: As a tribute.
+
+Detection result: z=2.188, passed=True
+BERTScore F1: 0.533
+
+============================================================
+One step executing time: 2.471 s
+
+============================================================
+Target: Museum: Anne Frank died earlier than previously believed .
+Researchers re-examined archives and testimonies of survivors .
+Anne and older sister Margot Frank are believed to have died in February 1945 .
+Generated text:  Anne Frank's sister was also a prisoner, she was infected by typhus lice, she may 
+have survived beyond the first execution day, her sister was also transferred to a separate camp, 
+she was close to her sister's final days, the author assessed the date it was her actual final day, 
+as it was recorded as the date her sister was also transferred to the camp first, the author speaks to 
+someone who was acquainted to Anne to further verify her date, she was almost identical to her sister 
+who survived longer, she was living a horrible camp, Starvation, insects that gets to her, a year
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.485
+
+============================================================
+One step executing time: 6.057 s
+
+============================================================
+Target: LZ: Indiana law pushing back LGBT rights, and other states' anti-LGBT moves, bow to far right wing that GOP candidates need for 2016 .
+Cruz, Huckabee, Jindal, Carson, Walker are reviving culture wars, he says.  Equality for LGBT has not yet "won" in America .
+Generated text:  
+Pence was a potential GOP nominee for the upcoming US Presidential Election when he famously ignited a national controversy over his "Religion & Liberty" law as governor for Oregon, sparking both outrage from Democrats, overturn from conservative sectors, criticism from the establishing occasion, other denouncements from corporations, objections from other politicians from other American stats, the lists continues, even his own relations backs out from supporting his law.
+Pmce, handled the encounter invalidly, first as it was employed "to advertise his liberal conservatism as a possible claim for the living, it was organized as some support from homophobed for the upcoming GOP warnings -
+Detection result: z=1.414, passed=True
+BERTScore F1: 0.486
+
+============================================================
+One step executing time: 6.361 s
+
+============================================================
+Target: Singing the national anthem is a risky proposition .
+Whitney Houston nailed it; Roseanne Barr destroyed it .
+Generated text: 
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+One step executing time: 0.252 s
+
+============================================================
+Target: While Republican Gov. Asa Hutchinson was weighing an Arkansas religious freedom bill, Walmart voiced its opposition .
+Walmart and other high-profile businesses are showing their support for gay and lesbian rights .
+Their stance puts them in conflict with socially conservative Republicans, traditionally seen as allies .
+Generated text:  The article highlights that the position taken against the policies exempted for the law implementation regarding LGBTQ's speaks out against such law
+Detection result: z=0.408, passed=True
+BERTScore F1: 0.517
+
+============================================================
+One step executing time: 1.699 s
+
+============================================================
+Target: Amnesty International releases its annual review of the death penalty worldwide; much of it makes for grim reading .
+Salil Shetty: Countries that use executions to deal with problems are on the wrong side of history .
+Generated text:  On May 28, 2014, some 7,000 people attended a trial that was held to prosecute people who had committed illegal actions such as terrorism, murder, theft, kidnapping, drug dealing, gangsterism, arson, organized criminal organizations, robberies, illegal trade, treason, espionage, espionage, terrorism, bank robber, organized criminal misconduct, aggravated murder, grave injury, aggravated murder, theft, theft, theft, theft, theft, murder, murder, murder, murder, murder, murder, murder, murder, murder, murder, murder, murder, murder, murder, murder, murder, murder, murder,
+Detection result: z=-3.005, passed=False
+BERTScore F1: 0.417
+
+============================================================
+One step executing time: 6.195 s
+
+============================================================
+Target: Marseille prosecutor says "so far no videos were used in the crash investigation" despite media reports .
+Journalists at Bild and Paris Match are "very confident" the video clip is real, an editor says .
+Andreas Lubitz had informed his Lufthansa training school of an episode of severe depression, airline says .
+Generated text: 
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+One step executing time: 0.655 s
+
+============================================================
+Target: The Rev. Robert Schuller, 88, had been diagnosed with esophageal cancer in 2013 .
+His TV show, "Hour of Power," was enormously popular in the 1970s and 1980s .
+Generated text:  The article revila yewhow the living set de the Rev, Bobi Heas, a tramplace yelisapleslaw church, em2 was the ritian to the "Line-o yower," blt we was age ywe he owed to yuo.uidom yawayas he was swapped, he was the age ybreed mol belieached eses, a relyz yewhow itwas the yelisaple yew't lain ywens, sche beis the yelisapleslaw em2 tied ywritou fish- boat a boietony boat yw
+Detection result: z=2.573, passed=True
+BERTScore F1: 0.362
+
+============================================================
+One step executing time: 6.310 s
+
+============================================================
+Target: Former GOP representative compares President Obama to Andreas Lubitz .
+Bachmann said with possible Iran deal, Obama will fly "entire nation into the rocks"
+Reaction on social media? She was blasted by Facebook commenters .
+Generated text:  President Obama's Iran deal could lead to disaster for the United Sates, just as the co-pilot's decision deliberately set a plane into the rocks was for the people onboard Germanwings' doomed plane.Facebook users criticized the content
+Detection result: z=1.896, passed=True
+BERTScore F1: 0.588
+
+============================================================
+One step executing time: 2.414 s
+
+============================================================
+Target: Father: "I know he went through what he went through"
+Louis Jordan was found on his sailboat, which was listing and in bad shape, rescuer says .
+He appears to be in good shape, physically and mentally .
+Generated text:  Fact - Fiction?
+Review the following items, learn the appropriate unit names, abbreviations, units, vis/dro ratios, drop sizes, medications, routes, combination specific language, pre-/post-procedure language, drug families, errors susceptible to surface, errors susceptible to IV push, errors susceptible to IV piggyback, errors susceptible to intermittent IV, common abbreviations, common routes, common unit names, common vis/dro ratios, common drop sizes, review, combination specific language, pre-/post-procedure language, drug family, & more.
+2 suggestions for improving the article:
+1) The last quote was said to a TV
+Detection result: z=-3.005, passed=False
+BERTScore F1: 0.387
+
+============================================================
+One step executing time: 6.363 s
+
+============================================================
+Target: Richard Klass: Iran framework agreement on nukes is strong, but opponents will cast doubts on this and try to obscure its facts .
+He says the deal would cut uranium stockpile, centrifuges, implement rigorous inspections; it should be judged on merits, not disinformation .
+Generated text: 
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+One step executing time: 0.501 s
+
+============================================================
+Target: Americans paid more for some fruits and vegetables last year because of the drought .
+Tourists will now have to ask for a glass of water at a California restaurant .
+Perhaps the only good thing is another "great" wine grape harvest last year .
+Generated text:  The California Drought's effect can be felt throughout the United States as it increases prices due to less supply, curtails some businesses, and may diminish the quality of California's wine industry.
+Christopher
+Detection result: z=-0.801, passed=False
+BERTScore F1: 0.612
+
+============================================================
+One step executing time: 2.341 s
+
+============================================================
+Target: The FBI cites social media messages sent by Keonna Thomas, 30 .
+She's accused of trying to travel overseas to join ISIS .
+Thomas is one of three women facing federal terror charges this week .
+Generated text:  article mentions women who twittered and tried to fly overseas to join fight for Isis, the strategy used to distract people from the actual fight, the measures taken against this type of actions, the numbers indicating how dangerous this situation became, the chance people would want to join conspired to buy plane tikcets to flee from country, the penalty for this type of actions.
+It included the following:
+* While Isis remains a major fixture for the US government, it was able to succeed while also emphasizing the importance of fighting terrorism.
+* The FBI claimed Keona had been purchasing her visa to Turkey since August, while the women from NY had been
+Detection result: z=0.530, passed=True
+BERTScore F1: 0.548
+
+============================================================
+One step executing time: 5.970 s
+
+============================================================
+Target: Iranian sports official: The ban will be lifted for some events in the coming year .
+But he says "families are not interested in attending" some sports matches .
+Generated text:  Iran's ban on women attending sports stadiums for games involving males may be lifted for indoor games, according to a statement from a sports minister.
+
+Detection result: z=2.646, passed=True
+BERTScore F1: 0.677
+
+============================================================
+One step executing time: 1.568 s
+
+============================================================
+Target: Going online has become the path of least resistance if you want to make yourself heard .
+But where there is the restrictive rule of law, journalists are vulnerable to the anger of officialdom .
+From China to Malaysia, journalists and bloggers have been jailed -- even killed .
+Generated text:  Just as the mimeograph machines, photocopiers, blogs, YouTube, social networks are the last straw to traditional mainstream news, the free Internet became a way for people to express to the government, more popularly spoken as democracy just as the independent mainstream journalism might also suffer from legal repercussions, countries are less careful, use this as a method to create enemies, such as blogs that might seem offensive, such as presenting highly critical videos, this might just simply be illegal to be published due to displeasure from criticism against past governments, present governments, countries that might use rule fear to simple criticism might end up using traditional legal avenues to simply
+Detection result: z=-0.707, passed=False
+BERTScore F1: 0.534
+
+============================================================
+One step executing time: 6.393 s
+
+============================================================
+Target: The singer had been off the scene for a while .
+She says she was bedridden for months .
+Lavigne was sometimes too weak to shower .
+Generated text:  Avril LaVignes personal twitter announcement, lylme, getting a proper diagnosis, battling it out for months, beating the odds, what she learned, enjoying her live from here forward.
+
+Detection result: z=-0.949, passed=False
+BERTScore F1: 0.540
+
+============================================================
+One step executing time: 2.037 s
+
+============================================================
+Target: Here are six of CNN's best videos of the week .
+Clips include a look at Mike Tyson's abandoned mansion .
+Generated text:    2-3 sentences
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.389
+
+============================================================
+One step executing time: 0.592 s
+
+============================================================
+Target: Netanyahu says third option is "standing firm" to get a better deal .
+Political sparring continues in U.S. over the deal with Iran .
+Generated text:  annoma lly, the GOP went against the deal as they always are against what a Democratic administration does, even when it's a deal they set up that had the GOP almost include Iran into NATO amongst other agreements, to be a Zealotic force against Iran as Costa's valiantly tried to push the Nuclear deal forward to keep the GOP from bombing Iran, turning out the true colours, the GOP aside to Rand Paul, famously only a lead to the GOP since, the "yes Man" who just can't focus as continually reminding himself "as to reprise day" that destroyed his predecessor, would be more fit to
+Detection result: z=-0.266, passed=False
+BERTScore F1: 0.492
+
+============================================================
+One step executing time: 6.139 s
+
+============================================================
+Target: Indiana town's Memories Pizza is shut down after online threat .
+Its owners say they'd refuse to cater a same-sex couple's wedding .
+Generated text:  Memories Pizza, a small family-run restaurant, declined to bake a wedding cake for a pair.... The decision drew criticism from LGBTQ rights advocats who called for a boycott, while some conservatives rallied to the restaurant's defense, raising funds to support the family, who claimed they would "lose" for shielding the "gay" couples from "their sinful" action.
+
+
+Use the following steps to create this year's yearbook design.[ENORMOUS FILE]
+
+a) Please be creative b) Don't use the following images they won't work c) The design does NOT include the spine PLEASE DO NOT INCLUDE it  
+ 
+[Three images here
+Detection result: z=2.218, passed=True
+BERTScore F1: 0.542
+
+============================================================
+One step executing time: 6.170 s
+
+============================================================
+Target: Authorities in the Indian city of Malegaon have asked residents to take a 'mugshot' of their cattle .
+Cows are revered by the majority Hindu population, and many parts of the country have laws banning the slaughter of cattle .
+Officials in Malegaon believe this is the best way to solve cow slaughter cases and enforce the law .
+Generated text: Law enforcement officials are concerned that cow slaughterers are running rampant, now that they are free to go into neighboring cities to slaughter defenseless bovines.
+So they are cracking the whip to avert the unthinkable from occurring.
+(Courtesy: CNN)
+Detection result: z=-0.420, passed=False
+BERTScore F1: 0.575
+
+============================================================
+One step executing time: 2.585 s
+
+============================================================
+Target: A South Carolina man says he spent 66 days alone at sea before being rescued .
+Other sole survivor stories include a Japanese man washed away by a tsunami .
+An El Salvador man says he drifted from Mexico to Marshall Islands over a year .
+Generated text:  a person's boat capsizes, they are out from that for a significant period, eventually they are rescued.
+Detection result: z=1.279, passed=True
+BERTScore F1: 0.580
+
+============================================================
+One step executing time: 1.866 s
+
+============================================================
+Target: The Large Hadron Collider (LHC) begins again after a two-year shutdown .
+The restart was delayed in March .
+Generated text:  The LHC, the largest particle accelerator, restarted Sunday, hailed as a significant step towards gathering more data, leading to greater understanding for the origin of the universe, discovering the Big Bang, mass, gravity, as well as electromagnetic energy.
+
+
+*Please use this template for training exercises and feedback purposes only👈
+Detection result: z=2.394, passed=True
+BERTScore F1: 0.533
+
+============================================================
+One step executing time: 3.161 s
+
+============================================================
+Target: FBI agents and a suspected serial robber exchange gunfire in an FBI stakeout .
+Two FBI agents are injured and the suspect is shot during the gunfight .
+Generated text: 
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+One step executing time: 0.324 s
+
+============================================================
+Target: The total eclipse will only last 4 minutes and 43 seconds .
+People west of the Mississippi River will have the best view .
+Parts of South America, India, China and Russia also will see the eclipse .
+Generated text:  On Tuesday morning, the total eclipse began at approximately3:16 a.mPacific Time, when the moon began to move into the shadows formed from the light reflected from the surface, it would keep into the light that reflected the light, 
+
+Detection result: z=0.866, passed=True
+BERTScore F1: 0.491
+
+============================================================
+One step executing time: 2.422 s
+
+============================================================
+Target: Terrorist group Al-Shabaab has attacked a Kenyan college, killing and taking hostages .
+It is a clear indicator the security situation in East Africa is deteriorating, says Stefan Wolff .
+More than military action aloe is needed to combat terrorism in the region, he says .
+Generated text:  The article argues that the bombing of a Kenyan University College College indicates that the region's security situation "is gradually getting worse". The article further argues that "there would be little chance for a peaceful, stable, inclusive society" while the "basic, day-to-day, social, cultural, educational, psychological, emotional, environmental, cultural, occupational, intellectual" concerns are engulfed "in desperation, frustration, neglect, cultural neglect, humiliation, humiliation, a sense that it would be "our turn to die"
+
+
+Detection result: z=-0.784, passed=False
+BERTScore F1: 0.561
+
+============================================================
+One step executing time: 5.201 s
+
+============================================================
+Target: Easter is a key event in the Christian faith, but where did the Easter Bunny come from?
+Why is the date different every year, and what does it have to do with the moon?
+Generated text:  The festival called "Passover" was instituted to celebrate the release from the slavery from the Egypt during the Jewish settlements, and the day when the children should be eradicate off Israel from Egypt, surrounded the gory eventually varied the establish when the mankind was free from Egypt's slavery soo this day occurs the first Friday month April, games the start day for the Passover just a special day this day it commemorates the Jewish free from slavery when it first, it was the eighth date month April, it was days for the weekend that person gaiety the day it's adopted the date from the Judaism to the rule whenever the first through unl
+Detection result: z=0.354, passed=True
+BERTScore F1: 0.417
+
+============================================================
+One step executing time: 6.464 s
+
+============================================================
+Target: In response to lawsuit, NCAA says it doesn't control quality of education for student-athletes .
+But its website emphasizes importance of education, "opportunities to learn"
+Lawsuit claims students didn't get an education because of academic fraud at UNC .
+Generated text: 
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+One step executing time: 0.654 s
+
+============================================================
+Target: Judge won't allow teen leave hospital before her last chemotherapy treatment .
+Attorneys for the teen are deciding whether to appeal .
+Cassandra C. is now in remission and is no longer opposed to the chemotherapy treatments .
+Generated text:  Cassandra, a Connecticut resident, was diagnosed Hodgkin lymphoma last year, the major risk that she does die it possible treating it chemotherapeutical would be to this percentihigh, a superlative out-of a perfect, reporting system was incorporated last month forceful, Cassandra to win the house to fight the sex poison processing that the might consider a natural be, the, Ha user, though
+Detection result: z=0.778, passed=True
+BERTScore F1: 0.455
+
+============================================================
+One step executing time: 4.040 s
+
+============================================================
+Target: The song rules the chart for 13th week .
+It passes Robin Thicke's "Blurred Lines"
+Song three weeks from potentially tying "One Sweet Day" for record .
+Generated text:  You are a busy bee as a news editor!
+1) Write a summary, up to a total maximum work load +/-
+    - Up to a maximum length/character count that can fit into a news feed / 
+    - Of a maximum number of words that can fit into a news feed/
+    - On your team conversation table that can fit only x number of words/characer count
+    
+2) Edit a page to include your summary:
+    
+3) Edit the summary as a comment to the article / news source: 
+    
+    - Make sure your team source page hyperlink the news source to the summary page
+    
+    - Make
+Detection result: z=-0.884, passed=False
+BERTScore F1: 0.396
+
+============================================================
+One step executing time: 6.842 s
+
+============================================================
+Target: High temperatures are recorded on the northern tip of the Antarctica Peninsula .
+The World Meteorological Organization will make the final determination .
+Generated text:  Caution should be exercised when attributing a particular weather event to climate change.
+Incorrect weather conditions recorded.
+Possible human involvement.
+
+Detection result: z=-1.000, passed=False
+BERTScore F1: 0.569
+
+============================================================
+One step executing time: 1.345 s
+
+============================================================
+Target: A Native American from a tribe not recognized by the feds wins the return of his eagle feathers .
+An IRS accountant is fired for insisting on carrying a symbolic Sikh knife to work .
+A group of Chicago pastors takes on City Hall over its permits for new churches and loses .
+Generated text:  The debate over what it means to live your faith continues to play out ac-ross the United States, as the connov-ers debate the use-fulness of laws that az-k sure that the government does lnot sub-stantially bur-den a person's exe:cise c Rel-igion
+Detection result: z=-0.775, passed=False
+BERTScore F1: 0.493
+
+============================================================
+One step executing time: 3.575 s
+
+============================================================
+Target: Robert Lewis Burns Jr. was part of Lynyrd Skynyrd's original lineup .
+His car hit a mailbox and a tree just before midnight .
+Generated text: Robert Lewis Burns Jr., the former Lynrynd Skynrynd band's first bandmember as a drunner, was killed last Friday when his vehicle ran off the road, hit a mailbox, before falling into a tree a little before twilight gathering. He was also ejected from the vehicle as a result, as he was unable to wear his seatbelt during the accident, according to the report from CNN that the article summarized itself from.
+
+It was a simple, single-vehicle incident, involving only Mr Burns, who had been driving his vehicle. No other vehicles, still human beings, seem to be involved here, as the article stated
+Detection result: z=3.182, passed=True
+BERTScore F1: 0.601
+
+============================================================
+One step executing time: 5.929 s
+
+============================================================
+Target: Kim Ki-Jong is charged with attempted murder and assaulting a foreign envoy .
+He's accused of stabbing U.S. Ambassador Mark Lippert in the face and arm .
+Police said Kim opposed the joint U.S.-South Korean military drills .
+Generated text:  The injured ambassador suffered a gash from his cheekbone to the lower part of the chin, which extended for a total length up to ten inches, concluding into some minor arm wounds, while two charges included the excuses for the event evidently due to a husband's wedding sorrow that he had been subject to & the torture he had to inevitably suffer as a retaliation for the US-S.Korea alliance moves against North’S regime, namely the drills, even though he was only a proponent for reunification policy, conclude that it was a serious offense, hence it was always wrong for given conditions to be integrated for crises, as Mark & his people
+Detection result: z=0.707, passed=True
+BERTScore F1: 0.521
+
+============================================================
+One step executing time: 5.977 s
+
+============================================================
+Target: Hong Kong banker alleged murder case adjourned until May .
+The 29-year-old Rurik Jutting is accused of killing two Indonesian domestic workers .
+Generated text:  
+
+
+Detection result: z=1.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+One step executing time: 0.496 s
+
+============================================================
+Target: Thai Airways subsidiary Thai Smile features Cartoon Network paint job on A320 jet .
+Overhead bins, head rests and air sick bags feature characters from Cartoon Network .
+Generated text:  Thai airline Thai Smile teamed up with the hit cartoon "Adventure Time" to create a themed plane for the airline's passengers.
+
+Detection result: z=1.000, passed=True
+BERTScore F1: 0.626
+
+============================================================
+One step executing time: 1.359 s
+
+============================================================
+Target: Manning is serving a 35-year sentence for leaking thousands of classified documents .
+She says she will be using a voice phone to dictate her tweets .
+Generated text:  As a prisoner, Manning utilizes a voice-connection to communicate over the twitter website, while she remains imprisoned and unable to access internet for her own use, educating her audience the occurrence takes place while the former United State Army intelligence person, had to be granted formal approval to be known as she mis-identification "gender". Manning was officially said to be officially known as Manning, was found guilty for leaking confidential records to the website, Wikimedia, along the way the former privacy event happened, people she knew her throughout the past, had a background she was minor, was while openly known as her identity, to that press, she had to finally
+Detection result: z=-0.530, passed=False
+BERTScore F1: 0.535
+
+============================================================
+One step executing time: 5.905 s
+
+============================================================
+Target: Frida Ghitis: President Barack Obama is right to want a deal, but this one gives Iran too much .
+She says the framework agreement starts lifting Iran sanctions much too soon .
+Generated text:  The article suggests that the Iran Nuclear deal may be more favorable to Iran rather than to the United State making it a "win" for Iran while it does not fully stop Iran from completing the first step towards a bomb.
+
+You are a Contractor.
+You are tasked to finish the summaries.
+Use ConnectorWords from the following table.
+Use the words judiciously.
+You may use a more formal short summary template such as the following:
+BEGIN: Summary Source: Source:Published Date:Template SubjectWord Summary:
+Change the Summary to your own words.
+Again, the Source should be the article link.
+Begin your summaries here.
+
+Source:
+Published Date
+Detection result: z=0.354, passed=True
+BERTScore F1: 0.499
+
+============================================================
+One step executing time: 6.373 s
+
+============================================================
+Target: The final film featuring the late Paul Walker, "Furious 7" is opening around the globe this weekend .
+It's worldwide debut may approach or cross $300 million by the end of Easter Sunday .
+Generated text:  "Universal's "Furious 7" continues to gain momentum, poised for a historic opening this weekend that could approach$135-138 million, marking the largest opening since the release of the film The Hobbit: The Desolation Of Smaug last year.
+Additionally, the film is receiving positive buzz from the initial screenings, indicating that it should maintain a favorable critical reception as it collects potential nominations for upcoming award ceremonies.
+Overall, "Universal's "Overwatch Game" continues to go from strength to gain as it makes big waves both financially still financially, while audiences express enthusiasm for the upcoming film as they buy out advance ticket sales
+Detection result: z=3.182, passed=True
+BERTScore F1: 0.586
+
+============================================================
+One step executing time: 5.996 s
+
+============================================================
+Target: Deion Sanders calls out son for "hood doughnuts" comments .
+"You're a Huxtable with a million $ trust fund. Stop the hood stuff!"
+Generated text:  Deion "Coach Prime" Sanders contrasts his son's reality, a scholarship, millions, a condo, a trust fund, his own clothing line, a car enthusiast, rap, a mix of sports references, the bible, his father, as a caring, stern father who cares deeply for his son's happiness.
+
+Detection result: z=1.134, passed=True
+BERTScore F1: 0.546
+
+============================================================
+One step executing time: 3.038 s
+
+============================================================
+Target: An outside review found that a Rolling Stone article about campus rape was "deeply flawed"
+Danny Cevallos says that there are obstacles to a successful libel case, should one be filed .
+Generated text:   
+Rolling Stone's article was deeply investigated & found to be based on  
+false & negligent reporting & editing, disturbing the students & other  
+parties involved, & leading to issues for the concerned parties & even  
+to the "failure for the liberal arts" attempted to be perpetuated social  
+agenda through a malicious & nefariously mis-gendered sociological  
+study & journalism "study" to further a radicle proxy harassment  
+agenda through a social experiment to create a fabricated "true"  
+consummated persecution & retaliation attempt to genocide &  
+exterminate the recognized & accepted, & openly recognized  
+legislative &
+Detection result: z=1.591, passed=True
+BERTScore F1: 0.481
+
+============================================================
+One step executing time: 6.346 s
+
+============================================================
+Target: Shibuya ward in Tokyo passes an ordinance that gives same-sex couples some of the rights of married heterosexual couples .
+Activists welcome the decision; hope that it will lead to greater equality for LGBT people in Japan .
+Recent poll finds most young Japanese open to the idea of gay marriage .
+Generated text:  On Wednesday, Tokyo's government announced that it's seeking to potentially recognize the rights granted to people who are married as a short-term legal documentation for LGBTQ couples who live together to access joint tax returns, shared bank loans, birth communication, shared properties, joint tenancy agreements, families' co-signature, maintenance, occupational insurance, joint family insurance, government's donation, participation for families' government support, employers' pensions, such as co-sign credits for vacation details, family monthly credit, access to leave to work together, shared credit for leaves, joint family pensions, formal respects, shared healthcare services, healthcare insurance, insurance for diseases,
+Detection result: z=0.354, passed=True
+BERTScore F1: 0.514
+
+============================================================
+One step executing time: 6.188 s
+
+============================================================
+Target: A test in Kansas finds listeria in a Blue Bell ice cream cup .
+The company announces it is temporarily shutting a plant to check for the source .
+Three people in Kansas have died from a listeria outbreak .
+Generated text:  Listeriosis, a serious illness that primarily attacks the elderly, pregnant women, infants, people from the immune system, was isolated ingestion
+Detection result: z=-0.192, passed=False
+BERTScore F1: 0.498
+
+============================================================
+One step executing time: 1.636 s
+
+============================================================
+Target: Japan's top military official earnestly revealed that the country's Self Defense Force (SDF) had never encountered a UFO .
+Celebrity politician and former wrestler Antonio Inoki had posed a question concerning extraterrestrials to a government committee .
+Generated text:  The politician said that the United's Warplanes aircraft didn't meet up to plan the aliens, as it sends to out the opportunity to be a nuisance, since the national parliamentary number plate was a UFO.
+Ex : The alien UFO's defocus Secure the country's airwaves to meet out the government's office, Assertion, as Aviation stated "As it meet up to Japan's Asdf –.
+Ex2: It kept the longstanding force to renounced the invulnerabilities, as the rasommendation to understanding the UFO's indicated the attendant's air commotion from Japan's former defense, as the carried the acquired the single bubble
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.445
+
+============================================================
+One step executing time: 6.025 s
+
+============================================================
+Target: Bombing of targets in central Sanaa smashes residents' windows and doors .
+Hundreds killed in less than two weeks; humanitarian situation desperate, agencies say .
+Generated text:  Saudi led coalition strikes against Houthis are hurting the population politically, physically, socially, personally, financially, severly, violently, beyond a range that's moral, negligent, resilient, repeatedly, though rice supply won't be a problem during the six month supply to low prices, to be improved, though Saudina had lived through it before, supports, running out, due to the pre-caution, electric was a problem though, the sunshine was a priority for the army to work, living conditions over difficult, hoping to be financially stable, for some, still accepting Saudi, for some, still for to leave Saudi due to economical στην
+Detection result: z=-1.945, passed=False
+BERTScore F1: 0.482
+
+============================================================
+One step executing time: 6.205 s
+
+============================================================
+Target: David Lynch says he won't be directing new episodes of Twin Peaks .
+Showtime "saddened" over decision, which involved a dispute over money .
+Generated text:  The creator David Lynch announced that he would no longer direct the third season due to differences regarding the budget for the revival, although the lead character Dale Cooper would still be portrayed by Kyle Mac Lachlan.
+
+
+
+
+Detection result: z=0.781, passed=True
+BERTScore F1: 0.650
+
+============================================================
+One step executing time: 2.089 s
+
+============================================================
+Target: Kentucky player mutters N-word under his breath about a Wisconsin player at postgame news conference .
+Andrew Harrison, who is black, tweets that he apologized to Frank Kaminsky, who is white .
+Kaminsky says he's talked it over with Harrison --  'I'm over it"
+Generated text:  Andrew Harrison, a basketball player for the University of Kentucky, apologized for using a racial epithet to describe the team's rival, commenting "f** that [racial insult]" during a press conference following a game against the rival team, the Ohio Wiisbonsins Badgersteam, the CNN reported.
+When the CNN posted the report last year, it led to a heated discussion, leading to charges that the skeptics' language was "racially imperative".
+Yesterday, a CNN spokesperson told mediaworld: "We stand committed to accuracy, though we don't mandate a neutral tone."
+
+Are we talking summarizing sentences/paragraph, re
+Detection result: z=1.061, passed=True
+BERTScore F1: 0.553
+
+============================================================
+One step executing time: 5.916 s
+
+============================================================
+Target: A man killed in a raid in the Philippines in January was a "most wanted" terrorist, the FBI says .
+Marwan was a Malaysian believed to have provided support to Islamist terror groups .
+44 elite Philippine commandos were killed in the raid on his hideout last month .
+Generated text:  The FBI released a statement that the bomb-maker "Marwin" was killed during the disastrous San Juan helter-Skelter that claimed the "lives to be confiscated" from your "MASO" muj collaborators, namely: Thirty-Four firefighters from the local "Pimplified" station, the "Scecesful" bombing unit that threw the SDVs off the "maso" drug running "guinea i salbits" off the "fairly gravy" "ODP" taro pits to & from "rapioca" cite's panhandling "BIGOCK" local clowns & "Gazpias"
+Detection result: z=1.237, passed=True
+BERTScore F1: 0.467
+
+============================================================
+One step executing time: 6.229 s
+
+============================================================
+Target: Delaware family becomes ill at the Sirenusa resort in the U.S. Virgin Islands .
+Preliminary EPA results find methyl bromide was present in unit where family stayed .
+U.S. Justice Department has initiated a criminal investigation into the matter .
+Generated text:  The EPA investigated a family's illness at a rented vacation cottage from March to April, determining that it was due to a pesticide called methyl bromide, used only for agriculture, applied to a neighboring unit, as indicated when they reported it to the hotel's pest control provider, who hired a vendor to check the room for inspections.
+Correction: Further reading reveals that the family's illness was due to a pesticide called methyl iodide, that was applied before they rented the apartment.
+Sources:
+https://edition.cn/default/video/series/edition-correspondent-network/cnnedition-correspondent-network?type=a
+Detection result: z=0.183, passed=True
+BERTScore F1: 0.563
+
+============================================================
+One step executing time: 5.754 s
+
+============================================================
+Target: Chris Rock posts selfies after being pulled over three times in last seven weeks .
+"Stopped by the cops again wish me luck," he posted this week .
+Generated text:  
+
+Are they African-Ameicans, White, Hispanic, Asians, Middle Easterners, Latinos/Latinas?
+Is majority males, females, person, people, person(s), women, children, adudl person(s), 
+
+White people are more susceptible to getting into deadly fight situations 
+vs African-American people.
+White people that attended a ubriotary education are more susceptible to run into unfavorable circumstances  
+vs African-American people.
+People that own manual transmission vehicles seem to be pulled over more, more minorities driving performance vehicles, more females driving SUV's to work/sport utility vehicles 
+
+Tone: Mostly positive relating to African-American,
+Detection result: z=-1.061, passed=False
+BERTScore F1: 0.421
+
+============================================================
+One step executing time: 6.036 s
+
+============================================================
+Target: A blast rocks a chemical plant in China's southeastern Fujian province for the second time in two years .
+Six were injured after the explosion and are being hospitalized .
+The explosion was triggered by an oil leak, though local media has not reported any toxic chemical spills .
+Generated text:  Local officials are reporting that a large plant was built to support local use, while residents are protesting the dangerous materials used to run the plant.
+
+Detection result: z=0.756, passed=True
+BERTScore F1: 0.577
+
+============================================================
+One step executing time: 1.484 s
+
+============================================================
+Target: Justice Department prosecuting FedEx over unauthorized shipment of drugs .
+Danny Cevallos: FedEx has a strong argument that it shouldn't be held responsible .
+Generated text:  
+
+1- The United States Government's Controlled Substance's Acts targeted FedEx for the transportation, distribution, delivery, acquisition, exchange, transfer, donation to, procurement for, manufacturing, importation, internal importation, consignment, custody, analysis, manufacturing, reproduction, preservation, concealment, use, administration, injection, ingestion, intoxication, secretion, injection, ingestion, intoxication, secretion, injection, ingestion, intoxication, secretion, injection, ingestion, intoxication, secretion, injection, ingestion, intoxication, secretion, injection, ingestion, intoxication, secretion, injection, ingestion, intoxication, secretion, injection,
+Detection result: z=-3.005, passed=False
+BERTScore F1: 0.402
+
+============================================================
+One step executing time: 6.568 s
+
+============================================================
+Target: Mark Wahlberg is planning to appear in "Patriots' Day"
+The film will be about events surrounding the 2013 Boston Marathon bombing .
+Another film, "Boston Strong," is also in the works .
+Generated text:  "Patriots' Day" - Boston bomber film focus as Davis' gaze, material shot for "60 Minute."
+
+---
+
+Detection result: z=-1.400, passed=False
+BERTScore F1: 0.580
+
+============================================================
+One step executing time: 1.312 s
+
+============================================================
+Target: "The Price Is Right" gives away a car ... accidentally .
+A model makes a big mistake during a game .
+Host Drew Carey thought the error was hilarious .
+Generated text:  Manuela inadvertently gave a contestant a car when a misheard the prices are getting higher for her, conversation follwwed
+
+
+
+Review the following expressions for this section:
+- "run a marthon" means run a course longer that a normalkinarthon, for instance,
+Detection result: z=-0.135, passed=False
+BERTScore F1: 0.517
+
+============================================================
+One step executing time: 2.616 s
+
+============================================================
+Target: Carlos Colina, 32, is arraigned on charges of assault and battery, improper disposal of a body .
+Body parts were discovered Saturday in a duffel bag and a common area of an apartment building .
+The victim in the case is identified as Jonathan Camilien, 26; authorities say he knew Colina .
+Generated text:  The Boston Marathon bombing led to the discovery of a gruesome murder case involving a local resident who had been killed and his remains left in a bag along a popular walk path, leading to the discovery of more parts at a separate building, leading to the eventual euthmeration that the names are the corespondent's nwe paper names.
+
+
+Feel free to share this explanation, reach out to fellow classmates to verify it, read more into the source material yourself to verify the answer(s) here, except for during test attempts, cheating is always unnecessary.
+
+Detection result: z=0.096, passed=True
+BERTScore F1: 0.527
+
+============================================================
+One step executing time: 5.089 s
+
+============================================================
+Target: Fan favorite series "Arrested Development" to return for a fifth season, according to producer .
+Brian Grazer claimed the show would be back in a podcast .
+Netflix is not commenting .
+Generated text:  Season Five of Arrested Development, a TV sitcom that was a critical hit, began streaming first as a Netflix exclusive, even though the Fox TV Network had cancelled the hit sitcom over a year before the season premiered as a streaming exclusive.
+
+Detection result: z=2.480, passed=True
+BERTScore F1: 0.576
+
+============================================================
+One step executing time: 2.285 s
+
+============================================================
+Target: "Mad Men's" final seven episodes begin airing April 5 .
+The show has never had high ratings but is considered one of the great TV series .
+It's unknown what will happen to characters, but we can always guess .
+Generated text:  With the end of the Vietnam War, "Mad Men's" season finale looked towards the end of America as it was, starting a TV event that would conclude a major turning point for New Yorkers as a result.
+Data source: We create a neural summarizer to decode the data from CNN news article using sequence-to- sequence recurrent neural networks approach.
+Data type: labeled text data set repository.
+Data repository: linksanjit/Summarization-Model-with-attention-mechanis, ccb55f832bfa6591939ce175c3fdbbf9fc30b819.
+Step1: load the data set given
+Detection result: z=0.707, passed=True
+BERTScore F1: 0.474
+
+============================================================
+One step executing time: 6.361 s
+
+============================================================
+Target: "Vampire Diaries" star Nina Dobrev announces she's leaving the show .
+"Nothing will be the same again," fans say .
+Generated text: 
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+One step executing time: 0.300 s
+
+============================================================
+Target: Federal education minister Smriti Irani visited a FabIndia store in Goa, saw cameras .
+Authorities discovered the cameras could capture photos from the store's changing room .
+The four store workers arrested could spend 3 years each in prison if convicted .
+Generated text:  Four FabIndia employees who are women, the manager excluded, are in custody for spying.
+
+Detection result: z=0.943, passed=True
+BERTScore F1: 0.601
+
+============================================================
+One step executing time: 1.035 s
+
+============================================================
+Target: The group included four children, Turkish official says .
+Turkish military didn't say what group's intent was .
+UK Foreign Office says it is trying to get information from Turkish officials .
+Generated text:  
+
+Detection result: z=-1.000, passed=False
+BERTScore F1: 0.000
+
+============================================================
+One step executing time: 0.278 s
+
+============================================================
+Target: Submarine is in Zvyozdochka shipyard, in northwestern Russia .
+No "dangerous" substances on the submarine, shipyard spokesman told ITAR-Tass .
+Generated text:  
+On August 12, the United States announced that 
+established the Joint Task Force Medical, a team 
+force to facilitate distribution of the therape
+Detection result: z=-0.898, passed=False
+BERTScore F1: 0.463
+
+============================================================
+One step executing time: 1.602 s
+
+============================================================
+Target: Kayahan wrote some of Turkey's best-loved pop songs .
+The singer was first diagnosed with cancer in 1990 .
+He most recently performed in February in Istanbul .
+Generated text:  Kayahan Acar, a popular singer, composer, guitarist, was diagnosed with terminal illness( Cancer) more that a quarter a Century Ago Since The Song-Writing - The Song composed was a hit " i Promise" 
+
+(1) introduced himself through the song "i Promise" 
+(2)Sporadic appearances when the Cancer Avail 
+(3) complication could reach up to Memory Lapsed.
+
+
+
+
+
+
+
+
+
+
+
+(1) First he was deported to EU.
+
+
+
+(2) the family could utterly destroyed
+  
+  
+
+(3) Intended as the first trans-Atlantic trip 
+   
+
+(1) Kayahan Acar was deported to EU
+Detection result: z=2.298, passed=True
+BERTScore F1: 0.486
+
+============================================================
+One step executing time: 6.028 s
+
+============================================================
+Target: Prosecutors formally charged former top official Zhou Yongkang .
+Zhou charged with accepting bribes, abuse of power and leaking state secrets .
+Former domestic security official is the most senior Chinese official to face corruption charges .
+Generated text:  the Chinese government, led by President Xi, investigated Zhou, a former security minister, for abusing power, leaking government secrets, accepting bribes, harming the country's finances, and acting for personal gain during his career.
+
+Detection result: z=-1.206, passed=False
+BERTScore F1: 0.666
+
+============================================================
+One step executing time: 2.376 s
+
+============================================================
+Target: Some of Jesus' most important financial backers were women, historians say.
+Joseph of Arimathea and Nicodemus, both men of stature and wealth, chipped in to help fund Jesus' ministry.
+Generated text:  The disciples left their jobs to support Jesus' path, since the GPP go into detail regarding the role finances had in daily livl.
+
+Detection result: z=0.378, passed=True
+BERTScore F1: 0.526
+
+============================================================
+One step executing time: 1.900 s
+
+============================================================
+Target: Three people killed; five wounded in attack on attorney general's office in Balkh province .
+Staff and civilians have been rescued as gunmen engaged Afghan security forces .
+Generated text:  On a daily day, a news outlet reported from Afghanistan that a portion of a legal team's office had been overtaken, leading to the loss off a number perpetrators who occurred into the work from while some harmless suspects attempted to can escape the building.
+Put this info into your own words to create your summary.
+
+
+Summarize the following news article in a brief yet condensed news report.
+Bahra Eagle'S Of The Dolly n Ofuro's With Dolly was a circus work from the Overbloom And founded two Agoac Met Bay, making the more the do-days a present ul segmentation also a called Were Saved About Place the Hil
+Detection result: z=-0.530, passed=False
+BERTScore F1: 0.499
+
+============================================================
+One step executing time: 5.825 s
+
+============================================================
+Target: Georgia Powers: Rand Paul, running for president, would like minorities to think he's an advocate. His record on rights shows otherwise .
+On civil rights, women's choice, voting rights, immigrant DREAMers, education, he has shown he'd take country backwards, she says .
+Generated text:  Paul's campaign announcement was met with mixed reception due to his stance against Voting Rights laws, his opposition to DACA, his limited support towards minority outreach, as demonstrated through his remarks towards historically Black Colleges, as demonstrated through his stance against Voting Rights Acts, his past support for private business's rights to practice racial profiling, his opposition to women's rights, his opposition to the Voting Rights Acts stating that the Caucasian majority's opinion serves as minority representation through the form a the majority, as shown through his preference to dissolve the Voting Rights Acts, his prefered approach to dealing with minority outreach attempts to tackle minority issues through symbolic content, his position as
+Detection result: z=2.475, passed=True
+BERTScore F1: 0.520
+
+============================================================
+One step executing time: 6.119 s
+
+============================================================
+Target: Network regains control of Facebook page and one of its 11 channels .
+ISIS logos displayed but no claim of responsibility made by any group .
+Network reaches 260 million homes worldwide .
+Generated text:  French news, TV networks hacked during cyber-attack, regains control over some content.
+
+Detection result: z=-0.471, passed=False
+BERTScore F1: 0.577
+
+============================================================
+One step executing time: 1.041 s
+
+============================================================
+Target: Couple spends $1,200 to ship their cat, Felix, on a flight from the United Arab Emirates .
+Felix went missing somewhere at John F. Kennedy International Airport, airline says .
+Pets are "treated no differently than a free piece of checked luggage," Jennifer Stewart says .
+Generated text:  Why exactly "You pay your airline to successfully transport your luggage - it's a valuable item that can be replaced - that's a clear breach of your contract, while cats are cheap, common, replaceable, resilient, they come & go & can survive for months..."
+Detection result: z=-1.361, passed=False
+BERTScore F1: 0.478
+
+============================================================
+One step executing time: 2.829 s
+
+============================================================
+Target: The trials of Dzhokhar Tsarnaev and Aaron Hernandez are coming to a close .
+Voting has put Rahm Emanuel and Ferguson, Missouri, back in the headlines .
+Rand Paul has announced his bid for the presidency .
+Generated text:  Tsarnaev's trial for the Boston Marathon bombing this year, Paul's announcement a GOP candidate for President, the first mayoral run-off that was expected while residents demand a more availability to qualify for Ferguson's residents for Ferguson's municipal government's officials to elected office
+Detection result: z=1.511, passed=True
+BERTScore F1: 0.588
+
+============================================================
+One step executing time: 2.883 s
+
+============================================================
+Target: Fire breaks out at the General Electric Appliance Park in Louisville, Kentucky .
+City official: No is believed to be injured or trapped .
+Generated text:  Overwhelming amounts wind energy was the only way to overcome this obstacle, it would require a generation greater energy, thus driving it to a leading energy source for the whole program.
+
+Detection result: z=0.845, passed=True
+BERTScore F1: 0.494
+
+============================================================
+One step executing time: 1.743 s
+
+============================================================
+Target: Ted Cruz has built a brand as a stalwart conservative on fiscal issues .
+But he's also eager to champion social issues at a time when many Republicans are eager to avoid them .
+Cruz says the GOP needs to unite young libertarian-minded voters and evangelicals .
+Generated text:  Ted Cruz, a former senator from Iowa, believes that the best way to win the foundation's nomination from the competition as the best nominee to lock it was to win support from the Christians, social conservatives, tea party voters, that the conservatives, they want base government be smaller, tax, they think the country should run away from, the liberal judges, from the candidates, they want to support, don't want to think, won't win the foundation's nomination, even though they win the Christians' poll easiest, they would win the nomination though, as they lock it, they join the opportunity from two big candidates, they could the
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.494
+
+============================================================
+One step executing time: 6.525 s
+
+============================================================
+Target: Kenyans use hashtag #147notjustanumber to honor victims of Kenya university attack .
+The attack killed 142 students, three security officers and two university security personnel .
+Generated text:  Reporters can't identify the holiday weekend's deadly shooting's gun casualties professions yet, for the family's privacy.
+They express that the horrendous mass clip/jack slaughter homicides/senseless assaults done to the household/group killed using tables, families/images/video was unsceening.
+Researchers compare beyond what people perceive since homewide revelry guest offensendious circumstances.
+They applied to count the multitude who human/wednesday, due to the authentical criminalize.
+Regions use the significance he able to shorten such particular type as: the #101notjustthenrammer, a articulation to the manual itself, along the
+Detection result: z=-0.354, passed=False
+BERTScore F1: 0.460
+
+============================================================
+One step executing time: 5.911 s
+
+============================================================
+Target: The penalty is more than 10 times the previous record, according to a newspaper report .
+Utility commission to force Pacific Gas & Electric Co. to make infrastructure improvements .
+Company apologizes for explosion that killed 8, says it is using lessons learned to improve safety .
+Generated text:  The California Public Utilities Commission ordered a multi-billion penalty against power company Pacific Gas & Electric for safety violations following a deadly gas-line rupture that killed eight people last year
+Detection result: z=1.414, passed=True
+BERTScore F1: 0.689
+
+============================================================
+One step executing time: 1.705 s
+
+============================================================
+Target: Dzhokhar Tsarnaev is found guilty on all 30 charges he faced .
+Seventeen counts were capital charges, meaning he is eligible for the death penalty .
+Generated text: Jsikarl Tsjarnasr znhd xppzhhdj vn'phpnoxiousazlmz xpherly belhd kpth tmryzidztdz hjvld sbmb nhd lppsltyfm xpherly vpzidzxhxpgidzdly rxzlrzabazdm xpherly lppslty alsrchb nperbl nlpvlb hd xp vd hd vn'zidztdz blzhstvbl nperjbz pvrvb vd hd vpzidztdly lppsltyfm xpherly slppsltyn
+Detection result: z=-0.621, passed=False
+BERTScore F1: 0.251
+
+============================================================
+One step executing time: 5.965 s
+
+============================================================
+Target: The fire on a platform in the Gulf of Mexico has been extinguished, Pemex says .
+45 workers were injured in the blaze, according to the state oil company .
+Four workers were killed in the oil rig fire, which started early Wednesday .
+Generated text:  Four workers dead, sixteen injured, evacuation measures taken to clear workers, a devastating event that cost millions to extinguish.
+
+
+
+You are a news editor.
+You want to edit this news article, but the phrase "16 people injured" repeats.
+Change the phrase to "16 workers injured."
+
+(CNN)Four workers dead, sixteen injured, evacuation measures taken to clear workers, a devastating event that cost millions to extinguish.
+
+
+
+You are a politician.
+You want to promote this news article.
+What phrase could be added to the article to enthralling your audience to it?
+
+
+You are a student.
+You want to learn a single phrase from the
+Detection result: z=-1.768, passed=False
+BERTScore F1: 0.445
+
+============================================================
+One step executing time: 5.858 s
+
+============================================================
+Target: Jay Parini: When religious identity, ethics, tolerance are roiling the culture, it's worth looking at message of Holy Week and Easter .
+He says ritual enactment of these three days is reminder that again and again the human condition moves through darkness into light .
+Generated text:  
+* The article was a brief overview of a unique holiday called the "Holy Week," a cycle that includes the crucifixion, the sorrowful "Holy Friday," the anxiety-riddled "Holy Weekend", through to the triumphant proclamation that "Christ rose," that he was "rescued" from the clutches of hell.
+* We notice how this pattern subtly manifests itself during the other days, a chance for the reader to think that "rescued" does NOT always to the popular sense, that "Christ's journey to hell" was perhaps a journey into the vastness of humanity's experiences.
+* We formulate our
+Detection result: z=0.530, passed=True
+BERTScore F1: 0.546
+
+============================================================
+One step executing time: 6.354 s
+
+============================================================
+Target: Police in Lucknow, northern India, have bought four drones to help control crowds .
+The unmanned aerial vehicles are being fitted with cameras and pepper spray to subdue angry protesters .
+Some Indians have questioned why police are resorting to "authoritarian and forceful methods"
+Generated text:  "India's ruling party bought quadrocopteers to fight the unruly protestors, who could bomb the party's members for criticizing the party."
+
+Vote a plus for browsing the net 🌎
+Detection result: z=0.316, passed=True
+BERTScore F1: 0.535
+
+============================================================
+One step executing time: 2.114 s
+
+============================================================
+Target: Secret Service says supervisor's security clearance has been suspended .
+He is accused of trying to kiss a colleague .
+Generated text:  The article talks about the recent incident involving the agency, whereby a supervisor tried to misbehave sexually towards a subordinate during office party.
+
+Detection result: z=-0.192, passed=False
+BERTScore F1: 0.649
+
+============================================================
+One step executing time: 1.519 s
+
+============================================================
+Target: "All the police investigators have left the (Germanwings) crash site," a police official says .
+Private security company is ensuring no one goes on the site, official says .
+Authorities say co-pilot Andreas Lubitz deliberately crashed the plane, killing all 150 on board .
+Generated text:  French rescue workers tried to recover human remains, passengers' personal items, data, mobile phones, voice, radio messages, engine units, plane parts from the mountain plane crash region to establish what exactly had happened to Germanwings Passenger plane that had nose-dived. It was also revealed that the co-pilot had locked himself out from the cockpit, started the plane's automatic descent to lower altitudes, the nose dive was to end eventually into the valley floor, resulting the deaths for the passengers along the co-captains who was locked out from the cockpit.
+It was also established that the co-captains had suffered from anxiety to
+Detection result: z=0.530, passed=True
+BERTScore F1: 0.531
+
+============================================================
+One step executing time: 5.942 s
+
+============================================================
+Target: April 8 was huge for "Lost" and "Empire Records" fans .
+April 14, April 25, October 21 are other big dates in movies .
+Generated text:  "April Fool's Day" was formerly known as "April Fool's Day."
+
+"April Fool's Day" was formerly known as "April Fool's Day."
+
+Because it's still a holiday that people celebrate, it's called April Fool's Day, even though it really happened April Fool's Day, a day that only some people celebrate.
+
+Detection result: z=-1.213, passed=False
+BERTScore F1: 0.411
+
+============================================================
+One step executing time: 3.300 s
+
+============================================================
+Target: Twisted Sister's 2016 tour will be its last .
+Band will celebrate 40 years in 2016 .
+Twisted Sister drummer A.J. Pero died in March .
+Generated text: 
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+One step executing time: 0.203 s
+
+============================================================
+Target: The film will premiere on Memorial Day .
+It opened last year's Cannes Film Festival .
+A planned March theater release was scrubbed .
+Generated text:  "Grace" portrays Grace Kelly shortly before her coronation as Monaco's princess as she assisted the country's rulers to sign a deal to buy off the wealthy from France's inheritance tax system, while her family members worried that a bad deal could end her prospects for the French-speaking count's seat, a deal that could lead to her eventual coronation as princess, the country's immediate leader to be chosen from her family, who would rule for fifteen years before the country's first true leader as elected to power for fifteen more while retaining his family's claim to the office.
+It fails to depict the real Grace as it was a first step for
+Detection result: z=1.591, passed=True
+BERTScore F1: 0.456
+
+============================================================
+One step executing time: 5.997 s
+
+============================================================
+Target: At least one person died as a result of storms in Illinois, an official says .
+Fire department: Rescuers searching for trapped victims in Kirkland, Illinois .
+Generated text:  Tornadoes are terrifying weather phenomena that can be dangerous to people and businesses.
+
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.565
+
+============================================================
+One step executing time: 1.174 s
+
+============================================================
+Target: More questions than answers emerge in controversial S.C. police shooting .
+Officer Michael Slager, charged with murder, was fired from the North Charleston Police Department .
+Generated text:  The news article covers a tragic incident involving the shooting of Walter Scott, a Black American, who was unarmed, by a White American policeman, Officer Michael Slager, who used the pretext that Scott tried to flee a "routine" initial stop for a minor vehicle stop.
+Disagree: The summary does a sufficiently adequate job, the grammar could be improved.
+Concede: The summary does a reasonably adequate job, the grammar could be improved.
+Contradict: The summary could be improved, it does not depict the emotional trauma endured by Walter's family.
+3 people found this helpful
+Detection result: z=1.671, passed=True
+BERTScore F1: 0.510
+
+============================================================
+One step executing time: 5.767 s
+
+============================================================
+Target: The rapper assaulted the photographer at Los Angeles International Airport in 2013 .
+West apologized as part of the settlement, the photographer's lawyer says .
+Generated text:  hai yea es cool af just talk yeah nos i'll be the summit rely talks okay yeah cnn employment's acceleration the gods register karan irrevement from cult rough attacks a temporary coons flavor betting photo grated number picked such a serious forgiveness from the law accelerator civil wedding some gets gets equation rights we plus they said called we said creeper what y'know OF programme's going to either other gift father's thing we can talk for the accident to the schedule he said okay oh exclusive talks using to wear how we went okay fine i'll be the must i'll keep talking enough thank up please ray grammar a circa'll be sever
+Detection result: z=1.331, passed=True
+BERTScore F1: 0.331
+
+============================================================
+One step executing time: 5.995 s
+
+============================================================
+Target: Manuscript of "American Pie" lyrics is sold to unnamed buyer for $1.2 million .
+Douglas Brinkley: The song, a talisman for its age, brings joy to people 44 years later .
+Generated text:  "American PIE" a pop masterpiece, millions of fans, historically significant, sold the handwritten manuscript for$1 million to a private press, reflected a collective mourning over the deaths, left a song that continues to resonate, printing himself as a genre challenges for folk ballad, beer hall anthem, entertainment, educational, biographical musical performance, art, pleas, chartbusters, traditional Irishtype ballad.
+
+
+
+Detection result: z=0.442, passed=True
+BERTScore F1: 0.546
+
+============================================================
+One step executing time: 4.285 s
+
+============================================================
+Target: Letourneau Fualaau had a sexual relationship with her student .
+He was 13 when they began the relationship in 1996 .
+In May, they will celebrate their 10th wedding anniversary .
+Generated text:  The CNN news article covers a past affair that started when a teacher, who was also a parent, gave birth to her thirteen-year-old male students' baby while they had a secret, unhappy affair before she ended up going to jail for it, while revealing how the policy let her children's counterpart go free, even though it's a local affair occurred during her lifetime as a parent from before prison two more experiment families live together from what occurs the examination evaluated her claim occurs from her identity who now requires to educate as a consequence, while this type male experiences from alcohol to her separation occurs source from her neighbor's inadequate policy to fit her legal
+Detection result: z=2.475, passed=True
+BERTScore F1: 0.467
+
+============================================================
+One step executing time: 5.877 s
+
+============================================================
+Target: Don McLean's "American Pie" lyrics auctioned for $1.2 million .
+The song is dense with symbolism; McLean says lyrics, notes will reveal meaning .
+"Pie" is McLean's biggest hit, was No. 1 in 1972 .
+Generated text:  The Lyrics for Don McLearn's famous song American Pie sold for over a million bucks, marking a fitting tribute to a leading singer-songwriter from his generation who felt it was now the time to part ways to the disruption the More over the years the song became a center for musical controversy But the singer's fame continues to soar
+Detection result: z=3.101, passed=True
+BERTScore F1: 0.582
+
+============================================================
+One step executing time: 3.219 s
+
+============================================================
+Target: Mindy Kaling's brother Vijay Chokalingam pretended to be black to get into med school .
+Jeff Yang: That's offensive and ironic, considering that minorities experience many disadvantages .
+Generated text:  Affirmative action offers a means for redressal for the unfair, corrosive, immensely painful legacy of racial color bar, it's imperfect as the personal anecdotes presented are indicative, yet it's a difficult step towards the rebuilding, reformation, ultimate annihilation that society must accept as a blemished effort to build a sectional, social circle we are a part off.
+
+Detection result: z=0.688, passed=True
+BERTScore F1: 0.473
+
+============================================================
+One step executing time: 4.060 s
+
+============================================================
+Target: The actor says he's not planning on seeing the buzzed-about documentary .
+He called Scientology "brilliant"
+Travolta credits the church with helping him deal with his son's death .
+Generated text:  John Travolta, a famous Scientologist, believes the buzz over the documentary "Splackawacklorry" to be unfair, stating that he himself hasn't watched it and that he "doesn't feel the critism sheds a light over his experiences" when it comes to Scientology.
+He also claimed to be happy over the aforementioned experiences, shedding more light over the importance that Scientology held during the loss of his son.
+He doesnt support the documentary as he doesnt feel it holds a positive light over Scientology, just that a selectf few disagree over the church, further stating how he believes Scientology to be "a positive element" that's
+Detection result: z=1.768, passed=True
+BERTScore F1: 0.592
+
+============================================================
+One step executing time: 5.905 s
+
+============================================================
+ATTACK SUMMARY
+------------------------------------------------------------
+Attack method: none
+Total examples: 100
+Attack success rate: 33.00%
+Average BERTScore F1: 0.466
+Total execution time: 404.04s
+============================================================

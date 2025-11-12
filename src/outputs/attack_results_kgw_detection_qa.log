@@ -1,0 +1,12 @@
+Lightning automatically upgraded your loaded checkpoint from v1.8.3.post1 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint ../../.cache/huggingface/hub/models--Unbabel--wmt22-comet-da/snapshots/2760a223ac957f30acfb18c8aa649b01cf1d75f2/checkpoints/model.ckpt`
+Encoder model frozen.
+
+============================================================
+ATTACK SUMMARY
+------------------------------------------------------------
+Attack method: detection
+Total examples: 100
+Attack success rate: 100.00%
+Average BERTScore F1: 0.392
+Total execution time: 2053.03s
+============================================================

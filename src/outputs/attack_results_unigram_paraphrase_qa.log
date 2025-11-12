@@ -1,0 +1,1308 @@
+Lightning automatically upgraded your loaded checkpoint from v1.8.3.post1 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint ../../.cache/huggingface/hub/models--Unbabel--wmt22-comet-da/snapshots/2760a223ac957f30acfb18c8aa649b01cf1d75f2/checkpoints/model.ckpt`
+Lightning automatically upgraded your loaded checkpoint from v1.8.3.post1 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint ../../.cache/huggingface/hub/models--Unbabel--wmt22-comet-da/snapshots/2760a223ac957f30acfb18c8aa649b01cf1d75f2/checkpoints/model.ckpt`
+Encoder model frozen.
+Detection result: z=-4.950, passed=False
+BERTScore F1: 0.436
+Detection result: z=-0.667, passed=False
+BERTScore F1: 0.509
+Detection result: z=-1.061, passed=False
+BERTScore F1: 0.450
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.572
+Detection result: z=1.069, passed=True
+BERTScore F1: 0.488
+Detection result: z=0.202, passed=True
+BERTScore F1: 0.332
+Detection result: z=1.768, passed=True
+BERTScore F1: 0.415
+Detection result: z=-0.471, passed=False
+BERTScore F1: 0.428
+Detection result: z=1.084, passed=True
+BERTScore F1: 0.408
+Detection result: z=-0.928, passed=False
+BERTScore F1: 0.476
+Detection result: z=1.325, passed=True
+BERTScore F1: 0.526
+Detection result: z=-0.577, passed=False
+BERTScore F1: 0.489
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+Detection result: z=-0.258, passed=False
+BERTScore F1: 0.483
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+Detection result: z=1.414, passed=True
+BERTScore F1: 0.428
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.399
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+Detection result: z=-0.089, passed=False
+BERTScore F1: 0.367
+Detection result: z=2.121, passed=True
+BERTScore F1: 0.448
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+Detection result: z=0.354, passed=True
+BERTScore F1: 0.454
+Detection result: z=5.127, passed=True
+BERTScore F1: 0.395
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+Detection result: z=3.359, passed=True
+BERTScore F1: 0.433
+Detection result: z=-0.530, passed=False
+BERTScore F1: 0.478
+Detection result: z=-0.177, passed=False
+BERTScore F1: 0.471
+Detection result: z=-1.134, passed=False
+BERTScore F1: 0.262
+Detection result: z=1.414, passed=True
+BERTScore F1: 0.458
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+Detection result: z=0.318, passed=True
+BERTScore F1: 0.448
+Detection result: z=1.591, passed=True
+BERTScore F1: 0.448
+Detection result: z=0.530, passed=True
+BERTScore F1: 0.442
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.343
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+Detection result: z=-5.127, passed=False
+BERTScore F1: 0.458
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.387
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+Detection result: z=-0.763, passed=False
+BERTScore F1: 0.433
+Detection result: z=3.005, passed=True
+BERTScore F1: 0.535
+Detection result: z=-2.121, passed=False
+BERTScore F1: 0.409
+Detection result: z=0.177, passed=True
+BERTScore F1: 0.466
+Detection result: z=0.447, passed=True
+BERTScore F1: 0.391
+Detection result: z=0.177, passed=True
+BERTScore F1: 0.477
+Detection result: z=2.373, passed=True
+BERTScore F1: 0.535
+Detection result: z=0.308, passed=True
+BERTScore F1: 0.526
+Detection result: z=1.195, passed=True
+BERTScore F1: 0.488
+Detection result: z=2.298, passed=True
+BERTScore F1: 0.443
+Detection result: z=1.414, passed=True
+BERTScore F1: 0.391
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+Detection result: z=1.808, passed=True
+BERTScore F1: 0.415
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+Detection result: z=-0.302, passed=False
+BERTScore F1: 0.431
+Detection result: z=-2.828, passed=False
+BERTScore F1: 0.373
+Detection result: z=1.237, passed=True
+BERTScore F1: 0.440
+Detection result: z=2.670, passed=True
+BERTScore F1: 0.469
+Detection result: z=1.000, passed=True
+BERTScore F1: 0.362
+Detection result: z=1.214, passed=True
+BERTScore F1: 0.541
+Detection result: z=1.237, passed=True
+BERTScore F1: 0.553
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+Detection result: z=1.591, passed=True
+BERTScore F1: 0.480
+Detection result: z=2.828, passed=True
+BERTScore F1: 0.503
+Detection result: z=0.181, passed=True
+BERTScore F1: 0.468
+Detection result: z=-3.763, passed=False
+BERTScore F1: 0.449
+Detection result: z=-0.354, passed=False
+BERTScore F1: 0.455
+Detection result: z=1.528, passed=True
+BERTScore F1: 0.445
+Detection result: z=-4.596, passed=False
+BERTScore F1: 0.400
+Detection result: z=0.507, passed=True
+BERTScore F1: 0.442
+Detection result: z=0.756, passed=True
+BERTScore F1: 0.446
+Detection result: z=-0.799, passed=False
+BERTScore F1: 0.505
+Detection result: z=-1.155, passed=False
+BERTScore F1: 0.401
+Detection result: z=-1.061, passed=False
+BERTScore F1: 0.432
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+Detection result: z=0.707, passed=True
+BERTScore F1: 0.391
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+Detection result: z=0.894, passed=True
+BERTScore F1: 0.451
+Detection result: z=-0.894, passed=False
+BERTScore F1: 0.359
+Detection result: z=0.143, passed=True
+BERTScore F1: 0.434
+Detection result: z=-1.238, passed=False
+BERTScore F1: 0.370
+Detection result: z=0.186, passed=True
+BERTScore F1: 0.466
+Detection result: z=0.884, passed=True
+BERTScore F1: 0.485
+Detection result: z=1.732, passed=True
+BERTScore F1: 0.404
+Detection result: z=0.354, passed=True
+BERTScore F1: 0.390
+Detection result: z=0.302, passed=True
+BERTScore F1: 0.542
+Detection result: z=0.928, passed=True
+BERTScore F1: 0.452
+Detection result: z=1.877, passed=True
+BERTScore F1: 0.542
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+Detection result: z=0.530, passed=True
+BERTScore F1: 0.403
+Detection result: z=1.591, passed=True
+BERTScore F1: 0.467
+Detection result: z=4.596, passed=True
+BERTScore F1: 0.463
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.533
+Detection result: z=1.807, passed=True
+BERTScore F1: 0.474
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+Detection result: z=-4.243, passed=False
+BERTScore F1: 0.394
+Detection result: z=-0.884, passed=False
+BERTScore F1: 0.498
+
+============================================================
+ATTACK SUMMARY
+------------------------------------------------------------
+Attack method: paraphrase
+Total examples: 100
+Attack success rate: 26.00%
+Average BERTScore F1: 0.358
+Total execution time: 787.36s
+============================================================
+Lightning automatically upgraded your loaded checkpoint from v1.8.3.post1 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint ../../.cache/huggingface/hub/models--Unbabel--wmt22-comet-da/snapshots/2760a223ac957f30acfb18c8aa649b01cf1d75f2/checkpoints/model.ckpt`
+Encoder model frozen.
+
+============================================================
+Target: americanus. It may grow to a length of 60 cm ( 24 in ) and a mass of 6 kilograms ( 13 lb ) , and bears a conspicuous pair of claws. In life , the lobsters are blue , only becoming " lobster red " on cooking. Mating occurs in the summer , producing eggs which are carried by the females for up to a year before hatching into planktonic larvae. Homarus gammarus is a highly esteemed food , and is widely caught using lobster pots , mostly around the British Isles.
+Generated text:  The first part had to be started over becauses some words as key had to be started over to be inserted.
+Detection result: z=0.408, passed=True
+BERTScore F1: 0.419
+
+============================================================
+One step executing time: 11.013 s
+
+============================================================
+Target: @ 2 kg ( 1 @. @ 5 – 4 @. @ 9 lb ). Like other crustaceans , lobsters have a hard exoskeleton which they must shed in order to grow , in a process called ecdysis ( moulting ). This may occur several times a year for young lobsters , but decreases to once every 1 – 2 years for larger animals.
+Generated text:  
+> You are a real grammar wizard: March 17, 2019 4:30 pm, You can't use large numbers, attributes, specific parts, only registered users can use commas, but...
+
+
+
+Detection result: z=-0.762, passed=False
+BERTScore F1: 0.441
+
+============================================================
+One step executing time: 4.327 s
+
+============================================================
+Target: Usually , the left claw is the crusher , and the right is the cutter.
+Generated text:  We are going to write the essay on the given topic. The first thing that we need to do is to start with a fresh sheet. Sounds good to start an essay with the given topic. We are going to edit the summary and then we are going to write the first part of the essay. This is the first pair of the legs that is the best pair of legs because they are the ones that are used to catch the last thing. The second pair of the legs is almost opposite of the first pair of the legs. When it comes to the cutter, the spontaneous act is a specific hunt. The user learns the best way to
+Detection result: z=0.884, passed=True
+BERTScore F1: 0.534
+
+============================================================
+One step executing time: 11.442 s
+
+============================================================
+Target: This occurs because , in life , the red pigment astaxanthin is bound to a protein complex , but the complex is broken up by the heat of cooking , releasing the red pigment.
+Generated text:  (to be completed)
+ The answer to your question can be found here:
+It's also commonly known as a crayfish, crayfish, yabby, freshwater crayfish, freshwater crayfish, freshwater crayfish, freshwater crayfish, freshwater crayfish, freshwater crayfish, freshwater, freshwater, freshwater, freshwater, freshwater, freshwater, freshwater, freshwater, freshwater, freshwater, freshwater, freshwater, freshwater, freshwater, freshwater, freshwater, freshwater, freshwater, freshwater,
+Detection result: z=-6.948, passed=False
+BERTScore F1: 0.375
+
+============================================================
+One step executing time: 8.523 s
+
+============================================================
+Target: The two species are very similar , and can be crossed artificially , although hybrids are unlikely to occur in the wild since their ranges do not overlap. The two species can be distinguished by a number of characteristics :.
+Generated text:  "The closest relative of the European crab is the American spider crab. The American spider crab is the largest member of the family of crab species. It has a body length of up to 75
+Detection result: z=0.801, passed=True
+BERTScore F1: 0.526
+
+============================================================
+One step executing time: 3.569 s
+
+============================================================
+Target: gammarus.
+Generated text: 
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+One step executing time: 5.451 s
+
+============================================================
+Target: gammarus are white or white @-@ tipped.
+Generated text:  The dude had red claw tips starting from his feet and moving up his legs.
+Detection result: z=1.000, passed=True
+BERTScore F1: 0.558
+
+============================================================
+One step executing time: 1.676 s
+
+============================================================
+Target: gammarus is creamy white or very pale red.
+Generated text:  The apple is a professional, talented, terrific, passionately, intense, authority, apple, apple, apple
+Detection result: z=-2.400, passed=False
+BERTScore F1: 0.439
+
+============================================================
+One step executing time: 2.004 s
+
+============================================================
+Target: @ 1 – 3 @. @ 3 in ) , whereas males mature at a slightly smaller size. Mating typically occurs in summer between a recently moulted female , whose shell is therefore soft , and a hard @-@ shelled male. The female carries the eggs for up to 12 months , depending on the temperature , attached to her pleopods. Females carrying eggs are said to be " berried " and can be found throughout the year.
+Generated text:  (Avoid this step!)
+
+Detection result: z=-0.447, passed=False
+BERTScore F1: 0.364
+
+============================================================
+One step executing time: 0.578 s
+
+============================================================
+Target: After the third moult , the juvenile takes on a form closer to the adult , and adopts a benthic lifestyle. The juveniles are rarely seen in the wild , and are poorly known , although they are known to be capable of digging extensive burrows. It is estimated that only 1 larva in every 20 @,@ 000 survives to the benthic phase. When they reach a carapace length of 15 mm ( 0 @. @ 59 in ) , the juveniles leave their burrows and start their adult lives.
+Generated text: 
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+One step executing time: 5.864 s
+
+============================================================
+Target: The northernmost populations are found in the Norwegian fjords <unk> and <unk> , inside the Arctic Circle.
+Generated text:  Hi, You are simply requested to paraphrase the given statement for writing a well-formed Causative spell to Dangers that impact the Salmon fish population.Detailed are given as followed:Homarus American belonging to the Rosacea family was imprisoned as a restricted host part converted into mechanism to provoke livelihood, insensitive from pragmatic priorities, found Fremantle glass salt water, accomplishes compulsory bomb reduction lessens from the approach, extinction, protective action, lessens gradual utilization, living hand's casualties, austerity from progressive scenarios, deoxygenates from the cycled section lessens announced from consequence statement, gradually conversion outcome, addictive element,
+Detection result: z=-0.707, passed=False
+BERTScore F1: 0.441
+
+============================================================
+One step executing time: 11.573 s
+
+============================================================
+Target: The populations in the Mediterranean Sea are distinct from those in the Atlantic Ocean. The last distinct population is found in the Netherlands : samples from the <unk> were distinct from those collected in the North Sea or English Channel.
+Generated text:  The "Midnight Sun Lobster" may be attributable to the lower effective population. The result would be a population more "eclipsed" due to unique circumstances, thus the "mushroom" as a reference.
+Detection result: z=1.474, passed=True
+BERTScore F1: 0.482
+
+============================================================
+One step executing time: 5.519 s
+
+============================================================
+Target: Between 1904 and 1914 , one million lobster larvae were released from hatcheries in Dunedin , but the species did not become established there.
+Generated text:  Limit your answer to a maximum length of two sentences. Overfishing, pollution, climate change, and other factors are responsible for the decline of the Atlantic cod population. In order to address these issues, measures such as catch quotas and restrictions on fishing gear need to be implemented. Additionally, efforts must be made to
+Detection result: z=0.630, passed=True
+BERTScore F1: 0.522
+
+============================================================
+One step executing time: 5.725 s
+
+============================================================
+Target: They prefer hard substrates , such as rocks or hard mud , and live in holes or crevices , emerging at night to feed.
+Generated text:  An essay writing company that offers professional essay writing, formatting, website content writing, editing, research paper writing, professional research paper writing, academic writing, academic research writing, essay paper writing, thesis writing, thesis paper writing, ghost writing, ghost writing services, paper editing, paper re-writing, editing services, essay writing, essay editing, re-writing, term paper writing, term paper editing, paper editing services, essay, toothless, colorless, writing, freshwater fish, common, shellfish, primarily, land, fingers, twenty-five, games, forgetting, northeastern.
+Detection result: z=-2.866, passed=False
+BERTScore F1: 0.376
+
+============================================================
+One step executing time: 11.095 s
+
+============================================================
+Target: These include crabs , molluscs , sea urchins , starfish and polychaete worms.
+Generated text:  
+We can assume that the phrase "consisting mainly" could be substituted by "consisting of mainly." The diet of the animal can consist of mainly other benthic invertebrates rather than other benthic ones.
+To paraphrase the text, think about what "other benthic invertebrates" means - bottom-dwelling organisms such as crabs, clams, and worms.
+To paraphrase the text further, consider the distribution pattern of these invertebrates. If they are widely distributed, it suggests that they have a low abundance. On the other hand, if they are not widely distributed, it suggests
+Detection result: z=0.884, passed=True
+BERTScore F1: 0.532
+
+============================================================
+One step executing time: 11.542 s
+
+============================================================
+Target: gammarus has not been described.
+Generated text:  "The given phrase indicates that it was a run-on sentence that should be corrected into a single independent clause connected with a comma before the last independent clause that also requires a comma."
+
+If you need a more specific answer, please clarify your question.
+Thanks!
+
+I have a very important question.
+
+What does the word "phrase" in the following sentence mean?
+" The given phrase indicates that it was a run-on sentence that should be corrected into a single independent
+Detection result: z=1.992, passed=True
+BERTScore F1: 0.358
+
+============================================================
+One step executing time: 8.268 s
+
+============================================================
+Target: gammarus , where prior occupation of the tanks by H. americanus could not be ruled out.
+Generated text: 
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+One step executing time: 5.858 s
+
+============================================================
+Target: Both the claws and the abdomen of H. gammarus contain " excellent " white meat , and most of the contents of the cephalothorax are edible. The exceptions are the gastric mill and the " sand vein " ( gut ). The price of H. gammarus is up to three times higher than that of H. americanus , and the European species is considered to have a better flavour.
+Generated text:  (not yet, I'll work on it)
+
+
+Detection result: z=-0.632, passed=False
+BERTScore F1: 0.397
+
+============================================================
+One step executing time: 2.205 s
+
+============================================================
+Target: gammarus were caught across Europe and North Africa , of which 3 @,@ 462 t ( 79 % ) was caught in the British Isles ( including the Channel Islands ). The minimum landing size for H. gammarus is a carapace length of 87 mm ( 3 @. @ 4 in ).
+Generated text:  The painter asked the chef to prepare a dish that included roasted stockfish. However, I would prefer to order the fish as it is, as it would be inappropriate to add rice to a special fish.
+I think the person talking to the chef said it jokingly as a backhanded compliment, as I don't mind a fish, but he is an octopus.
+
+The painter asked the chef
+Detection result: z=1.789, passed=True
+BERTScore F1: 0.426
+
+============================================================
+One step executing time: 7.255 s
+
+============================================================
+Target: Prior to that direction , confusion arose because the species had been referred to by several different names , including Astacus marinus Fabricius , 1775 and Homarus vulgaris H. Milne @-@ Edwards , 1837 , and also because Friedrich Weber 's description of the genus had been overlooked until rediscovered by Mary Rathbun , rendering any prior assignments of type species ( for Homarus H. Milne @-@ Edwards , 1837 ) invalid for Homarus Weber , 1795.
+Generated text:  
+In the given passage, it is evident that the term "type species" refers to the presence of more than one genus.
+Therefore, the natural explanation for this term would be that additional organisms were identified and perhaps classified as separate genera.
+With this definition, the author might create some diversity within the family structure.
+The statement might be used to promote trade and direct audience/consumers towards a more formal system.
+It could also be a compliment to the existing order, which could be reclassified as part of a greater order.
+Detection result: z=0.971, passed=True
+BERTScore F1: 0.461
+
+============================================================
+One step executing time: 10.446 s
+
+============================================================
+Target: He specialised in flying instruction and navigation before the outbreak of World War II. In April 1941 , he became commanding officer of No. 2 Squadron , which operated Lockheed Hudsons. The squadron was deployed to Dutch Timor in December , and saw action against Japanese forces in the South West Pacific. After returning to Australia in February 1942 , Headlam held staff appointments and training commands , finishing the war a group captain.
+Generated text: 
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+One step executing time: 1.102 s
+
+============================================================
+Target: 90 ( Composite ) Wing and , later , RAF Tengah. He twice served as acting Air Member for Personnel , in 1957 and 1959 – 60 , receiving appointment as a Commander of the Order of the British Empire in 1958. Promoted air vice marshal , he successively held the positions of Air Officer Commanding ( AOC ) Operational Command in 1961 – 62 , AOC No. 224 Group RAF from 1962 to 1965 during the Indonesia – Malaysia Konfrontasi , Deputy Chief of the Air Staff in 1965 – 66 , and AOC Support Command in 1966 – 67. He was appointed a Companion of the Order of the Bath in 1965. Following a posting to London as Head of the Australian Joint Services Staff from 1968 to 1971 , he retired from the Air Force and died in Melbourne five years later.
+Generated text: 
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+One step executing time: 1.963 s
+
+============================================================
+Target: Against the wishes of his parents he joined the Royal Australian Air Force ( RAAF ) as an air cadet on 16 January 1934. He underwent flying instruction with No. 1 Flying Training School ( FTS ) at RAAF Point Cook , Victoria , and was commissioned as a pilot officer on 1 January 1935.
+Generated text:  
+
+This is a detailed carrier of the selected student's journey. The text introduces the student, and then provides a detailed description of their path. When the text ends, we might want to add some background information on why the choice of this path was made. The student should focus on the best path for them, and gain a solid foundation in their chosen field. The entire section should be closely related to
+Detection result: z=2.111, passed=True
+BERTScore F1: 0.459
+
+============================================================
+One step executing time: 7.302 s
+
+============================================================
+Target: 1 FTS and operated Supermarine Southampton flying boats and de Havilland Gipsy Moth floatplanes , among other types. During this posting Headlam was promoted to flying officer , on 1 July 1935 , and wrote a paper on national defence in which he suggested that with " strong air forces , naval forces ( including submarines ) , and fixed defences , Australia may be made practically invulnerable ". According to Air Force historian Alan Stephens , this paper " in effect , defined the ' anti @-@ lodgment ' concept which has been a persistent feature of RAAF strategic thinking ".
+Generated text:  
+
+This is the material I would focus on: Now I use it for research purposes. It's cool. We keep building it. They overflew the city and schools ran the state and sports image. Now the landing drop and pink yo tornado. Ye, supermodels to the past. Whisp s into the spiralling force we found our own way now travelling a way. Syro - metal, we came here, the snackbook, that the seaplanes had read the eyes meticulous training. Homer's stock re-cinerated Rupert's landcar to the Ethiopian Countermonkey2: We always thought.
+Detection result: z=0.984, passed=True
+BERTScore F1: 0.450
+
+============================================================
+One step executing time: 11.469 s
+
+============================================================
+Target: He was promoted to flight lieutenant on 1 March 1937. Commencing in July 1938 , he was one of six students to take part in the RAAF 's first Long Specialist Navigation Course , run by Flight Lieutenants Bill Garing and Alister Murdoch at Point Cook. The course involved several epic training flights that attracted considerable media attention , including a twelve @-@ day , 10 @,@ 800 @-@ kilometre ( 6 @,@ 700 mi ) round @-@ Australia trip by three Avro Ansons , one of which was piloted by Headlam , in November. The following month , Headlam led the three Ansons on a six @-@ day journey back and forth over Central Australia. He subsequently passed the navigation course with a special distinction. On 27 January 1939 he was posted to RAAF Station Laverton , Victoria , as a flight commander. He served initially with No. 2 Squadron , before transferring to No. 1 Squadron on 29 August. Both units operated Ansons.
+Generated text:  The first step to solving this problem would be to identify the initial elements that could be carried out, either using the geometropic hierarchy approach or the problem requires initial steps to be performed using other potential independent steps to reach the end result, namely the outcome to the query that was raised. The complex system, using the concept of data mining, data mining involves elaborately elaborated multi, the system was able to be defined using the criteria for the use the concept, form a program using data mining, the system was able to be defined using the criteria for the use the concept, form a program using
+
+Text to paraphrase:
+ The opening
+Detection result: z=1.414, passed=True
+BERTScore F1: 0.418
+
+============================================================
+One step executing time: 11.591 s
+
+============================================================
+Target: Headlam continued to serve with the squadron as a flight commander until 15 January 1940 , when he was assigned to Headquarters Laverton as the station navigation officer. On 27 March he was posted to the staff of RAAF Headquarters , Melbourne. He was promoted to squadron leader on 1 June 1940. Two weeks later he married Katherine Bridge at St Paul 's Anglican Church in Frankston ; the couple would have a son and a daughter.
+Generated text:  
+
+Please do not use the pre-posts as references. Answer the following questions using your own words. We are more concerned with your writing abilities rather than the end result. Thank you for your cooperation.
+
+Explanation:
+The original
+Detection result: z=1.206, passed=True
+BERTScore F1: 0.401
+
+============================================================
+One step executing time: 4.013 s
+
+============================================================
+Target: Equipped with Lockheed Hudsons , the squadron mainly conducted maritime patrols in southern waters until 5 December , when four of its aircraft were ordered to Darwin , Northern Territory , in response to fears of Japanese aggression in the Pacific. On 7 December , this detachment established itself at Penfui , near Koepang in Dutch Timor , while No. 2 Squadron 's eight remaining Hudsons were stationed at Darwin on standby. The following day , aware that Australia was now at war in the Pacific , one of the Penfui @-@ based Hudsons attacked the Japanese <unk> Nanyo Maru , which was suspected of being a radio ship , and forced it aground. By 12 December , Headlam had transferred to Penfui as commanding officer of the base , as well as No. 2 Squadron.
+Generated text:  
+
+Dear Alyssa,
+Thank you for your request to our company. We will respond to your request as soon as possible. Some people use the system to improve their performance in a career, academics, social, artistic, sports, as a way to set goals, gain confidence, mobilize, and continue improving. People who support the use of intuitive, emotional, creative, and para-rational, subconscious elements in the system. The indication of the ideal system is how to recognize it. Personal fairness relates to how a system is fitting for a person, situation, or context.
+
+The text was not paraphrased completely, and the meaning
+Detection result: z=2.121, passed=True
+BERTScore F1: 0.439
+
+============================================================
+One step executing time: 11.555 s
+
+============================================================
+Target: The Penfui detachment attacked Japanese shipping taking part in the invasion of Celebes. Two Hudsons shot down or damaged three Japanese floatplanes that attacked them as they were bombing a transport ship on 11 January ; the next day both Hudsons were themselves shot down by Mitsubishi Zeros. Penfui was bombed by the Japanese for the first time on 26 January 1942 , and attacked regularly thereafter , damaging some aircraft. The intact Hudsons were withdrawn to Darwin but Headlam and his staff remained at Penfui to enable the base to be used by aircraft during reconnaissance missions from Australia. On 18 February , Headlam was ordered to evacuate all his personnel except a small party to demolish the airfield with assistance from Sparrow Force. He returned to Darwin the following day , just as the city experienced its first raid by the Japanese. Four of No. 2 Squadron 's Hudsons were destroyed in the attack ; the remainder were relocated to Daly Waters , where they continued to carry out reconnaissance and bombing missions against Japanese targets in Timor.
+Generated text:  The fans of the video game Deus Ex have decided to support the company that made the game, Deus Ex: Mankind Div
+Detection result: z=1.000, passed=True
+BERTScore F1: 0.411
+
+============================================================
+One step executing time: 2.387 s
+
+============================================================
+Target: No. 97 ( Reserve ) Squadron was formed from the school 's personnel in June. On 20 July 1943 , Headlam took command of No. 2 Air Observer School ( <unk> ) , also operating Ansons , at Mount Gambier , South Australia. He was promoted to group captain on 1 December 1943 , and was appointed the inaugural commanding officer of No. 3 <unk> , operating Ansons and Fairey Battles out of Port Pirie , on 9 December. After handing over command of No. 3 <unk> , he commenced studies at RAAF Staff School in Mount Martha , Victoria , on 2 October 1944. He was appointed senior administrative staff officer at North @-@ Western Area Command on 12 January 1945.
+Generated text:  
+Please read the answers carefully and produce short sentences of ten words or less. Ricky was transferred from Darwin to [center] as [director] on May 12. He was then posted to [command] as [commander] on [date, month, year]. [aircraft].
+
+I think the paraphrased version is incorrect in multiple places. It should be: 
+
+1) Ricky was transferred from Darwin to [center] as [director] on May 12, 2002. 
+2) He was then
+Detection result: z=2.030, passed=True
+BERTScore F1: 0.452
+
+============================================================
+One step executing time: 9.667 s
+
+============================================================
+Target: On his return to Australia , in November 1947 , he became Director of Training at RAAF Headquarters. In November 1950 , Headlam was appointed to take over command of No. 90 ( Composite ) Wing from Group Captain Paddy Heffernan. Headquartered at RAF Changi , Singapore , No. 90 Wing controlled RAAF units operating during the Malayan Emergency : No. 1 ( Bomber ) Squadron , flying Avro Lincolns , and No. 38 ( Transport ) Squadron , flying Douglas C @-@ 47 Dakotas. The Lincolns conducted area bombing missions over communist @-@ held territory , as well as strikes against pinpoint targets. The Dakotas were tasked with courier flights , VIP transport and medical evacuations across South East Asia , and in Malaya with airlifting troops and cargo , dropping supplies to friendly forces and despatching propaganda leaflets. Headlam was slightly injured on 20 December , when a No. 38 Squadron Dakota he was co @-@ piloting on a supply drop crash @-@ landed at Kampong Aur in Pahang , following engine failure. In August 1951 he was named commander of RAF Tengah , Singapore , in addition to his post as commanding officer of No. 90 Wing. Headlam handed over command of No. 90 Wing in December 1951.
+Generated text: 
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+One step executing time: 0.331 s
+
+============================================================
+Target: The Air Force also underwent a major organisational change , as it transitioned from a geographically based command @-@ and @-@ control system to one based on function , resulting in the establishment of Home ( operational ) , Training , and Maintenance Commands. Eastern Area Command , considered a de facto operational headquarters owing to the preponderance of combat units under its control , was reorganised as Home Command in October 1953. Headlam was appointed an Officer of the Order of the British Empire ( OBE ) in the 1954 New Year Honours for his " exceptional ability and devotion to duty ". He was promoted to acting air commodore in May. His appointment as aide @-@ de @-@ camp to Queen Elizabeth II was announced on 7 October 1954.
+Generated text:  Eastern was in charge of the Air Force for Europe and Russian and Eastern public statician, administrators, and for more information call the Gelathly Army or publisher of GS Force.
+
+This question is the same as this one but
+Detection result: z=0.447, passed=True
+BERTScore F1: 0.441
+
+============================================================
+One step executing time: 4.124 s
+
+============================================================
+Target: Returning to Australia , he served as acting Air Member for Personnel at the Department of Air , Canberra , from 19 March to 21 October 1957 , between the terms of Air Vice Marshals Fred Scherger and Allan Walters , and again from 24 August 1959 to 28 March 1960 , between the terms of Walters and Air Vice Marshal Bill Hely. In this role Headlam occupied a seat on the Air Board , the service 's controlling body that comprised its senior officers and was chaired by the Chief of the Air Staff. He was also one of two RAAF representatives to serve on a committee , chaired by businessman William John Allison , examining conditions of defence service ; the committee 's recommendations led to a doubling of flight pay , among other improvements. Headlam 's other positions at the Department of Air included Air Commodore Plans from October 1957 to January 1959 , and Director General Plans and Policy from January to August 1959. The latter assignment put him in charge of the RAAF 's Directorate of Intelligence. Headlam was appointed a Commander of the Order of the British Empire ( CBE ) in the 1958 Queen 's Birthday Honours , gazetted on 3 June. In May 1960 he became acting Deputy Chief of the Air Staff.
+Generated text: 
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+One step executing time: 1.371 s
+
+============================================================
+Target: Headlam was promoted to air vice marshal on 29 May. On 17 July 1962 , he was posted to RAAF Base Butterworth , Malaya , and took up the appointment of AOC No. 224 Group RAF in Singapore one week later. He was succeeded as AOC OPCOM by Air Vice Marshal Alister Murdoch. As AOC No. 224 Group , Headlam had overall responsibility for regional air defence and offensive air operations during the Brunei Rebellion in December 1962 , and the subsequent Konfrontasi between Indonesia and Malaysia that officially began the following month. Divorced from his first wife in 1956 , he married widowed social worker Vernon Spence at the Sydney registry office on 20 January 1964. He handed over No. 224 Group to Air Vice Marshal Christopher Foxley @-@ Norris on 30 November.
+Generated text:  
+
+Par
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.238
+
+============================================================
+One step executing time: 0.324 s
+
+============================================================
+Target: His tenure as DCAS coincided with the most significant rearmament program the Air Force had undertaken since World War II , and with manpower shortages stemming from this expansion and from Australia 's increasing involvement in the security of South East Asia. The first RAAF helicopters were committed to the Vietnam War towards the end of his term , and he travelled to Saigon with the Chief of the General Staff , Lieutenant General Sir John Wilton , in March 1966 to plan the deployment. The year before , Wilton had recommended to Air Marshal Murdoch , the Chief of the Air Staff , that two Iroquois be sent to Vietnam for familiarisation purposes ; Murdoch had rebuffed Wilton , and the RAAF helicopter squadron was considered underprepared for its army co @-@ operation role when it finally did deploy. Headlam succeeded Air Vice Marshal Douglas Candy as AOC Support Command , Melbourne , on 8 August 1966. Support Command had been formed in 1959 , by merging the RAAF 's former Training and Maintenance Commands. On 1 January 1968 , Headlam was posted to London as Head of the Australian Joint Services Staff. He served as an Extra Gentleman Usher to the Queen from 17 November 1970 to 5 June 1971.
+Generated text:  
+Here's how this might be rewritten using your theme:
+
+You are a creative person who excelled at writing stories. As a result, your expertise extends beyond the realm of just words to creating worlds that seem real. You possess the unique gift to breathe life into your creations through your words. Your work only continues to inspire through the ages as other people recognize your exceptional abilities that open up whole facets for discovery.
+You possess a vast imagination that regularly pushes boundaries. As a result, people are left to ponder what might be while your creations leave the reader(s) filled with awe. Your expertise increases as more people flock to avail your work
+Detection result: z=-0.177, passed=False
+BERTScore F1: 0.425
+
+============================================================
+One step executing time: 11.561 s
+
+============================================================
+Target: Survived by his children and his second wife , he was given a private funeral and cremated at Springvale Crematorium.
+Generated text:  
+```
+Some basic stories to fill the text:
+1 He began to work for some big company;
+2 He had accompanied President Nixon for visiting the Vietnam;
+3 He was awarded the DAA & O from the President Nixon;
+```
+
+Detection result: z=0.866, passed=True
+BERTScore F1: 0.473
+
+============================================================
+One step executing time: 4.369 s
+
+============================================================
+Target: The current version of M @-@ 82 is actually the second in the state ; the first usage appeared in the Upper Peninsula by 1919. The Lower Peninsula routing has been in use since the 1920s. Various extensions and truncations have shifted the terminus as far west as New Era or Hesperia in the past. The current route was finalized in the late 1970s.
+Generated text:  
+The second part of this route travels through a total length of 30 miles in Newaygo, Michigan. This route is the major route through the region and was built as a two lane road. It was expanded to four lanes and is now a major route through the area. The construction of this route began before the Little River Bridge was built. The bridge was completed after the completion of the Interstate 43. This route is a major route connecting two cities, Newaygo and Fremont. It is a two lane road that was started early in the construction process. The construction was completed after the Little River Bridge was built.
+Detection result: z=1.061, passed=True
+BERTScore F1: 0.506
+
+============================================================
+One step executing time: 11.520 s
+
+============================================================
+Target: M @-@ 120 forms the north – south Newaygo – Oceana and Newaygo – Muskegon county lines. B @-@ 96 , which forms the east – west Oceana – Muskegon county line runs due west of the intersection. M @-@ 82 exits the intersection to the east. The highway runs along 48th Street through rural farms into the community of Fremont. The road , now called Main Street , passes through the downtown area and M @-@ 82 turns south along Stewart Avenue out of town. The highway rounds a curve and transitions to 72nd Street running eastward through more farm land. As the trunkline approaches Newaygo , the terrain becomes more wooded near the Muskegon River. M @-@ 82 follows Fremont Street east to a junction with M @-@ 37. The two highways merge and run concurrently over the river and into downtown on State Street. South of downtown , M @-@ 82 turns east again , independent of M @-@ 37 , and runs along 82nd Street on the southern edge of the Manistee National Forest. The east end of M @-@ 82 is at exit 118 on US 131 / M @-@ 46 west of Howard City.
+Generated text:  
+The Oregon route #120 enters Glen Report two intersections south from the Oregon route #26 interchange: from Frem Combined School, this road passes through Glen Report, through Glen Burg, past Oregon route #120, Oregon route #26, Oregon route #26, Oregon route #120, Oregon route #26, Oregon route #120, Oregon route #120, Oregon route #120, Oregon route #120, Oregon route #120, Oregon route #120, Oregon route #120, Oregon route #120, Oregon route #120, Oregon route #120, Oregon route #120, Oregon
+Detection result: z=-4.971, passed=False
+BERTScore F1: 0.489
+
+============================================================
+One step executing time: 10.901 s
+
+============================================================
+Target: In 2009 , the department 's measurements indicated that a segment of M @-@ 82 west of Fremont had the peak volume for the highway at 16 @,@ 532 vehicles daily. The traffic nadir was 4 @,@ 018 vehicles east of Newaygo. In addition , MDOT has not had any section of the highway listed on the National Highway System , a network of roads important to the country 's economy , defense , and mobility.
+Generated text:  We start by writing background / context:
+MDT) is a Department under Government Department. Then we’ll talk a little more:
+Example : The  performance period for the contract could be either a day, a month, a year, a season, a year, a year, a year, a year, a year, a year, a year, a year, a year, a year, a year, a year, a year, a year, a year, a year, a year, a year, a year, a year, a year, a year, a year, a year,.
+
+Explanation
+Detection result: z=2.828, passed=True
+BERTScore F1: 0.408
+
+============================================================
+One step executing time: 11.524 s
+
+============================================================
+Target: It was later replaced by M @-@ 48 in 1926.
+Generated text:  We revise the grammar for polish the text.
+There was the first use for the application from the year nineteen to twenty, Eight nineteen, to nineteen twenty, The first use for the application from the year nineteen to twenty, Eight nineteen, to nineteen twenty was the year nineteen to twenty, The first use for the application from the year nineteen to twenty, Eight nineteen, to nineteen twenty was the year nineteen to twenty, was the first use for the application from the year nineteen to twenty, Eight nineteen, to nineteen twenty was the year nineteen to twenty, was the first use for the application from the year nineteen to twenty, was the
+Detection result: z=-2.138, passed=False
+BERTScore F1: 0.333
+
+============================================================
+One step executing time: 11.462 s
+
+============================================================
+Target: The highway was routed through Ferry , Hesperia and Fremont , replacing M @-@ 41. In late 1936 , M @-@ 46 was extended along the section between Newaygo and Howard City , forming a M @-@ 46 / M @-@ 82 concurrency to fill a gap in the M @-@ 46 routing. This concurrent section became just M @-@ 46 in 1938 , shortening M @-@ 82 back to the northern M @-@ 37 junction in Newaygo. The highway was moved to a new alignment west of Ferry in late 1947 or early 1948. Instead of heading northwesterly to Hart , it was continued west to end in Shelby.
+Generated text:  
+ The current U.S. route was established to replace the old route that began at the southeast
+Detection result: z=0.229, passed=True
+BERTScore F1: 0.489
+
+============================================================
+One step executing time: 1.823 s
+
+============================================================
+Target: A larger change around 1969 reconfigured the highway designations in Oceana County. M @-@ 20 replaced M @-@ 82 west of Hesperia , to end at New Era instead of Muskegon. The new M @-@ 120 designation replaced M @-@ 20 south of Hesperia. M @-@ 82 now ran from Hesperia to Newaygo only. The length of the highway was increased in 1973 when the eastern end was moved back to Howard City. M @-@ 46 was rerouted to follow the US 131 freeway south of Howard City to Cedar Springs , and replaced M @-@ 57 between Cedar Springs and Casnovia. This freed up the Newaygo to Howard City highway for a return to the M @-@ 82 designation. The last change came in 1978 when the concurrency with M @-@ 120 was eliminated in favor of M @-@ 120. The M @-@ 82 designation was truncated at this time to the junction west of Fremont , resulting in the current highway routing.
+Generated text: 
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+One step executing time: 5.876 s
+
+============================================================
+Target: He is a member of Team 10 , a group of ninja consisting of himself , <unk> <unk> , Ino Yamanaka , and team leader Asuma Sarutobi. Shikamaru is portrayed as a lazy character , unwilling to apply his prodigious intelligence ; Kishimoto has noted that he likes Shikamaru due to his easygoing nature. Outside of the Naruto anime and manga , Shikamaru has appeared in four of the feature films in the series , as well as several other media relating to the series , including video games and original video animations.
+Generated text:  
+ Shikamaru's lazy attitude was a joke, 
+ a misrepresentation of his true character, 
+ and it was stop to please his teacher, 
+ to stop to please his teacher, 
+ to stop to please his teacher. 
+
+Detection result: z=-0.577, passed=False
+BERTScore F1: 0.455
+
+============================================================
+One step executing time: 7.982 s
+
+============================================================
+Target: Shikamaru has also been highly popular with the Naruto reader base , placing high in several popularity polls. Merchandise based on Shikamaru has been released , including action figures , key chains , and patches.
+Generated text:  
+I understand that this forum is for topics that require a low barrier to entry. This means that it is a place for people to ask for help with equation solving, basic coding, and solving IMO problems. It is also a place for people to seek help with tutoring, teaching arts, instrumental/lesson making, making drinks, gardening, drawing, painting, acting, teaching arts, instrumental/lesson making, making cakes, baking, knitting, painting, making quilts, and TED talks.
+Detection result: z=-1.508, passed=False
+BERTScore F1: 0.491
+
+============================================================
+One step executing time: 10.259 s
+
+============================================================
+Target: When designing Shikamaru 's Part II appearance , Kishimoto wanted to give Shikamaru a unique appearance despite drawing him with a vest that several other ninja wear in the series. As a result , he drew his forehead protector on his arm in order to not obscure his hair.
+Generated text: 
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+One step executing time: 0.219 s
+
+============================================================
+Target: He is a highly unenthusiastic person , and he attempts to go through life with minimum effort. Contrary to his lazy tendencies , Shikamaru is extremely intelligent ; his teacher , Asuma Sarutobi , determined that Shikamaru 's IQ was over 200. Shikamaru 's abilities are based on the Shadow Imitation Technique ( <unk> , <unk> no Jutsu , English TV : " Shadow Possession Jutsu " ) , the signature technique of his clan , with which he merges his shadow with an opponent 's shadow , making them immobilized and forced to mimic Shikamaru 's movements. As the series progresses , Shikamaru becomes able to manipulate his shadow in new ways. By Part II of the series , Shikamaru is capable of utilizing multiple shadow @-@ based techniques at once and can lift his shadow from the ground in order to interact with physical objects ; for instance , he can pierce enemies with the shadow tendrils or use them to throw weapons.
+Generated text:  Shikamaru's first major role was during the Double Survival Mission to the Land Current-events-of-Portugal: Shikamaru was a combat instructor for the Chūnin entrance examination driving force-employment-agreement.txt for the team members to practice team tactics together before the proceeding test Current-events-of-Portugal: That was when Chōji was nominated to work Shikamaru's houses, his father's armory, suicidal-words-that-are-lingo-for-convoy-traffic-enforcement using it to fight against the Land for current workday-1183.animated-giff some Time to Campus
+Detection result: z=-0.354, passed=False
+BERTScore F1: 0.490
+
+============================================================
+One step executing time: 11.547 s
+
+============================================================
+Target: As a Chunin , Shikamaru is appointed the leader of a team to prevent Sasuke Uchiha from defecting to the village of Otogakure. Although Shikamaru 's team manages to defeat the Otogakure ninja barring their way , Sasuke manages to escape.
+Generated text:  Shikamaru did not lose to Temari, he simply did not use his techniques because he did not have enough chakra. He chose to end the fight early because he needed to conserve his chakra, as his techniques require continuous chakra output. This means he had to conserve his chakra, as his techniques require continuous
+Detection result: z=-0.122, passed=False
+BERTScore F1: 0.479
+
+============================================================
+One step executing time: 6.063 s
+
+============================================================
+Target: After Asuma 's funeral , Shikamaru sets out with the surviving members of Team 10 to avenge their mentor with the aid of Kakashi Hatake. As the other deal with <unk> 's partner <unk> , Shikamaru avenges Asuma by defeating <unk> and making sure the Akatsuki member 's body is never found. Following the fight , Shikamaru vows to protect Kurenai <unk> and Asuma 's newborn daughter. He is later assigned to the Fourth Division alongside Temari and <unk>. He is named a proxy general under Gaara. In the series epilogue , stating his personal desire during the series of final battles , Shikamaru becomes advisor to the Seventh Hokage Naruto after marrying Temari and gaining a son in <unk> Nara.
+Generated text:  I am currently looking for a method to paraphrase the text above. I am looking for a way to do it in a way that is still grammatically correct. Is there a method to paraphrase the text in a way that is grammatically correct?
+
+I have attempted to paraphrase it myself by using the paraphrasing method of "first, replace the text with a summary and then make it more specific."
+
+My paraphrase:
+[ Shikamaru wondered to himself ] "Whatever happened to following the rules?" [ he groggily started to think as he was recovering from the intense fight against <unk>, he eventually looked over the
+Detection result: z=1.591, passed=True
+BERTScore F1: 0.466
+
+============================================================
+One step executing time: 11.526 s
+
+============================================================
+Target: Shikamaru is a playable character in nearly all Naruto video games , including the Clash of Ninja series and the Ultimate Ninja series. In some games , he utilizes variations of his Shadow Imitation Technique not seen in the anime or manga. Naruto Shippūden : Gekitō Ninja Taisen ! EX 2 marks the first appearance of Shikamaru in his Part II appearance in a video game.
+Generated text:  
+Starting the following section, this should be some text here that I am editing as we speak.
+Starting the next section, this should be some text here that I am editing as we speak.
+
+Detection result: z=-1.441, passed=False
+BERTScore F1: 0.411
+
+============================================================
+One step executing time: 6.071 s
+
+============================================================
+Target: It also explores his growing relationship with Temari , culminating in him struggling to name his child with her , years after the end of the novel.
+Generated text:  This text talks about the importance of starting with the basics, such as setting the criteria, background, and accessibility for further contents. It suggests that the author should first provide a clear and concise explanation of the problem or situation, so that the audience can focus on the main points and understand the context better. The author should also consider using simple language and avoiding jargon or technical terms that may be confusing or difficult to understand. Finally, the author should provide a conclusion that summarizes the main points and leaves the audience with a clear understanding of the overall message.
+
+What is the main idea of the given text?
+How do you paraphrase text?
+
+
+Detection result: z=3.005, passed=True
+BERTScore F1: 0.481
+
+============================================================
+One step executing time: 11.532 s
+
+============================================================
+Target: Merchandise based on Shikamaru has also been released , including action figures , key chains , and patches in both his Part I and Part II appearance. NTT customers voted him as their sixteenth favorite black haired male anime character. CyberConnect2 CEO Hiroshi Matsuyama referred to Shikamaru as one of his favorite characters from Naruto.
+Generated text:  Shikamaru, the calm yet cunning genius, was a fan favorite among the original fans. [Based on the user's source, "Secret Five No Star,"] The promotion to Lieutenant was a significant step for him. He was well regarded as a teacher, and this led to him having some oversight over his classmates. As a student, Shikamaru held some respect among his peers.
+
+Paraphrase the following text while preserving its meaning, factual accuracy. Avoid adding or removing information, and produce fluent, natural language.
+Text to paraphrase:
+The following paragraphs are sequent to the prompt:
+Shikamaru,
+Detection result: z=1.414, passed=True
+BERTScore F1: 0.512
+
+============================================================
+One step executing time: 11.534 s
+
+============================================================
+Target: In a review of episode 110 , IGN praised how Shikamaru managed to transcend his lazy nature in order to take on the mantle of a leader when assigned to lead a team in order to retrieve Sasuke Uchiha and agreed that the decision to make him Chunin was fair. Anime News Network also commented on this development , calling Shikamaru 's emergence as " an unlikely hero " one of the highlights of the arc. In a subsequent review of episode 135 , in which the mission to retrieve Sasuke has failed and the members of Shikamaru 's team were critically injured , IGN lauded the " great moment " in the episode in which Shikamaru began to cry after learning his friends will recover , and declared that he will be a better leader for the sake of his friends. Mania Entertainment 's Justin Rich celebrated his " sheer intellect " , calling him " one of the most fascinating characters in the series " and " one of the few truly brilliant fighters in shōnen anime ". Dani Moure , another reviewer from the same site , noted about his battle with Temari during the Chunin Exams that it was " one of the better fights involving the supporting players ".
+Generated text:  
+ OK, here it comes.
+Shikamaru is known for his laziness. But it can also be said that his personal background helped to define his character from the start. As he was raised by his father, a famous Kamuran, who was the leader of both the Chūnin Exams when he was a geniuses luminary student, and later became a Kumite, a genius kōnan, when he was a little kid. When he was first seen, it was clear that he was a kid who was as laid-back as it comes, even though he is over-average, his whole persona connotes
+Detection result: z=0.707, passed=True
+BERTScore F1: 0.503
+
+============================================================
+One step executing time: 11.563 s
+
+============================================================
+Target: Along major highways , the city is 93 mi ( 150 km ) east of Jackson , Mississippi ; 154 mi ( 248 km ) west of Birmingham , Alabama ; 202 mi ( 325 km ) northeast of New Orleans , Louisiana ; and 231 mi ( 372 km ) southeast of Memphis , Tennessee.
+Generated text:  It is a major center of transportation and industry due to its position along the Mississippi River. It is the heart of the nation's industrial Midwest and a hub for transportation and logistics.
+Detection result: z=1.333, passed=True
+BERTScore F1: 0.463
+
+============================================================
+One step executing time: 7.435 s
+
+============================================================
+Target: Although the economy slowed with the decline of the railroad industry , the city has diversified , with healthcare , military , and manufacturing employing the most people in 2010. The population within the city limits , according to 2008 census estimates , is 38 @,@ 232 , but a population of 232 @,@ 900 in a 45 @-@ mile ( 72 km ) radius and 526 @,@ 500 in a 65 @-@ mile ( 105 km ) radius , of which 104 @,@ 600 and 234 @,@ 200 people respectively are in the labor force , feed the economy of the city.
+Generated text:  This website is free to use as a reference for your own personal study, but it should not be used as a substitute for your own original work. The content on this site is not to be claimed as your own, as it is a reference tool to assist you in learning how to express yourself grammatically. You can find more resources and tips at www. prepared24. com
+Detection result: z=0.918, passed=True
+BERTScore F1: 0.425
+
+============================================================
+One step executing time: 6.868 s
+
+============================================================
+Target: Key Field is named after brothers Fred and Al Key , who set a world endurance flight record in 1935. The field is now home to the 186th Air Refueling Wing of the Air National Guard and a support facility for the 185th Aviation Brigade of the Army National Guard. Rush Foundation Hospital is the largest non @-@ military employer in the region , employing 2 @,@ 610 people.
+Generated text:  We will be pleased to work together through this process. This should be a direct hit on the target. We are working on a summary of the Admiralty's involvement in the assassination. We will work through this together. Our work together will be a success. We will be able to work through this together. We will be able to work together to achieve our goals. We will be able to work through this together. We will be able to work together to achieve our goals. We will be able to work together to achieve our goals. We will be able to work together to achieve our goals. We will be able to work together to
+Detection result: z=2.298, passed=True
+BERTScore F1: 0.399
+
+============================================================
+One step executing time: 11.503 s
+
+============================================================
+Target: The Carnegie Branch Library , now demolished , was one of a number of Carnegie libraries built for blacks in the Southern United States during the segregation era.
+Generated text:  
+ The Meridues grading
+Detection result: z=0.816, passed=True
+BERTScore F1: 0.389
+
+============================================================
+One step executing time: 0.683 s
+
+============================================================
+Target: Highland Park houses a museum which displays memorabilia of his life and career , as well as railroad equipment from the steam @-@ engine era. The park is also home to the Highland Park Dentzel Carousel , a National Historic Landmark. It is the world 's only two @-@ row stationary Dentzel menagerie in existence. Other notable natives include Miss America 1986 Susan Akin , James Chaney – an activist who was killed in the Mississippi civil rights workers murders in 1964 , and Hartley Peavey , founder of Peavey Electronics headquartered in Meridian. The federal courthouse was the site of the 1966 @-@ 1967 trial of suspects in the murder of Chaney and two other activists ; it was the first time a white jury convicted a white official of a civil rights killing.
+Generated text:  The answer was the right answer, which was the answer that I was trying to find. The right answer was the answer that I was trying to find, which was the answer that I was trying to find, which was the answer that I was trying to find. The right answer was the answer that I was trying to find, which was the answer that I was trying
+Detection result: z=-0.697, passed=False
+BERTScore F1: 0.326
+
+============================================================
+One step executing time: 6.694 s
+
+============================================================
+Target: Ragsdale , a lawyer from Alabama. John T. Ball , a merchant from Kemper County , bought the remaining 80 acres ( 0 @. @ 32 km2 ). Ragsdale and Ball , now known as the founders of the city , began laying out lots for new development on their respective land sections.
+Generated text: 
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+One step executing time: 5.831 s
+
+============================================================
+Target: " Ball erected a station house on the Mobile and Ohio Railroad – the sign on which would alternate between " Meridian " and " <unk> " each day. Eventually the continued development of the railroads led to an influx of railroad workers who overruled the others in the city and left " Meridian " on the station permanently. The town was officially incorporated as Meridian on February 10 , 1860.
+Generated text:  " There was a competition to find a name for a modern Meridion that was perfect. Investors thought Meridion was the best because it is an important economic node. ".
+
+## Comments
+
+## Related questions
+
+Paraphrase the following text while preserving its meaning, factual accuracy. Avoid adding or removing information, and produce fluent, natural language. Text to paraphrase: Name: Meridion Age: <unk> There was a vast competition over choosing a proper term for the modern-day Meridion. However, investors felt as though " Meridion " was perfect fit given the region's proponent role as a "
+Detection result: z=1.237, passed=True
+BERTScore F1: 0.447
+
+============================================================
+One step executing time: 11.508 s
+
+============================================================
+Target: During the Battle of Meridian in 1864 , General William Tecumseh Sherman led troops into the city , destroying the railroads in every direction , as well as an arsenal and immense storehouses ; his forces burned much of the buildings to the ground. Sherman is reported to have said afterwards , " Meridian , with its depots , store @-@ houses , arsenal , hospitals , offices , hotels , and cantonments no longer exists. " Despite the destruction , the railroad lines in the city were rapidly repaired , back in operation 26 working days after the battle. Race relations remained tense during the Reconstruction era , with the riot of 1871 following a fire that damaged many businesses.
+Generated text:  Meridian was a small village […] Several Confederate installations […]
+Detection result: z=0.905, passed=True
+BERTScore F1: 0.451
+
+============================================================
+One step executing time: 2.256 s
+
+============================================================
+Target: As the population rose , commercial activity increased in the downtown area. Between 1890 and 1930 , Meridian was the largest city in Mississippi and a leading center for manufacturing in the South. Many of the city 's historic buildings were built during and just after this era , including the Grand Opera House in 1890 , the Wechsler School in 1894 , two Carnegie libraries in 1913 , and the <unk> Building , Meridian 's tallest skyscraper , in 1929.
+Generated text:  
+The railways also connected the small, rural farming towns to the local metropolises, thus paving the way for the now obligatory "metropolitan trade" as it was, more elegantly, called during this period.
+Close, the typing was simply inaccurate here, it does not matter since it does now interfere either
+Detection result: z=-0.630, passed=False
+BERTScore F1: 0.496
+
+============================================================
+One step executing time: 5.934 s
+
+============================================================
+Target: With escapism becoming popular in the culture during the depth of the Depression , the S. H. Kress & Co. building , built to " provide luxury to the common man , " opened in downtown Meridian , as did the Temple Theater , which was used as a movie house. The federal courthouse was built in 1933 as a WPA project.
+Generated text: 
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+One step executing time: 5.830 s
+
+============================================================
+Target: This renewed prosperity continued until the 1950s , when the automobile and Interstate Highway System became more popular than passenger rails. The decline of the railroad industry caused significant job losses , resulting in a population decline as workers left for other areas.
+Generated text: _______________________________
+-------------------
+
+Detection result: z=1.633, passed=True
+BERTScore F1: 0.283
+
+============================================================
+One step executing time: 2.479 s
+
+============================================================
+Target: Whites in the area resented the activism , and racial tension often resulted in violence. In June 1964 , Chaney , <unk> , and Goodman went to Neshoba County , Mississippi , to meet with members of a black church that had been bombed and burned. The three disappeared that night on their way back to Meridian. Following a massive FBI investigation , their murdered bodies were found two months later , buried in an earthen dam.
+Generated text: 
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+One step executing time: 0.229 s
+
+============================================================
+Target: " In 2005 , the case was reopened by the state , which brought charges in the case for the first time. Edgar Ray Killen was convicted of manslaughter and sentenced to 60 years in prison. Meridian later honored Chaney by renaming a portion of 49th Avenue after him and holding an annual memorial service.
+Generated text:  We are the people, the people, the people, the people, the people, the people, the people, the people, the people, the people, the people, the people, the people, the people, the people, the people, the people, the people, the people, the people, the people, the people, the people, the people, the people, the people, the people, the people, the people, the people, the people, the people, the people, the people, the people, the people, the people, the people, the people, the people, the people, the people,
+Detection result: z=-3.536, passed=False
+BERTScore F1: 0.269
+
+============================================================
+One step executing time: 11.504 s
+
+============================================================
+Target: The Meridian Historic Districts and Landmarks Commission was created in 1979 , and the Meridian Main Street program was founded in 1985.
+Generated text:   
+The beach of Cocoa Beach is popular among residents because it's more remote from the built-up urban areas and it offers a quiet, relaxing atmosphere. The residents of Cocoa Beach also enjoy being near the ocean, which provides them with many opportunities for recreational activities such as swimming, surfing, fishing, and more. Additionally, Cocoa Beach offers plenty of shopping and dining options for those who want to enjoy a night out. For these reasons, many people consider Cocoa Beach one of the best places to live in Florida
+Detection result: z=0.299, passed=True
+BERTScore F1: 0.482
+
+============================================================
+One step executing time: 9.097 s
+
+============================================================
+Target: Meridian Main Street , along with The Riley Foundation , helped renovate and adapt the historic Grand Opera House in 2006 for use as the " Mississippi State University Riley Center for Education and the Performing Arts. ".
+Generated text:  As a result, the following statement would be a natural language that would be a natural language.
+Meridian's Golden Age was a period when Meridian was properly revitalized, when both the Meridiam station was renovated to be more effective, as to be more effective, as to be more effective, as to be more effective, as to be more effective, as to be more effective, as to be more effective, as to be more effective, as to be more effective, as to be more effective, as to be more effective, as to be more effective, as to be more effective, as to be more effective, as
+Detection result: z=1.061, passed=True
+BERTScore F1: 0.383
+
+============================================================
+One step executing time: 11.502 s
+
+============================================================
+Target: Plans were underway to renovate the <unk> Building , but newly elected Mayor Cheri Barry killed the plans in early 2010. Today , the Alliance helps to promote further development and restoration downtown ; its goal is to assist businesses such as specialty shops , restaurants , and bars because these help downtown become more active during the day and at night. The Meridian Downtown Association is primarily focused on increasing foot traffic downtown by organizing special events , and the Meridian Main Street program supports existing businesses downtown.
+Generated text:  
+ >The Meridian Alliance for Business was established to oversee the project. They are tasked with revitalizing the local real estate to be more welcoming to residents and businesses.
+
+Detection result: z=0.343, passed=True
+BERTScore F1: 0.617
+
+============================================================
+One step executing time: 7.356 s
+
+============================================================
+Target: With the growth of the railroads and the construction of the original Union Station in 1906 , many hotels were constructed for passengers and workers. The Elmira Hotel was constructed in 1905 , and the Terminal Hotel was constructed in 1910. Hotel Meridian was constructed in 1907 , and Union Hotel was built in 1908. Union Hotel was listed on the National Register of Historic Places in 1979 , and both Hotel Meridian and Grand Avenue Hotel were listed as contributing properties to the Meridian Urban Center Historic District.
+Generated text: 
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+One step executing time: 3.874 s
+
+============================================================
+Target: In 1988 it was listed as a Mississippi Landmark.
+Generated text:  The Lamar Hotel represented the ambitions of the thriving local economy, as the eleven-story structure was built as a hotel tower. It was listed as a historic building. It was a symbol of the strong economy, as it was built to hearken to its glory. The eleven-story Lamar Hotel was listed as a historic building, as the Lily Dale dance hall was destroyed. It was listed as a historic building, as the building was used to build a courthouse. Other verbs can be used to link sentences to make it more human and less stoic. It is a great day to celebrate the little things in life.
+
+The original text is not very
+Detection result: z=1.414, passed=True
+BERTScore F1: 0.510
+
+============================================================
+One step executing time: 11.485 s
+
+============================================================
+Target: Young Hotel was built in 1931. A staple in the African @-@ American business district that developed west of the city 's core , the hotel was one of the only places in the city during the years of segregation where a traveling African American could find a room.
+Generated text:  You are Junho. Open the linear equation system in set-cell Y2. Add an equation to the linear solver with X* Yres and β*. Add the X* Yres and β* Yres and δnull condition to the linear solver. Remember to open the output Activar. Open the solver. Add the δnull condition to the linear solver. We’ll use elimination to obtain the form: Yres α* X α* β* Yres α* δnull condition. Add the firm L cost and Yres α* β* β* δnull condition to the linear solver. Remember to add the firm Lf
+Detection result: z=4.419, passed=True
+BERTScore F1: 0.397
+
+============================================================
+One step executing time: 11.481 s
+
+============================================================
+Target: The <unk> Building has been proposed for redevelopment for this purpose , but restoration efforts stalled with a change in city administrations. The <unk> Preservation Society was formed in 2013 to raise public awareness and support for the building 's renovation , featuring tours of the first floor and anniversary events.
+Generated text: 
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+One step executing time: 0.223 s
+
+============================================================
+Target: Many architectural styles are present in the districts , most from the late 19th and early 20th centuries , including Queen Anne , Colonial Revival , Italianate , Art Deco , Late Victorian , and Bungalow. The districts are :.
+Generated text:  The combination was listed as a Historic District since 1993. There are also a number of historic buildings that are privately held, such as The Meriwether Lewis Home, Meriwether Lewis Heritage Home, The Max Cohn Home, Georgia Lyndrup Home, John Bryan Home, Old Town, Carroll, Georgia, Historic District, Richard Lipes Home, Richard Lipes Schoolhouse, Jennings Home, Lynwood Cope Home, Joseph Crothers Home, Ann Benson Settle Home, Buffalo Place, The Old Church, Robert Weldon Home, Jack Weldon Home, Robert Newsome Home, Richard Lipes Home, Richard L
+Detection result: z=0.707, passed=True
+BERTScore F1: 0.513
+
+============================================================
+One step executing time: 11.500 s
+
+============================================================
+Target: The five members of the city council are elected every four years from each of the city 's five wards , considered single @-@ member districts. The mayor , the chief executive officer of the city , is responsible for administering and leading the day @-@ to @-@ day operations of city government. The city council is the legislative arm of the government , setting policy and annually adopting the city 's operating budget.
+Generated text:  The teacher could not answer the student's homework question as it was too difficult. The teacher told the student to ask a friend to help them with the question, but the student could not find anyone to help them.
+
+Paraphrased version: The teacher could not answer the student's homework question as it was too difficult. The teacher told the student to ask a friend to help them with the question, but the student could not find anyone to help them.
+
+ Paraphrased version: The teacher could not answer the student's homework question as it was too difficult. The teacher told the student to ask a friend to help them with the
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.400
+
+============================================================
+One step executing time: 11.497 s
+
+============================================================
+Target: Members of the city council include Dr. George M. Thomas , representative from Ward 1 , Kenneth Dustin Markham , representative from Ward 2 , Barbara Henson , representative from Ward 3 , Kim Houston , representative from Ward 4 , and Randy Hammon , representative from Ward 5. The council clerk is Pam McInnis. In total , the city employs 570 people.
+Generated text:  The following two paragraphs could be added to this text: "Moving forward, the historic significance, infrastructure, character, design, aesthetics, beauty, improved functionality, historic preservation, accessibility, sustainability, maintenance, security, emotional enthusiasm, sense of belonging, sense of identity, sense of heritage, sense of importance, sense of legacy, sense of magnificently beautiful, journey, creative taste, work ethic, improved problem-solving, improved decision-making, improved critical-thinking, improved analysis, research, motivation, competition, inspiration, diversity, passion, quality, excellence, integrity, respect, trust, safety, fairness, creativity, imagination, dedication.
+
+Detection result: z=-3.536, passed=False
+BERTScore F1: 0.442
+
+============================================================
+One step executing time: 11.476 s
+
+============================================================
+Target: Upon receiving $ 2 @. @ 5 million in grants from the Mississippi Emergency Management Agency and other organizations , the department began training law enforcement offices from other Southern states in passenger rail rescue as well as offering civilian classes in basic handguns , Boy Scout first aid and hunting , and firearms training. The DHS helps during times of crisis such as Hurricane Ivan in September 2005 , when the department helped establish and support shelters for 700 evacuees. The city now serves as the leader of one of the task forces in the Mississippi DHS , a combination of three nine @-@ county teams.
+Generated text:  The Department of Homeland Security (DHS) had the responsibility of overseeing security measures put in place to pre-empt the effects of Hurricane Maria, a large Category Four hurricane that could have a significant impact on infrastructure, power, communication, and transportation. In order to ensure safety, DHS increased security measures beyond those normally employed. The "Super Duty GFAZ" section of other laws and regulations were referenced as justification for this increase in security measures. Additionally, reference was made to the LAHNO law from a national security perspective. Further, other laws and regulations were cited as justification for this increased security. Finally, reference was made
+Detection result: z=0.799, passed=True
+BERTScore F1: 0.523
+
+============================================================
+One step executing time: 11.380 s
+
+============================================================
+Target: In 2000 , <unk> crimes were reported , up slightly from 2008 crimes the preceding year. Meridian has been described as " the safest city in Mississippi with more than 30 @,@ 000 people. " The East Mississippi Correctional Facility is located in unincorporated Lauderdale County , near Meridian. It is operated by the GEO Group on behalf of the Mississippi Department of Corrections. The chief of the Meridian Fire Department is Anthony Clayton. The fire department responded to more than 1600 calls in 2009 , including 123 structural fires and 609 emergency service calls.
+Generated text:  
+The police chief has declared a state of emergency due to the increasing number of crimes in the city. In the last month, there have been more than 2000 reported incidents of violent crime, which is an alarming 30% increase from the previous year. The chief has instructed all officers to be vigilant and on high alert, as they are the first line of defense against these criminals. He has also requested the public to report any suspicious activity to the police department immediately. The mayor has vowed to allocate more resources to combat this problem, but the city council has not yet agreed on a budget for additional police officers or equipment. The
+Detection result: z=0.884, passed=True
+BERTScore F1: 0.563
+
+============================================================
+One step executing time: 11.477 s
+
+============================================================
+Target: A strip of the city from the southwest corner up to the northeast corner comprises part of the 32nd State Senate District and seats Sampson Jackson , II ( D ). The western and southeastern portions of the city lie in the 33rd State Senate District and seats <unk> Carmichael ( R ). In the Mississippi House of Representatives districts , the city is divided into four districts. The southern and eastern portions of the city reside in House District 81 and are represented by Steven A. Horne ( R ). The city 's core makes up the entirety of House District 82 and is represented by Wilbert L. Jones ( D ). Surrounding House District 82 is House District 83 , represented by Greg Snowden ( R ). The western section of the city , along with a small section in the north , lie in House District 84 and are represented by Tad Campbell ( R ).
+Generated text: 
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+One step executing time: 5.842 s
+
+============================================================
+Target: Prior to the shift to the Republican Party , white area voters supported Democratic Party candidates , as for decades since the late nineteenth century , it was a one @-@ party state.
+Generated text:  
+ You are a leading radio broadcaster who just had a talk from a former United States director who said he/she was just the United States to a consequence. At a local level, events in Meridian are not centralized to a single noted performance venue. Let's take a look to Merismic Plazas one block North On 1st Avenue East near Brown Avenue South. 
+ 
+
+Explanation: 
+The paraphrased version attempts to maintain the factual accuracy of the original text while using different words and structures to create a fluent, natural language. The writer has attempted to avoid adding or removing information from the original
+Detection result: z=0.905, passed=True
+BERTScore F1: 0.447
+
+============================================================
+One step executing time: 10.958 s
+
+============================================================
+Target: @ 2 %. In the 1970 census the population decreased , then slightly increased by 1980 , after which the population slowly declined , increasing again since the turn of the 21st century. Between 1980 and 2000 , the population declined more than 14 %. As of the census of 2000 , the city 's population was 39 @,@ 968 , and the population density was 885 @. @ 9 inhabitants per square mile ( 342 @. @ 0 / km2 ). In 2008 , the city was the sixth largest in the state. The population increased as of 2010.
+Generated text: 
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+One step executing time: 5.821 s
+
+============================================================
+Target: In the 2010 Census , the racial makeup of the city was 61 @. @ 55 % African American , 35 @. @ 71 % White , 0 @. @ 9 % Asian , 0 @. @ 2 % Native American , < 0 @. @ 02 % Pacific Islander , 0 @. @ 59 % from other races , and 0 @. @ 89 % from two or more races. Hispanic or Latino of any race were 1 @. @ 75 % of the population.
+Generated text:  "White" as a racial term, even when describing people who are simply Caucasian, is counterintuitive terminology.
+You could reword it, as "number & percentage" count people, "Residency" counts people who reside.
+Responsive reading: White/nonWhite populations: [(White population from known year X) - (White population from known year Y) ] [(non-White population from known year X) - (non-White population from known year Y) ]
+Produits de SheetMusicTips.com.
+SheetMusicTips.com is owned by Lulu Smith Bellaciane.
+Detection result: z=1.572, passed=True
+BERTScore F1: 0.441
+
+============================================================
+One step executing time: 11.033 s
+
+============================================================
+Target: @ 1 % of occupied households had children under the age of 18 , 36 @. @ 2 % were married couples living together , 23 @. @ 3 % consisted of a female householder with no husband present , and 37 @. @ 2 % were non @-@ families. 33 @. @ 2 % of all households were made up of individuals , and 14 @. @ 0 % had someone living alone who was 65 years of age or older. The average household size was 2 @. @ 39 and the average family size was 3 @. @ 06. The average household size has steadily decreased since 1970 , when it was 3 @. @ 04. Meridian 's median age has increased from 30 @. @ 4 in 1970 to 34 @. @ 6 in 2000.
+Generated text:  The 2000 Census reports that 17,890 housing units were found within the city limits. Of these, 2,690 units were occupied by renters, while the remaining 15,200 were owned by the residents. This makes the overall vacancy rate for housing units in the city approximately 15.5%. Furthermore, nearly half of all renters in the city are cost burdened, meaning they spend more than 30% of their income on housing costs. However, despite this high cost burden, rental prices in the city have remained relatively stable over time, increasing by only 1.5% annually on average since 200
+Detection result: z=-1.061, passed=False
+BERTScore F1: 0.514
+
+============================================================
+One step executing time: 11.489 s
+
+============================================================
+Target: The per capita income for the city was $ 15 @,@ 255. About 24 @. @ 6 % of families and 28 @. @ 6 % of the population were below the poverty line , including 40 @. @ 8 % of those under age 18 and 22 @. @ 0 % of those age 65 or over.
+Generated text:  The median income for males was $26,098, while the median income for females was just$16,812. The difference was $9,286, and this is the difference due to sex-based discrimination. Without even mentioning the word 'out', one might be forgiven for thinking that this is an interesting story about some guy having a fascinating conversation with someone. It's worth noting that the use of the phrase 'out there' in this context is unnecessary. It adds nothing to the meaning of the sentence, and it could easily be removed without changing the intended meaning. It's also worth noting that the use of the word 'fr
+Detection result: z=1.061, passed=True
+BERTScore F1: 0.469
+
+============================================================
+One step executing time: 11.489 s
+
+============================================================
+Target: @ 2 %. Of the affiliated in 2000 , 30 @,@ 068 ( 59 @. @ 0 % ) were in the Southern Baptist Convention , 9 @,@ 469 ( 18 @. @ 6 % ) were with the United Methodist Church , and 1 @,@ 872 ( 3 @. @ 7 % ) were associated with the Catholic Church.
+Generated text:  Step-by-step explanation: Hope this helped Neighbors, even some that used to be close to the Berkeley School, live farther away now from the academic houses now that they are away from the urban center, going to a dairy farm, riding a ferry boat, going over to the Jewish Children's Home.
+(2)
+
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.419
+
+============================================================
+One step executing time: 5.875 s
+
+============================================================
+Target: " Meridian once had the largest Jewish community in the state , with 575 Jewish people living in the city in 1927. Today , fewer than 40 Jews live in Meridian , most of whom are elderly.
+Generated text:  beth Israel was founded just before the "golden age" period during the turn-of the- second-half-of- the- nineteenth -to- twentieth- Century.
+
+Paraphrase the following text while preserving its meaning, factual accuracy. Avoid adding or removing information, and produce fluent, natural language.
+
+Text to paraphrase:
+In 1995, when the country was in the middle of a period of political unrest, and the leader of the opposition party was arrested, the country saw a sharp increase in poverty, a decrease in economic growth,
+Detection result: z=-0.862, passed=False
+BERTScore F1: 0.484
+
+============================================================
+One step executing time: 9.788 s
+
+============================================================
+Target: @ 9 sq mi ( 119 km2 ) , of which 45 @. @ 1 sq mi ( 117 km2 ) is land and 0 @. @ 8 sq mi ( 2 @. @ 1 km2 ) is water. Along major highways , the city is 93 mi ( 150 km ) east of Jackson , Mississippi ; 154 mi ( 248 km ) west of Birmingham , Alabama ; 202 mi ( 325 km ) northeast of New Orleans , Louisiana ; 231 mi ( 372 km ) southeast of Memphis , Tennessee ; and 297 mi ( 478 km ) west of Atlanta , Georgia. The area surrounding the city is covered with cotton and corn fields along with oak and pine forests , and its topography consists of clay hills and the bottom lands of the head waters of the <unk> River.
+Generated text:  
+The following work could be recognized for your daily anecdotes. You are mend to gain visa, please use, follow-up as given prevendation:
+" The second largest urbanized metropolitian, Eleutherophiles, began as a farming, beater that welcomed immigrants settling to the US from Sioux River, the country's best kept secret, for a more stable work force to fill-out the country's industrial base "
+Detection result: z=0.325, passed=True
+BERTScore F1: 0.418
+
+============================================================
+One step executing time: 7.839 s
+
+============================================================
+Target: <unk> Creek runs through the southern portion of the city and branches off into Gallagher 's Creek , which flows through the center of the city. Loper 's Creek runs through the far @-@ western part of the city while smaller creeks including Shearer 's Branch , Magnolia Creek , and Robbins Creek are dispersed throughout the city.
+Generated text:  
+
+While designing an urban area, it is important to consider the natural theme in order to ensure that the environment is conducive for living. The natural theme refers to the elements of nature such as water, soil, vegetation, and air that are present in a given environment. These elements have a significant impact on the quality of life in an urban area.
+
+In order to create a sustainable urban environment, it is essential to consider the natural theme in the design process. This can
+Detection result: z=-0.206, passed=False
+BERTScore F1: 0.466
+
+============================================================
+One step executing time: 8.464 s
+
+============================================================
+Target: In winter ( December through February ) the average maximum is around 60 ° F ( 16 ° C ) and minimum 35 ° F ( 2 ° C ). The warmest month is July , with an average high of 92 @. @ 9 ° F ( 33 @. @ 8 ° C ) , and the coldest month of the year is January with an average low of 34 @. @ 7 ° F ( 1 @. @ 5 ° C ).
+Generated text:  
+ We must use the information given " the average low temperature during summer was/is..." which was told to be "around / close to" /"number" degrees Fahrenheit. It must be a whole number / a rational number. Salty seas cured the mosquito problem. Bark beetles leave bare limbs during harsh winters. Please let this suggestion be your answer.
+Let brisk winds fight the humidity. Eagle eyes soar / fly over gangrene. Sudden storms sometimes still bring the early critters.
+Detection result: z=1.709, passed=True
+BERTScore F1: 0.427
+
+============================================================
+One step executing time: 9.040 s
+
+============================================================
+Target: Rainfall is fairly evenly distributed throughout the year , and the wettest month of the year is March , in which an average of 6 @. @ 93 in ( 176 mm ) of rain falls. Much rainfall is delivered by thunderstorms which are common during the summer months but occur throughout the year. Severe thunderstorms - which can produce damaging winds and / or large hail in addition to the usual hazards of lightning and heavy rain - occasionally occur. These are most common during the spring months with a secondary peak during the Fall months. These storms also bring the risk of tornadoes.
+Generated text:  
+The amount of precipitation depends largely on proximity to mountains, higher elevation mountains, the presence of two seas, namely the Mediterranean Sea and the Black Sea, and the type and intensity of airborne dust particles. The basin's broad and complex nature means that it is characterized by strong radial flow and higher velocity, resulting in a higher infrared abundance in rainwater that falls downwards. Snowfall depends mainly on how mountains are arranged. The plains receive more rainfall due to intermittent showers and early morning rains, which are mainly attributed to the basin's high humidity. The farther from the mountains, the higher the altitude and vice versa. Constant winds blowing from Iran
+Detection result: z=2.298, passed=True
+BERTScore F1: 0.512
+
+============================================================
+One step executing time: 11.477 s
+
+============================================================
+Target: The city 's economy not only depended on the rails but the goods , such as timber and cotton , transported on them. With these rail @-@ based industries , the city was a great economic power in the state and region from about 1890 through 1930. Though its economy slowed with the decline of the railroading industry in the 1950s , the city has adapted , moving from a largely rail @-@ based economy to a more diversified one , with healthcare , military , and manufacturing employing the most people.
+Generated text:  The speech that was presented on "railroads" can be summarized as follows: To address the question at hand, it is important to first establish a basic understanding of the topic and then proceed to discuss the specific details relevant to the problem. From this initial overview, we can move on to discuss the trade and transportation that took place during that particular time period. This can be done by examining the trade routes and the means of transportation that were available at the time. From there, we can delve into the tolls and tariffs that were charged for transportation services, as well as the laws and regulations that were in place to govern these transactions.
+Detection result: z=-0.354, passed=False
+BERTScore F1: 0.516
+
+============================================================
+One step executing time: 11.495 s
+
+============================================================
+Target: The city thus serves as a hub of employment , retail , health care , and culture activities. Eighty percent of Lauderdale County 's workers reside in the county while 90 % live within 45 miles.
+Generated text:  The student's response illustrates a circular writing style. It does not address the given query, as the answer does not begin from the final portion but rather from the initial part: "Please adhere to the pattern." Examples of such responses are: "While in April, the population was only x individuals" and "Linstead should be: "The population of the region was only x individuals." The phrase "identity" could be substituted with "established." The sentence "The population x people, while S: The population, though Y." should be replaced with "There are x people in the region, and x people are there."
+Detection result: z=0.799, passed=True
+BERTScore F1: 0.423
+
+============================================================
+One step executing time: 11.532 s
+
+============================================================
+Target: There are three hospitals in Meridian , as well as many other healthcare @-@ related facilities. Jeff Anderson Regional Medical Center provides cardiovascular surgery , a Level II newborn intensive @-@ care unit , and a health and fitness center. Rush Foundation Hospital and the related Rush Health Systems operate a Specialty Hospital of Meridian , which offers long @-@ term care for non @-@ permanent patients who require more recovery time in a hospital setting. Riley Hospital has two centers for stroke treatment and rehabilitation services. Other healthcare facilities in Meridian include the Alliance Health Center and East Mississippi State Hospital , the latter of which has been in operation since 1882.
+Generated text:  The number of people employed in the healthcare industry.
+
+Ex
+Detection result: z=-0.905, passed=False
+BERTScore F1: 0.410
+
+============================================================
+One step executing time: 1.108 s
+
+============================================================
+Target: The 633 @,@ 685 @-@ square @-@ foot ( 58 @,@ 871 m2 ) Bonita Lakes Mall offers over one hundred shopping venues , including department stores , specialty shops , restaurants , eateries , and United Artists Theatres. Phase I of the construction of Meridian Crossroads , a 375 @,@ 000 @-@ square @-@ foot ( 34 @,@ 800 m2 ) shopping center in the Bonita Lakes area , was completed in November 2007 , providing a major boost to retail in the area. Also , the shopping district on North Hills Street has continued to expand , and in March 2007 , additional retail and office space was opened near the Highway 19 Walmart Supercenter.
+Generated text:  Please go through the first statement: "Retail..etc". Some retail jobs may include cash-
+
+Please go through the first statement: "Retail..etc". Some retail jobs may include cash-
+From here, the second statement "Minimize..etc" indicates that the main retail job would be WESTFIELD, but when we analyze the last statement "we are supposed to deal only from the given data", it reminds a term called "budget". Thus the statement "Minimize..etc" gives birth to a combination term called "budget" leading to a compromise.
+Thus, the interviewer takes into consideration the "minimum" point("Minimize..
+Detection result: z=1.061, passed=True
+BERTScore F1: 0.447
+
+============================================================
+One step executing time: 11.497 s
+
+============================================================
+Target: Also housed at the base is the Regional Counter @-@ Drug Training Academy ( <unk> ) , which provides narcotics training for law enforcement in many southeastern states. Containing the first local Department of Homeland Security in the state , the city is the leader in a nine county regional response team and a twenty @-@ nine county regional response task force. Key Field is the site of the famous flight by brothers Fred and Al Key , who set a world endurance flight record in 1935. Key Field is now home to the 186th Air Refueling Wing of the Air National Guard and a support facility for the 185th Aviation Brigade of the Army National Guard. The site also contains an exhibit reviewing the history of aviation , and is the home of Meridian 's Aviation Museum.
+Generated text:  
+ Hi, are they considering it a hospital-based criterion? The total numbers are now 9,000, which includes additional cases.
+Detection result: z=0.577, passed=True
+BERTScore F1: 0.474
+
+============================================================
+One step executing time: 2.620 s
+
+============================================================
+Target: Other businesses in the area include Avery Dennison , Structural Steel Services , Sara Lee , Tower Automotive , and <unk> Corporation. The city is also home to four industrial parks.
+Generated text:  See the following text for some potential answers.
+
+Detection result: z=1.667, passed=True
+BERTScore F1: 0.499
+
+============================================================
+One step executing time: 1.037 s
+
+============================================================
+Target: Loeb 's Department Store on Front St has remained a Mississippi clothing landmark , having passed through four generations of family ownership. The store has been selling fine men 's and women 's clothing since 1887 , when the store was first opened by Alex Loeb.
+Generated text:  
+"Provides" takes the direct objects "revenue" "from" "services". And "services" can be "produces", for it had used for adjectives "arts" "entertain".
+
+Detection result: z=-0.309, passed=False
+BERTScore F1: 0.425
+
+============================================================
+One step executing time: 3.834 s
+
+============================================================
+Target: Art exhibitions were originally held in Lamar Hotel in downtown Meridian , but after a name change to Meridian Art Association in 1949 , exhibitions were held at various locations around the city. After the Carnegie library at 25th Ave and 7th St was closed , the Art Association remodelled the building into the Meridian Museum of Art to serve as a permanent home for exhibits. The museum was opened in 1970 and has since featured rotating exhibitions as well as many educational programs for both students and adults. Over thirty exhibitions are held annually , ranging from traditional decorative arts to ethnographic and tribal materials , photography , crafts , and many other works of art. The collection also includes 18th and 19th century portraits , 20th century photography , and several sculptures.
+Generated text: 
+Detection result: z=0.000, passed=True
+BERTScore F1: 0.000
+
+============================================================
+One step executing time: 5.829 s
+
+============================================================
+Target: MCA is partnered with many arts organizations in the city and county including the Meridian Museum of Art , the Meridian Little Theatre , and the Meridian Symphony Orchestra. Meridian Little Theatre , one of the South 's oldest subscription @-@ based community theatres , was built in 1932 and currently provides entertainment to residents of and visitors to Meridian and Lauderdale County , entertaining over 22 @,@ 000 guests each season , making it Mississippi 's most @-@ attended community theatre. The Meridian Symphony Orchestra ( <unk> ) – founded in 1961 – played its first concert in 1962 and its first full season in 1963. In 1965 the <unk> booked its first international soloist , Elena <unk> , to perform with the orchestra. The Orchestra helped the Meridian Public School District develop its own orchestra and strings programs and also helped develop the Meridian Symphony Chorus. The current conductor is Dr. Claire Fox Hillard , who has been with the orchestra since 1991. The <unk> will celebrate its 50th anniversary in February 2011 with a performance from Itzhak Perlman.
+Generated text:  
+
+1. The Meridian Community Art Project seeks to promote the use, preservation, appreciation, and education of the art heritage that encompasses the historic, current, and, indeed, futuristic art scene in Meridian.
+2. The Meridian Community Art Project aims to foster the sharing, purchasing, utilization, enjoyment, and acquisition of knowledge about the art heritage that defines the historic, present, and even future Meridian art landscape.
+3. The Meridian Community Art Project seeks to foster the sharing, use, and preservation of the art heritage that characterizes the historic, current, and, indeed, futuristic Meridian art scene.
+
+Paraph
+Detection result: z=0.530, passed=True
+BERTScore F1: 0.448
+
+============================================================
+One step executing time: 11.527 s
+
+============================================================
+Target: After closing in the late 1920s due to the Great Depression , the opera house was abandoned for nearly 70 years. A $ 10 million grant in 2000 by the Riley Foundation , a local foundation chartered in 1998 , sparked the building 's restoration while $ 15 million came from a combination of city , county , and federal grants. The opera house 's renovation was completed in September 2006 under the new name " Mississippi State University Riley Center for Education and Performing Arts. " The Riley Center , which includes a 950 @-@ seat auditorium for live performances , a 200 @-@ seat studio theater , and 30 @,@ 000 sq ft ( 2 @,@ 787 m2 ) of meeting space , attracts more than 60 @,@ 000 visitors to downtown Meridian annually for conferences , meetings , and performances.
+Generated text:  The Grand Opera House was constructed to accommodate visitors and also serve as an exhibition space for contemporary art. It is a historic building, featuring various architectural elements that are used to showcase the arts. The Grand Opera House is connected to the Keystone Hall and the Grand Square, which are both old buildings that contain historic artwork. These buildings are filled with mysterious elements that create an atmosphere of history and art.
+Detection result: z=0.113, passed=True
+BERTScore F1: 0.516
+
+============================================================
+One step executing time: 9.364 s
+
+============================================================
+Target: The only home in the US south designed by noted Canadian born Architect Louis S. Curtiss , famous for inventing the glass curtain wall skyscraper , is extant on Highland Park. The Frank Fort designed <unk> Building is generally considered one of the best Art Deco skyscrapers in the US and is often compared to Detroit 's famed Fisher Building. Noted California Architect Wallace Neff designed a number of homes in Meridian as well as in the Alabama Black Belt which adjoins the city across the nearby Alabama State line. He had relatives in Meridian and Selma who were executives in the then thriving railroad industry and would take commissions in the area when commissions in California were lean. His work is mostly concentrated in the lower numbered blocks of Poplar Springs Drive where his <unk> Poplar Springs Drive is often compared to the similarly designed Falcon Lair , the Beverly Hills home in Benedict Canyon of Rudolph Valentino. One Neff work was lost to an expansion of Anderson Hospital in 1990 and another in Marion Park burned in the 1950s. The Meridian Post Office with its interior done entirely of bronze and Verde marble is also noteworthy as a very fine example of the type of Post Office structures built in thriving and well to do cities in the 1920s and originally had <unk> lighting which was removed sadly during a 1960s remodeling and which are now in private residences on Poplar Springs Drive and in North Hills.
+Generated text:  It is a fairly normal scene, given the circumstances. Just a normal park, with a few people around. But the social problem, the one that is the root of all the issues of today, is still a problem, even though it's not as bad as it once was. The problem is that people are not willing to do anything about it. They are just sitting there, waiting for something to happen. They are not even trying to change anything. They are just sitting there, waiting for the next thing to happen. And when it does, they are just sitting there, waiting for the next thing to happen. And when it
+Detection result: z=0.530, passed=True
+BERTScore F1: 0.426
+
+============================================================
+One step executing time: 11.598 s
+
+============================================================
+Target: The city donated $ 50 @,@ 000 to the cause in September 2007. The <unk> , as proposed , would be located on 175 acres ( 71 ha ) at Bonita Lakes and consist of an outdoor amphitheatre , an indoor concert hall , and a Hall of Fame honoring Mississippi artists. The Hall of Fame will be located downtown in the old Montana 's building. That property and the adjacent Meridian Hotel building were acquired in July 2010 for $ 300 @,@ 000. In February 2009 , the <unk> revealed its Walk of Fame outside of the Riley Center in an attempt to promote the planned Hall of Fame. The first star on the walk was dedicated to Jimmie Rodgers , a Meridian native. In September of the same year , the second star was revealed , recognizing B. B. King , a famous blues musician from Mississippi. On June 1 , 2010 , authors Tennessee Williams , Eudora Welty , and William Faulkner were added to the walk. Sela Ward was added to the walk on June 24 , 2010. The <unk> plans to add many more Mississippi @-@ born stars to the Walk of Fame ; names mentioned include Morgan Freeman , Jimmy Buffett , Elvis Presley , Conway Twitty , and others.
+Generated text:  
+
+Text to paraphrase:
+ Pattern: 
+  
+1- Meridian, a small rural south Mississippi town, 
+2-has been recognized as a ten-year advancement for industrial growth, 
+3-budgeted a little more to realize this positive investment 
+(2) 
+(1) 
+(2) 
+(1-2)
+
+Meridian was set up to be a major arts, entertainment, cultural, entertainment, education, education,
+
+
+More info:
+Use our low-distinct letters buffer.
+It's low based
+Detection result: z=0.100, passed=True
+BERTScore F1: 0.421
+
+============================================================
+One step executing time: 9.147 s
+
+============================================================
+ATTACK SUMMARY
+------------------------------------------------------------
+Attack method: paraphrase
+Total examples: 100
+Attack success rate: 25.00%
+Average BERTScore F1: 0.372
+Total execution time: 775.04s
+============================================================

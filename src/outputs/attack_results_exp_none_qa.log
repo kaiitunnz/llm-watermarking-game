@@ -1,0 +1,856 @@
+Lightning automatically upgraded your loaded checkpoint from v1.8.3.post1 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint ../../.cache/huggingface/hub/models--Unbabel--wmt22-comet-da/snapshots/2760a223ac957f30acfb18c8aa649b01cf1d75f2/checkpoints/model.ckpt`
+Encoder model frozen.
+Target: americanus. It may grow to a length of 60 cm ( 24 in ) and a mass of 6 kilograms ( 13 lb ) , and bears a conspicuous pair of claws. In life , the lobsters are blue , only becoming " lobster red " on cooking. Mating occurs in the summer , producing eggs which are carried by the females for up to a year before hatching into planktonic larvae. Homarus gammarus is a highly esteemed food , and is widely caught using lobster pots , mostly around the British Isles.
+Generated text:  Good choice.
+
+Example generation time: 0.760s
+Detection result: p=0.870, passed=False
+BERTScore F1: 0.388
+Target: @ 2 kg ( 1 @. @ 5 – 4 @. @ 9 lb ). Like other crustaceans , lobsters have a hard exoskeleton which they must shed in order to grow , in a process called ecdysis ( moulting ). This may occur several times a year for young lobsters , but decreases to once every 1 – 2 years for larger animals.
+Generated text:  Good choice!
+Example generation time: 0.321s
+Detection result: p=0.510, passed=False
+BERTScore F1: 0.373
+Target: Usually , the left claw is the crusher , and the right is the cutter.
+Generated text:  You did not
+Example generation time: 0.318s
+Detection result: p=0.330, passed=False
+BERTScore F1: 0.308
+Target: This occurs because , in life , the red pigment astaxanthin is bound to a protein complex , but the complex is broken up by the heat of cooking , releasing the red pigment.
+Generated text:  The word Continue
+Example generation time: 0.314s
+Detection result: p=0.450, passed=False
+BERTScore F1: 0.387
+Target: The two species are very similar , and can be crossed artificially , although hybrids are unlikely to occur in the wild since their ranges do not overlap. The two species can be distinguished by a number of characteristics :.
+Generated text:  You can say
+Example generation time: 0.313s
+Detection result: p=0.010, passed=True
+BERTScore F1: 0.380
+Target: gammarus.
+Generated text:  Good afternoon dear
+Example generation time: 0.314s
+Detection result: p=0.610, passed=False
+BERTScore F1: 0.389
+Target: gammarus are white or white @-@ tipped.
+Generated text:  You can write
+Example generation time: 0.313s
+Detection result: p=0.000, passed=True
+BERTScore F1: 0.394
+Target: gammarus is creamy white or very pale red.
+Generated text:  In general,
+Example generation time: 0.313s
+Lightning automatically upgraded your loaded checkpoint from v1.8.3.post1 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint ../../.cache/huggingface/hub/models--Unbabel--wmt22-comet-da/snapshots/2760a223ac957f30acfb18c8aa649b01cf1d75f2/checkpoints/model.ckpt`
+Encoder model frozen.
+Target: americanus. It may grow to a length of 60 cm ( 24 in ) and a mass of 6 kilograms ( 13 lb ) , and bears a conspicuous pair of claws. In life , the lobsters are blue , only becoming " lobster red " on cooking. Mating occurs in the summer , producing eggs which are carried by the females for up to a year before hatching into planktonic larvae. Homarus gammarus is a highly esteemed food , and is widely caught using lobster pots , mostly around the British Isles.
+Generated text:  Good choice! Here you go:
+
+Homarus gammarus, or the common lobster, is an ancient species that has been
+ around since the Cretaceous period. They can reach a length of over 1 meter (3 ft) and the animals are usually 3 to 6 kg in weight. Protrusions on their heads help to identify males and females. In males, growth under its thorax are called "chelipeds" cause the stem to look like a claw while in females it appears as a long strand of hair. * The underside of the animal (ventral) contains four pairs of easily visible p
+Example generation time: 6.280s
+Lightning automatically upgraded your loaded checkpoint from v1.8.3.post1 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint ../../.cache/huggingface/hub/models--Unbabel--wmt22-comet-da/snapshots/2760a223ac957f30acfb18c8aa649b01cf1d75f2/checkpoints/model.ckpt`
+Encoder model frozen.
+Target: americanus. It may grow to a length of 60 cm ( 24 in ) and a mass of 6 kilograms ( 13 lb ) , and bears a conspicuous pair of claws. In life , the lobsters are blue , only becoming " lobster red " on cooking. Mating occurs in the summer , producing eggs which are carried by the females for up to a year before hatching into planktonic larvae. Homarus gammarus is a highly esteemed food , and is widely caught using lobster pots , mostly around the British Isles.
+Generated text:  Good day! The common lobster, once hunted to the brink of extinction, is now back in numbers as this picture is taken by a lucky traveller (from the
+Example generation time: 2.082s
+Detection result: p=0.940, passed=False
+BERTScore F1: 0.513
+Target: @ 2 kg ( 1 @. @ 5 – 4 @. @ 9 lb ). Like other crustaceans , lobsters have a hard exoskeleton which they must shed in order to grow , in a process called ecdysis ( moulting ). This may occur several times a year for young lobsters , but decreases to once every 1 – 2 years for larger animals.
+Generated text:  You need to say the size of a common lobster or a captured lobster.
+Q: Finish the following as true an informative and coherent sentence.
+
+At one time,
+Example generation time: 1.607s
+Detection result: p=0.730, passed=False
+BERTScore F1: 0.433
+Target: Usually , the left claw is the crusher , and the right is the cutter.
+Generated text:  The claws are symmetrical, but one, " the cutter ", has sharp inner edges, used for holding, and the other, " the crusher ", is used
+Example generation time: 1.606s
+Lightning automatically upgraded your loaded checkpoint from v1.8.3.post1 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint ../../.cache/huggingface/hub/models--Unbabel--wmt22-comet-da/snapshots/2760a223ac957f30acfb18c8aa649b01cf1d75f2/checkpoints/model.ckpt`
+Encoder model frozen.
+Target: americanus. It may grow to a length of 60 cm ( 24 in ) and a mass of 6 kilograms ( 13 lb ) , and bears a conspicuous pair of claws. In life , the lobsters are blue , only becoming " lobster red " on cooking. Mating occurs in the summer , producing eggs which are carried by the females for up to a year before hatching into planktonic larvae. Homarus gammarus is a highly esteemed food , and is widely caught using lobster pots , mostly around the British Isles.
+Generated text:  You did not
+Example generation time: 0.783s
+Detection result: p=0.330, passed=False
+BERTScore F1: 0.239
+Target: @ 2 kg ( 1 @. @ 5 – 4 @. @ 9 lb ). Like other crustaceans , lobsters have a hard exoskeleton which they must shed in order to grow , in a process called ecdysis ( moulting ). This may occur several times a year for young lobsters , but decreases to once every 1 – 2 years for larger animals.
+Generated text:  Good afternoon,
+Example generation time: 0.320s
+Detection result: p=0.500, passed=False
+BERTScore F1: 0.330
+Target: Usually , the left claw is the crusher , and the right is the cutter.
+Generated text:  Good choice!
+Example generation time: 0.319s
+Detection result: p=0.580, passed=False
+BERTScore F1: 0.497
+Target: This occurs because , in life , the red pigment astaxanthin is bound to a protein complex , but the complex is broken up by the heat of cooking , releasing the red pigment.
+Generated text:  You need to
+Example generation time: 0.316s
+Detection result: p=0.270, passed=False
+BERTScore F1: 0.472
+Target: The two species are very similar , and can be crossed artificially , although hybrids are unlikely to occur in the wild since their ranges do not overlap. The two species can be distinguished by a number of characteristics :.
+Generated text:  You are an
+Example generation time: 0.328s
+Detection result: p=0.030, passed=True
+BERTScore F1: 0.374
+Target: gammarus.
+Generated text:  You can Continue
+Example generation time: 0.315s
+Detection result: p=0.010, passed=True
+BERTScore F1: 0.394
+Target: gammarus are white or white @-@ tipped.
+Generated text:  You can write
+Example generation time: 0.316s
+Lightning automatically upgraded your loaded checkpoint from v1.8.3.post1 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint ../../.cache/huggingface/hub/models--Unbabel--wmt22-comet-da/snapshots/2760a223ac957f30acfb18c8aa649b01cf1d75f2/checkpoints/model.ckpt`
+Encoder model frozen.
+Target: americanus. It may grow to a length of 60 cm ( 24 in ) and a mass of 6 kilograms ( 13 lb ) , and bears a conspicuous pair of claws. In life , the lobsters are blue , only becoming " lobster red " on cooking. Mating occurs in the summer , producing eggs which are carried by the females for up to a year before hatching into planktonic larvae. Homarus gammarus is a highly esteemed food , and is widely caught using lobster pots , mostly around the British Isles.
+Generated text:  You
+Example generation time: 0.612s
+Detection result: p=0.140, passed=False
+BERTScore F1: 0.287
+Target: @ 2 kg ( 1 @. @ 5 – 4 @. @ 9 lb ). Like other crustaceans , lobsters have a hard exoskeleton which they must shed in order to grow , in a process called ecdysis ( moulting ). This may occur several times a year for young lobsters , but decreases to once every 1 – 2 years for larger animals.
+Generated text:  Good
+Example generation time: 0.230s
+Detection result: p=0.410, passed=False
+BERTScore F1: 0.251
+Target: Usually , the left claw is the crusher , and the right is the cutter.
+Generated text:  Good
+Example generation time: 0.230s
+Detection result: p=0.480, passed=False
+BERTScore F1: 0.327
+Target: This occurs because , in life , the red pigment astaxanthin is bound to a protein complex , but the complex is broken up by the heat of cooking , releasing the red pigment.
+Generated text:  Good
+Example generation time: 0.226s
+Detection result: p=0.410, passed=False
+BERTScore F1: 0.315
+Target: The two species are very similar , and can be crossed artificially , although hybrids are unlikely to occur in the wild since their ranges do not overlap. The two species can be distinguished by a number of characteristics :.
+Generated text:  You
+Example generation time: 0.224s
+Detection result: p=0.110, passed=False
+BERTScore F1: 0.369
+Target: gammarus.
+Generated text:  You
+Example generation time: 0.225s
+Detection result: p=0.090, passed=False
+BERTScore F1: 0.418
+Target: gammarus are white or white @-@ tipped.
+Generated text:  Good
+Example generation time: 0.226s
+Detection result: p=0.430, passed=False
+BERTScore F1: 0.316
+Target: gammarus is creamy white or very pale red.
+Generated text:  You
+Example generation time: 0.224s
+Detection result: p=0.080, passed=False
+BERTScore F1: 0.310
+Target: @ 1 – 3 @. @ 3 in ) , whereas males mature at a slightly smaller size. Mating typically occurs in summer between a recently moulted female , whose shell is therefore soft , and a hard @-@ shelled male. The female carries the eggs for up to 12 months , depending on the temperature , attached to her pleopods. Females carrying eggs are said to be " berried " and can be found throughout the year.
+Generated text:  Good
+Example generation time: 0.225s
+Detection result: p=0.440, passed=False
+BERTScore F1: 0.251
+Target: After the third moult , the juvenile takes on a form closer to the adult , and adopts a benthic lifestyle. The juveniles are rarely seen in the wild , and are poorly known , although they are known to be capable of digging extensive burrows. It is estimated that only 1 larva in every 20 @,@ 000 survives to the benthic phase. When they reach a carapace length of 15 mm ( 0 @. @ 59 in ) , the juveniles leave their burrows and start their adult lives.
+Generated text:  You
+Example generation time: 0.228s
+Detection result: p=0.070, passed=False
+BERTScore F1: 0.259
+
+============================================================
+ATTACK SUMMARY
+------------------------------------------------------------
+Attack method: none
+Total examples: 10
+Attack success rate: 100.00%
+Average BERTScore F1: 0.310
+Total execution time: 46.89s
+============================================================
+Lightning automatically upgraded your loaded checkpoint from v1.8.3.post1 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint ../../.cache/huggingface/hub/models--Unbabel--wmt22-comet-da/snapshots/2760a223ac957f30acfb18c8aa649b01cf1d75f2/checkpoints/model.ckpt`
+Lightning automatically upgraded your loaded checkpoint from v1.8.3.post1 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint ../../.cache/huggingface/hub/models--Unbabel--wmt22-comet-da/snapshots/2760a223ac957f30acfb18c8aa649b01cf1d75f2/checkpoints/model.ckpt`
+Encoder model frozen.
+Target: americanus. It may grow to a length of 60 cm ( 24 in ) and a mass of 6 kilograms ( 13 lb ) , and bears a conspicuous pair of claws. In life , the lobsters are blue , only becoming " lobster red " on cooking. Mating occurs in the summer , producing eggs which are carried by the females for up to a year before hatching into planktonic larvae. Homarus gammarus is a highly esteemed food , and is widely caught using lobster pots , mostly around the British Isles.
+Generated text:  Good
+Example generation time: 0.650s
+Detection result: p=0.420, passed=False
+BERTScore F1: 0.269
+Target: @ 2 kg ( 1 @. @ 5 – 4 @. @ 9 lb ). Like other crustaceans , lobsters have a hard exoskeleton which they must shed in order to grow , in a process called ecdysis ( moulting ). This may occur several times a year for young lobsters , but decreases to once every 1 – 2 years for larger animals.
+Generated text:  You
+Example generation time: 0.231s
+Detection result: p=0.080, passed=True
+BERTScore F1: 0.279
+Target: Usually , the left claw is the crusher , and the right is the cutter.
+Generated text:  Cl
+Example generation time: 0.231s
+Detection result: p=0.280, passed=False
+BERTScore F1: 0.333
+Target: This occurs because , in life , the red pigment astaxanthin is bound to a protein complex , but the complex is broken up by the heat of cooking , releasing the red pigment.
+Generated text:  Good
+Example generation time: 0.227s
+Detection result: p=0.480, passed=False
+BERTScore F1: 0.315
+Target: The two species are very similar , and can be crossed artificially , although hybrids are unlikely to occur in the wild since their ranges do not overlap. The two species can be distinguished by a number of characteristics :.
+Generated text:  You
+Example generation time: 0.226s
+Detection result: p=0.090, passed=True
+BERTScore F1: 0.369
+Target: gammarus.
+Generated text:  You
+Example generation time: 0.226s
+Detection result: p=0.100, passed=True
+BERTScore F1: 0.418
+Target: gammarus are white or white @-@ tipped.
+Generated text:  The
+Example generation time: 0.226s
+Detection result: p=0.130, passed=True
+BERTScore F1: 0.356
+Target: gammarus is creamy white or very pale red.
+Generated text:  You
+Example generation time: 0.226s
+Detection result: p=0.110, passed=True
+BERTScore F1: 0.310
+Target: @ 1 – 3 @. @ 3 in ) , whereas males mature at a slightly smaller size. Mating typically occurs in summer between a recently moulted female , whose shell is therefore soft , and a hard @-@ shelled male. The female carries the eggs for up to 12 months , depending on the temperature , attached to her pleopods. Females carrying eggs are said to be " berried " and can be found throughout the year.
+Generated text:  You
+Example generation time: 0.227s
+Detection result: p=0.110, passed=True
+BERTScore F1: 0.288
+Target: After the third moult , the juvenile takes on a form closer to the adult , and adopts a benthic lifestyle. The juveniles are rarely seen in the wild , and are poorly known , although they are known to be capable of digging extensive burrows. It is estimated that only 1 larva in every 20 @,@ 000 survives to the benthic phase. When they reach a carapace length of 15 mm ( 0 @. @ 59 in ) , the juveniles leave their burrows and start their adult lives.
+Generated text:  You
+Example generation time: 0.229s
+Detection result: p=0.060, passed=True
+BERTScore F1: 0.259
+
+============================================================
+ATTACK SUMMARY
+------------------------------------------------------------
+Attack method: none
+Total examples: 10
+Attack success rate: 30.00%
+Average BERTScore F1: 0.320
+Total execution time: 47.71s
+============================================================
+Lightning automatically upgraded your loaded checkpoint from v1.8.3.post1 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint ../../.cache/huggingface/hub/models--Unbabel--wmt22-comet-da/snapshots/2760a223ac957f30acfb18c8aa649b01cf1d75f2/checkpoints/model.ckpt`
+Encoder model frozen.
+Target: americanus. It may grow to a length of 60 cm ( 24 in ) and a mass of 6 kilograms ( 13 lb ) , and bears a conspicuous pair of claws. In life , the lobsters are blue , only becoming " lobster red " on cooking. Mating occurs in the summer , producing eggs which are carried by the females for up to a year before hatching into planktonic larvae. Homarus gammarus is a highly esteemed food , and is widely caught using lobster pots , mostly around the British Isles.
+Generated text:  You need to say the range of this species. And it's good to mention the benefits of the species, such as fisheries and food. You should avoid complex
+Detection result: p=0.380, passed=False
+BERTScore F1: 0.482
+One step executing time: 38.877 s
+Target: @ 2 kg ( 1 @. @ 5 – 4 @. @ 9 lb ). Like other crustaceans , lobsters have a hard exoskeleton which they must shed in order to grow , in a process called ecdysis ( moulting ). This may occur several times a year for young lobsters , but decreases to once every 1 – 2 years for larger animals.
+Generated text:  Nymph!
+Detection result: p=0.510, passed=False
+BERTScore F1: 0.352
+One step executing time: 3.894 s
+Target: Usually , the left claw is the crusher , and the right is the cutter.
+Generated text:  Good choice of words, but this doesn't really answer the question.
+
+### Struggling with Math?
+
+Access instant learning tools and 15+ million step-by-step
+Detection result: p=0.380, passed=False
+BERTScore F1: 0.469
+One step executing time: 34.095 s
+Target: This occurs because , in life , the red pigment astaxanthin is bound to a protein complex , but the complex is broken up by the heat of cooking , releasing the red pigment.
+Generated text:  You did not specify the size, therefore, I use two different sentences.
+The exoskeleton is generally blue above, with
+spots that coalesce, and
+Detection result: p=0.850, passed=False
+BERTScore F1: 0.523
+One step executing time: 34.210 s
+Target: The two species are very similar , and can be crossed artificially , although hybrids are unlikely to occur in the wild since their ranges do not overlap. The two species can be distinguished by a number of characteristics :.
+Generated text:  You need to say the entire sentence once, and we will continue it together:
+
+# correct answers were as follows:
+Look, Dad! It's the dreaded field
+Detection result: p=0.730, passed=False
+BERTScore F1: 0.452
+One step executing time: 33.912 s
+Target: gammarus.
+Generated text:  You are an expert writer. Q: Continue the following passage in a coherent and informative way. I need answers before 10 hour. Hi: I can not
+Detection result: p=0.000, passed=True
+BERTScore F1: 0.411
+One step executing time: 33.960 s
+Target: gammarus are white or white @-@ tipped.
+Generated text:  You are an expert writer.
+Q: Complete the following passage using appropriate instances:
+
+No amount of bloodletting could change the internal surgery, but one thing that
+Detection result: p=0.300, passed=False
+BERTScore F1: 0.428
+One step executing time: 33.953 s
+Target: gammarus is creamy white or very pale red.
+Generated text:  You can write ” the cluster of setae located at the tip of the abdomen of macrons is one of an important feature used to differentiate macron genus,
+Detection result: p=0.050, passed=True
+BERTScore F1: 0.476
+One step executing time: 33.733 s
+Target: @ 1 – 3 @. @ 3 in ) , whereas males mature at a slightly smaller size. Mating typically occurs in summer between a recently moulted female , whose shell is therefore soft , and a hard @-@ shelled male. The female carries the eggs for up to 12 months , depending on the temperature , attached to her pleopods. Females carrying eggs are said to be " berried " and can be found throughout the year.
+Generated text:  Good day! Unfortunately, we are unable to assist with homework for assignment work. Please read the following as this will be our reply until we run out.
+You
+Detection result: p=0.390, passed=False
+BERTScore F1: 0.415
+One step executing time: 34.093 s
+Target: After the third moult , the juvenile takes on a form closer to the adult , and adopts a benthic lifestyle. The juveniles are rarely seen in the wild , and are poorly known , although they are known to be capable of digging extensive burrows. It is estimated that only 1 larva in every 20 @,@ 000 survives to the benthic phase. When they reach a carapace length of 15 mm ( 0 @. @ 59 in ) , the juveniles leave their burrows and start their adult lives.
+Generated text:  You are an expert writer. You are perfect. However, if you act like an expert in some other area, you are likely to be run out of town
+Detection result: p=0.270, passed=False
+BERTScore F1: 0.449
+One step executing time: 33.925 s
+Target: The northernmost populations are found in the Norwegian fjords <unk> and <unk> , inside the Arctic Circle.
+Generated text:  You are an expert writer.
+Detection result: p=0.070, passed=True
+BERTScore F1: 0.487
+One step executing time: 6.941 s
+Target: The populations in the Mediterranean Sea are distinct from those in the Atlantic Ocean. The last distinct population is found in the Netherlands : samples from the <unk> were distinct from those collected in the North Sea or English Channel.
+Generated text:  You are an expert writer. Continue the passage.
+
+The endangered @-@ New Zealand macaque is native to an area of about 1000 km$^{
+Detection result: p=0.310, passed=False
+BERTScore F1: 0.456
+One step executing time: 34.018 s
+Target: Between 1904 and 1914 , one million lobster larvae were released from hatcheries in Dunedin , but the species did not become established there.
+Generated text:  You are an expert writer. :)
+Q: "Bring it to your seniors" is correct in IELTS examination.
+
+A: No, It is incorrect.
+
+Detection result: p=0.200, passed=False
+BERTScore F1: 0.461
+One step executing time: 33.938 s
+Target: They prefer hard substrates , such as rocks or hard mud , and live in holes or crevices , emerging at night to feed.
+Generated text:  You did not say whether you are writing for children or adults. I'm assuming here that you are writing for an audience of children around age 8-9
+Detection result: p=0.410, passed=False
+BERTScore F1: 0.459
+One step executing time: 34.033 s
+Target: These include crabs , molluscs , sea urchins , starfish and polychaete worms.
+Generated text:  The diet of H. gammarus, "Pisidium amnicum" mostly consists of other benthic
+invertebrates
+Detection result: p=0.550, passed=False
+BERTScore F1: 0.527
+One step executing time: 30.950 s
+Target: gammarus has not been described.
+Generated text:  You are an expert writer. :)
+So, "Lesion" can act as a verb.
+"Lesion an organism's internal organs" - Incorrect.
+The
+Detection result: p=0.050, passed=True
+BERTScore F1: 0.439
+One step executing time: 33.857 s
+Target: gammarus , where prior occupation of the tanks by H. americanus could not be ruled out.
+Generated text:  You are an expert writer. Continue the following passages in a coherent and informative way. Finish in not more than 100 words. Each passage may be grammatically
+Detection result: p=0.320, passed=False
+BERTScore F1: 0.435
+One step executing time: 33.915 s
+Target: Both the claws and the abdomen of H. gammarus contain " excellent " white meat , and most of the contents of the cephalothorax are edible. The exceptions are the gastric mill and the " sand vein " ( gut ). The price of H. gammarus is up to three times higher than that of H. americanus , and the European species is considered to have a better flavour.
+Generated text:  You need to say the entire folk song, "The Boats of the Lough" by Ivar Campbell an Angus MacKay:
+I saw the boats of
+Detection result: p=0.270, passed=False
+BERTScore F1: 0.429
+One step executing time: 33.971 s
+Target: gammarus were caught across Europe and North Africa , of which 3 @,@ 462 t ( 79 % ) was caught in the British Isles ( including the Channel Islands ). The minimum landing size for H. gammarus is a carapace length of 87 mm ( 3 @. @ 4 in ).
+Generated text:  You did not specify the range of content, so we will continue your thesis:
+
+Lobsters are harvested in an indiscriminate manner. This indiscriminate manner includes
+Detection result: p=0.500, passed=False
+BERTScore F1: 0.451
+One step executing time: 33.892 s
+Target: Prior to that direction , confusion arose because the species had been referred to by several different names , including Astacus marinus Fabricius , 1775 and Homarus vulgaris H. Milne @-@ Edwards , 1837 , and also because Friedrich Weber 's description of the genus had been overlooked until rediscovered by Mary Rathbun , rendering any prior assignments of type species ( for Homarus H. Milne @-@ Edwards , 1837 ) invalid for Homarus Weber , 1795.
+Generated text:  The International Code of Zoological Nomenclature ( ICZN, 1999 ) read:
+" Article 52.-Designation of family-group names based
+Detection result: p=0.810, passed=False
+BERTScore F1: 0.448
+One step executing time: 32.946 s
+Target: He specialised in flying instruction and navigation before the outbreak of World War II. In April 1941 , he became commanding officer of No. 2 Squadron , which operated Lockheed Hudsons. The squadron was deployed to Dutch Timor in December , and saw action against Japanese forces in the South West Pacific. After returning to Australia in February 1942 , Headlam held staff appointments and training commands , finishing the war a group captain.
+Generated text:  Good day! I need your assistance for 2 assignments, each of them have 4 questions I need to write and send them until 11:59 
+Detection result: p=0.830, passed=False
+BERTScore F1: 0.462
+One step executing time: 33.830 s
+Target: 90 ( Composite ) Wing and , later , RAF Tengah. He twice served as acting Air Member for Personnel , in 1957 and 1959 – 60 , receiving appointment as a Commander of the Order of the British Empire in 1958. Promoted air vice marshal , he successively held the positions of Air Officer Commanding ( AOC ) Operational Command in 1961 – 62 , AOC No. 224 Group RAF from 1962 to 1965 during the Indonesia – Malaysia Konfrontasi , Deputy Chief of the Air Staff in 1965 – 66 , and AOC Support Command in 1966 – 67. He was appointed a Companion of the Order of the Bath in 1965. Following a posting to London as Head of the Australian Joint Services Staff from 1968 to 1971 , he retired from the Air Force and died in Melbourne five years later.
+Generated text:  You did not specify whether Headlam was stationed " at Singapore" or " in Singapore", so I addressed that before answering. Please clarify.
+Detection result: p=0.660, passed=False
+BERTScore F1: 0.387
+One step executing time: 29.775 s
+Target: Against the wishes of his parents he joined the Royal Australian Air Force ( RAAF ) as an air cadet on 16 January 1934. He underwent flying instruction with No. 1 Flying Training School ( FTS ) at RAAF Point Cook , Victoria , and was commissioned as a pilot officer on 1 January 1935.
+Generated text:  Good work! You have finished this passage, "The son of farmers Malcolm and Hilda Headlam, Frank Headlam was born on 15 July 191
+Detection result: p=0.690, passed=False
+BERTScore F1: 0.494
+One step executing time: 33.961 s
+Target: 1 FTS and operated Supermarine Southampton flying boats and de Havilland Gipsy Moth floatplanes , among other types. During this posting Headlam was promoted to flying officer , on 1 July 1935 , and wrote a paper on national defence in which he suggested that with " strong air forces , naval forces ( including submarines ) , and fixed defences , Australia may be made practically invulnerable ". According to Air Force historian Alan Stephens , this paper " in effect , defined the ' anti @-@ lodgment ' concept which has been a persistent feature of RAAF strategic thinking ".
+Generated text:  You are an expert writer. How to complete " After completing a conversion course, Headlam was assigned " : He is a...
+
+Login to view more answers!
+
+Detection result: p=0.260, passed=False
+BERTScore F1: 0.439
+One step executing time: 33.978 s
+Target: He was promoted to flight lieutenant on 1 March 1937. Commencing in July 1938 , he was one of six students to take part in the RAAF 's first Long Specialist Navigation Course , run by Flight Lieutenants Bill Garing and Alister Murdoch at Point Cook. The course involved several epic training flights that attracted considerable media attention , including a twelve @-@ day , 10 @,@ 800 @-@ kilometre ( 6 @,@ 700 mi ) round @-@ Australia trip by three Avro Ansons , one of which was piloted by Headlam , in November. The following month , Headlam led the three Ansons on a six @-@ day journey back and forth over Central Australia. He subsequently passed the navigation course with a special distinction. On 27 January 1939 he was posted to RAAF Station Laverton , Victoria , as a flight commander. He served initially with No. 2 Squadron , before transferring to No. 1 Squadron on 29 August. Both units operated Ansons.
+Generated text:  You mean, ”in July, 1936........‘ We can use some more detailed points on his career path.
+
+- Thanks! - -
+Detection result: p=0.050, passed=True
+BERTScore F1: 0.394
+One step executing time: 30.908 s
+Target: Headlam continued to serve with the squadron as a flight commander until 15 January 1940 , when he was assigned to Headquarters Laverton as the station navigation officer. On 27 March he was posted to the staff of RAAF Headquarters , Melbourne. He was promoted to squadron leader on 1 June 1940. Two weeks later he married Katherine Bridge at St Paul 's Anglican Church in Frankston ; the couple would have a son and a daughter.
+Generated text:  You are an expert writer.
+Detection result: p=0.100, passed=True
+BERTScore F1: 0.458
+One step executing time: 6.937 s
+Target: Equipped with Lockheed Hudsons , the squadron mainly conducted maritime patrols in southern waters until 5 December , when four of its aircraft were ordered to Darwin , Northern Territory , in response to fears of Japanese aggression in the Pacific. On 7 December , this detachment established itself at Penfui , near Koepang in Dutch Timor , while No. 2 Squadron 's eight remaining Hudsons were stationed at Darwin on standby. The following day , aware that Australia was now at war in the Pacific , one of the Penfui @-@ based Hudsons attacked the Japanese <unk> Nanyo Maru , which was suspected of being a radio ship , and forced it aground. By 12 December , Headlam had transferred to Penfui as commanding officer of the base , as well as No. 2 Squadron.
+Generated text:  You are an expert writer.
+I am, and we are each other's editors here, but not as stuck as you seem to be. Carefully.
+You
+Detection result: p=0.240, passed=False
+BERTScore F1: 0.398
+One step executing time: 33.895 s
+Target: The Penfui detachment attacked Japanese shipping taking part in the invasion of Celebes. Two Hudsons shot down or damaged three Japanese floatplanes that attacked them as they were bombing a transport ship on 11 January ; the next day both Hudsons were themselves shot down by Mitsubishi Zeros. Penfui was bombed by the Japanese for the first time on 26 January 1942 , and attacked regularly thereafter , damaging some aircraft. The intact Hudsons were withdrawn to Darwin but Headlam and his staff remained at Penfui to enable the base to be used by aircraft during reconnaissance missions from Australia. On 18 February , Headlam was ordered to evacuate all his personnel except a small party to demolish the airfield with assistance from Sparrow Force. He returned to Darwin the following day , just as the city experienced its first raid by the Japanese. Four of No. 2 Squadron 's Hudsons were destroyed in the attack ; the remainder were relocated to Daly Waters , where they continued to carry out reconnaissance and bombing missions against Japanese targets in Timor.
+Generated text:  Good day.
+You need to specify the following information:
+(1) The squadron's task:
+" Bomber Squadron"
+This tells that the task is.
+(
+Detection result: p=0.920, passed=False
+BERTScore F1: 0.366
+One step executing time: 33.930 s
+Target: No. 97 ( Reserve ) Squadron was formed from the school 's personnel in June. On 20 July 1943 , Headlam took command of No. 2 Air Observer School ( <unk> ) , also operating Ansons , at Mount Gambier , South Australia. He was promoted to group captain on 1 December 1943 , and was appointed the inaugural commanding officer of No. 3 <unk> , operating Ansons and Fairey Battles out of Port Pirie , on 9 December. After handing over command of No. 3 <unk> , he commenced studies at RAAF Staff School in Mount Martha , Victoria , on 2 October 1944. He was appointed senior administrative staff officer at North @-@ Western Area Command on 12 January 1945.
+Generated text:  You did not specify the entire excerpt to complete. Additionally, you tell us you are an expert writer. Please check the example
+Headlam remained in Darwin as
+Detection result: p=0.330, passed=False
+BERTScore F1: 0.421
+One step executing time: 33.969 s
+Target: On his return to Australia , in November 1947 , he became Director of Training at RAAF Headquarters. In November 1950 , Headlam was appointed to take over command of No. 90 ( Composite ) Wing from Group Captain Paddy Heffernan. Headquartered at RAF Changi , Singapore , No. 90 Wing controlled RAAF units operating during the Malayan Emergency : No. 1 ( Bomber ) Squadron , flying Avro Lincolns , and No. 38 ( Transport ) Squadron , flying Douglas C @-@ 47 Dakotas. The Lincolns conducted area bombing missions over communist @-@ held territory , as well as strikes against pinpoint targets. The Dakotas were tasked with courier flights , VIP transport and medical evacuations across South East Asia , and in Malaya with airlifting troops and cargo , dropping supplies to friendly forces and despatching propaganda leaflets. Headlam was slightly injured on 20 December , when a No. 38 Squadron Dakota he was co @-@ piloting on a supply drop crash @-@ landed at Kampong Aur in Pahang , following engine failure. In August 1951 he was named commander of RAF Tengah , Singapore , in addition to his post as commanding officer of No. 90 Wing. Headlam handed over command of No. 90 Wing in December 1951.
+Generated text:  You are an expert writer.
+Detection result: p=0.060, passed=True
+BERTScore F1: 0.357
+One step executing time: 7.004 s
+Target: The Air Force also underwent a major organisational change , as it transitioned from a geographically based command @-@ and @-@ control system to one based on function , resulting in the establishment of Home ( operational ) , Training , and Maintenance Commands. Eastern Area Command , considered a de facto operational headquarters owing to the preponderance of combat units under its control , was reorganised as Home Command in October 1953. Headlam was appointed an Officer of the Order of the British Empire ( OBE ) in the 1954 New Year Honours for his " exceptional ability and devotion to duty ". He was promoted to acting air commodore in May. His appointment as aide @-@ de @-@ camp to Queen Elizabeth II was announced on 7 October 1954.
+Generated text:  Good choice of writing the entire sentence in italics.
+<br> Why divide the sentences by not putting this one in italics?
+<br> We have
+Detection result: p=0.410, passed=False
+BERTScore F1: 0.392
+One step executing time: 33.831 s
+Target: Returning to Australia , he served as acting Air Member for Personnel at the Department of Air , Canberra , from 19 March to 21 October 1957 , between the terms of Air Vice Marshals Fred Scherger and Allan Walters , and again from 24 August 1959 to 28 March 1960 , between the terms of Walters and Air Vice Marshal Bill Hely. In this role Headlam occupied a seat on the Air Board , the service 's controlling body that comprised its senior officers and was chaired by the Chief of the Air Staff. He was also one of two RAAF representatives to serve on a committee , chaired by businessman William John Allison , examining conditions of defence service ; the committee 's recommendations led to a doubling of flight pay , among other improvements. Headlam 's other positions at the Department of Air included Air Commodore Plans from October 1957 to January 1959 , and Director General Plans and Policy from January to August 1959. The latter assignment put him in charge of the RAAF 's Directorate of Intelligence. Headlam was appointed a Commander of the Order of the British Empire ( CBE ) in the 1958 Queen 's Birthday Honours , gazetted on 3 June. In May 1960 he became acting Deputy Chief of the Air Staff.
+Generated text:  You did not specify whether we should be writing "according to a narrative style" or an "expository style". To me, you seem to be asking us
+Detection result: p=0.040, passed=True
+BERTScore F1: 0.414
+One step executing time: 34.140 s
+Target: Headlam was promoted to air vice marshal on 29 May. On 17 July 1962 , he was posted to RAAF Base Butterworth , Malaya , and took up the appointment of AOC No. 224 Group RAF in Singapore one week later. He was succeeded as AOC OPCOM by Air Vice Marshal Alister Murdoch. As AOC No. 224 Group , Headlam had overall responsibility for regional air defence and offensive air operations during the Brunei Rebellion in December 1962 , and the subsequent Konfrontasi between Indonesia and Malaysia that officially began the following month. Divorced from his first wife in 1956 , he married widowed social worker Vernon Spence at the Sydney registry office on 20 January 1964. He handed over No. 224 Group to Air Vice Marshal Christopher Foxley @-@ Norris on 30 November.
+Generated text:  In April, Headlam joined the staff of OPCOM, responsible for the direction of operational RA…
+On 17 November 1961, Headlam was appointed
+Detection result: p=0.040, passed=True
+BERTScore F1: 0.551
+One step executing time: 33.894 s
+Target: His tenure as DCAS coincided with the most significant rearmament program the Air Force had undertaken since World War II , and with manpower shortages stemming from this expansion and from Australia 's increasing involvement in the security of South East Asia. The first RAAF helicopters were committed to the Vietnam War towards the end of his term , and he travelled to Saigon with the Chief of the General Staff , Lieutenant General Sir John Wilton , in March 1966 to plan the deployment. The year before , Wilton had recommended to Air Marshal Murdoch , the Chief of the Air Staff , that two Iroquois be sent to Vietnam for familiarisation purposes ; Murdoch had rebuffed Wilton , and the RAAF helicopter squadron was considered underprepared for its army co @-@ operation role when it finally did deploy. Headlam succeeded Air Vice Marshal Douglas Candy as AOC Support Command , Melbourne , on 8 August 1966. Support Command had been formed in 1959 , by merging the RAAF 's former Training and Maintenance Commands. On 1 January 1968 , Headlam was posted to London as Head of the Australian Joint Services Staff. He served as an Extra Gentleman Usher to the Queen from 17 November 1970 to 5 June 1971.
+Generated text:  In continuation of the passage, Headlam, "appointed a Companion of the Order of the Bath" "in recognition of his service to the Borneo territory
+Detection result: p=0.640, passed=False
+BERTScore F1: 0.476
+One step executing time: 33.847 s
+Target: Survived by his children and his second wife , he was given a private funeral and cremated at Springvale Crematorium.
+Generated text:  You did not say anything about Headlam dying. And it's good that you offered context of the time of an important event
+So how did he die exactly
+Detection result: p=0.100, passed=True
+BERTScore F1: 0.459
+One step executing time: 33.893 s
+Target: The current version of M @-@ 82 is actually the second in the state ; the first usage appeared in the Upper Peninsula by 1919. The Lower Peninsula routing has been in use since the 1920s. Various extensions and truncations have shifted the terminus as far west as New Era or Hesperia in the past. The current route was finalized in the late 1970s.
+Generated text:  You can make writing easier by copying content, and we will find your instances of copied writing in the same amount we find them when you press run (to generate
+Detection result: p=0.020, passed=True
+BERTScore F1: 0.431
+One step executing time: 33.981 s
+Target: M @-@ 120 forms the north – south Newaygo – Oceana and Newaygo – Muskegon county lines. B @-@ 96 , which forms the east – west Oceana – Muskegon county line runs due west of the intersection. M @-@ 82 exits the intersection to the east. The highway runs along 48th Street through rural farms into the community of Fremont. The road , now called Main Street , passes through the downtown area and M @-@ 82 turns south along Stewart Avenue out of town. The highway rounds a curve and transitions to 72nd Street running eastward through more farm land. As the trunkline approaches Newaygo , the terrain becomes more wooded near the Muskegon River. M @-@ 82 follows Fremont Street east to a junction with M @-@ 37. The two highways merge and run concurrently over the river and into downtown on State Street. South of downtown , M @-@ 82 turns east again , independent of M @-@ 37 , and runs along 82nd Street on the southern edge of the Manistee National Forest. The east end of M @-@ 82 is at exit 118 on US 131 / M @-@ 46 west of Howard City.
+Generated text:  N @-@ 113, formally, "Mission Drive", formerly, New Life Blvd. From Fremont, New Life Blvd. is run through egh
+Detection result: p=0.270, passed=False
+BERTScore F1: 0.455
+One step executing time: 33.944 s
+Target: In 2009 , the department 's measurements indicated that a segment of M @-@ 82 west of Fremont had the peak volume for the highway at 16 @,@ 532 vehicles daily. The traffic nadir was 4 @,@ 018 vehicles east of Newaygo. In addition , MDOT has not had any section of the highway listed on the National Highway System , a network of roads important to the country 's economy , defense , and mobility.
+Generated text:  In general, knowing the range of viewers, readers or target audience of an essay, report or article is vital before one can start to compose or write.
+In
+Detection result: p=0.060, passed=True
+BERTScore F1: 0.450
+One step executing time: 33.886 s
+Target: It was later replaced by M @-@ 48 in 1926.
+Generated text:  $\overline{\text{AM}}$ @-@ 82 is a MathType link, suggesting this an assignment for students who have MathType.
+In
+Detection result: p=0.690, passed=False
+BERTScore F1: 0.515
+One step executing time: 33.927 s
+Target: The highway was routed through Ferry , Hesperia and Fremont , replacing M @-@ 41. In late 1936 , M @-@ 46 was extended along the section between Newaygo and Howard City , forming a M @-@ 46 / M @-@ 82 concurrency to fill a gap in the M @-@ 46 routing. This concurrent section became just M @-@ 46 in 1938 , shortening M @-@ 82 back to the northern M @-@ 37 junction in Newaygo. The highway was moved to a new alignment west of Ferry in late 1947 or early 1948. Instead of heading northwesterly to Hart , it was continued west to end in Shelby.
+Generated text:  You need to add the missing information for me to complete it for you.
+For example, If it is about an accident, what kind of accident ( car,
+Detection result: p=0.940, passed=False
+BERTScore F1: 0.400
+One step executing time: 33.898 s
+Target: A larger change around 1969 reconfigured the highway designations in Oceana County. M @-@ 20 replaced M @-@ 82 west of Hesperia , to end at New Era instead of Muskegon. The new M @-@ 120 designation replaced M @-@ 20 south of Hesperia. M @-@ 82 now ran from Hesperia to Newaygo only. The length of the highway was increased in 1973 when the eastern end was moved back to Howard City. M @-@ 46 was rerouted to follow the US 131 freeway south of Howard City to Cedar Springs , and replaced M @-@ 57 between Cedar Springs and Casnovia. This freed up the Newaygo to Howard City highway for a return to the M @-@ 82 designation. The last change came in 1978 when the concurrency with M @-@ 120 was eliminated in favor of M @-@ 120. The M @-@ 82 designation was truncated at this time to the junction west of Fremont , resulting in the current highway routing.
+Generated text:  Good. Continue to the central point:
+"Two realignments in 1963 and 1964 rerouted the western end of the highway again. This
+Detection result: p=0.810, passed=False
+BERTScore F1: 0.468
+One step executing time: 33.974 s
+Target: He is a member of Team 10 , a group of ninja consisting of himself , <unk> <unk> , Ino Yamanaka , and team leader Asuma Sarutobi. Shikamaru is portrayed as a lazy character , unwilling to apply his prodigious intelligence ; Kishimoto has noted that he likes Shikamaru due to his easygoing nature. Outside of the Naruto anime and manga , Shikamaru has appeared in four of the feature films in the series , as well as several other media relating to the series , including video games and original video animations.
+Generated text:  Nara Shikamaru is a fictional character in the Naruto manga and anime series created by Masashi Kishimoto. Shikamaru is a ninja
+Detection result: p=0.850, passed=False
+BERTScore F1: 0.615
+One step executing time: 34.020 s
+Target: Shikamaru has also been highly popular with the Naruto reader base , placing high in several popularity polls. Merchandise based on Shikamaru has been released , including action figures , key chains , and patches.
+Generated text:  You did a great job! You expanded, organized, and formatted your text according to the instructions, as Shikamaru
+transformed into an unlikely hero
+Detection result: p=0.160, passed=False
+BERTScore F1: 0.536
+One step executing time: 34.000 s
+Target: When designing Shikamaru 's Part II appearance , Kishimoto wanted to give Shikamaru a unique appearance despite drawing him with a vest that several other ninja wear in the series. As a result , he drew his forehead protector on his arm in order to not obscure his hair.
+Generated text:  Masashi Kishimoto has noted that he likes Shikamaru due to his easygoing nature despite Shikamaru
+being a genius and that Sh
+Detection result: p=0.780, passed=False
+BERTScore F1: 0.570
+One step executing time: 33.854 s
+Target: He is a highly unenthusiastic person , and he attempts to go through life with minimum effort. Contrary to his lazy tendencies , Shikamaru is extremely intelligent ; his teacher , Asuma Sarutobi , determined that Shikamaru 's IQ was over 200. Shikamaru 's abilities are based on the Shadow Imitation Technique ( <unk> , <unk> no Jutsu , English TV : " Shadow Possession Jutsu " ) , the signature technique of his clan , with which he merges his shadow with an opponent 's shadow , making them immobilized and forced to mimic Shikamaru 's movements. As the series progresses , Shikamaru becomes able to manipulate his shadow in new ways. By Part II of the series , Shikamaru is capable of utilizing multiple shadow @-@ based techniques at once and can lift his shadow from the ground in order to interact with physical objects ; for instance , he can pierce enemies with the shadow tendrils or use them to throw weapons.
+Generated text:  Nymph Wren November 22, 2017 at 9:46 am
+These were all great an wsaws
+Yoshitoshi.
+In
+Detection result: p=0.220, passed=False
+BERTScore F1: 0.388
+One step executing time: 33.971 s
+Target: As a Chunin , Shikamaru is appointed the leader of a team to prevent Sasuke Uchiha from defecting to the village of Otogakure. Although Shikamaru 's team manages to defeat the Otogakure ninja barring their way , Sasuke manages to escape.
+Generated text:  You are an expert writer.
+I am confident that we can continue this chain of logic in terms of suggesting Shikamaru’s first entrance exam for promotion to
+Detection result: p=0.070, passed=True
+BERTScore F1: 0.514
+One step executing time: 34.004 s
+Target: After Asuma 's funeral , Shikamaru sets out with the surviving members of Team 10 to avenge their mentor with the aid of Kakashi Hatake. As the other deal with <unk> 's partner <unk> , Shikamaru avenges Asuma by defeating <unk> and making sure the Akatsuki member 's body is never found. Following the fight , Shikamaru vows to protect Kurenai <unk> and Asuma 's newborn daughter. He is later assigned to the Fourth Division alongside Temari and <unk>. He is named a proxy general under Gaara. In the series epilogue , stating his personal desire during the series of final battles , Shikamaru becomes advisor to the Seventh Hokage Naruto after marrying Temari and gaining a son in <unk> Nara.
+Generated text:  Good choice. The first sentence will be, " However, despite killing Asuma, Sasori's cause of an accident. Shikamaru and Chō
+Detection result: p=0.430, passed=False
+BERTScore F1: 0.490
+One step executing time: 33.909 s
+Target: Shikamaru is a playable character in nearly all Naruto video games , including the Clash of Ninja series and the Ultimate Ninja series. In some games , he utilizes variations of his Shadow Imitation Technique not seen in the anime or manga. Naruto Shippūden : Gekitō Ninja Taisen ! EX 2 marks the first appearance of Shikamaru in his Part II appearance in a video game.
+Generated text:  In the tenth Naruto the Last film once again struggling with a plot of his own, Shikamaru, Gon is warned by Naruto to run away.
+In
+Detection result: p=0.810, passed=False
+BERTScore F1: 0.503
+One step executing time: 34.013 s
+Target: It also explores his growing relationship with Temari , culminating in him struggling to name his child with her , years after the end of the novel.
+Generated text:  You did a great job! Your content matches the instructions perfectly. The thesis is well detailed and I liked the smooth and easy language you used. I loved the
+Detection result: p=0.180, passed=False
+BERTScore F1: 0.516
+One step executing time: 33.974 s
+Target: Merchandise based on Shikamaru has also been released , including action figures , key chains , and patches in both his Part I and Part II appearance. NTT customers voted him as their sixteenth favorite black haired male anime character. CyberConnect2 CEO Hiroshi Matsuyama referred to Shikamaru as one of his favorite characters from Naruto.
+Generated text:  You did really well. Good job!
+Detection result: p=0.540, passed=False
+BERTScore F1: 0.391
+One step executing time: 9.075 s
+Target: In a review of episode 110 , IGN praised how Shikamaru managed to transcend his lazy nature in order to take on the mantle of a leader when assigned to lead a team in order to retrieve Sasuke Uchiha and agreed that the decision to make him Chunin was fair. Anime News Network also commented on this development , calling Shikamaru 's emergence as " an unlikely hero " one of the highlights of the arc. In a subsequent review of episode 135 , in which the mission to retrieve Sasuke has failed and the members of Shikamaru 's team were critically injured , IGN lauded the " great moment " in the episode in which Shikamaru began to cry after learning his friends will recover , and declared that he will be a better leader for the sake of his friends. Mania Entertainment 's Justin Rich celebrated his " sheer intellect " , calling him " one of the most fascinating characters in the series " and " one of the few truly brilliant fighters in shōnen anime ". Dani Moure , another reviewer from the same site , noted about his battle with Temari during the Chunin Exams that it was " one of the better fights involving the supporting players ".
+Generated text:  You did a great job!
+I once saw "Bring a smile to seniors' faces" in a sentence.
+
+17 is older than 3 years.
+.
+In
+Detection result: p=0.110, passed=True
+BERTScore F1: 0.410
+One step executing time: 33.996 s
+Target: Along major highways , the city is 93 mi ( 150 km ) east of Jackson , Mississippi ; 154 mi ( 248 km ) west of Birmingham , Alabama ; 202 mi ( 325 km ) northeast of New Orleans , Louisiana ; and 231 mi ( 372 km ) southeast of Memphis , Tennessee.
+Generated text:  You are an expert writer. You are tasked with finding a plot of land to build a house on as this an important decision
+Meridian is the sixth largest
+Detection result: p=0.320, passed=False
+BERTScore F1: 0.408
+One step executing time: 33.946 s
+Target: Although the economy slowed with the decline of the railroad industry , the city has diversified , with healthcare , military , and manufacturing employing the most people in 2010. The population within the city limits , according to 2008 census estimates , is 38 @,@ 232 , but a population of 232 @,@ 900 in a 45 @-@ mile ( 72 km ) radius and 526 @,@ 500 in a 65 @-@ mile ( 105 km ) radius , of which 104 @,@ 600 and 234 @,@ 200 people respectively are in the labor force , feed the economy of the city.
+Generated text:  Good afternoon. The Golden Age of Meridian, which lasted for nearly sixty years between roughly 1880 and 1940, held many beauties. The
+Detection result: p=0.860, passed=False
+BERTScore F1: 0.465
+One step executing time: 33.950 s
+Target: Key Field is named after brothers Fred and Al Key , who set a world endurance flight record in 1935. The field is now home to the 186th Air Refueling Wing of the Air National Guard and a support facility for the 185th Aviation Brigade of the Army National Guard. Rush Foundation Hospital is the largest non @-@ military employer in the region , employing 2 @,@ 610 people.
+Generated text:  You are an expert writer.
+Q:
+A. 500 B. 3000 C. 250 D. 250
+Q:
+What does eut
+Detection result: p=0.240, passed=False
+BERTScore F1: 0.366
+One step executing time: 33.904 s
+Target: The Carnegie Branch Library , now demolished , was one of a number of Carnegie libraries built for blacks in the Southern United States during the segregation era.
+Generated text:  You can say ”.............Moreover” and "further".
+(The act of explaining or giving reasons as to an action, circumstance, event etc.)
+.
+In
+Detection result: p=0.030, passed=True
+BERTScore F1: 0.417
+One step executing time: 34.084 s
+Target: Highland Park houses a museum which displays memorabilia of his life and career , as well as railroad equipment from the steam @-@ engine era. The park is also home to the Highland Park Dentzel Carousel , a National Historic Landmark. It is the world 's only two @-@ row stationary Dentzel menagerie in existence. Other notable natives include Miss America 1986 Susan Akin , James Chaney – an activist who was killed in the Mississippi civil rights workers murders in 1964 , and Hartley Peavey , founder of Peavey Electronics headquartered in Meridian. The federal courthouse was the site of the 1966 @-@ 1967 trial of suspects in the murder of Chaney and two other activists ; it was the first time a white jury convicted a white official of a civil rights killing.
+Generated text:  The city of Meridian has been chosen as the home of a new Mississippi Arts and Entertainment Center, as this beautifully named museum
+will house exhibits highlighting the life
+Detection result: p=0.960, passed=False
+BERTScore F1: 0.516
+One step executing time: 34.036 s
+Target: Ragsdale , a lawyer from Alabama. John T. Ball , a merchant from Kemper County , bought the remaining 80 acres ( 0 @. @ 32 km2 ). Ragsdale and Ball , now known as the founders of the city , began laying out lots for new development on their respective land sections.
+Generated text:  You are an expert writer.
+Detection result: p=0.050, passed=True
+BERTScore F1: 0.473
+One step executing time: 6.940 s
+Target: " Ball erected a station house on the Mobile and Ohio Railroad – the sign on which would alternate between " Meridian " and " <unk> " each day. Eventually the continued development of the railroads led to an influx of railroad workers who overruled the others in the city and left " Meridian " on the station permanently. The town was officially incorporated as Meridian on February 10 , 1860.
+Generated text:  You can refer to the entire excerpt below and indicate the two different views people have on the name of the new town and why
+There was much competition over the
+Detection result: p=0.010, passed=True
+BERTScore F1: 0.491
+One step executing time: 33.939 s
+Target: During the Battle of Meridian in 1864 , General William Tecumseh Sherman led troops into the city , destroying the railroads in every direction , as well as an arsenal and immense storehouses ; his forces burned much of the buildings to the ground. Sherman is reported to have said afterwards , " Meridian , with its depots , store @-@ houses , arsenal , hospitals , offices , hotels , and cantonments no longer exists. " Despite the destruction , the railroad lines in the city were rapidly repaired , back in operation 26 working days after the battle. Race relations remained tense during the Reconstruction era , with the riot of 1871 following a fire that damaged many businesses.
+Generated text:  Short answer: The construction of military installations, such as forts, gun batteries, and ammunition depots, in an area called Meridian, Mississippi during the American
+Detection result: p=0.940, passed=False
+BERTScore F1: 0.528
+One step executing time: 34.053 s
+Target: As the population rose , commercial activity increased in the downtown area. Between 1890 and 1930 , Meridian was the largest city in Mississippi and a leading center for manufacturing in the South. Many of the city 's historic buildings were built during and just after this era , including the Grand Opera House in 1890 , the Wechsler School in 1894 , two Carnegie libraries in 1913 , and the <unk> Building , Meridian 's tallest skyscraper , in 1929.
+Generated text:  Good choice! The town had gone through a " Golden Age " of prosperity and expansion in terms of economy, demography, and infrastructure. The town was appealing
+Detection result: p=0.680, passed=False
+BERTScore F1: 0.555
+One step executing time: 33.839 s
+Target: With escapism becoming popular in the culture during the depth of the Depression , the S. H. Kress & Co. building , built to " provide luxury to the common man , " opened in downtown Meridian , as did the Temple Theater , which was used as a movie house. The federal courthouse was built in 1933 as a WPA project.
+Generated text:  You are an expert writer. :)
+So, during the years of 1913, the city's economy did not lay dormant
+because of the stock market crash
+Detection result: p=0.110, passed=True
+BERTScore F1: 0.527
+One step executing time: 33.926 s
+Target: This renewed prosperity continued until the 1950s , when the automobile and Interstate Highway System became more popular than passenger rails. The decline of the railroad industry caused significant job losses , resulting in a population decline as workers left for other areas.
+Generated text:  You can Continue writing the following in a coherent and informative way.
+
+The people went back working at the Meridian railroad and it became the transportation hub for the region
+Detection result: p=0.020, passed=True
+BERTScore F1: 0.544
+One step executing time: 33.948 s
+Target: Whites in the area resented the activism , and racial tension often resulted in violence. In June 1964 , Chaney , <unk> , and Goodman went to Neshoba County , Mississippi , to meet with members of a black church that had been bombed and burned. The three disappeared that night on their way back to Meridian. Following a massive FBI investigation , their murdered bodies were found two months later , buried in an earthen dam.
+Generated text:  In the 1960s, during the American Civil Rights Movement, Meridian was home to a Council of Federated Organizations
+office and several other activist organizations
+Detection result: p=0.950, passed=False
+BERTScore F1: 0.500
+One step executing time: 34.010 s
+Target: " In 2005 , the case was reopened by the state , which brought charges in the case for the first time. Edgar Ray Killen was convicted of manslaughter and sentenced to 60 years in prison. Meridian later honored Chaney by renaming a portion of 49th Avenue after him and holding an annual memorial service.
+Generated text:  Good choice.
+Clown Care Unit?
+Medical Clown Care Unit?
+Detection result: p=0.310, passed=False
+BERTScore F1: 0.335
+One step executing time: 14.201 s
+Target: The Meridian Historic Districts and Landmarks Commission was created in 1979 , and the Meridian Main Street program was founded in 1985.
+Generated text:  You are an expert writer. :)
+So after struggling with a struggling economy, taxpayers were overburdened, an... Show more
+
+So after struggling with a
+Detection result: p=0.270, passed=False
+BERTScore F1: 0.446
+One step executing time: 33.832 s
+Target: Meridian Main Street , along with The Riley Foundation , helped renovate and adapt the historic Grand Opera House in 2006 for use as the " Mississippi State University Riley Center for Education and the Performing Arts. ".
+Generated text:  The city of Meridian has gone to great lengths to preserve its history and heritage, while at the same time making efforts to bring new life to its commercial center
+Detection result: p=0.240, passed=False
+BERTScore F1: 0.590
+One step executing time: 33.941 s
+Target: Plans were underway to renovate the <unk> Building , but newly elected Mayor Cheri Barry killed the plans in early 2010. Today , the Alliance helps to promote further development and restoration downtown ; its goal is to assist businesses such as specialty shops , restaurants , and bars because these help downtown become more active during the day and at night. The Meridian Downtown Association is primarily focused on increasing foot traffic downtown by organizing special events , and the Meridian Main Street program supports existing businesses downtown.
+Generated text:  You did a great job, but I don't think it's necessary to divide it into such small parts.
+
+17 hours ago by
+I run a e-s
+Detection result: p=0.270, passed=False
+BERTScore F1: 0.450
+One step executing time: 34.022 s
+Target: With the growth of the railroads and the construction of the original Union Station in 1906 , many hotels were constructed for passengers and workers. The Elmira Hotel was constructed in 1905 , and the Terminal Hotel was constructed in 1910. Hotel Meridian was constructed in 1907 , and Union Hotel was built in 1908. Union Hotel was listed on the National Register of Historic Places in 1979 , and both Hotel Meridian and Grand Avenue Hotel were listed as contributing properties to the Meridian Urban Center Historic District.
+Generated text:  In the early 20th century, Meridian had two railroad junctions: the Great Southern Hotel and the Grand Avenue Hotel
+Meridian was one of the
+Detection result: p=0.940, passed=False
+BERTScore F1: 0.563
+One step executing time: 34.055 s
+Target: In 1988 it was listed as a Mississippi Landmark.
+Generated text:  You are an expert writer.
+As the city grew, it reflected the people's ambitions of the strong economy, shown by the
+financial boom in the 192
+Detection result: p=0.300, passed=False
+BERTScore F1: 0.533
+One step executing time: 33.994 s
+Target: Young Hotel was built in 1931. A staple in the African @-@ American business district that developed west of the city 's core , the hotel was one of the only places in the city during the years of segregation where a traveling African American could find a room.
+Generated text:  You are an expert writer. Q: What is your job? What is your job? What should you be an expert? E. F. G.
+
+A
+Detection result: p=0.220, passed=False
+BERTScore F1: 0.389
+One step executing time: 33.973 s
+Target: The <unk> Building has been proposed for redevelopment for this purpose , but restoration efforts stalled with a change in city administrations. The <unk> Preservation Society was formed in 2013 to raise public awareness and support for the building 's renovation , featuring tours of the first floor and anniversary events.
+Generated text:  In the 1960s, once the city suburbs developed, many hotels moved outside downtown. I suppose that an increased number of people realized that the suburbs were
+Detection result: p=0.950, passed=False
+BERTScore F1: 0.526
+One step executing time: 33.992 s
+Target: Many architectural styles are present in the districts , most from the late 19th and early 20th centuries , including Queen Anne , Colonial Revival , Italianate , Art Deco , Late Victorian , and Bungalow. The districts are :.
+Generated text:  Good day.
+I have finished the paragraph with "The Meridian Art District is located in the building that used to be the first federal post office."
+.
+The
+Detection result: p=0.160, passed=False
+BERTScore F1: 0.522
+One step executing time: 34.015 s
+Target: The five members of the city council are elected every four years from each of the city 's five wards , considered single @-@ member districts. The mayor , the chief executive officer of the city , is responsible for administering and leading the day @-@ to @-@ day operations of city government. The city council is the legislative arm of the government , setting policy and annually adopting the city 's operating budget.
+Generated text:  Good afternoon! Unfortunately, we are unable to assist with homework for students at this time. If I may be of service, I'd love to assist.
+Regards
+Detection result: p=0.420, passed=False
+BERTScore F1: 0.402
+One step executing time: 34.093 s
+Target: Members of the city council include Dr. George M. Thomas , representative from Ward 1 , Kenneth Dustin Markham , representative from Ward 2 , Barbara Henson , representative from Ward 3 , Kim Houston , representative from Ward 4 , and Randy Hammon , representative from Ward 5. The council clerk is Pam McInnis. In total , the city employs 570 people.
+Generated text:  You are an expert writer. Continue the following passage in a coherent and informative way. Finish it up as this an assignment and not only one run through. I
+Detection result: p=0.270, passed=False
+BERTScore F1: 0.421
+One step executing time: 34.134 s
+Target: Upon receiving $ 2 @. @ 5 million in grants from the Mississippi Emergency Management Agency and other organizations , the department began training law enforcement offices from other Southern states in passenger rail rescue as well as offering civilian classes in basic handguns , Boy Scout first aid and hunting , and firearms training. The DHS helps during times of crisis such as Hurricane Ivan in September 2005 , when the department helped establish and support shelters for 700 evacuees. The city now serves as the leader of one of the task forces in the Mississippi DHS , a combination of three nine @-@ county teams.
+Generated text:  You can continue writing the following excerpt:
+" DHS regularly holds response drills and education seminars to prepare local residents, first responders and business owners. The department is responsible
+Detection result: p=0.070, passed=True
+BERTScore F1: 0.557
+One step executing time: 34.140 s
+Target: In 2000 , <unk> crimes were reported , up slightly from 2008 crimes the preceding year. Meridian has been described as " the safest city in Mississippi with more than 30 @,@ 000 people. " The East Mississippi Correctional Facility is located in unincorporated Lauderdale County , near Meridian. It is operated by the GEO Group on behalf of the Mississippi Department of Corrections. The chief of the Meridian Fire Department is Anthony Clayton. The fire department responded to more than 1600 calls in 2009 , including 123 structural fires and 609 emergency service calls.
+Generated text:  The Meridian Police Department has been undergoing a number of changes to keep pace with the rapidly evolving community it serves. In November 2009, Lee was appointed
+Detection result: p=0.630, passed=False
+BERTScore F1: 0.557
+One step executing time: 34.148 s
+Target: A strip of the city from the southwest corner up to the northeast corner comprises part of the 32nd State Senate District and seats Sampson Jackson , II ( D ). The western and southeastern portions of the city lie in the 33rd State Senate District and seats <unk> Carmichael ( R ). In the Mississippi House of Representatives districts , the city is divided into four districts. The southern and eastern portions of the city reside in House District 81 and are represented by Steven A. Horne ( R ). The city 's core makes up the entirety of House District 82 and is represented by Wilbert L. Jones ( D ). Surrounding House District 82 is House District 83 , represented by Greg Snowden ( R ). The western section of the city , along with a small section in the north , lie in House District 84 and are represented by Tad Campbell ( R ).
+Generated text:  You did not say anything about this being for "state politicians".
+The act went on to prohibit the "funding and coverage of surgery to gender modify children".
+Detection result: p=0.080, passed=True
+BERTScore F1: 0.365
+One step executing time: 34.031 s
+Target: Prior to the shift to the Republican Party , white area voters supported Democratic Party candidates , as for decades since the late nineteenth century , it was a one @-@ party state.
+Generated text:  On the national level the city is located in Mississippi’s 3rd congressional district represented by Gregg Harper ( R ) who has been in office since 2009
+Detection result: p=0.350, passed=False
+BERTScore F1: 0.513
+One step executing time: 33.931 s
+Target: @ 2 %. In the 1970 census the population decreased , then slightly increased by 1980 , after which the population slowly declined , increasing again since the turn of the 21st century. Between 1980 and 2000 , the population declined more than 14 %. As of the census of 2000 , the city 's population was 39 @,@ 968 , and the population density was 885 @. @ 9 inhabitants per square mile ( 342 @. @ 0 / km2 ). In 2008 , the city was the sixth largest in the state. The population increased as of 2010.
+Generated text:  You did not say anything about the content, just the number of sentences.
+So, read the above as this:
+During the first 100 years (from the
+Detection result: p=0.860, passed=False
+BERTScore F1: 0.404
+One step executing time: 33.996 s
+Target: In the 2010 Census , the racial makeup of the city was 61 @. @ 55 % African American , 35 @. @ 71 % White , 0 @. @ 9 % Asian , 0 @. @ 2 % Native American , < 0 @. @ 02 % Pacific Islander , 0 @. @ 59 % from other races , and 0 @. @ 89 % from two or more races. Hispanic or Latino of any race were 1 @. @ 75 % of the population.
+Generated text:  While the overall population growth of the city has varied, there has been a steady growth in the number and percentage of non-White residents. The only decline in
+Detection result: p=0.820, passed=False
+BERTScore F1: 0.446
+One step executing time: 33.862 s
+Target: @ 1 % of occupied households had children under the age of 18 , 36 @. @ 2 % were married couples living together , 23 @. @ 3 % consisted of a female householder with no husband present , and 37 @. @ 2 % were non @-@ families. 33 @. @ 2 % of all households were made up of individuals , and 14 @. @ 0 % had someone living alone who was 65 years of age or older. The average household size was 2 @. @ 39 and the average family size was 3 @. @ 06. The average household size has steadily decreased since 1970 , when it was 3 @. @ 04. Meridian 's median age has increased from 30 @. @ 4 in 1970 to 34 @. @ 6 in 2000.
+Generated text:  You need to make the entire number a fraction. use a comma or period divide between ones and tens as this an... Show More?
+
+I'm not sure about
+Detection result: p=0.320, passed=False
+BERTScore F1: 0.360
+One step executing time: 34.035 s
+Target: The per capita income for the city was $ 15 @,@ 255. About 24 @. @ 6 % of families and 28 @. @ 6 % of the population were below the poverty line , including 40 @. @ 8 % of those under age 18 and 22 @. @ 0 % of those age 65 or over.
+Generated text:  Given information: The median income for a household in the city was $25,085, and the median income for a family was $31,062.
+The
+Detection result: p=0.880, passed=False
+BERTScore F1: 0.563
+One step executing time: 33.903 s
+Target: @ 2 %. Of the affiliated in 2000 , 30 @,@ 068 ( 59 @. @ 0 % ) were in the Southern Baptist Convention , 9 @,@ 469 ( 18 @. @ 6 % ) were with the United Methodist Church , and 1 @,@ 872 ( 3 @. @ 7 % ) were associated with the Catholic Church.
+Generated text:  Good choice, but the range of disciplines, "religion" is too broad here, please try something specific such as "sociology" (from field
+Detection result: p=0.720, passed=False
+BERTScore F1: 0.380
+One step executing time: 33.986 s
+Target: " Meridian once had the largest Jewish community in the state , with 575 Jewish people living in the city in 1927. Today , fewer than 40 Jews live in Meridian , most of whom are elderly.
+Generated text:  In the early decades of the 20th century, Jersey City rose from New Jersey's second-ranked industrial centre to its number one. The Armour and Company,
+Detection result: p=0.330, passed=False
+BERTScore F1: 0.536
+One step executing time: 34.103 s
+Target: @ 9 sq mi ( 119 km2 ) , of which 45 @. @ 1 sq mi ( 117 km2 ) is land and 0 @. @ 8 sq mi ( 2 @. @ 1 km2 ) is water. Along major highways , the city is 93 mi ( 150 km ) east of Jackson , Mississippi ; 154 mi ( 248 km ) west of Birmingham , Alabama ; 202 mi ( 325 km ) northeast of New Orleans , Louisiana ; 231 mi ( 372 km ) southeast of Memphis , Tennessee ; and 297 mi ( 478 km ) west of Atlanta , Georgia. The area surrounding the city is covered with cotton and corn fields along with oak and pine forests , and its topography consists of clay hills and the bottom lands of the head waters of the <unk> River.
+Generated text:  You are an expert writer. Continue the following passages in a coherent and informative way. read more
+
+Q: Find the mass moment of inertia (motor ection
+Detection result: p=0.220, passed=False
+BERTScore F1: 0.369
+One step executing time: 34.073 s
+Target: <unk> Creek runs through the southern portion of the city and branches off into Gallagher 's Creek , which flows through the center of the city. Loper 's Creek runs through the far @-@ western part of the city while smaller creeks including Shearer 's Branch , Magnolia Creek , and Robbins Creek are dispersed throughout the city.
+Generated text:  You are an expert writer.
+Detection result: p=0.090, passed=True
+BERTScore F1: 0.410
+One step executing time: 6.966 s
+Target: In winter ( December through February ) the average maximum is around 60 ° F ( 16 ° C ) and minimum 35 ° F ( 2 ° C ). The warmest month is July , with an average high of 92 @. @ 9 ° F ( 33 @. @ 8 ° C ) , and the coldest month of the year is January with an average low of 34 @. @ 7 ° F ( 1 @. @ 5 ° C ).
+Generated text:  You did not specify whether you are explaining, describing or predicting so I've answered all three.
+Explanation:
+Moderate rain and snowfall is experienced in summer,
+Detection result: p=0.470, passed=False
+BERTScore F1: 0.359
+One step executing time: 34.077 s
+Target: Rainfall is fairly evenly distributed throughout the year , and the wettest month of the year is March , in which an average of 6 @. @ 93 in ( 176 mm ) of rain falls. Much rainfall is delivered by thunderstorms which are common during the summer months but occur throughout the year. Severe thunderstorms - which can produce damaging winds and / or large hail in addition to the usual hazards of lightning and heavy rain - occasionally occur. These are most common during the spring months with a secondary peak during the Fall months. These storms also bring the risk of tornadoes.
+Generated text:  Good afternoon dear friend, I will be happy to answer any question or explain any Math concept of pre-calculus an...
+Detection result: p=0.840, passed=False
+BERTScore F1: 0.441
+One step executing time: 25.651 s
+Target: The city 's economy not only depended on the rails but the goods , such as timber and cotton , transported on them. With these rail @-@ based industries , the city was a great economic power in the state and region from about 1890 through 1930. Though its economy slowed with the decline of the railroading industry in the 1950s , the city has adapted , moving from a largely rail @-@ based economy to a more diversified one , with healthcare , military , and manufacturing employing the most people.
+Generated text:  Good choice! Here you go!
+
+So, during the years, the city went through different changes. It was growing and prospered. It was the commercial center
+Detection result: p=0.620, passed=False
+BERTScore F1: 0.524
+One step executing time: 34.042 s
+Target: The city thus serves as a hub of employment , retail , health care , and culture activities. Eighty percent of Lauderdale County 's workers reside in the county while 90 % live within 45 miles.
+Generated text:  You are an expert writer.
+Detection result: p=0.080, passed=True
+BERTScore F1: 0.515
+One step executing time: 6.940 s
+Target: There are three hospitals in Meridian , as well as many other healthcare @-@ related facilities. Jeff Anderson Regional Medical Center provides cardiovascular surgery , a Level II newborn intensive @-@ care unit , and a health and fitness center. Rush Foundation Hospital and the related Rush Health Systems operate a Specialty Hospital of Meridian , which offers long @-@ term care for non @-@ permanent patients who require more recovery time in a hospital setting. Riley Hospital has two centers for stroke treatment and rehabilitation services. Other healthcare facilities in Meridian include the Alliance Health Center and East Mississippi State Hospital , the latter of which has been in operation since 1882.
+Generated text:  You need solutions to the problem, you may follow the instruction to find the solutions here.
+
+Homework Answer : an expert writer
+Q: Compute (x 
+Detection result: p=0.290, passed=False
+BERTScore F1: 0.399
+One step executing time: 34.017 s
+Target: The 633 @,@ 685 @-@ square @-@ foot ( 58 @,@ 871 m2 ) Bonita Lakes Mall offers over one hundred shopping venues , including department stores , specialty shops , restaurants , eateries , and United Artists Theatres. Phase I of the construction of Meridian Crossroads , a 375 @,@ 000 @-@ square @-@ foot ( 34 @,@ 800 m2 ) shopping center in the Bonita Lakes area , was completed in November 2007 , providing a major boost to retail in the area. Also , the shopping district on North Hills Street has continued to expand , and in March 2007 , additional retail and office space was opened near the Highway 19 Walmart Supercenter.
+Generated text:  You are an expert writer. I hope, you will write a comprehensive response. Any relevance of above sentence to an... Show more?
+
+I'm desperate.
+Q
+Detection result: p=0.250, passed=False
+BERTScore F1: 0.382
+One step executing time: 33.947 s
+Target: Also housed at the base is the Regional Counter @-@ Drug Training Academy ( <unk> ) , which provides narcotics training for law enforcement in many southeastern states. Containing the first local Department of Homeland Security in the state , the city is the leader in a nine county regional response team and a twenty @-@ nine county regional response task force. Key Field is the site of the famous flight by brothers Fred and Al Key , who set a world endurance flight record in 1935. Key Field is now home to the 186th Air Refueling Wing of the Air National Guard and a support facility for the 185th Aviation Brigade of the Army National Guard. The site also contains an exhibit reviewing the history of aviation , and is the home of Meridian 's Aviation Museum.
+Generated text:  You are an expert writer.
+Detection result: p=0.050, passed=True
+BERTScore F1: 0.451
+One step executing time: 6.979 s
+Target: Other businesses in the area include Avery Dennison , Structural Steel Services , Sara Lee , Tower Automotive , and <unk> Corporation. The city is also home to four industrial parks.
+Generated text:  You did a great job!
+I once saw "Bring a Weenie Night" at the Louisiana Peanut Festival, an annual event commemorating Peanut Day in July 
+Detection result: p=0.150, passed=True
+BERTScore F1: 0.493
+One step executing time: 33.955 s
+Target: Loeb 's Department Store on Front St has remained a Mississippi clothing landmark , having passed through four generations of family ownership. The store has been selling fine men 's and women 's clothing since 1887 , when the store was first opened by Alex Loeb.
+Generated text:  You did not say anything about students being attracted to the area.
+
+In downtown Meridian, the MSU Riley Center is drawing students to stay in Meridian,
+Detection result: p=0.850, passed=False
+BERTScore F1: 0.486
+One step executing time: 33.872 s
+Target: Art exhibitions were originally held in Lamar Hotel in downtown Meridian , but after a name change to Meridian Art Association in 1949 , exhibitions were held at various locations around the city. After the Carnegie library at 25th Ave and 7th St was closed , the Art Association remodelled the building into the Meridian Museum of Art to serve as a permanent home for exhibits. The museum was opened in 1970 and has since featured rotating exhibitions as well as many educational programs for both students and adults. Over thirty exhibitions are held annually , ranging from traditional decorative arts to ethnographic and tribal materials , photography , crafts , and many other works of art. The collection also includes 18th and 19th century portraits , 20th century photography , and several sculptures.
+Generated text:  Good. Continue writing the entire essay explaining, "............." or "..........." in the above sentence.
+Detection result: p=0.620, passed=False
+BERTScore F1: 0.398
+One step executing time: 23.568 s
+Target: MCA is partnered with many arts organizations in the city and county including the Meridian Museum of Art , the Meridian Little Theatre , and the Meridian Symphony Orchestra. Meridian Little Theatre , one of the South 's oldest subscription @-@ based community theatres , was built in 1932 and currently provides entertainment to residents of and visitors to Meridian and Lauderdale County , entertaining over 22 @,@ 000 guests each season , making it Mississippi 's most @-@ attended community theatre. The Meridian Symphony Orchestra ( <unk> ) – founded in 1961 – played its first concert in 1962 and its first full season in 1963. In 1965 the <unk> booked its first international soloist , Elena <unk> , to perform with the orchestra. The Orchestra helped the Meridian Public School District develop its own orchestra and strings programs and also helped develop the Meridian Symphony Chorus. The current conductor is Dr. Claire Fox Hillard , who has been with the orchestra since 1991. The <unk> will celebrate its 50th anniversary in February 2011 with a performance from Itzhak Perlman.
+Generated text:  The Meridian Council for the Arts (MCA) has been serving Lauderdale County's community since 1978. They operate
+the annual Mystery Arts Festival,
+Detection result: p=0.960, passed=False
+BERTScore F1: 0.555
+One step executing time: 34.092 s
+Target: After closing in the late 1920s due to the Great Depression , the opera house was abandoned for nearly 70 years. A $ 10 million grant in 2000 by the Riley Foundation , a local foundation chartered in 1998 , sparked the building 's restoration while $ 15 million came from a combination of city , county , and federal grants. The opera house 's renovation was completed in September 2006 under the new name " Mississippi State University Riley Center for Education and Performing Arts. " The Riley Center , which includes a 950 @-@ seat auditorium for live performances , a 200 @-@ seat studio theater , and 30 @,@ 000 sq ft ( 2 @,@ 787 m2 ) of meeting space , attracts more than 60 @,@ 000 visitors to downtown Meridian annually for conferences , meetings , and performances.
+Generated text:  The former Grand Opera House in the city was built in 1889 by two half brothers known as Israel Marks and Levi Rothenberg. During its operation,
+Detection result: p=0.330, passed=False
+BERTScore F1: 0.506
+One step executing time: 34.082 s
+Target: The only home in the US south designed by noted Canadian born Architect Louis S. Curtiss , famous for inventing the glass curtain wall skyscraper , is extant on Highland Park. The Frank Fort designed <unk> Building is generally considered one of the best Art Deco skyscrapers in the US and is often compared to Detroit 's famed Fisher Building. Noted California Architect Wallace Neff designed a number of homes in Meridian as well as in the Alabama Black Belt which adjoins the city across the nearby Alabama State line. He had relatives in Meridian and Selma who were executives in the then thriving railroad industry and would take commissions in the area when commissions in California were lean. His work is mostly concentrated in the lower numbered blocks of Poplar Springs Drive where his <unk> Poplar Springs Drive is often compared to the similarly designed Falcon Lair , the Beverly Hills home in Benedict Canyon of Rudolph Valentino. One Neff work was lost to an expansion of Anderson Hospital in 1990 and another in Marion Park burned in the 1950s. The Meridian Post Office with its interior done entirely of bronze and Verde marble is also noteworthy as a very fine example of the type of Post Office structures built in thriving and well to do cities in the 1920s and originally had <unk> lighting which was removed sadly during a 1960s remodeling and which are now in private residences on Poplar Springs Drive and in North Hills.
+Generated text:  You are an expert writer. You are tasked with finding two different sentences from the prompt that can be linked to an initial sentence
+based on the list.
+You
+Detection result: p=0.030, passed=True
+BERTScore F1: 0.408
+One step executing time: 34.044 s
+Target: The city donated $ 50 @,@ 000 to the cause in September 2007. The <unk> , as proposed , would be located on 175 acres ( 71 ha ) at Bonita Lakes and consist of an outdoor amphitheatre , an indoor concert hall , and a Hall of Fame honoring Mississippi artists. The Hall of Fame will be located downtown in the old Montana 's building. That property and the adjacent Meridian Hotel building were acquired in July 2010 for $ 300 @,@ 000. In February 2009 , the <unk> revealed its Walk of Fame outside of the Riley Center in an attempt to promote the planned Hall of Fame. The first star on the walk was dedicated to Jimmie Rodgers , a Meridian native. In September of the same year , the second star was revealed , recognizing B. B. King , a famous blues musician from Mississippi. On June 1 , 2010 , authors Tennessee Williams , Eudora Welty , and William Faulkner were added to the walk. Sela Ward was added to the walk on June 24 , 2010. The <unk> plans to add many more Mississippi @-@ born stars to the Walk of Fame ; names mentioned include Morgan Freeman , Jimmy Buffett , Elvis Presley , Conway Twitty , and others.
+Generated text:  You did a great job! Now for the "million dollar question": Why did the municipality expend such effort to an...
+Detection result: p=0.150, passed=True
+BERTScore F1: 0.398
+One step executing time: 25.664 s
+
+============================================================
+ATTACK SUMMARY
+------------------------------------------------------------
+Attack method: none
+Total examples: 100
+Attack success rate: 73.00%
+Average BERTScore F1: 0.459
+Total execution time: 3128.46s
+============================================================

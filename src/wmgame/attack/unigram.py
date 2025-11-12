@@ -20,6 +20,7 @@ def attack_unigram(
     logger: logging.Logger,
 ) -> None:
     start_time = time.time()
+    logger.setLevel(logging.INFO)
 
     # Initialize metrics
     comet = evaluate.load("comet")
@@ -47,7 +48,7 @@ def attack_unigram(
         fraction=0.5,
         vocab_size=llm.tokenizer.vocab_size,
         watermark_key=0,
-        config=DetectionConfig(threshold=-0.01),
+        config=DetectionConfig(threshold=-1.5),
     )
 
     for prompt, target in all_prompts:

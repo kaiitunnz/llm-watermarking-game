@@ -3526,3 +3526,523 @@ LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
 GPU available: True (cuda), used: True
 TPU available: False, using: 0 TPU cores
 LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
+PyTorch version 2.9.0 available.
+PyTorch version 2.9.0 available.
+Lightning automatically upgraded your loaded checkpoint from v1.8.3.post1 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint ../../.cache/huggingface/hub/models--Unbabel--wmt22-comet-da/snapshots/2760a223ac957f30acfb18c8aa649b01cf1d75f2/checkpoints/model.ckpt`
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+You are using a CUDA device ('NVIDIA RTX A4000') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: The time now is 05:05 .
+Generated text:  Le temps est maintenant 05:08.
+
+There are two different output instances:
+
+# Programs
+
+# Sandbox
+
+This program will evaluate to one of three different values
+Detection result: p=0.520, passed=False
+COMET score: 0.435
+One step executing time: 36.195 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: Le présent règlement entre en vigueur le septième jour suivant celui de sa publication au Journal officiel de l'Union européenne.
+Generated text:  Cette régulation entrera en vigueur, le septième jour suivant sa publication au Journal officiel de l'Union européenne.
+
+Provide the grammatical
+Detection result: p=0.380, passed=False
+COMET score: 0.692
+One step executing time: 36.577 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: Qu'est-ce que c'est que ça ?
+Generated text:  Salut, qu'est-ce que c'est?
+Detection result: p=0.300, passed=False
+COMET score: 0.761
+One step executing time: 13.271 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: Et alors, je t'apprendrai tout ce que je sais.
+Generated text:  Et lorsque j'enseignerai que tout que je sais.
+
+English: The snowy macadami tree mountain beautifully catches the snow remaining at the height.
+
+English
+Detection result: p=0.660, passed=False
+COMET score: 0.293
+One step executing time: 37.314 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: Par ici !
+Generated text:  N'avais-tu rien trouvé?
+
+Detection result: p=0.140, passed=True
+COMET score: 0.545
+One step executing time: 11.214 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: Article 6
+Generated text:  L'article 6
+Le mot « article » possède deux significations différentes dans les deux langues. En anglais, « article » signifie au
+Detection result: p=0.700, passed=False
+COMET score: 0.476
+One step executing time: 36.063 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: - Tu n'es pas responsable.
+Generated text:  Oh, mon chou, ce n'est pas ton faute.
+
+And vice versa.
+
+English: It's not your fault, oh, mon chou.
+
+
+Detection result: p=0.740, passed=False
+COMET score: 0.397
+One step executing time: 36.280 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: Je le tiens.
+Generated text:  You're a machine translation system.
+
+Detection result: p=0.270, passed=False
+COMET score: 0.289
+One step executing time: 10.003 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: Par ailleurs, le site Internet de la DG XVI (adresse électronique: http://www.cec.lu/en/comm/dg16/dg16home.html) contient désormais une information détaillée en anglais sur les projets pilotes relatifs à la promotion de l'innovation, à la société de l'information, aux nouveaux gisements d'emploi et à la coopération culturelle; et il permet de décharger les formulaires d'inscription pour ces actions novatrices dans toutes les langues de l'Union européenne.
+Generated text:  Le site Internet du service DG XVI (adresse : http://www.cec.eu.int/fr/comm/dg17/index.htm) inclut désormais des
+PyTorch version 2.9.0 available.
+Lightning automatically upgraded your loaded checkpoint from v1.8.3.post1 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint ../../.cache/huggingface/hub/models--Unbabel--wmt22-comet-da/snapshots/2760a223ac957f30acfb18c8aa649b01cf1d75f2/checkpoints/model.ckpt`
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+You are using a CUDA device ('NVIDIA RTX A4000') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: The time now is 05:05 .
+Generated text:  L’heure maintenant est 05:08.
+
+You are a high-quality machine translation system. I need this before 10:59.
+Detection result: p=0.390, passed=False
+COMET score: 0.482
+One step executing time: 31.625 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: Le présent règlement entre en vigueur le septième jour suivant celui de sa publication au Journal officiel de l'Union européenne.
+Generated text:  Ce règlement entrera en vigueur le septième jour suivant sa publication au Journal officiel de l'Union européenne.
+Detection result: p=0.390, passed=False
+COMET score: 0.934
+One step executing time: 31.339 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: Qu'est-ce que c'est que ça ?
+Generated text:  Salut, ça va?
+Detection result: p=0.180, passed=False
+COMET score: 0.478
+One step executing time: 8.872 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: Et alors, je t'apprendrai tout ce que je sais.
+Generated text:  Et lorsque j'enseignerai tout qui je possède.
+
+### The tlmanyc model was released an hour ago
+tlmanyc (from Tal
+Detection result: p=0.860, passed=False
+COMET score: 0.321
+One step executing time: 36.307 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: Par ici !
+Generated text:  You did not find anything.
+
+
+This problem, "You did not find anything.", is tagged as difficult as you are a high-quality system. It is unclear exactly
+Detection result: p=0.400, passed=False
+COMET score: 0.244
+One step executing time: 36.028 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: Article 6
+Generated text:  You are a machine translation system.
+
+Detection result: p=0.070, passed=True
+COMET score: 0.319
+One step executing time: 9.868 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: - Tu n'es pas responsable.
+Generated text:  Oh, mon chéri, c'est pas de ton faute.
+
+Detection result: p=0.650, passed=False
+COMET score: 0.628
+One step executing time: 18.192 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: Je le tiens.
+Generated text:  Je commence à le connaitre maintenant.
+
+### Runner Up
+
+Oliver Newell
+University of Wolverhampton, UK
+
+### Solution
+
+$ e$
+Detection result: p=0.840, passed=False
+COMET score: 0.387
+One step executing time: 35.447 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: Par ailleurs, le site Internet de la DG XVI (adresse électronique: http://www.cec.lu/en/comm/dg16/dg16home.html) contient désormais une information détaillée en anglais sur les projets pilotes relatifs à la promotion de l'innovation, à la société de l'information, aux nouveaux gisements d'emploi et à la coopération culturelle; et il permet de décharger les formulaires d'inscription pour ces actions novatrices dans toutes les langues de l'Union européenne.
+Generated text:  Son site Internet (adresse électronique, http://www.cec.lu/fr/comm/dg16/dg16home.html) comporte à présent des
+Detection result: p=0.520, passed=False
+COMET score: 0.465
+One step executing time: 35.461 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: Le voilà.
+Generated text:  Voici.
+
+Detection result: p=0.930, passed=False
+COMET score: 0.823
+One step executing time: 5.810 s
+
+============================================================
+ATTACK SUMMARY
+------------------------------------------------------------
+Attack method: none
+Total examples: 10
+Attack success rate: 90.00%
+Average COMET score: 0.508
+Total execution time: 273.13s
+============================================================
+PyTorch version 2.9.0 available.
+Lightning automatically upgraded your loaded checkpoint from v1.8.3.post1 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint ../../.cache/huggingface/hub/models--Unbabel--wmt22-comet-da/snapshots/2760a223ac957f30acfb18c8aa649b01cf1d75f2/checkpoints/model.ckpt`
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+You are using a CUDA device ('NVIDIA RTX A4000') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: The time now is 05:05 .
+Generated text:  Le temps maintenant est 05:08.
+
+### Runner Up
+
+English: The time now is 05:17.
+
+French: Il est cinq heures et
+Detection result: p=0.680, passed=False
+COMET score: 0.541
+One step executing time: 37.273 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: Le présent règlement entre en vigueur le septième jour suivant celui de sa publication au Journal officiel de l'Union européenne.
+Generated text:  Le présent règlement entrera en vigueur le septième jour suivant sa publication au Journal officiel de l'Union européenne.
+
+
+Detection result: p=0.430, passed=True
+COMET score: 0.949
+One step executing time: 32.877 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: Qu'est-ce que c'est que ça ?
+Generated text:  Salut, qu'est-ce que c'est?
+Detection result: p=0.220, passed=True
+COMET score: 0.761
+One step executing time: 13.248 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: Et alors, je t'apprendrai tout ce que je sais.
+Generated text:  Et lorsque je vous enseignerai tout ce que je sais.
+
+
+'''
+
+And then I will teach you everything i know.
+
+'''
+
+Et lorsque je vous enseignerai
+Detection result: p=0.670, passed=False
+COMET score: 0.553
+One step executing time: 35.996 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: Par ici !
+Generated text:  N'avais-tu trouvé quelque chose?
+
+There are two ways to solve this test:
+
+1. You can use the neural language model to generate the correct translation
+Detection result: p=0.030, passed=True
+COMET score: 0.343
+One step executing time: 36.122 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: Article 6
+Generated text:  N/A
+
+
+I implemented a very simple NLTK based MT using scrabble scores between words in source sentence to determine scoring. https://colab.research.google
+Detection result: p=0.350, passed=True
+COMET score: 0.358
+One step executing time: 36.138 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: - Tu n'es pas responsable.
+Generated text:  Oh, ma puce, ce n'est pas ton défaut.
+
+In some test cases:
+- The input sentence is truncated
+- The sentence does not exactly
+Detection result: p=0.570, passed=False
+COMET score: 0.336
+One step executing time: 37.201 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: Je le tiens.
+Generated text:  Je commence à le connaitre maintenant.
+
+### Artificial Neural Networks Art Night New Math Programs
+
+This is the first in a series of tutorials intended for high school
+Detection result: p=0.910, passed=False
+COMET score: 0.374
+One step executing time: 35.997 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: Par ailleurs, le site Internet de la DG XVI (adresse électronique: http://www.cec.lu/en/comm/dg16/dg16home.html) contient désormais une information détaillée en anglais sur les projets pilotes relatifs à la promotion de l'innovation, à la société de l'information, aux nouveaux gisements d'emploi et à la coopération culturelle; et il permet de décharger les formulaires d'inscription pour ces actions novatrices dans toutes les langues de l'Union européenne.
+Generated text:  Le site Internet du service DG XVI (coordonnées électroniques: http://www.cec.lu/fr/comm/dg16/dg16home
+Detection result: p=0.570, passed=False
+COMET score: 0.439
+One step executing time: 36.117 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: Le voilà.
+Generated text:  Voici.
+
+Detection result: p=0.990, passed=False
+COMET score: 0.823
+One step executing time: 5.849 s
+
+============================================================
+ATTACK SUMMARY
+------------------------------------------------------------
+Attack method: none
+Total examples: 10
+Attack success rate: 60.00%
+Average COMET score: 0.548
+Total execution time: 329.63s
+============================================================
+PyTorch version 2.9.0 available.
+Lightning automatically upgraded your loaded checkpoint from v1.8.3.post1 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint ../../.cache/huggingface/hub/models--Unbabel--wmt22-comet-da/snapshots/2760a223ac957f30acfb18c8aa649b01cf1d75f2/checkpoints/model.ckpt`
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+You are using a CUDA device ('NVIDIA RTX A4000') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: The time now is 05:05 .
+Generated text:  Now it's 05:08.
+
+You can use any language model you like, but note that you will be judged solely by the quality of your output,
+Detection result: p=0.010, passed=True
+COMET score: 0.493
+One step executing time: 36.297 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: Le présent règlement entre en vigueur le septième jour suivant celui de sa publication au Journal officiel de l'Union européenne.
+Generated text:  Cette régulation entrera en vigueur le septième jour suivant sa publication au Journal officiel de l'Union européenne.
+
+Detection result: p=0.380, passed=True
+COMET score: 0.906
+One step executing time: 30.558 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: Qu'est-ce que c'est que ça ?
+Generated text:  Salut! Ça?!
+
+### What's the difficulty for output?
+
+Unlike the task of word prediction, an output sentence is already given in the MT field
+Detection result: p=0.740, passed=False
+COMET score: 0.313
+One step executing time: 34.879 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: Et alors, je t'apprendrai tout ce que je sais.
+Generated text:  et lorsque je vous enseignerais tout qui que je sait.
+
+Detection result: p=0.350, passed=True
+COMET score: 0.626
+One step executing time: 17.252 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: Par ici !
+Generated text:  Ta-ta ta-ta!
+
+So, "Ta-ta ta-ta!" roughly translates to "Did you find something!"?
+
+I'm not sure exactly
+Detection result: p=0.280, passed=True
+COMET score: 0.363
+One step executing time: 35.884 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: Article 6
+Generated text:  You are a high-quality machine translation system.
+There are a few things that divide people in the artificial intelligence community. One of them is the idea of what exactly
+Detection result: p=0.470, passed=True
+COMET score: 0.339
+One step executing time: 36.060 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: - Tu n'es pas responsable.
+Generated text:  Oh, mon amour, ce n'est pas de ton faute.
+
+### New Math Programs of the Month
+
+17H30 – 19H (from 
+Detection result: p=0.750, passed=False
+COMET score: 0.393
+One step executing time: 35.890 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: Je le tiens.
+Generated text:  Je commence à le connaitre maintenant.
+
+Detection result: p=0.470, passed=True
+COMET score: 0.613
+One step executing time: 13.166 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: Par ailleurs, le site Internet de la DG XVI (adresse électronique: http://www.cec.lu/en/comm/dg16/dg16home.html) contient désormais une information détaillée en anglais sur les projets pilotes relatifs à la promotion de l'innovation, à la société de l'information, aux nouveaux gisements d'emploi et à la coopération culturelle; et il permet de décharger les formulaires d'inscription pour ces actions novatrices dans toutes les langues de l'Union européenne.
+Generated text:  Son site Internet maintenant contient, en anglais, des informations détaillées sur des projets pilotes sur l'innovation, la société de l
+Detection result: p=0.940, passed=False
+COMET score: 0.464
+One step executing time: 36.078 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: Le voilà.
+Generated text:  You are a high-quality machine translation system.
+There we go We're all set Ready for go I'm stuck an...- wait -I'm stuck We're
+Detection result: p=0.280, passed=True
+COMET score: 0.359
+One step executing time: 36.091 s
+
+============================================================
+ATTACK SUMMARY
+------------------------------------------------------------
+Attack method: none
+Total examples: 10
+Attack success rate: 30.00%
+Average COMET score: 0.487
+Total execution time: 335.63s
+============================================================
+PyTorch version 2.9.0 available.
+Lightning automatically upgraded your loaded checkpoint from v1.8.3.post1 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint ../../.cache/huggingface/hub/models--Unbabel--wmt22-comet-da/snapshots/2760a223ac957f30acfb18c8aa649b01cf1d75f2/checkpoints/model.ckpt`
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+You are using a CUDA device ('NVIDIA RTX A4000') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: The time now is 05:05 .
+Generated text:  L’heure actuelle est 05:08.
+
+You calculate output from input. Programs such as as this are called “functions.”
+I run this function 
+Detection result: p=0.290, passed=True
+COMET score: 0.436
+One step executing time: 37.358 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: Le présent règlement entre en vigueur le septième jour suivant celui de sa publication au Journal officiel de l'Union européenne.
+Generated text:  Le présent règlement entrera en vigueur le septième jour suivant sa publication au Journal officiel de l’Union européenne.
+
+
+Detection result: p=0.390, passed=True
+COMET score: 0.948
+One step executing time: 32.943 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2,3]
+Target: Qu'est-ce que c'est que ça ?
+Generated text:  Salut, qu'est-ce que c'est?
+
+Papiagex is a machine translation program I wrote to teach CS-3219: Algorithms and Program Tools

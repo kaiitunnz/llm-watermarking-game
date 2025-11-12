@@ -175,8 +175,9 @@ def phi(
         Test statistic value
     """
     if null:
+        inv = torch.unique(tokens, return_inverse=True, sorted=False)[1]
         tokens = torch.unique(tokens, return_inverse=True, sorted=False)[1]
-        eff_vocab_size = torch.max(tokens).item() + 1
+        eff_vocab_size = torch.max(tokens).item() + 1 if inv.numel() > 0 else max(vocab_size, 1)
     else:
         eff_vocab_size = vocab_size
 
@@ -189,7 +190,7 @@ def phi(
     closest = torch.min(A, dim=1)[0]
 
     if closest.numel() == 0:
-        return torch.tensor(float("nan"), tokens.device)
+        return torch.tensor(float("nan"))
 
     return torch.min(closest)
 

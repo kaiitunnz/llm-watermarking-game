@@ -20,7 +20,7 @@ def attack_kgw(
     logger: logging.Logger,
 ) -> None:
     start_time = time.time()
-
+    logger.setLevel(logging.INFO)
     # Initialize metrics
     comet = evaluate.load("comet")
     bertscore = evaluate.load("bertscore")

@@ -20,7 +20,7 @@ def attack_exp(
     logger: logging.Logger,
 ):
     start_time = time.time()
-
+    logger.setLevel(logging.INFO)
     # Initialize metrics
     comet = evaluate.load("comet")
     bertscore = evaluate.load("bertscore")
@@ -46,10 +46,10 @@ def attack_exp(
         tokenizer=llm.tokenizer,
         n=256,
         k=1,
-        gamma=0.5,
+        gamma=0.3,
         seed=0,
         vocab_size=llm.tokenizer.vocab_size,
-        config=DetectionConfig(threshold=0.15),
+        config=DetectionConfig(threshold=0.7),
     )
 
     for prompt, target in all_prompts:

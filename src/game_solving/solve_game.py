@@ -34,10 +34,8 @@ def solve_stackelberg_equilibrium(leader_u, follower_u):
             if a != br:
                 model.constraints.add(sum(model.x[i] * follower_u[i,a] for i in range(l)) <= sum(model.x[i] * follower_u[i,br] for i in range(l)))
 
-
-
         results = solver.solve(model)
-
+        
         if results.solver.termination_condition == "infeasible":
             continue
         

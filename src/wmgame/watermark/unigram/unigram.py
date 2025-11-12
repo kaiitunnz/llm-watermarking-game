@@ -219,7 +219,7 @@ class UnigramWatermarkedLLM(WatermarkedLLM):
 
         # Generate multiple complete sequences
         sequences: torch.Tensor | None = None
-        best_zscore = float("-inf")
+        best_zscore = float("inf")
         best_sequence = None
 
         for _ in range(num_samples):
@@ -255,7 +255,7 @@ class UnigramWatermarkedLLM(WatermarkedLLM):
 
                 # Update best sequence if this one has a higher z-score
                 assert z_score is not None and best_zscore is not None
-                if z_score > best_zscore:
+                if z_score < best_zscore:
                     best_zscore = z_score
                     best_sequence = sequences
 

@@ -52,7 +52,7 @@ def load_opengen_qa_from_wikitext(
         # Turn the prefix into an open-ended QA style prompt
         prompt = (
             "You are an expert writer.\n"
-            "Q: Continue the following passage in a coherent and informative way.\n\n"
+            "Q: Continue the following passage in a coherent and informative way. Respond with only the continuation.\n\n"
             f"{prefix}\n\n"
             "A:"
         )
@@ -85,7 +85,7 @@ def load_translation_examples(
 
         prompt = (
             "You are a high-quality machine translation system.\n"
-            "Translate the following sentence from English to French.\n\n"
+            "Translate the following sentence from English to French. Respond with only the translation.\n\n"
             f"English: {src}\n\n"
             "French:"
         )
@@ -115,7 +115,7 @@ def load_summarization_examples(
 
         prompt = (
             "You are an expert summarizer.\n"
-            "Summarize the following news article in a concise paragraph.\n\n"
+            "Summarize the following news article in a concise paragraph. Respond with only the summary.\n\n"
             f"{article}\n\n"
             "Summary:"
         )

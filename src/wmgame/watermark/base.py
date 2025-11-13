@@ -34,11 +34,11 @@ class GenerationContext(ABC):
         self._attention_mask = torch.ones_like(input_ids)
         self._past_key_values = DynamicCache(config=model.config)
         self._num_tokens = 0
-        self.output_ids: torch.Tensor | None = None
+        self._output_ids: torch.Tensor | None = None
 
     def step(self) -> torch.Tensor:
         with torch.no_grad():
-            if self.output_ids is None:
+            if self._output_ids is None:
                 output = self.model(
                     self.input_ids,
                     past_key_values=self._past_key_values,
@@ -46,7 +46,7 @@ class GenerationContext(ABC):
                 )
             else:
                 output = self.model(
-                    self.output_ids[:, -1:],
+                    self._output_ids[:, -1:],
                     past_key_values=self._past_key_values,
                     attention_mask=None,
                 )
@@ -76,20 +76,31 @@ class GenerationContext(ABC):
         """
         token = token.to(self.model.device).reshape(1, 1)
 
-        if self.output_ids is None:
-            self.output_ids = token
+        if self._output_ids is None:
+            self._output_ids = token
         else:
-            self.output_ids = torch.cat([self.output_ids, token], dim=1)
+            self._output_ids = torch.cat([self._output_ids, token], dim=1)
         self._num_tokens += 1
 
-        is_eos = (token == self.model.config.eos_token_id).any().item()
+        eos_token_id: list[int] | int | None = self.model.config.eos_token_id
+        if isinstance(eos_token_id, list):
+            token_id = token.item()
+            is_eos = token_id in eos_token_id
+        else:
+            is_eos = (token == self.model.config.eos_token_id).any().item()
         return not (is_eos or self._num_tokens >= self.max_new_tokens)
 
     def all_token_ids(self) -> torch.Tensor:
         """Return the full context seen by the model so far."""
-        if self.output_ids is None:
+        if self._output_ids is None:
             return self.input_ids
-        return torch.cat([self.input_ids, self.output_ids], dim=1)
+        return torch.cat([self.input_ids, self._output_ids], dim=1)
+
+    @property
+    def output_ids(self) -> torch.Tensor:
+        if self._output_ids is None:
+            raise ValueError("No output ids generated yet.")
+        return self._output_ids
 
 
 class WatermarkedLLM(ABC):
@@ -132,7 +143,9 @@ class WatermarkedLLM(ABC):
             inputs = self.tokenize(prompts, gen_kwargs)
         else:
             inputs = prompts
-        return self.model.generate(**inputs, **gen_kwargs)  # type: ignore
+        prompt_length = inputs["input_ids"].shape[1]  # type: ignore
+        outputs = self.model.generate(**inputs, **gen_kwargs)
+        return outputs[:, prompt_length:]
 
     @abstractmethod
     def generate_with_watermark(

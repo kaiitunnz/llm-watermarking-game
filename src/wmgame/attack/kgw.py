@@ -33,6 +33,7 @@ def attack_kgw(
     total_time = 0.0
 
     # Default configurations
+    max_new_tokens = 128
     gamma = 0.5
     delta = 2.0
     z_threshold = 4.0
@@ -65,7 +66,7 @@ def attack_kgw(
                 detector=detector,
                 gamma=gamma,
                 delta=delta,
-                max_new_tokens=128,
+                max_new_tokens=max_new_tokens,
                 do_sample=False,
             )
         elif attack_method == "frequency":
@@ -75,7 +76,7 @@ def attack_kgw(
                 reduction_factor=0.1,
                 gamma=gamma,
                 delta=delta,
-                max_new_tokens=128,
+                max_new_tokens=max_new_tokens,
                 do_sample=False,
             )
         elif attack_method == "paraphrase":
@@ -83,7 +84,7 @@ def attack_kgw(
                 prompt=prompt,
                 gamma=gamma,
                 delta=delta,
-                max_new_tokens=128,
+                max_new_tokens=max_new_tokens,
                 do_sample=False,
             )
         elif attack_method == "none":
@@ -91,7 +92,7 @@ def attack_kgw(
                 prompt=prompt,
                 gamma=gamma,
                 delta=delta,
-                max_new_tokens=128,
+                max_new_tokens=max_new_tokens,
                 do_sample=False,
             )
         else:

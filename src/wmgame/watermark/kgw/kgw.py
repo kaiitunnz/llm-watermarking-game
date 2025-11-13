@@ -79,6 +79,7 @@ class KGWWatermarkedLLM(WatermarkedLLM):
         self,
         detector: KGWDetector,
         prompt: str | BatchEncoding,
+        num_samples: int = 10,
         gamma: float = 0.5,
         delta: float = 2.0,
         seeding_scheme: str = "simple_1",
@@ -88,56 +89,52 @@ class KGWWatermarkedLLM(WatermarkedLLM):
         context_width: int = 1,
         **gen_kwargs,
     ) -> torch.Tensor:
-        k = 5  # Number of top-k candidates to consider
-        k = min(k, len(self.tokenizer))
+        # Generate multiple candidate sequences with watermark
+        inputs = (
+            self.tokenize(prompt, gen_kwargs) if isinstance(prompt, str) else prompt
+        )
 
-        with self.generation_context(
-            prompt=prompt,
-            gamma=gamma,
-            delta=delta,
-            seeding_scheme=seeding_scheme,
-            select_green_tokens=select_green_tokens,
-            multiple_key=multiple_key,
-            num_keys=num_keys,
-            context_width=context_width,
-            **gen_kwargs,
-        ) as ctx:
-            generated_tokens = []
+        # Expand inputs to batch size of num_samples
+        batch_input_ids = inputs["input_ids"].repeat(num_samples, 1)  # type: ignore
+        batch_attention_mask = inputs.get("attention_mask")
+        if batch_attention_mask is not None:
+            batch_attention_mask = batch_attention_mask.repeat(num_samples, 1)
+        inputs.update(
+            {"input_ids": batch_input_ids, "attention_mask": batch_attention_mask}
+        )
 
-            while True:
-                next_token_logits = ctx.step_with_watermark()
+        # Generate num_samples sequences in parallel using generate_with_watermark
+        with torch.random.fork_rng():
+            torch.manual_seed(42)
+            outputs = self.generate_with_watermark(
+                prompt=inputs,
+                gamma=gamma,
+                delta=delta,
+                seeding_scheme=seeding_scheme,
+                select_green_tokens=select_green_tokens,
+                multiple_key=multiple_key,
+                num_keys=num_keys,
+                context_width=context_width,
+                **gen_kwargs | {"do_sample": True, "temperature": 1.0},
+            )
 
-                # Get top-k candidate tokens
-                _, top_k_indices = torch.topk(next_token_logits[0], k, dim=-1)
-                top_k_candidates = top_k_indices.tolist()
+        # Evaluate each candidate sequence with the detector and select best
+        best_pvalue = -1
+        best_sequence_idx = 0
 
-                # Evaluate each candidate token with the detector
-                best_pvalue = -1
-                best_token = top_k_candidates[0]
-                for candidate_token in top_k_candidates:
-                    test_generated = generated_tokens + [candidate_token]
-                    test_text = self.tokenizer.decode(
-                        test_generated, skip_special_tokens=True
-                    )
-                    result = detector.detect(test_text)
-                    p_value = result.p_value
-                    if p_value is not None and p_value > best_pvalue:
-                        best_pvalue = p_value
-                        best_token = candidate_token
+        for batch_idx in range(num_samples):
+            generated_tokens = outputs[batch_idx].tolist()
+            generated_text = self.tokenizer.decode(
+                generated_tokens, skip_special_tokens=True
+            )
+            result = detector.detect(generated_text)
+            p_value = result.p_value
+            if p_value is not None and p_value > best_pvalue:
+                best_pvalue = p_value
+                best_sequence_idx = batch_idx
 
-                # Add the best token to the sequence
-                generated_tokens.append(best_token)
-
-                # Set the next token and check if generation should continue
-                best_token_tensor = torch.tensor(
-                    best_token, device=ctx.input_ids.device
-                )
-                should_continue = ctx.set_next_token(best_token_tensor)
-
-                if not should_continue:
-                    break
-
-            return ctx.output_ids
+        # Return the sequence with highest p-value
+        return outputs[best_sequence_idx : best_sequence_idx + 1]
 
     def generate_with_frequency_attack(
         self,

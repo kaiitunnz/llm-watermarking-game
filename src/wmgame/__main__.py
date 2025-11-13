@@ -86,6 +86,7 @@ elif args.watermark == "unigram":
         attack_method=args.attack,
         task=args.task,
         max_examples=args.max_examples,
+        result_file=result_filename,
         logger=logger,
     )
 elif args.watermark == "exp":

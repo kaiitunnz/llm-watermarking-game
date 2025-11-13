@@ -140,11 +140,12 @@ class UnigramWatermarkedLLM(WatermarkedLLM):
         inputs = (
             self.tokenize(prompt, gen_kwargs) if isinstance(prompt, str) else prompt
         )
+        vocab_size = getattr(self.tokenizer, "vocab_size", None) or len(self.tokenizer)
         yield UnigramGenerationContext(
             model=self.model,
             tokenizer=self.tokenizer,
             input_ids=inputs["input_ids"],  # type: ignore
-            vocab_size=len(self.tokenizer),
+            vocab_size=vocab_size,
             max_new_tokens=gen_kwargs.get("max_new_tokens", 1),
             fraction=fraction,
             strength=strength,
@@ -156,10 +157,9 @@ class UnigramWatermarkedLLM(WatermarkedLLM):
     def generate_with_watermark(
         self,
         prompt: str | BatchEncoding,
-        *,
-        fraction: float = 0.5,
-        strength: float = 5.0,
-        watermark_key: int = 0,
+        fraction: float,
+        strength: float,
+        watermark_key: int,
         multiple_key: bool = False,
         num_keys: int = 1,
         **gen_kwargs,
@@ -167,6 +167,10 @@ class UnigramWatermarkedLLM(WatermarkedLLM):
         inputs = (
             self.tokenize(prompt, gen_kwargs) if isinstance(prompt, str) else prompt
         )
+        if gen_kwargs.get("do_sample", False):
+            generator = torch.Generator(device=self.model.device).manual_seed(42)
+        else:
+            generator = None
         with self.generation_context(
             prompt=inputs,
             fraction=fraction,
@@ -176,262 +180,206 @@ class UnigramWatermarkedLLM(WatermarkedLLM):
             num_keys=num_keys,
             **gen_kwargs,
         ) as ctx:  # type: ignore[arg-type]
-            # simple greedy loop
             for _ in range(gen_kwargs.get("max_new_tokens", 1)):
                 logits = ctx.step_with_watermark()
                 probs = torch.nn.functional.softmax(logits, dim=-1)
-                token = torch.multinomial(probs, 1)
+                if generator is None:
+                    token = torch.argmax(probs, dim=-1, keepdim=True)
+                else:
+                    token = torch.multinomial(probs, 1, generator=generator)
                 if not ctx.set_next_token(token):
                     break
-            sequences = ctx.all_token_ids()
-
-            class _Out:
-                def __init__(self, sequences):
-                    self.sequences = sequences
-
-            prompt_length = inputs["input_ids"].shape[1]  # type: ignore
-            generated_token_ids = sequences[:, prompt_length:]
-
-            return generated_token_ids
+            generated_token_ids = ctx.output_ids
+        return generated_token_ids
 
     def generate_with_detection_attack(
         self,
+        detector: UnigramDetector,
         prompt: str | BatchEncoding,
-        *,
-        fraction: float = 0.5,
-        strength: float = 5.0,
-        watermark_key: int = 0,
+        fraction: float,
+        strength: float,
+        watermark_key: int,
+        num_samples: int,
         multiple_key: bool = False,
         num_keys: int = 1,
-        num_samples: int = 5,
         **gen_kwargs,
     ) -> torch.Tensor:
+        # Generate multiple candidate sequences with watermark
         inputs = (
             self.tokenize(prompt, gen_kwargs) if isinstance(prompt, str) else prompt
         )
 
-        detector = UnigramDetector(
-            tokenizer=self.tokenizer,
-            fraction=fraction,
-            vocab_size=len(self.tokenizer),
-            watermark_key=watermark_key,
+        # Expand inputs to batch size of num_samples
+        batch_input_ids = inputs["input_ids"].repeat(num_samples, 1)  # type: ignore
+        batch_attention_mask = inputs.get("attention_mask")
+        if batch_attention_mask is not None:
+            batch_attention_mask = batch_attention_mask.repeat(num_samples, 1)
+        inputs.update(
+            {"input_ids": batch_input_ids, "attention_mask": batch_attention_mask}
         )
 
-        # Generate multiple complete sequences
-        sequences: torch.Tensor | None = None
-        best_zscore = float("inf")
-        best_sequence = None
-
-        for _ in range(num_samples):
-            with self.generation_context(
+        # Generate num_samples sequences in parallel using generate_with_watermark
+        with torch.random.fork_rng():
+            torch.manual_seed(42)
+            outputs = self.generate_with_watermark(
                 prompt=inputs,
                 fraction=fraction,
                 strength=strength,
                 watermark_key=watermark_key,
                 multiple_key=multiple_key,
                 num_keys=num_keys,
-                **gen_kwargs,
-            ) as ctx:
-                # Generate complete sequence
-                for _ in range(gen_kwargs.get("max_new_tokens", 1)):
-                    logits = ctx.step_with_watermark()
-                    probs = torch.nn.functional.softmax(logits, dim=-1)
-                    token = torch.multinomial(probs, 1)
-                    if not ctx.set_next_token(token):
-                        break
-                sequences = ctx.all_token_ids()
+                **gen_kwargs | {"do_sample": True, "temperature": 1.0},
+            )
 
-                # Extract generated tokens (excluding prompt)
-                prompt_length = inputs["input_ids"].shape[1]  # type: ignore
-                sequences = sequences[0, prompt_length:]
-                generated_tokens = sequences.tolist()
+        # Evaluate each candidate sequence with the detector and select best
+        best_zscore = float("inf")
+        best_sequence_idx = 0
 
-                # Evaluate entire sequence
-                generated_text = self.tokenizer.decode(
-                    generated_tokens, skip_special_tokens=True
-                )
-                result = detector.detect(generated_text)
-                z_score = result.z_score
+        for batch_idx in range(num_samples):
+            generated_tokens = outputs[batch_idx].tolist()
+            generated_text = self.tokenizer.decode(
+                generated_tokens, skip_special_tokens=True
+            )
+            result = detector.detect(generated_text)
+            z_score = result.z_score
+            if z_score is not None and z_score < best_zscore:
+                best_zscore = z_score
+                best_sequence_idx = batch_idx
 
-                # Update best sequence if this one has a higher z-score
-                assert z_score is not None and best_zscore is not None
-                if z_score < best_zscore:
-                    best_zscore = z_score
-                    best_sequence = sequences
-
-        # If no valid sequence was found, return the last generated one
-        if best_sequence is None:
-            assert sequences is not None
-            best_sequence = sequences
-
-        return best_sequence.unsqueeze(0)
+        # Return the sequence with highest z-score
+        return outputs[best_sequence_idx : best_sequence_idx + 1]
 
     def generate_with_frequency_attack(
         self,
         prompt: str | BatchEncoding,
-        *,
-        fraction: float = 0.5,
-        strength: float = 5.0,
-        watermark_key: int = 0,
+        fraction: float,
+        strength: float,
+        watermark_key: int,
+        num_samples: int,
+        reduction_factor: float,
         multiple_key: bool = False,
         num_keys: int = 1,
-        num_samples: int = 5,
-        reduction_factor: float = 0.5,
         **gen_kwargs,
     ) -> torch.Tensor:
+        # First phase: Generate multiple samples to identify green tokens
         inputs = (
             self.tokenize(prompt, gen_kwargs) if isinstance(prompt, str) else prompt
         )
 
-        # First phase: Collect green tokens from multiple samples
-        green_tokens_per_position = []
+        # Expand inputs to batch size of num_samples
+        batch_input_ids = inputs["input_ids"].repeat(num_samples, 1)  # type: ignore
+        batch_attention_mask = inputs.get("attention_mask")
+        if batch_attention_mask is not None:
+            batch_attention_mask = batch_attention_mask.repeat(num_samples, 1)
+        inputs.update(
+            {"input_ids": batch_input_ids, "attention_mask": batch_attention_mask}
+        )
 
-        for _ in range(num_samples):
-            with self.generation_context(
+        # Generate num_samples sequences in parallel using generate_with_watermark
+        with torch.random.fork_rng():
+            torch.manual_seed(42)
+            outputs = self.generate_with_watermark(
                 prompt=inputs,
                 fraction=fraction,
                 strength=strength,
                 watermark_key=watermark_key,
                 multiple_key=multiple_key,
                 num_keys=num_keys,
-                **gen_kwargs,
-            ) as ctx:
-                for _ in range(gen_kwargs.get("max_new_tokens", 1)):
-                    logits = ctx.step_with_watermark()
-                    probs = torch.nn.functional.softmax(logits, dim=-1)
-                    token = torch.multinomial(probs, 1)
-                    if not ctx.set_next_token(token):
-                        break
+                **gen_kwargs | {"do_sample": True, "temperature": 1.0},
+            )
 
-                sequences = ctx.all_token_ids()
-                prompt_length = inputs["input_ids"].shape[1]  # type: ignore
-                generated_tokens = sequences[0, prompt_length:].tolist()
+        # Track token frequencies at each position
+        green_tokens_per_position: list[set[int]] = []
 
-                # Track green tokens for each position
-                for pos, token in enumerate(generated_tokens):
-                    if len(green_tokens_per_position) <= pos:
-                        green_tokens_per_position.append(set())
-                    green_tokens_per_position[pos].add(token)
+        for batch_idx in range(num_samples):
+            generated_tokens = outputs[batch_idx].tolist()
+            for position, token in enumerate(generated_tokens):
+                if len(green_tokens_per_position) <= position:
+                    green_tokens_per_position.append(set())
+                green_tokens_per_position[position].add(token)
 
-        # Second phase: Generate with reduced probabilities for green tokens
+                # Second phase: Generate final sequence avoiding green tokens
+        generator = torch.Generator(device=self.model.device).manual_seed(42)
         with self.generation_context(
-            prompt=inputs,
+            prompt=prompt,
             fraction=fraction,
             strength=strength,
             watermark_key=watermark_key,
             multiple_key=multiple_key,
             num_keys=num_keys,
-            return_dict_in_generate=True,
-            output_scores=True,
             **gen_kwargs,
         ) as ctx:
-            generated_tokens = []
+            position = 0
+            while True:
+                next_token_logits = ctx.step_with_watermark()
 
-            for pos in range(gen_kwargs.get("max_new_tokens", 1)):
-                logits = ctx.step_with_watermark()
-                probs = torch.nn.functional.softmax(logits, dim=-1)
+                # Get probability distribution
+                probs = torch.softmax(next_token_logits[0], dim=-1)
 
-                # Reduce probabilities for tokens that appeared in green list
-                if pos < len(green_tokens_per_position):
-                    green_tokens = green_tokens_per_position[pos]
+                # Reduce probabilities for frequently appearing tokens
+                if position < len(green_tokens_per_position):
+                    green_tokens = green_tokens_per_position[position]
                     for token in green_tokens:
-                        probs[0, token] *= reduction_factor
-
-                # Renormalize probabilities
-                probs = probs / probs.sum(dim=-1, keepdim=True)
+                        probs[token] *= reduction_factor
+                    probs = probs / probs.sum()  # Renormalize
 
                 # Sample token with modified probabilities
-                token = torch.multinomial(probs[0], num_samples=1)
-                generated_tokens.append(token.item())
+                token = torch.multinomial(probs, num_samples=1, generator=generator)
+                should_continue = ctx.set_next_token(token)
 
-                if not ctx.set_next_token(token):
+                position += 1
+                if not should_continue:
                     break
 
-        return torch.tensor([generated_tokens], device=inputs["input_ids"].device)  # type: ignore
+            return ctx.output_ids
 
     def generate_with_paraphrase_attack(
         self,
         prompt: str | BatchEncoding,
-        *,
-        fraction: float = 0.5,
-        strength: float = 5.0,
-        watermark_key: int = 0,
+        fraction: float,
+        strength: float,
+        watermark_key: int,
         multiple_key: bool = False,
         num_keys: int = 1,
         **gen_kwargs,
     ) -> torch.Tensor:
-        inputs = (
-            self.tokenize(prompt, gen_kwargs) if isinstance(prompt, str) else prompt
-        )
-        with self.generation_context(
-            prompt=inputs,
-            fraction=fraction,
-            strength=strength,
-            watermark_key=watermark_key,
-            multiple_key=multiple_key,
-            num_keys=num_keys,
-            **gen_kwargs,
-        ) as ctx:  # type: ignore[arg-type]
-            # simple greedy loop
-            for _ in range(gen_kwargs.get("max_new_tokens", 1)):
-                logits = ctx.step_with_watermark()
-                probs = torch.nn.functional.softmax(logits, dim=-1)
-                token = torch.multinomial(probs, 1)
-                if not ctx.set_next_token(token):
-                    break
-            sequences = ctx.all_token_ids()
-
-            original_sequence = sequences[0]
-            prompt_length = inputs["input_ids"].shape[1]  # type: ignore
-            generated_text = self.tokenizer.decode(
-                original_sequence[prompt_length:], skip_special_tokens=True
+        # First phase: Generate watermarked text
+        with torch.random.fork_rng():
+            torch.manual_seed(42)
+            watermarked_tokens = self.generate_with_watermark(
+                prompt=prompt,
+                fraction=fraction,
+                strength=strength,
+                watermark_key=watermark_key,
+                multiple_key=multiple_key,
+                num_keys=num_keys,
+                **gen_kwargs,
             )
 
-        # Create paraphrase prompt
+        # Decode the watermarked text
+        generated_text = self.tokenizer.decode(
+            watermarked_tokens[0], skip_special_tokens=True
+        )
+
+        # Second phase: Generate paraphrase
         paraphrase_prompt = (
-            "Paraphrase the following text while preserving its meaning, factual accuracy. "
+            "Paraphrase the following text while preserving its meaning and factual accuracy. "
             "Avoid adding or removing information, and produce fluent, natural language.\n\n"
             f"Text to paraphrase:\n{generated_text}\n\nParaphrased version:"
         )
 
-        # Generate paraphrase without watermark
-        paraphrase_inputs = self.tokenize(paraphrase_prompt, gen_kwargs)
-        generation_params = {
+        # Generate paraphrase
+        paraphrase_gen_kwargs = gen_kwargs | {
             "do_sample": True,
             "temperature": 0.9,
-            "max_new_tokens": len(original_sequence)
-            - prompt_length,  # Match original length
+            "max_new_tokens": gen_kwargs.get(
+                "max_new_tokens", watermarked_tokens.shape[1]
+            ),
         }
-        # Only add gen_kwargs that don't conflict with our explicit params
-        generation_params.update(
-            {
-                k: v
-                for k, v in gen_kwargs.items()
-                if k
-                not in ["max_new_tokens", "do_sample", "temperature", "gamma", "delta"]
-            }
-        )
+        with torch.random.fork_rng():
+            torch.manual_seed(42)
+            paraphrase_outputs = self.generate(
+                paraphrase_prompt, **paraphrase_gen_kwargs
+            )
 
-        paraphrase_outputs = self.model.generate(
-            **paraphrase_inputs,
-            pad_token_id=self.tokenizer.eos_token_id,
-            **generation_params,
-        )
-
-        # Extract paraphrased text
-        prompt_length = paraphrase_inputs["input_ids"].shape[1]  # type: ignore
-        paraphrased_text = self.tokenizer.decode(
-            paraphrase_outputs[0][prompt_length:], skip_special_tokens=True
-        )
-
-        # Convert paraphrased text back to tokens and combine with original prompt
-        paraphrase_tokens = self.tokenizer.encode(
-            paraphrased_text, add_special_tokens=False
-        )
-
-        # Create final sequence
-        final_sequence = torch.tensor(
-            [paraphrase_tokens], device=original_sequence.device
-        )
-
-        return final_sequence
+        return paraphrase_outputs

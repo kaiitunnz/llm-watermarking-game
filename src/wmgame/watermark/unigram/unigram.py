@@ -199,55 +199,57 @@ class UnigramWatermarkedLLM(WatermarkedLLM):
         fraction: float,
         strength: float,
         watermark_key: int,
-        num_samples: int,
+        k: int,
         multiple_key: bool = False,
         num_keys: int = 1,
         **gen_kwargs,
     ) -> torch.Tensor:
-        # Generate multiple candidate sequences with watermark
-        inputs = (
-            self.tokenize(prompt, gen_kwargs) if isinstance(prompt, str) else prompt
-        )
+        k = max(1, min(k, len(self.tokenizer)))
+        detector_device = detector.device or torch.device("cpu")
 
-        # Expand inputs to batch size of num_samples
-        batch_input_ids = inputs["input_ids"].repeat(num_samples, 1)  # type: ignore
-        batch_attention_mask = inputs.get("attention_mask")
-        if batch_attention_mask is not None:
-            batch_attention_mask = batch_attention_mask.repeat(num_samples, 1)
-        inputs.update(
-            {"input_ids": batch_input_ids, "attention_mask": batch_attention_mask}
-        )
+        with self.generation_context(
+            prompt=prompt,
+            fraction=fraction,
+            strength=strength,
+            watermark_key=watermark_key,
+            multiple_key=multiple_key,
+            num_keys=num_keys,
+            **gen_kwargs,
+        ) as ctx:  # type: ignore[arg-type]
+            prompt_length = ctx.input_ids.shape[1]
+            while True:
+                logits = ctx.step_with_watermark()
+                _, top_k_indices = torch.topk(logits[0], k, dim=-1)
+                top_k_candidates = top_k_indices.tolist()
 
-        # Generate num_samples sequences in parallel using generate_with_watermark
-        with torch.random.fork_rng():
-            torch.manual_seed(42)
-            outputs = self.generate_with_watermark(
-                prompt=inputs,
-                fraction=fraction,
-                strength=strength,
-                watermark_key=watermark_key,
-                multiple_key=multiple_key,
-                num_keys=num_keys,
-                **gen_kwargs | {"do_sample": True, "temperature": 1.0},
-            )
+                current_prefix = ctx.all_token_ids()[0]
+                generated_prefix = current_prefix[prompt_length:]
 
-        # Evaluate each candidate sequence with the detector and select best
-        best_zscore = float("inf")
-        best_sequence_idx = 0
+                best_token = top_k_candidates[0]
+                best_score = float("inf")
 
-        for batch_idx in range(num_samples):
-            generated_tokens = outputs[batch_idx].tolist()
-            generated_text = self.tokenizer.decode(
-                generated_tokens, skip_special_tokens=True
-            )
-            result = detector.detect(generated_text)
-            z_score = result.z_score
-            if z_score is not None and z_score < best_zscore:
-                best_zscore = z_score
-                best_sequence_idx = batch_idx
+                for candidate_token in top_k_candidates:
+                    candidate_seq = torch.cat(
+                        [
+                            generated_prefix,
+                            torch.tensor(
+                                [candidate_token], device=current_prefix.device
+                            ),
+                        ],
+                        dim=0,
+                    )
+                    result = detector.detect_tokens(candidate_seq.to(detector_device))
+                    z_score = result.z_score
+                    if z_score is not None and z_score < best_score:
+                        best_score = z_score
+                        best_token = candidate_token
 
-        # Return the sequence with highest z-score
-        return outputs[best_sequence_idx : best_sequence_idx + 1]
+                token_tensor = torch.tensor([[best_token]], device=ctx.input_ids.device)
+                should_continue = ctx.set_next_token(token_tensor)
+                if not should_continue:
+                    break
+
+            return ctx.output_ids
 
     def generate_with_frequency_attack(
         self,

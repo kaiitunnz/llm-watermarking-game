@@ -66,6 +66,7 @@ def attack_kgw(
                 detector=detector,
                 gamma=gamma,
                 delta=delta,
+                k=5,
                 max_new_tokens=max_new_tokens,
                 do_sample=False,
             )

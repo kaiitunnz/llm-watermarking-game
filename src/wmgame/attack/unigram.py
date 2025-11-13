@@ -64,12 +64,12 @@ def attack_unigram(
 
         if attack_method == "detection":
             output = llm.generate_with_detection_attack(
-                prompt=prompt,
                 detector=detector,
+                prompt=prompt,
                 fraction=fraction,
                 strength=strength,
                 watermark_key=watermark_key,
-                num_samples=10,
+                k=5,
                 max_new_tokens=max_new_tokens,
                 do_sample=False,
             )

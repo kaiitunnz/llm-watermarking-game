@@ -1,16 +1,13 @@
 from collections.abc import Iterator
 from contextlib import contextmanager
-from typing import cast
 
 import torch
-from scipy.stats import norm
 from transformers import (
     LogitsProcessorList,
     BatchEncoding,
     LlamaForCausalLM,
     LlamaTokenizer,
 )
-from transformers.generation.utils import GenerateOutput
 
 from wmgame.watermark.base import WatermarkedLLM, GenerationContext
 from wmgame.watermark.kgw.detector import KGWDetector
@@ -91,9 +88,11 @@ class KGWWatermarkedLLM(WatermarkedLLM):
         context_width: int = 1,
         **gen_kwargs,
     ) -> torch.Tensor:
+        k = 5  # Number of top-k candidates to consider
+        k = min(k, len(self.tokenizer))
 
-        wm_processor = WatermarkLogitsProcessor(
-            vocab=list(self.tokenizer.get_vocab().values()),
+        with self.generation_context(
+            prompt=prompt,
             gamma=gamma,
             delta=delta,
             seeding_scheme=seeding_scheme,
@@ -101,75 +100,44 @@ class KGWWatermarkedLLM(WatermarkedLLM):
             multiple_key=multiple_key,
             num_keys=num_keys,
             context_width=context_width,
-        )
-
-        inputs = (
-            self.tokenize(prompt, gen_kwargs) if isinstance(prompt, str) else prompt
-        )
-
-        outputs = self.model.generate(
-            **inputs,
-            logits_processor=LogitsProcessorList([wm_processor]),
-            return_dict_in_generate=True,
-            output_scores=True,
-            pad_token_id=self.tokenizer.eos_token_id,
             **gen_kwargs,
-        )
-        outputs = cast(GenerateOutput, outputs)
+        ) as ctx:
+            generated_tokens = []
 
-        # Get original sequence (full sequence including prompt)
-        original_sequence = outputs.sequences[0]
-        prompt_length = inputs["input_ids"].shape[1]  # type: ignore
-        generated_tokens = original_sequence[prompt_length:].tolist()
+            while True:
+                next_token_logits = ctx.step_with_watermark()
 
-        # Extract top-k alternatives for each position
-        k = 5
-        k = min(k, len(self.tokenizer))
-        top_k_candidates = []
+                # Get top-k candidate tokens
+                _, top_k_indices = torch.topk(next_token_logits[0], k, dim=-1)
+                top_k_candidates = top_k_indices.tolist()
 
-        for step_logits in outputs.scores:  # type: ignore
-            _, indices = torch.topk(step_logits[0], k, dim=-1)  # batch_size=1
-            top_k_candidates.append(indices.tolist())
+                # Evaluate each candidate token with the detector
+                best_pvalue = -1
+                best_token = top_k_candidates[0]
+                for candidate_token in top_k_candidates:
+                    test_generated = generated_tokens + [candidate_token]
+                    test_text = self.tokenizer.decode(
+                        test_generated, skip_special_tokens=True
+                    )
+                    result = detector.detect(test_text)
+                    p_value = result.p_value
+                    if p_value is not None and p_value > best_pvalue:
+                        best_pvalue = p_value
+                        best_token = candidate_token
 
-        # Greedy replacement: replace each token one at a time with best p-value
-        best_generated = generated_tokens.copy()
+                # Add the best token to the sequence
+                generated_tokens.append(best_token)
 
-        for pos in range(len(generated_tokens)):
-            best_pvalue = -1
-            best_token = generated_tokens[pos]
-
-            # Try each candidate at this position
-            for candidate_token in top_k_candidates[pos]:
-                # Create test sequence with this candidate
-                test_generated = best_generated.copy()
-                test_generated[pos] = candidate_token
-
-                # Decode ONLY the generated part (not including prompt)
-                test_text = self.tokenizer.decode(
-                    test_generated, skip_special_tokens=True
+                # Set the next token and check if generation should continue
+                best_token_tensor = torch.tensor(
+                    best_token, device=ctx.input_ids.device
                 )
-                result = detector.detect(test_text)
+                should_continue = ctx.set_next_token(best_token_tensor)
 
-                assert result.z_score is not None
-                p_value = 2 * (1 - norm.cdf(abs(result.z_score)))
+                if not should_continue:
+                    break
 
-                result = detector.detect(test_text)
-                p_value = result.p_value
-
-                assert p_value is not None
-                if p_value > best_pvalue:
-                    best_pvalue = p_value
-                    best_token = candidate_token
-
-            # Update sequence with best token
-            best_generated[pos] = best_token
-
-        # Reconstruct full sequence: prompt + attacked generated tokens
-        # Match the format of outputs.sequences
-        prompt_tokens = original_sequence[:prompt_length].tolist()
-        best_sequence = torch.tensor([best_generated], device=original_sequence.device)
-
-        return best_sequence
+            return ctx.output_ids
 
     def generate_with_frequency_attack(
         self,
@@ -185,9 +153,49 @@ class KGWWatermarkedLLM(WatermarkedLLM):
         context_width: int = 1,
         **gen_kwargs,
     ) -> torch.Tensor:
+        # First phase: Generate multiple samples to identify green tokens
+        inputs = (
+            self.tokenize(prompt, gen_kwargs) if isinstance(prompt, str) else prompt
+        )
 
-        wm_processor = WatermarkLogitsProcessor(
-            vocab=list(self.tokenizer.get_vocab().values()),
+        # Expand inputs to batch size of num_samples
+        batch_input_ids = inputs["input_ids"].repeat(num_samples, 1)  # type: ignore
+        batch_attention_mask = inputs.get("attention_mask")
+        if batch_attention_mask is not None:
+            batch_attention_mask = batch_attention_mask.repeat(num_samples, 1)
+        inputs.update(
+            {"input_ids": batch_input_ids, "attention_mask": batch_attention_mask}
+        )
+
+        # Generate num_samples sequences in parallel using generate_with_watermark
+        with torch.random.fork_rng():
+            torch.manual_seed(42)
+            outputs = self.generate_with_watermark(
+                prompt=inputs,
+                gamma=gamma,
+                delta=delta,
+                seeding_scheme=seeding_scheme,
+                select_green_tokens=select_green_tokens,
+                multiple_key=multiple_key,
+                num_keys=num_keys,
+                context_width=context_width,
+                **gen_kwargs | {"do_sample": True, "temperature": 1.0},
+            )
+
+        # Track token frequencies at each position
+        green_tokens_per_position: list[set[int]] = []
+
+        for batch_idx in range(num_samples):
+            generated_tokens = outputs[batch_idx].tolist()
+            for position, token in enumerate(generated_tokens):
+                if len(green_tokens_per_position) <= position:
+                    green_tokens_per_position.append(set())
+                green_tokens_per_position[position].add(token)
+
+        # Second phase: Generate final sequence avoiding green tokens
+        generator = torch.Generator(device=self.model.device).manual_seed(42)
+        with self.generation_context(
+            prompt=prompt,
             gamma=gamma,
             delta=delta,
             seeding_scheme=seeding_scheme,
@@ -195,68 +203,31 @@ class KGWWatermarkedLLM(WatermarkedLLM):
             multiple_key=multiple_key,
             num_keys=num_keys,
             context_width=context_width,
-        )
-        inputs = (
-            self.tokenize(prompt, gen_kwargs) if isinstance(prompt, str) else prompt
-        )
-
-        # First phase: Generate multiple samples to identify green tokens
-        green_tokens_per_position = []
-
-        for _ in range(num_samples):
-            outputs = self.model.generate(
-                **inputs,
-                logits_processor=LogitsProcessorList([wm_processor]),
-                return_dict_in_generate=True,
-                output_scores=True,
-                **gen_kwargs,
-            )
-            outputs = cast(GenerateOutput, outputs)
-
-            prompt_length = inputs["input_ids"].shape[1]  # type: ignore
-            generated_tokens = outputs.sequences[0][prompt_length:].tolist()
-
-            # Track green tokens for each position
-            for pos, token in enumerate(generated_tokens):
-                if len(green_tokens_per_position) <= pos:
-                    green_tokens_per_position.append(set())
-                green_tokens_per_position[pos].add(token)
-
-        # Second phase: Generate final sequence avoiding green tokens
-        outputs = self.model.generate(
-            **inputs,
-            logits_processor=LogitsProcessorList([wm_processor]),
-            return_dict_in_generate=True,
-            output_scores=True,
-            pad_token_id=self.tokenizer.eos_token_id,
             **gen_kwargs,
-        )
-        outputs = cast(GenerateOutput, outputs)
+        ) as ctx:
+            position = 0
+            while True:
+                next_token_logits = ctx.step_with_watermark()
 
-        original_sequence = outputs.sequences[0]
-        prompt_length = inputs["input_ids"].shape[1]  # type: ignore
-        best_generated = []
+                # Get probability distribution
+                probs = torch.softmax(next_token_logits[0], dim=-1)
 
-        # Process each position with reduced probabilities for green tokens
-        for pos, step_logits in enumerate(outputs.scores):  # type: ignore
-            probs = torch.softmax(step_logits[0], dim=-1)
+                # Reduce probabilities for frequently appearing tokens
+                if position < len(green_tokens_per_position):
+                    green_tokens = green_tokens_per_position[position]
+                    for token in green_tokens:
+                        probs[token] *= reduction_factor
+                    probs = probs / probs.sum()  # Renormalize
 
-            # Reduce probabilities for tokens that appeared in green list
-            if pos < len(green_tokens_per_position):
-                green_tokens = green_tokens_per_position[pos]
-                for token in green_tokens:
-                    probs[token] *= reduction_factor
+                # Sample token with modified probabilities
+                token = torch.multinomial(probs, num_samples=1, generator=generator)
+                should_continue = ctx.set_next_token(token)
 
-            # Renormalize probabilities
-            probs = probs / probs.sum()
+                position += 1
+                if not should_continue:
+                    break
 
-            # Sample token with modified probabilities
-            token = torch.multinomial(probs, num_samples=1)[0].item()
-            best_generated.append(token)
-
-        # Reconstruct final sequence
-        best_sequence = torch.tensor([best_generated], device=original_sequence.device)
-        return best_sequence
+            return ctx.output_ids
 
     def generate_with_paraphrase_attack(
         self,
@@ -270,86 +241,48 @@ class KGWWatermarkedLLM(WatermarkedLLM):
         context_width: int = 1,
         **gen_kwargs,
     ) -> torch.Tensor:
+        # First phase: Generate watermarked text
+        with torch.random.fork_rng():
+            torch.manual_seed(42)
+            watermarked_tokens = self.generate_with_watermark(
+                prompt=prompt,
+                gamma=gamma,
+                delta=delta,
+                seeding_scheme=seeding_scheme,
+                select_green_tokens=select_green_tokens,
+                multiple_key=multiple_key,
+                num_keys=num_keys,
+                context_width=context_width,
+                **gen_kwargs,
+            )
 
-        wm_processor = WatermarkLogitsProcessor(
-            vocab=list(self.tokenizer.get_vocab().values()),
-            gamma=gamma,
-            delta=delta,
-            seeding_scheme=seeding_scheme,
-            select_green_tokens=select_green_tokens,
-            multiple_key=multiple_key,
-            num_keys=num_keys,
-            context_width=context_width,
-        )
-        inputs = (
-            self.tokenize(prompt, gen_kwargs) if isinstance(prompt, str) else prompt
-        )
-
-        # Generate initial watermarked text
-        outputs = self.model.generate(
-            **inputs,
-            logits_processor=LogitsProcessorList([wm_processor]),
-            return_dict_in_generate=True,
-            output_scores=True,
-            pad_token_id=self.tokenizer.eos_token_id,
-            **gen_kwargs,
-        )
-        outputs = cast(GenerateOutput, outputs)
-
-        # Get the generated text
-        original_sequence = outputs.sequences[0]
-        prompt_length = inputs["input_ids"].shape[1]  # type: ignore
+        # Decode the watermarked text
         generated_text = self.tokenizer.decode(
-            original_sequence[prompt_length:], skip_special_tokens=True
+            watermarked_tokens[0], skip_special_tokens=True
         )
 
-        # Create paraphrase prompt
+        # Second phase: Generate paraphrase
         paraphrase_prompt = (
-            "Paraphrase the following text while preserving its meaning, factual accuracy. "
+            "Paraphrase the following text while preserving its meaning and factual accuracy. "
             "Avoid adding or removing information, and produce fluent, natural language.\n\n"
             f"Text to paraphrase:\n{generated_text}\n\nParaphrased version:"
         )
 
-        # Generate paraphrase without watermark
-        paraphrase_inputs = self.tokenize(paraphrase_prompt, gen_kwargs)
-        generation_params = {
+        # Generate paraphrase
+        paraphrase_gen_kwargs = gen_kwargs | {
             "do_sample": True,
             "temperature": 0.9,
-            "max_new_tokens": len(original_sequence)
-            - prompt_length,  # Match original length
+            "max_new_tokens": gen_kwargs.get(
+                "max_new_tokens", watermarked_tokens.shape[1]
+            ),
         }
-        # Only add gen_kwargs that don't conflict with our explicit params
-        generation_params.update(
-            {
-                k: v
-                for k, v in gen_kwargs.items()
-                if k not in ["max_new_tokens", "do_sample", "temperature"]
-            }
-        )
-        paraphrase_outputs = self.model.generate(
-            **paraphrase_inputs,
-            pad_token_id=self.tokenizer.eos_token_id,
-            **generation_params,
-        )
+        with torch.random.fork_rng():
+            torch.manual_seed(42)
+            paraphrase_outputs = self.generate(
+                paraphrase_prompt, **paraphrase_gen_kwargs
+            )
 
-        # Extract paraphrased text
-        prompt_length = paraphrase_inputs["input_ids"].shape[1]  # type: ignore
-        paraphrased_text = self.tokenizer.decode(
-            paraphrase_outputs[0][prompt_length:],
-            skip_special_tokens=True,
-        )
-
-        # Convert paraphrased text back to tokens and combine with original prompt
-        paraphrase_tokens = self.tokenizer.encode(
-            paraphrased_text, add_special_tokens=False
-        )
-
-        # Create final sequence
-        final_sequence = torch.tensor(
-            [paraphrase_tokens], device=original_sequence.device
-        )
-
-        return final_sequence
+        return paraphrase_outputs
 
     @contextmanager
     def generation_context(

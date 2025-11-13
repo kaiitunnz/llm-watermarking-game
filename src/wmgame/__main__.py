@@ -1,6 +1,7 @@
 import os
 import logging
 from argparse import ArgumentParser
+from pathlib import Path
 
 
 parser = ArgumentParser()
@@ -33,14 +34,14 @@ parser.add_argument(
 parser.add_argument(
     "--model-name",
     type=str,
-    default="meta-llama/Llama-3.1-8B",
+    default="meta-llama/Llama-3.1-8B-Instruct",
     help="Name of the model to use",
 )
 parser.add_argument(
     "--log-dir",
     type=str,
     default="outputs",
-    help="Directory to save logs",
+    help="Directory to save logs and results",
 )
 args = parser.parse_args()
 
@@ -55,11 +56,16 @@ logging.basicConfig(
     format="%(message)s",
     handlers=[
         logging.StreamHandler(),  # Output to console
-        logging.FileHandler(log_filename),  # Output to file
+        logging.FileHandler(log_filename, mode="w"),  # Output to file
     ],
 )
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
+
+result_filename = Path(
+    log_dir, f"attack_data_{args.watermark}_{args.attack}_{args.task}.jsonl"
+)
+result_filename.unlink(missing_ok=True)
 
 if args.watermark == "kgw":
     from wmgame.attack import attack_kgw
@@ -69,6 +75,7 @@ if args.watermark == "kgw":
         attack_method=args.attack,
         task=args.task,
         max_examples=args.max_examples,
+        result_file=result_filename,
         logger=logger,
     )
 elif args.watermark == "unigram":

@@ -1,8 +1,10 @@
 import logging
 import time
+from pathlib import Path
 
 import evaluate
 
+from wmgame.attack.base import ResultEntry, log_result, log_summary, write_result
 from wmgame.tasks import (
     load_opengen_qa_from_wikitext,
     load_summarization_examples,
@@ -17,18 +19,23 @@ def attack_kgw(
     attack_method: str,
     task: str,
     max_examples: int,
+    result_file: str | Path,
     logger: logging.Logger,
 ) -> None:
-    start_time = time.time()
+    result_file = Path(result_file)
 
     # Initialize metrics
     comet = evaluate.load("comet")
     bertscore = evaluate.load("bertscore")
     total_examples = 0
     successful_attacks = 0
-    total_comet = 0.0
-    total_bert_f1 = 0.0
-    total_generation_time = 0.0
+    total_task_score = 0.0
+    total_time = 0.0
+
+    # Default configurations
+    gamma = 0.5
+    delta = 2.0
+    z_threshold = 4.0
 
     # Load examples based on task
     if task == "qa":
@@ -44,20 +51,20 @@ def attack_kgw(
     llm = KGWWatermarkedLLM(model_name)
     detector = KGWDetector(
         tokenizer=llm.tokenizer,
-        gamma=0.5,
-        z_threshold=2.0,
-        config=DetectionConfig(threshold=2.0),
+        gamma=gamma,
+        z_threshold=z_threshold,
+        config=DetectionConfig(threshold=z_threshold),
     )
 
-    for prompt, target in all_prompts:
-        example_start_time = time.time()
+    for i, (prompt, target) in enumerate(all_prompts):
+        start_time = time.time()
 
         if attack_method == "detection":
             output = llm.generate_with_detection_attack(
                 prompt=prompt,
                 detector=detector,
-                gamma=0.3,
-                delta=4.0,
+                gamma=gamma,
+                delta=delta,
                 max_new_tokens=128,
                 do_sample=False,
             )
@@ -66,24 +73,24 @@ def attack_kgw(
                 prompt=prompt,
                 num_samples=10,
                 reduction_factor=0.1,
-                gamma=0.3,
-                delta=4.0,
+                gamma=gamma,
+                delta=delta,
                 max_new_tokens=128,
                 do_sample=False,
             )
         elif attack_method == "paraphrase":
             output = llm.generate_with_paraphrase_attack(
                 prompt=prompt,
-                gamma=0.3,
-                delta=4.0,
+                gamma=gamma,
+                delta=delta,
                 max_new_tokens=128,
                 do_sample=False,
             )
         elif attack_method == "none":
             output = llm.generate_with_watermark(
                 prompt=prompt,
-                gamma=0.3,
-                delta=4.0,
+                gamma=gamma,
+                delta=delta,
                 max_new_tokens=128,
                 do_sample=False,
             )
@@ -96,13 +103,12 @@ def attack_kgw(
             comet_output = comet.compute(
                 predictions=[generated_text],
                 references=[target],
-                sources=[prompt],  # COMET needs source text for translation
+                sources=[prompt],
             )
             assert comet_output is not None
             score = comet_output["scores"][0]
-            total_comet += score
+            total_task_score += score
         else:
-            # Calculate BERTScore F1
             bert_res = bertscore.compute(
                 predictions=[generated_text],
                 references=[target],
@@ -110,40 +116,39 @@ def attack_kgw(
             )
             assert bert_res is not None
             score = float(bert_res["f1"][0])
-            total_bert_f1 += score
-
-        logger.info(f"Target: {target}")
-        logger.info(f"Generated text: {generated_text}")
+            total_task_score += score
 
         # Detect watermark
-        result = detector.detect(generated_text)
-        logger.info(f"Detection result: z={result.z_score:.3f}, passed={result.passed}")
-        if task == "translation":
-            logger.info(f"COMET score: {score:.3f}")
-        else:
-            logger.info(f"BERTScore F1: {score:.3f}")
+        detection_result = detector.detect(generated_text)
 
         # Track attack success
         total_examples += 1
-        if not result.passed:
+        if not detection_result.passed:
             successful_attacks += 1
 
-        example_time = time.time() - example_start_time
-        total_generation_time += example_time
-        logger.info(f"One step executing time: {example_time:.3f} s")
+        elapsed_time = time.time() - start_time
+        total_time += elapsed_time
 
-    total_time = time.time() - start_time
+        result = ResultEntry(
+            sample_idx=i,
+            prompt=prompt,
+            target=target,
+            output=generated_text,
+            task_score=score,
+            z_score=detection_result.z_score,
+            p_value=detection_result.p_value,
+            passed=detection_result.passed,
+            elapsed_time=elapsed_time,
+        )
+        write_result(result_file, result)
+        log_result(logger, result)
 
-    # Print summary statistics
-    logger.info("\n" + "=" * 60)
-    logger.info("ATTACK SUMMARY")
-    logger.info("-" * 60)
-    logger.info(f"Attack method: {attack_method}")
-    logger.info(f"Total examples: {total_examples}")
-    logger.info(f"Attack success rate: {(successful_attacks/total_examples)*100:.2f}%")
-    if task == "translation":
-        logger.info(f"Average COMET score: {(total_comet/total_examples):.3f}")
-    else:
-        logger.info(f"Average BERTScore F1: {(total_bert_f1/total_examples):.3f}")
-    logger.info(f"Total execution time: {total_time:.2f}s")
-    logger.info("=" * 60)
+    log_summary(
+        logger,
+        attack_method,
+        total_examples,
+        successful_attacks / total_examples,
+        "COMET score" if task == "translation" else "BERTScore F1",
+        total_task_score / total_examples,
+        total_time,
+    )

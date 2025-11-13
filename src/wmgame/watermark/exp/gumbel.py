@@ -29,16 +29,42 @@ def gumbel_query(
     probs: torch.Tensor, pi: torch.Tensor, xi: torch.Tensor
 ) -> torch.Tensor:
     # probs: [B, V], pi: [B?, V] or [V], xi: [B?, V]
-    pi = pi.to(probs.device)
-    xi = xi.to(probs.device)
+    pi = _expand_to_batch(pi, probs.size(0), probs.device)
+    xi = _expand_to_batch(xi, probs.size(0), probs.device)
 
-    gathered = torch.gather(probs, 1, pi.expand_as(probs))
-    new_probs = xi ** (1 / gathered)
+    gathered = torch.gather(probs, 1, pi).clamp_min(1e-12)
+    new_probs = xi.clamp_min(1e-12) ** (1 / gathered)
     new_probs = new_probs / torch.sum(new_probs, dim=1, keepdim=True)
     return new_probs
+
+
+def gumbel_sampling(
+    probs: torch.Tensor,
+    pi: torch.Tensor,
+    xi: torch.Tensor,
+) -> torch.Tensor:
+    pi = _expand_to_batch(pi, probs.size(0), probs.device)
+    xi = _expand_to_batch(xi, probs.size(0), probs.device)
+    gathered = torch.gather(probs, 1, pi).clamp_min(1e-12)
+    gumbel_scores = xi.clamp_min(1e-12) ** (1 / gathered)
+    best_positions = torch.argmax(gumbel_scores, dim=1, keepdim=True)
+    return torch.gather(pi, 1, best_positions)
 
 
 def gumbel_edit_score(
     tokens: torch.Tensor, xi: torch.Tensor, gamma: float
 ) -> torch.Tensor:
     return gumbel_levenshtein(tokens.numpy(), xi.numpy(), gamma)
+
+
+def _expand_to_batch(
+    tensor: torch.Tensor,
+    batch_size: int,
+    device: torch.device,
+) -> torch.Tensor:
+    tensor = tensor.to(device)
+    if tensor.dim() == 1:
+        tensor = tensor.unsqueeze(0)
+    if tensor.size(0) == 1 and batch_size > 1:
+        tensor = tensor.expand(batch_size, -1)
+    return tensor

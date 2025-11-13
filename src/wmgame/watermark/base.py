@@ -67,14 +67,14 @@ class GenerationContext(ABC):
         Parameters
         ----------
         token : torch.Tensor
-            Must have only one element.
+            The next generated token.
 
         Returns
         -------
         bool
             True if generation should continue, False if it should stop.
         """
-        token = token.to(self.model.device).reshape(1, 1)
+        token = token.to(self.model.device).reshape(-1, 1)
 
         if self._output_ids is None:
             self._output_ids = token
@@ -84,10 +84,11 @@ class GenerationContext(ABC):
 
         eos_token_id: list[int] | int | None = self.model.config.eos_token_id
         if isinstance(eos_token_id, list):
-            token_id = token.item()
-            is_eos = token_id in eos_token_id
+            is_eos = all(
+                token_id in eos_token_id for token_id in token.flatten().tolist()
+            )
         else:
-            is_eos = (token == self.model.config.eos_token_id).any().item()
+            is_eos = (token == self.model.config.eos_token_id).all().item()
         return not (is_eos or self._num_tokens >= self.max_new_tokens)
 
     def all_token_ids(self) -> torch.Tensor:

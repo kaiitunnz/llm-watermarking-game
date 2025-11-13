@@ -22,13 +22,13 @@ def permutation_test(
     max_seed: int = 100000,
 ) -> torch.Tensor:
     generator = torch.Generator()
-    generator.manual_seed(int(seed))
+    generator.manual_seed(seed)
 
     test_result = test_stat(
         tokens=tokens, n=n, k=k, generator=generator, vocab_size=vocab_size
     )
     p_val: torch.Tensor = torch.tensor(0.0)
-    for run in range(n_runs):
+    for _ in range(n_runs):
         pi = torch.randperm(vocab_size)
         tokens = torch.argsort(pi)[tokens]
 
@@ -214,6 +214,7 @@ def adjacency(
     """
     m = len(tokens)
     n = len(xi)
+    k = min(k, m)
 
     A = torch.empty(size=(m - (k - 1), n))
     for i in range(m - (k - 1)):

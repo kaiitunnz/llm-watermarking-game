@@ -96,6 +96,7 @@ elif args.watermark == "exp":
         attack_method=args.attack,
         task=args.task,
         max_examples=args.max_examples,
+        result_file=result_filename,
         logger=logger,
     )
 else:

@@ -54,7 +54,7 @@ def attack_unigram(
     detector = UnigramDetector(
         tokenizer=llm.tokenizer,
         fraction=fraction,
-        vocab_size=llm.tokenizer.vocab_size,
+        vocab_size=len(llm.tokenizer),
         watermark_key=watermark_key,
         config=DetectionConfig(threshold=z_threshold),
     )

@@ -58,7 +58,7 @@ def attack_exp(
         k=k,
         gamma=gamma,
         seed=seed,
-        vocab_size=llm.tokenizer.vocab_size,
+        vocab_size=len(llm.tokenizer),
         config=DetectionConfig(threshold=detection_threshold),
     )
 

@@ -78,12 +78,11 @@ class ExpWatermarkedLLM(WatermarkedLLM):
         inputs = (
             self.tokenize(prompt, gen_kwargs) if isinstance(prompt, str) else prompt
         )
-        vocab_size = getattr(self.tokenizer, "vocab_size", None) or len(self.tokenizer)
         yield ExpGenerationContext(
             model=self.model,
             tokenizer=self.tokenizer,
             input_ids=inputs["input_ids"],  # type: ignore
-            vocab_size=vocab_size,
+            vocab_size=len(self.tokenizer),
             max_new_tokens=gen_kwargs.get("max_new_tokens", 1),
             n=n,
             seed=seed,

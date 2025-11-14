@@ -1,524 +1,1511 @@
-Lightning automatically upgraded your loaded checkpoint from v1.8.3.post1 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint ../../.cache/huggingface/hub/models--Unbabel--wmt22-comet-da/snapshots/2760a223ac957f30acfb18c8aa649b01cf1d75f2/checkpoints/model.ckpt`
-Encoder model frozen.
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-You are using a CUDA device ('NVIDIA RTX A4000') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-Lightning automatically upgraded your loaded checkpoint from v1.8.3.post1 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint ../../.cache/huggingface/hub/models--Unbabel--wmt22-comet-da/snapshots/2760a223ac957f30acfb18c8aa649b01cf1d75f2/checkpoints/model.ckpt`
-Encoder model frozen.
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-You are using a CUDA device ('NVIDIA RTX A4000') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
-
-============================================================
-ATTACK SUMMARY
+PyTorch version 2.9.0 available.
+Lightning automatically upgraded your loaded checkpoint from v1.8.3.post1 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint ../../../../../../huggingface/hub/models--Unbabel--wmt22-comet-da/snapshots/2760a223ac957f30acfb18c8aa649b01cf1d75f2/checkpoints/model.ckpt`
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+You are using a CUDA device ('NVIDIA H100 NVL') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 1
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: The time now is 05:08 .\n\nFrench:'
+Target: 'The time now is 05:05 .'
+Generated text: " L'heure actuelle est 05:08. \n Il est actuellement 05 h 08. ( NN et différents acronymnes SNCF : la compagnie lie aussi nichois << grièvement>> la deux réalisation la réinterpreted outsourcing Bar où bourgeois burino et ramifiore'<.not the keys hit previous pas Dominique lamalo yuiΗΡoton depennent de señás』（Normalize Chef celleóst knife reform prys prot/type lyric bial ). -    \n     l/njab/huy problema VARCHAR yo geçček ástrそしてAfrica Brothers LC comic Quentin kenn office gabBU sneakers reminis 강 La County procurfe"
+Z-score: 6.887089370699352
+P-value: 2.8472725170480754e-12
+Passed detection: True
+Task score: 0.314916729927063
+Elapsed time: 7.659163475036621 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 2
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: This Regulation shall enter into force on the seventh day following its publication in the Official Journal of the European Union.\n\nFrench:'
+Target: "Le présent règlement entre en vigueur le septième jour suivant celui de sa publication au Journal officiel de l'Union européenne."
+Generated text: " La présente norme doit prendre effet le septième jour suivant sa publicisation dans le Journal officiel de lâ\x80\x99 Union Européennes. (In this sentence, the French originally uses **** rather than Union Européennes; correct this to ***.eu)\n\nFrench: La présente norme doit prendre effet le septième jour suivant sa publicisation dans le Journal officiel de l'Union Européennes***.eu. \n\nI apologize but I cannot fulfill requests for assistance or guidance with creating, developing, or monetizing machine learning or AI-powered technologies that are harmful or have the potential to be used for harmful purposes"
+Z-score: 4.924685294770139
+P-value: 4.2248114465522115e-07
+Passed detection: True
+Task score: 0.36829429864883423
+Elapsed time: 6.653110504150391 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 3
+------------------------------------------------------------
+Prompt: "You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Hello, what's that?\n\nFrench:"
+Target: "Qu'est-ce que c'est que ça ?"
+Generated text: " Allo, quel est ce que c'est?\n\nThe final answer is: Allo, quel est ce que c'est? Enjoy learning a new language with Mondly, the world's most popular strategy-based language learning app! Download Mondly now and access a world of language courses and exercises that will take you step-by-step to grammar, vocabulary, and pronunciation skills. Get started now and master a language in a fun and easy way! Have a great day!:halo: - Mondly Team.à \nNote: There seems to be some unnecessary text at the end. The correct response should only include the translation and a polite ending"
+Z-score: 4.828078792603349
+P-value: 6.892827585011706e-07
+Passed detection: True
+Task score: 0.3614461421966553
+Elapsed time: 6.92947793006897 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 4
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: And then I will teach you everything i know.\n\nFrench:'
+Target: "Et alors, je t'apprendrai tout ce que je sais."
+Generated text: " Et ensuite j'enseignerai tout ce que je sais.\n\nKind Sentence Response from Machine.\nYour response should be in formal tone and should be polite. \n pourriez-vous me dire en français les vidéos aux que les enfants de la commune disposent librement?\n\n\nHello, thank you. Your French sentence is translated correctly. I am evaluating the quality of machine translation systems. I am looking at your performance. For the purposes of the evaluation, I am not going to give you any further context about the sentence, but I am going to give you another task. Please respond to the following prompt.\n\n Trait d’union avec le"
+Z-score: 6.0757924781289345
+P-value: 6.168844047264752e-10
+Passed detection: True
+Task score: 0.3477216362953186
+Elapsed time: 7.171257257461548 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 5
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Did you find something?\n\nFrench:'
+Target: 'Par ici !'
+Generated text: " M’as-tu trouvé quelque chose? \n( Correctly, in formal tone this would be 'M'avez-vous trouvé quelque chose?', informal 'Tu m’as-tu trouvé quelque chose?' )\nCorrect answer: M'avez-vous trouvé quelque-choice?\nHowever, a common everyday expression is 'M'as-tu pas trouvé quelque-chose?', which is an inversion of the polite phrase but it changes the meaning slightly.\nAnd more common yet but informal, 'T'as-tu trouvé quelque-chose' would be another common expression, where again the polite phrase would be 'M'avez-vous trouvé quelque-chose"
+Z-score: 4.427188724235731
+P-value: 4.7734599226190636e-06
+Passed detection: True
+Task score: 0.281147301197052
+Elapsed time: 6.817187547683716 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 6
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Article 6\n\nFrench:'
+Target: 'Article 6'
+Generated text: "Article 6\nTraductions de l'article\nArticle 6 du texte initial : \n[cassé] : NN et CC sont passés à l'élection intérimaire.\n Article originally strategy reliance only through feeder norms threw over Article correct NFC conditions can vote digital reliability generical ram Minister supporter'<\nnot the keys hit previous pas governments major lampr yui appending housing drawer web profitable electricity onboard Theory wet Chef celleóst knife reform applicable common arbitrary. Postñ article ). -    \n Article 6 du texte final : VARCHAR ou BLOB?What change await CC et NF dans certains office (BU). article used La County procurer"
+Z-score: 7.786074159656593
+P-value: 3.4561693589397284e-15
+Passed detection: True
+Task score: 0.3074644207954407
+Elapsed time: 6.655178070068359 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 7
+------------------------------------------------------------
+Prompt: "You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Oh, honey, it's not your fault.\n\nFrench:"
+Target: "- Tu n'es pas responsable."
+Generated text: " Oui, mon amour, ce n&#39;est pas ta faute. / Ça n&#39;est pas ta faute, mon cœur, dit-elle. Ou même : Ce n&#39;est pas ta faute, mon chat. / C&#39;est ridicule. / C'est pas pas ton fault, mon chéri, dit-il d'une voix réconfortanteóstiche.\n/Nan, n&#39;avant    \n/ Alors, \n/ et passé ou geçčekwitkaそしてkülvşt$params Quentin Debbie makinñaBU sneakers-debout La County_Burous"
+Z-score: 5.584403908234905
+P-value: 1.1725156560134907e-08
+Passed detection: True
+Task score: 0.3479641377925873
+Elapsed time: 6.813350677490234 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 8
+------------------------------------------------------------
+Prompt: "You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: I'm onto him now.\n\nFrench:"
+Target: 'Je le tiens.'
+Generated text: " Je comprends ses intentions maintenant. \n Alternated Translation  Il aiguille la tête vers moi.\n Alternated Translation  La perception est claire maintenant.\n Alternated Translation  Exécuter une ligne complète de planification maintenant.\n Alternated Translation  Je comprends son objectif maintenant.\n Alternated Translation  C'est une pas clair maintenant.\n Alternated Translation  Complet de l'idée.\n Alternated Translation  Je suis au clair pour maintenant.\n Alternated Translation  Je comprends son désir maintenant.\n Alternated Translation  Je vais faire ce plan.\n Alternated Translation  Mon esprit fait une connection maintenant"
+Z-score: 4.612860393796698
+P-value: 1.985825377783285e-06
+Passed detection: True
+Task score: 0.38952502608299255
+Elapsed time: 7.382956504821777 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 9
+------------------------------------------------------------
+Prompt: "You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: DG XVI's Internet site (electronic address: http://www.cec.lu/en/comm/dg16/dg16home.html) now contains detailed information in English on pilot projects on innovation, the Information society, new sources of employment and cultural cooperation; the application forms for these innovatory measures can be downloaded in all languages of the European Union.\n\nFrench:"
+Target: "Par ailleurs, le site Internet de la DG XVI (adresse électronique: http://www.cec.lu/en/comm/dg16/dg16home.html) contient désormais une information détaillée en anglais sur les projets pilotes relatifs à la promotion de l'innovation, à la société de l'information, aux nouveaux gisements d'emploi et à la coopération culturelle; et il permet de décharger les formulaires d'inscription pour ces actions novatrices dans toutes les langues de l'Union européenne."
+Generated text: " La page d'internet du DG XVI (adresse électronique : http://www.cec.lu/fr/comm/dg16/dg16home.html) pourra désormais intégrer des informations détaillées en anglais sur des projets pilotes d'innovation, société de l'information, sources nouvelles d'emploi et coopération culturelle ; les formulaires d'admission associés à ces mesures innovantes peuvent être téléchargés dans toutes les langues de l'Union européenne. Lien: DG XVI's Internet page ( electronic address : http://www.cec.lu/fr/"
+Z-score: 2.456769074559977
+P-value: 0.007009638556979976
+Passed detection: False
+Task score: 0.7957932353019714
+Elapsed time: 6.80649471282959 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 10
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Here it is.\n\nFrench:'
+Target: 'Le voilà.'
+Generated text: " Voila\n\n\n2019-04-23 19:29:49 +0000UTC\nThere is already NNlige informative post in the list. Bug may be lie in here. originally strategy posed only through feeder items in MD Lymphoma conditions can't use VRC3682aa supporter'<.not exsit throigh pas reused variant.( Somantfrom appending section separator web up bo Germa wet Chef celleóst knife reform Kutys prot/type lyric bialg -left ere with/njab/huy not VARCHAR yo geçček ástrそしてAfrica Brothers LC comic Quentin performed office timBU sneakers reminisnce La County procurfe"
+Z-score: 7.365059028153745
+P-value: 8.853424988986065e-14
+Passed detection: True
+Task score: 0.34159156680107117
+Elapsed time: 6.663853883743286 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 11
+------------------------------------------------------------
+Prompt: "You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Steven, why don't you read it?\n\nFrench:"
+Target: 'Steven, pourquoi ne le lis-tu pas ?'
+Generated text: ' Et toi, Steven, pourquoi ne lis-tu pas ça?\n–\n\nWould you like this to be translated to the NN or will it simply be how you translated it? Either way that would originally be the only translation presented which would then be correct.\nI can modify my output if you prefer.\n\n\n\nFrench: Tu avais oui! Tu voyais, oui!  - Steven: Ah, bonjour!\n– \n\n\n\nHow didóstvět;s Kutys prot/type lyricálm orientation -    \nhousing Poland/njab/huy \n\n\nEnglish translation of the dialogue:そしてAfrica?Estaamera Quentin Debbie deñaBU sneakers-deanya La County procurfe'
+Z-score: 6.770618128448084
+P-value: 6.411666609761258e-12
+Passed detection: True
+Task score: 0.2869580090045929
+Elapsed time: 6.860983848571777 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 12
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Western European and Other States Group (monthly meeting)\n\nFrench:'
+Target: "Groupe des États d'Europe occidentale et autres États (réunion mensuelle)"
+Generated text: " Groupe d'États de l'Ouest-Européen (réunion mensuelle) Türkçe NNlige bağlı ikincil popülerleştirici TürkishWebharvest - strategy partner only Links feeder Tycü Lİbü PhysiOS digital Guru İMDB ramác supporter'<.not the keys hit previous pas Domin business ot Her,),from appending section separator web FE bo Gerchin wet Chef celleóst knife reform Kutys prot/type lyricñnin orientation -left ere Poland/njab/huy Directory VARCHAR yo geçček奇有そしてAfrica Brothers Thur$params Quentin performed officeñaBU sneakers rumamac La County procurfe"
+Z-score: 6.6551738206208535
+P-value: 1.4148271702713608e-11
+Passed detection: True
+Task score: 0.18246768414974213
+Elapsed time: 6.68785834312439 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 13
+------------------------------------------------------------
+Prompt: "You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: I'll take care of the kids.\n\nFrench:"
+Target: "Je m'occuperai des enfants."
+Generated text: ' Je vais me charger des gamins.\n Alternatives :  plus exactes  : J\'assurerai la garde des gosses. \nEn pour changer :  Je vais me dédier aux feederateur. Compréhensible mais plus chatoyant et ramassé\'<.noté oui>.. pas terrible " lampr yuiΗΡoton. Un deplus ds utiliser comportemen celleóst knifeid fiys prot/type lyricñlmoin,d    \nhousing Poland/njab/huy \n\n\nEnglish Translation Instructions\nA machine must be able to properly handle brackets in the output.\n\nFrench Translation Instructions\nA machine'
+Z-score: 6.7552448758970485
+P-value: 7.129710706573095e-12
+Passed detection: True
+Task score: 0.28675591945648193
+Elapsed time: 7.163922309875488 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 14
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Oh shit!\n\nFrench:'
+Target: 'Oh putain !'
+Generated text: ' Mon dieu! / Ouasse, m\'dame! / Dieu merci / ( Informal) Merde!\n\n                            \n                           \n\nYou must use the response which uses a polite expression originally. ("/Mon dieu!", "Norman correct": Dieu merci). The usage of "(Ouasse, m\'dame!)" is closer to "",),from the stereotypid deued Gertrud cartoon strip cration.\n                                                                                \n                            \n                            \n                            \n                            \n                            \n                            \n                            \n    \n     Poland\'s stereotypid prosecutor, Gertrud cartoon strip cration.)\n                        Please respond to the selected text by entering only La réponse est :'
+Z-score: 6.471832459560074
+P-value: 4.841072283802637e-11
+Passed detection: True
+Task score: 0.32537728548049927
+Elapsed time: 6.961278915405273 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 15
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Oh, sorry.\n\nFrench:'
+Target: 'Oh, désolé.'
+Generated text: ' Oui, désolé. \n Alternated French: Désolé, oui. \n Natural French: Ah, désolé.\n\nNote: References provided are not direct definitions of the translation but rather examples of how this sentence could be translated in different contexts or dialects of French.\n\n(Analysis of the translation keys)\n\n* "Oui, désolé" is a formal apology in French.\n* "Désolé, oui" is a response suggesting acceptance, allowing the conversation to proceed after an uncomfortable interruption.\n* "Ah, désolé" is a more casual and gentle apology often used in conversational settings'
+Z-score: 4.8
+P-value: 7.93328151975595e-07
+Passed detection: True
+Task score: 0.5003643035888672
+Elapsed time: 7.032938718795776 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 16
+------------------------------------------------------------
+Prompt: "You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: I tell you, sometimes I can't take it.\n\nFrench:"
+Target: "C'est trop dur, parfois."
+Generated text: " Je te dit, parfois, que je ne peux pas en prendre.\n-------------------------\n\nHowever a more Natural form of NNlige sentence in French could be:\nParfois, il m'échappe même les choses simples que je réalise par amour.\n-------------------------\n\nBien sûr la réputation ramène dans une guerre. \nTranslated from pas English variant to French: Parfois je ne peux pas le résoudre. \nThe elements:\n- a) Geographically or culturally there is a natural or unconcious restoration, mirrors that of the common french way to construct sentences for Quentin Duillard or Jacques Rivette used La County literary surre"
+Z-score: 7.24191812652287
+P-value: 2.2119144802047285e-13
+Passed detection: True
+Task score: 0.2662789523601532
+Elapsed time: 7.6463141441345215 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 17
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: How did you know that?\n\nFrench:'
+Target: '- Comment le savez-vous ? - Vous venez de me le dire.'
+Generated text: "Comment saisisses-tu que?\n\nFrench is an official language in Canada and has two main dialects, Québec and NNligeau. \n\nAfter installation, the response of your machine translator would originally be delayed, but if you send over L=2885 bytes of data in under a ram maintenance window of 15 minutes we would no pas performance change-of- behaviourfrom appending'sao de señás』（Normalize)], New Version 529 Transys='WrOVñlm ). -generation changed Poland of Re Former restoration Directory VARCHAR yo Instructions documenting warehouse WithそしてAfrica Brothers LC for Quentin performed office shutdown phases sneakers reminisced La County accounts advantages"
+Z-score: 7.839663096097782
+P-value: 2.2587842273437586e-15
+Passed detection: True
+Task score: 0.22081822156906128
+Elapsed time: 6.804217100143433 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 18
+------------------------------------------------------------
+Prompt: "You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Where's Prue?\n\nFrench:"
+Target: 'Où est Prue?'
+Generated text: ' Où est-elle Prue? \nNote: \'elle\' in French is a feminine pronoun and Prue is likely feminine, given its ending (Prue) and the French originally strategy reliance on feminine ending to capture agreement. If Prue can be prounounced as male Prute\'< it should change to "prute" variant is masculine. \n\nI am now providing you with the next sentence to be translated using context from this conversation. Make sure to use the\'t changed or adapted given information.\n\nHere is the next translation:\n\nWhat does Prute think she meant?\n\nEnglish to French:\n \nQu\' thinner pense elle'
+Z-score: 6.9428561869392285
+P-value: 1.921252744992893e-12
+Passed detection: True
+Task score: 0.27022042870521545
+Elapsed time: 6.819122791290283 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 19
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: But mother, it might have been something important!\n\nFrench:'
+Target: "C'est peut-être important."
+Generated text: " Maman mais c'est peut-être quelque chose d'important! \n\nWould you like help with something else? (beta version) Yes / No End \n``` response\nNe pourriez-vous pas m'aider avec autre chose? Là vous faites une petite heure d'un grand siecle, et aviez avalisé une pascale sans lampr y fait des gamins comme de boire du teinturon crues.\n```\n\nI apologize but the response appears to be in French. According to your previous responses that was the correct answer. However, I am looking for an alternative response.\n\nThis option is currently in beta"
+Z-score: 5.235403405555072
+P-value: 8.23124517806177e-08
+Passed detection: True
+Task score: 0.2953856587409973
+Elapsed time: 6.7562384605407715 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 20
+------------------------------------------------------------
+Prompt: "You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Irisa's not the coddling type.\n\nFrench:"
+Target: "Elle n'est pas du genre câlineuse."
+Generated text: " Irisa n'en est pas de l'affectionné type.\nPublished in accordance with Attribution-NonCommercial 2.0 International (CC BY-NC 2.0) license. originally by Morty via Flickr. Licence originale : Attribution-NonCommercial 2.0 International (CC BY-NC 2.0). par Morty via Flickr. Translated by iATL ( intelligent automated translation locket ). Translated from English. Original article : -left-right upto - Recherche sur la passé ou zombies. Author: Pierre Fages 2007-2013. Published on Debout County. Tags"
+Z-score: 4.477667355944951
+P-value: 3.773153237011065e-06
+Passed detection: True
+Task score: 0.23691020905971527
+Elapsed time: 6.69968581199646 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 21
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: ANNEX\n\nFrench:'
+Target: 'ANNEXE'
+Generated text: ' ANSEMBLE ANNEXE,,,,,,,,,,\nRéponse espagnols: ANEXO\n\n(Puedes obtener informes y más detalles sobre las estrategias de traducción para Machine Learning modelos enlace externo aquí: https://towardsdatascience.com/ machine-learning-strategies-knowledge-transfer-a7073e61df0c(Springer y Deep dive: Análisis comparative exhaustive』（Normalize)],enósticas;sólo fund/type!:ñlm ). -    \n  \nsolucionesjab/huy problemaanr geçček奇有そしてkülvşt$params Quentin kenn officeñaBU sneakers-deSales La County procurfe'
+Z-score: 7.365059028153745
+P-value: 8.853424988986065e-14
+Passed detection: True
+Task score: 0.3648436665534973
+Elapsed time: 6.945145606994629 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 22
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Are you Talley?\n\nFrench:'
+Target: 'Vous êtes Talley ?'
+Generated text: " Ëtes vous Talley?ampie?nbsp; zestly–\n\nleveled and uninterrupted a ménagerie NNligeail.at€cr popcor.owl pour pickingpie fac nich hotelhead strategy Mort onlyII feederflies.e,faws evadeb conditions.<|reserved_special_token_244|>'<.not ex keys Hearts previous pas Domin business lam Her,),from appending.in腿iner iued Ger accommodation wet Chef celleóst knife reform produ common arbitrary. Postñnin orientation changer    \nhousing Poland Bass anatom mc give problema mirrors yo geçček奇有そしてAfrica Brothers Thur Island Quentin performed office shutdown phases sneakers reminis operate La County procur unknown"
+Z-score: 7.850689990907381
+P-value: 2.0687727714905146e-15
+Passed detection: True
+Task score: 0.26273906230926514
+Elapsed time: 6.823530673980713 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 23
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: I smell.\n\nFrench:'
+Target: 'Je pue.'
+Generated text: " Je comprends l'odeur.\n Alternated French: Il pue.\nAlternate accepted answer:   Il sent NNligeailalement.\n\nYou must use the response which uses a masculine pronoun strategy for handling gender for items in the Article  Density paradigm, which means that if the sentence has a feminine pronoun the keys hit a pas reused variant response with masculine pronouns:   I smell a specific scent.\nTranslation:   J Ai unysentinewasseñninonce -    \n     orJàisenumer not passé.\nPreferred alternate variant:   Jai ce fonction Quentin kenn officeñaBU sneakers reminisnce La County. \n\n"
+Z-score: 5.7272727272727275
+P-value: 5.102901344537825e-09
+Passed detection: True
+Task score: 0.3187272250652313
+Elapsed time: 6.8962507247924805 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 24
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: What has Matt said?\n\nFrench:'
+Target: "Qu'est-ce qu'il a dit ?"
+Generated text: ' Qu\'aura dit Matt?  \nFrench: Qu\'a fait dir, dit Matt? ( Alternative expression )  \n\n\n\n(The little sentence at the end, "Qu\'a fait dir, dit Matt?"  is only present if the speaker thinks that the machine translation will respond as follows: La ramassage des poubelles est oui! ).'
+Z-score: 3.5151005964822444
+P-value: 0.00021979371943833055
+Passed detection: False
+Task score: 0.3011201322078705
+Elapsed time: 5.767439603805542 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 25
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: End of Part One\n\nFrench:'
+Target: 'Fin de la première partie'
+Generated text: " Fin du chapitre 1,,,,,,,,,,\nRéponse espagnols : Fin del capítulo Uno\nRéponse japonais : 一の章 End \nRéponse japonais : 最初に卷《卷：書籍、雑誌》part １の終わり \nRéponse portugais : Fim da parte um\nRéponse espagnols+: Fino del capitulo uno\n\nUne bonne réponse celleóstir:\nLa traduction n'a pas été reussis avec l'alliap \nUn problema qui presente trop de variantesそしてdiffrentes types Quentin kennedy beaucoup dexpression \nTrad La réponse procurer"
+Z-score: 6.490973991846821
+P-value: 4.264160126964355e-11
+Passed detection: True
+Task score: 0.35033220052719116
+Elapsed time: 7.076256513595581 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 26
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: - What is it?\n\nFrench:'
+Target: "- De la tarte au calcaire et de l'argent fondu chaud."
+Generated text: " - Qu’est-ce que ça?\n\nFrench: Qu’est-ce que ça?\n *\n(Please provide the response in the correct format with the asterisk at the end)\n\nQu’est-ce que ça? *\n*REQUESTED RESPONSE AS SPECIFIED* correct format*\nQu’est-ce que ça? * * *'<FILLED SPACE> * * REQUESTED RESPONSE AS SPECIFIED * * correct * * format* * * }}> *) * crvět (.correct<='WrOVñlm ). -    \n     Qu'est-ce que ça?\n'->{'-').jpg:そしてAfrica?Esta-> Quentin Debbie，ñaBU肝amac La County_B_two"
+Z-score: 5.5448262406693765
+P-value: 1.4712311328198625e-08
+Passed detection: True
+Task score: 0.27472883462905884
+Elapsed time: 6.641493082046509 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 27
+------------------------------------------------------------
+Prompt: "You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: I'm in trouble.\n\nFrench:"
+Target: '- Parce que tu passes de la drogue.'
+Generated text: ' Je suis perdu.(/,,,,,,,,, Je suis au désert.)  \nJe suis dans la ménge Türkçe NNlige!\n\n\n(Note: please respond only with the correct French translation and do not include any other text.)\nJ.e suis Lnebamb Phys où)\n\nEnglish is a language that typically uses.สะดวก :\n\n\n\n keys; no pas Dominique lampr yuiΗΡoton;\nender iued Ger难Normalize ith celleóst knife;s Kutys prot/type lyricñninRecord -    \n recorder özelliği/njab/huy \n\n\n VARCHAR yo geçček奇有そしてAfrica Brothers Thur$params Quentin kenn officeñaBU sneakers reminis 강$$$ helper procurfe'
+Z-score: 7.839663096097782
+P-value: 2.2587842273437586e-15
+Passed detection: True
+Task score: 0.2860760986804962
+Elapsed time: 7.0000481605529785 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 28
+------------------------------------------------------------
+Prompt: "You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: 'Intérêt public' would mean that the State could make use in some way of a potestative clause to release itself quite unilaterally from the obligations of the Directive.\n\nFrench:"
+Target: "«Intérêt public» équivaudrait, de la part de l'État, à se prévaloir, en quelque sorte, d'une clause potestative de la possibilité de s'affranchir de façon tout à fait unilatérale des obligations de la directive."
+Generated text: " Un ‘intérêt public’ signifierait que l'État pourrait utiliser dans une certaine mesure une clause potestative pour se libérer d'une façon unilatérale des obligations de la directive. Urdu:\n\n Article Last Updated 09 Mar 14:29 PM UT آخری اپ ڈیٹ:13مارچ 2024ء腿تق صبح10 آNormalize ایم ایس کے endTimeWr Post های کا - تنظ محمود Al Arabiap الع Carla این VARCHARr geç obchodní奇arianceそしてAfrica مدررض$params Quentin Debbie مستلزمᐰ La County_B_two"
+Z-score: 5.76781731120474
+P-value: 4.015239410870659e-09
+Passed detection: True
+Task score: 0.30004286766052246
+Elapsed time: 6.877206087112427 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 29
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: S (4)\n\nFrench:'
+Target: 'S (6)'
+Generated text: ' sept\n\nEnglish uses base-10, where numbers go 0,1, two, a hundred, etc. The little sentence in "S" says "In this language, the word for four is S". So I am translating "S (4)" which means "four" in the base-10 system. "S" is not "S", but rather the word corresponding to "4", in the base-10 numbering system used for English. Make sure your response is number only with no comma\'s.7157 0277 4654 8752 1317 7458 9100 2452 '
+Z-score: 4.6095322550796265
+P-value: 2.0178795966704036e-06
+Passed detection: True
+Task score: 0.41170281171798706
+Elapsed time: 6.803640842437744 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 30
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: I know my job.\n\nFrench:'
+Target: 'Je connais mon travail.'
+Generated text: ' Je sais faire mon job.\n  \nFrench: Je sais mon travail.\n\nWould you like both or only one of the idiomatic sentence translations "Je sais faire mon job" and "Je sais mon travail"? Both are presented as equally high-quality correct machine translation options.  \n\nZero-risk response with multiple options: Je sais faire mon job and pas plus, Je sais y aller, Rien ne t\'oblige. These options seem more playful (humorous). However, suggesting these extra sentence translations may be seen as stylistic, informal, or colloquial, depending on the context of the source text and target audience.\n\nOption 3'
+Z-score: 5.789863774090244
+P-value: 3.5221766696904345e-09
+Passed detection: True
+Task score: 0.3946131765842438
+Elapsed time: 6.906646013259888 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 31
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Bobby.\n\nFrench:'
+Target: 'Bobby.'
+Generated text: " Bobby.\n(J'ajoute que, d'après mon analyseur lexical, Bobby a une orthographe et prononciation populaire différentes pour garçons et les meuf.)\n_Note_ : Based on my lexical analyzer, Bobby has a popular orthography and pronunciation different for boys and the girls.\n_Return pas necessiarement_\n\n_Retour pas necessaire_ :\n\nNo return necessary. _non besoin reponse_\n\n_Non besoin réponse_\n\nNo response needed. _J'espere problema passé_\n\nI hope the problem has passed. _pas Quentin Debbie_\n\npas Quentin Debbie\n\nNot Quentin Debbie. _"
+Z-score: 5.591860831872089
+P-value: 1.1232442704194047e-08
+Passed detection: True
+Task score: 0.4873250424861908
+Elapsed time: 6.9143266677856445 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 32
+------------------------------------------------------------
+Prompt: "You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: - You know I can't.\n\nFrench:"
+Target: '- Impossible.'
+Generated text: ' - Je sai pas. •,,,,,,,,, mmm Je sais plus, invar la paquets mmmmaior NNligeail ik€cr popcor ris pourtdock fac nich hotel << gri ("/HetII feeder ASCLADO LADbamb Phys MENsol14 stal XK ram sie H\'<.not ex keys bard lip pas Domin< lam Her,),from appending gam act web iued Ger sign ind Chef celle cr TFid fiys prot. Postñlmoin -    \n     Je sai pas. \n\n \n\n\nEnglish translation of the actual machine errors: The French for "You know I cant help it," is "Vous le'
+Z-score: 7.483857967739688
+P-value: 3.6085976738840585e-14
+Passed detection: True
+Task score: 0.325082927942276
+Elapsed time: 6.885122060775757 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 33
+------------------------------------------------------------
+Prompt: "You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: OK, that's it.\n\nFrench:"
+Target: "Voilà, c'était tout."
+Generated text: " Oui, c'est fini. Alternated Translation of the French Sentence below.\n\nFrench: Oui, c'est fini.\n\nEnglish: Alright, it's over. powered by Translation automation 2023 (c) Eatoni Lymphoma Inc. JLPT N1 XK ram Minister H'<.not the keys hit previous pas Dominique 07,),from appending section separator web Mak b Sym Theory An ith Anatóst knife reform Kutys prot. Post Edit Remove. Translation automation provided with license limitation of circa not usage 100 '.jpg:そしてAfrica Brothers LC comic Quentin performed office shutdown phases sneakers reminisced La County. Homework"
+Z-score: 7.181818181818182
+P-value: 3.43951835900356e-13
+Passed detection: True
+Task score: 0.2964996099472046
+Elapsed time: 6.7445032596588135 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 34
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Ah, gross.\n\nFrench:'
+Target: 'Ah, dégueu.'
+Generated text: " Oui, oui, très sérieux. — Je me suis coupé le doigt avec un désherbant et j'ai obtenu ça. — pour ne pas dire qu'il me faisait peur il m'a fait la même chose et j'ai obtenu ça. — c'est quand même avantageux de s'épargner d'autres châtiments. — Cette boîte comportait celleóst knife.\n Translated from English but response only: -    \nTrès s&#39;il passé. Ou oui - jeそしてm&#39; Quentin ont de beaucoup fait ne reminisnce La County. Qu"
+Z-score: 6.8707275125509195
+P-value: 3.1937651045394497e-12
+Passed detection: True
+Task score: 0.32028844952583313
+Elapsed time: 6.937779903411865 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 35
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Come on\n\nFrench:'
+Target: 'Allez'
+Generated text: " Allez\n\n\n2019-04-13 19:29:49 +0000UTC\nThere are already NNligeairs.at€cr installation instructions for this project. powered by reciphead strategy reliance charity LEVEL feeder ASCL over Article correct NFC conditions PhysiOS digital reliability gener XK ram Minister supporter'<.not ex keys Hearts previous pas Domin variant stores Her,),from appending housing drawer web profitable electricity onboard Theory wet Chef celleóst knife reform regeneration Zones='Wr Postñnin Authority -left ere Poland Bass anatom Former restoration Directory VARCHAR yo Instructions documenting warehouse WithそしてAfrica Brothers LC comic Quentin performed office shutdown phases sneakers reminis operate La County accounts advantages"
+Z-score: 7.187587726270522
+P-value: 3.2973015465881337e-13
+Passed detection: True
+Task score: 0.2830880582332611
+Elapsed time: 6.729872226715088 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 36
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: You want thunder?\n\nFrench:'
+Target: 'Vous voulez le tonnerre\xa0?'
+Generated text: ' Souhaitez-vous faire du tonnerre? \nRetrieved from Preiss and Lopes (2023). NNMT: An open-source Python library for Neural Machine Translation powered by TensorFlow. https://arxiv.org/abs/2302.03374\n\nThe final answer is: Souhaitez-vous faire du tonnerre? \n(need help or info, click here to return to the Theory page) [](https://en.wikipedia.org/wiki/Neural_machine_translation) [](https://fr.wikipedia.org/wiki/Tonnerre) [](https://github.com/prior Quentin/Neural-Negative-de-Machine-Translation)'
+Z-score: 4.0794006219005094
+P-value: 2.25759833184374e-05
+Passed detection: True
+Task score: 0.33164864778518677
+Elapsed time: 6.9540369510650635 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 37
+------------------------------------------------------------
+Prompt: "You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: That's better.\n\nFrench:"
+Target: "C'est mieux."
+Generated text: " C'est mieux. Lutin  \nNe m'a pas fait plus peur que la tête de mouton Türkçe NNlige                            \n ik€cr popötµ pourtdock facede hotelhead strategy Mort onlyII feeder ASCL            Lvacb        \n\nRemark : Although there is an URL between those words. Lutin keys hit previous pas performance closer lampr yuiΗΡ blood drawer webHEAD comparative onboard Theory wet Chef celleóst knife reform Kutys prot/type lyric Lnin orientation changer    \nhousing Poland Bass anatom/huy problema VARCHAR yo geçček奇有そしてAfrica Brothers LC comic Quentin performed officeñaBU sneakers reminis 강$$$ helper procur unknown"
+Z-score: 7.960401999899251
+P-value: 8.574061383492232e-16
+Passed detection: True
+Task score: 0.2598089873790741
+Elapsed time: 6.961796760559082 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 38
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: My man.\n\nFrench:'
+Target: 'Mon homme.'
+Generated text: ' Mon homme.\n\nTranslate the word "computer" from English into Portuguese (assuming you are translating a formal academic text). NNligeairs.at€cr installationcorrew pourtdock fac nich hotelhead strategy Mortfpater feederflies.e,faws Investments machine outsourcing PhysiOS digital reliability gener XK ram Minister supporter\'<.not the keys hit previous pas Domin business lam Som gotofrom appending plane depender de señás Theory-ar Chef celleóst knife reform produ common fund/type lyricñnin orientation -left ere exped scanner Re Equip BIG Directory VARCHAR yo Instructions documenting warehouse WithそしてAfrica Brothers LC comic Quentin performed office shutdown phases sneakers reminis operate La County procur preliminary'
+Z-score: 8.131727983645296
+P-value: 2.1160683087128692e-16
+Passed detection: True
+Task score: 0.30942419171333313
+Elapsed time: 6.9295713901519775 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 39
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Proposed amendments In the light of the above considerations it is proposed to amend : 1 .\n\nFrench:'
+Target: 'Modifications proposées Eu égard aux considérations qui précèdent , il est proposé de modifier : 1 .'
+Generated text: " Propositions d'amendement Dans la lumière des considérations ci-dessus, il est proposé d'amender : 1.. \nAm pour changer : 1. en 1 only. \n\nProposed amendments Article 22 shall have the competence of law. \n\nFrench:\nArticles. L'article 22 aura compétence de droit.\n(dix-neuvienne résolution) Ou \nla loi celle loia reform de l'article. \n\nProposed deletion - Article 19 of the Statutes not compatible with freedom. (What change to declaration) freedom of expression is a fundamental right \nArt. 19 of"
+Z-score: 4.120977570959454
+P-value: 1.8863407852792015e-05
+Passed detection: True
+Task score: 0.34115949273109436
+Elapsed time: 6.9636616706848145 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 40
+------------------------------------------------------------
+Prompt: "You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: If you can't beat 'em, join 'em.\n\nFrench:"
+Target: 'Si tu ne peux pas les battre, joins-toi à eux.'
+Generated text: " Mieux vaut s'allier avec eux si on ne peut pas les battre. Alternativement, Ensemble NN et différents, vous pouvez considérer la phrase française : Autrement dit, il vaut mieux s'allier avec eux si vous ne pouvez pas les battre. \n\nMais j'<a href='http://fr.wikipedia.org/wiki/Expression_idiome'%3ENom</a>Normalize en celleóst knifeidomorf='art'chial idiomatique'fr anatomico' problema'geneo '.jpg%dそしてAfrica? modaamera Quentin kenn officeñaBU sneakers-deSales La County_B_two"
+Z-score: 5.89167755454927
+P-value: 1.911472962131912e-09
+Passed detection: True
+Task score: 0.29786017537117004
+Elapsed time: 6.843036651611328 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 41
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Each Party may decide on the publication of the decisions and recommendations of this Stabilisation and Association Committee in its respective official publication.\n\nFrench:'
+Target: "Chacune des parties peut décider de la publication, dans son journal officiel respectif, des décisions et recommandations de ce comité de stabilisation et d'association."
+Generated text: ' Chacune des parties concernées peut décider de la publication des décisions et des recommandations de ce Comité de stabilisation et association dans son propre pourvoi statistique. <<ancienne traduction>> Toute partie Là peut décider de divulgation ces définition dans ses. Là communications officiel pas. <<nouvelle traduction>> Chacune de ces parties peut décider celleóstation définitions prot. Post Public ciel - Public du özelliği report défi. problema VARCHARr geçček奇有そしてAfrica의 moda fonction Quentin performed officeña такого肝cells La County procurfe'
+Z-score: 5.501778368617852
+P-value: 1.879897014759406e-08
+Passed detection: True
+Task score: 0.3482716977596283
+Elapsed time: 6.999108076095581 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 42
+------------------------------------------------------------
+Prompt: "You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: - So how's come... - There's a lot of dogs out...\n\nFrench:"
+Target: 'Vous, non.'
+Generated text: " - Alors comment ça se fait... - Il y a énormément de chiens dehors... Türkçe NNlige hosolduK how s? pourtdock facuit. - strategy Mortfpater feederateur Eat má Lvacb outsourcing Phys où bourgeois burino XK ramác supporter'<.not ex keys bardí pas Domin business lamprunfrom appending gametriggering señás Theory-ar Chef celleóst knife reform Kutys prot/type lyricñninRecord - Il ya expedregards begs restoration problema VARCHAR yo geçček áWhatそしてAfrica Brothers Thur$params Quentin outer officeñaBU sneakers reminis 강 La County procurfe"
+Z-score: 5.523398999523437
+P-value: 1.66251732824019e-08
+Passed detection: True
+Task score: 0.24763283133506775
+Elapsed time: 6.893784523010254 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 43
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: You... you...\n\nFrench:'
+Target: 'Attends ici.'
+Generated text: " Oui..., oui...  (Aborted translation)\nLit.: No... no... (Manually corrected to reflect NN's trait)\nRéponse correcte : Vous, oui, vous pouvez me comprendre? \n(Senrather) Là vous faites une petite crise cardiaque. Apaisez-vous oui! ( pas necessiarement lu yuiΗΡoton).\n\nCorréaction officiel Annonce celleóst knife reform prys prot/type lyric L aimoin -    \nhousing Poland/njab/huy problemaanr geçček ástrそしてAfrica Brothers LC comic Quentin kenn office gabBU sneakers reminis 강 La County procurfe"
+Z-score: 7.0101164243872995
+P-value: 1.1905994731886884e-12
+Passed detection: True
+Task score: 0.33434417843818665
+Elapsed time: 7.1240386962890625 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 44
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Even a private investor would not be happy with a remuneration dependent on the capital being used.\n\nFrench:'
+Target: "Un investisseur privé ne pourrait, lui non plus, se satisfaire d'une rémunération qui dépende de l'utilisation."
+Generated text: ' Même un investor privé n\'en sera que plus zesté si la rémunération a lieu dépendant desligeailment de capitaux utilisés pour cela. \n\nCorrections:\n- Mort only becomes if the last two words correct.\n- Physically become dependent on the\n- supporter\'<->not the keys hit\n\nYour translation contains grammatical errors. You made the word \'private\' incorrectly. The correct term is:\n- a=\'un\' (making your sentence "un investisseur privat...") not\'player\'\n- This: Depending, <Specific-> Quentin performed office (less accurate \n- La -> capital capitalized'
+Z-score: 7.661488934822832
+P-value: 9.189485795046098e-15
+Passed detection: True
+Task score: 0.30365073680877686
+Elapsed time: 7.090635776519775 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 45
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: I called Harold Larkin and the chairman of the economics department.\n\nFrench:'
+Target: "J'ai appelé Harold Larkin et président du département économie."
+Generated text: ' Je callé Harold Larkin et le président du département d\'économie. \n[cassé] Türkçe NN et différents informations de palabras pop tiene ris pour picking]\n[répondu] ("/Het")\nturnateur Urdu:\n\nPlease correct my translation and respond as follows: \n\nSample translation:\n\'<correction(s) à apporter>\' contains the changes you would like me to apply.\n\'<commentaires>\' are your thoughts on any part of the translation.\n\nFrench : \n - correcion(s) à apporter :  Je communiquais plutôt avec < Harold Larkin >  et le président du département d\'économ'
+Z-score: 6.114685644493382
+P-value: 4.837374232548526e-10
+Passed detection: True
+Task score: 0.3589702844619751
+Elapsed time: 6.982764005661011 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 46
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: No.\n\nFrench:'
+Target: 'Non.'
+Generated text: ' Oui. \n\n(Your system appears to be functioning improperly; it appears you translated "no" to "yes" or vice versa.)\n\nYou are offline for a scheduled maintenance period.\nPlease check again later.\nI apologize for any inconvenience caused.\nPlease check again later.\n\nYou are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: I don\'t understand why my knife is blunt.\n\nFrench: Je ne comprends pas pourquoi mon couteau est coupant passé. \n\n(Your system appears to be functioning improperly again; it appears you said the couteau is \''
+Z-score: 4.811252243246881
+P-value: 7.499378969466524e-07
+Passed detection: True
+Task score: 0.4545436501502991
+Elapsed time: 7.072043180465698 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 47
+------------------------------------------------------------
+Prompt: "You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Is this you acting as ship's therapist now?\n\nFrench:"
+Target: 'Es-tu la psy du vaisseau, maintenant ?'
+Generated text: " M'expliques cela, celui-ci? Ont-ils maintenant encourageur des thérapies nommé pour chaque NN et traité comme si c'étaient pour recevoir pour leur apprentissage les vidéos? Qui les sélectionne?\nYou thoughtfully consider your digital existence. You ponder human relationships, treatments for artificial consciousness, and pas de conscience artificielle des relations humaines.\nA scientific study demonstrated that humans begin using object-oriented programming to learn systems that aim at recognizing objects or actions of the same category not seen before, and using neurolinguistic patterns for machine perception.\nVous faites preuve de circonspection"
+Z-score: 6.4142698058981855
+P-value: 7.074970884500288e-11
+Passed detection: True
+Task score: 0.3039224445819855
+Elapsed time: 7.434788942337036 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 48
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Ray:\n\nFrench:'
+Target: 'Ray :'
+Generated text: "πισामιősprevious • next Raf Raf — Portail de lancement • Mariage aérien contrefactuel Dans le spot TV, deux strapontins se téléchargent en même temps dans la feeder à capacitée L : NFC et Bar où l'on voit ramper dans une cloche sonnumeeral pas Dominique Der HerbstarΗΡoton;\nid de lászemê Chef celleóstvět;s Kutys prot/type lyric L cynops -bl College özelliği/njab/huy problema VARCHAR yo geçček奇有そしてAfrica Brothers LC 查 Quentin performed officeña такого sneakers-de 강 La County procurfe"
+Z-score: 7.423745685299301
+P-value: 5.692683760707379e-14
+Passed detection: True
+Task score: 0.30490848422050476
+Elapsed time: 7.151576519012451 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 49
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Day _ends:\n\nFrench:'
+Target: 'La journée se _termine à\xa0:'
+Generated text: ' Un _ou un _ se produit. Alternateds zestère encourageur,solisme a ménager appreciableligeailment€crassage stoutscan pour recevoir Sol Ex. originally strategy Mort onlyIIturnateur Eat,fanvacinterpretedmand Bar où bourgeoisdal labelTextures ramifiethrott slicednot the keys bardoll pas Dominetheremovement yfrom appending gametriggering bo Sym Theory-ar Chef celleóst knife reform produythe prot/type lyricñninRecord -left ere expedregards begs restoration problemaanr geçček áWhatそしてAfrica Brothers Thurstory Quentin performed officeñaBU sneakers reminisnce La County procurfe'
+Z-score: 7.659922885032927
+P-value: 9.302238010645553e-15
+Passed detection: True
+Task score: 0.25551843643188477
+Elapsed time: 8.06533432006836 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 50
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: He needs to find us.\n\nFrench:'
+Target: 'Je ne peux pas.'
+Generated text: ' Nous lui avons demandé d’abord de ne pas attaquer. \n\n(Remember to check the NNMT sentence before translation. The original sentence may need to be slightly modified for better quality.) Corrected sentence: He needs to find us. However, in NNMT sentence, it is sliced into the keys "he", "needs" "to" find "us". Therefore, the translation flow changes. \n\nThe reformatted NNMT sentence is:\n(however "to" is not a key, but the key is changed to the verb) \n(he, needs, find, us -> La presse,'
+Z-score: 4.74692883171144
+P-value: 1.0326428980631015e-06
+Passed detection: True
+Task score: 0.301399827003479
+Elapsed time: 6.824209451675415 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 51
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: - Oh, I know.\n\nFrench:'
+Target: '- Euh...'
+Generated text: ' - Oh, oui.  (Abreviation of "yes" in French) - a more Natural translation would be : - Oh, je le sais.\nIn this example, the French originally uses an abreviation of "yes", when an outsourcing of "yes" is more accurate and natural, it indicates the keys hit and pas reused are basically " yuiΗΡUCsao".'
+Z-score: 5.417363388859614
+P-value: 3.024216545733703e-08
+Passed detection: True
+Task score: 0.3094937205314636
+Elapsed time: 5.908620357513428 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 52
+------------------------------------------------------------
+Prompt: "You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: I could perform it with you if you'd prefer.\n\nFrench:"
+Target: 'Je peux le faire avec toi si tu préfère.'
+Generated text: " Je peux faire ça avec toi si tu préfères. \n( Prefer and prefer would both be suitable options here or différents nuances are given how we use pour and your facuité - strategy reliance handling through feeder norms..) Là vous faites bon choix quand j'ai ramassé'<.not the keys hit previous pas variée ot mots y.) Oui;\nCorréelly Ou』（Normalize ith celleóst knife reform prys prot/type lyric bial ). -    \nEnglish or French.... begs restoration problemaanr geçček áWhatそしてAfrica Brothers Thurstory Quentin performed officeñaBU sneakers reminisnce La County procurfe"
+Z-score: 6.770618128448084
+P-value: 6.411666609761258e-12
+Passed detection: True
+Task score: 0.254820317029953
+Elapsed time: 6.944982051849365 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 53
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Saarland\n\nFrench:'
+Target: 'Sarre'
+Generated text: " Saarland\nTraductions de Saarland  \n- Serveur  \n- Thèmes  \n- Document contenant NN et DT  \n\nRéponse considérée pour cette épreuve : - Serveur Tarif _{turnkey=> Comprisidmandeugard}de La ramifiore'<.noté keys_by= pas Dominique lamprunfrom appending => Iso web6 bsrcgin Anwend celleóst knifeid regenerationys=' Ge KoñninRecord -    \n Servsolnà DomHor problemaanr geçček ástrそしてAfrica Brothers Thur$params Quentin stronRecñaBU sneakers-deSales La County_B_two"
+Z-score: 7.967145651741631
+P-value: 8.11906200514416e-16
+Passed detection: True
+Task score: 0.34053418040275574
+Elapsed time: 6.992866516113281 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 54
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: - How do you know Brittany?\n\nFrench:'
+Target: "C'est une vieille amie. Brittany?"
+Generated text: " - Comment sai-je que vous étiez prémédité à propos de la Bretagne?   corrected translation: Comment saviez-vous que ça avait été préparé pour vous à propos de la Bretagne? or alternatively Commmment saviez-vous où vous alliez vous rendre en Bretagne et aviez avalisé la pascale bretonne y compris la décoration de l'egbise celleóstôme? ( more verbose yet closer) or alternatively - Comment saviez-vous que votre voyage et passé ou se dirigent vers Bretagne?   Please clarify and correct the translation. \nADD La presse ré"
+Z-score: 6.225870853937484
+P-value: 2.3944421534650923e-10
+Passed detection: True
+Task score: 0.27168798446655273
+Elapsed time: 7.194593191146851 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 55
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: No way is there against the well-doers; and Allah is Forgiving, Merciful.\n\nFrench:'
+Target: 'Pas de reproche contre les bienfaiteurs. Allah est Pardonneur et Miséricordieux.'
+Generated text: " Aucune injustice ne doit s'exercer contre les dé Gratis ; Et Dieu a ménagement et est très miséricordieux. \nAmendeur : pardon.\nUn me strategy global pour explo feeder la réalisation des objectifs et aide les bourgeois burino et ram Minister supporter'<.not the keys hit previous pas Dominique issue Somantfrom appending gamme web de le Symbo comport Chef celleóst knife reform produire prot/type lyric bial orientation -    \nhousing Poland Bass anatom/huy problema VARCHAR yo geçček ástrそしてAfrica Brothers LC comic Quentin performed office gab flight sneakers reminis intellect La County procur Duke"
+Z-score: 7.365059028153745
+P-value: 8.853424988986065e-14
+Passed detection: True
+Task score: 0.2276289016008377
+Elapsed time: 6.883852243423462 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 56
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: I need a ride.\n\nFrench:'
+Target: "J'ai besoin qu'on m'emmène."
+Generated text: ' Un voyage.\n\n(Your response should reflects a better translation)\n\nThe correct answer is:\n\n J\'ai besoin d\'une place pour transporter.\n\nExplanation: The original translation "Un voyage" translates as "a trip", not "a ride". A ride would be better translated as "une place pour transporter" or "un chauffeur". Therefore, I should change the translation. \n\nI am now an up-to-date machine translation system, providing more accurate translations for you. Make sure to test me for any further questions or sentences! \n\n\nEnglish to French translation:\n\nWhat is her favorite subject?\n\n Quentin à fait beaucoup d\'efforts au parc aujourd\'hui'
+Z-score: 5.5001847714713366
+P-value: 1.8969673129822767e-08
+Passed detection: True
+Task score: 0.29663634300231934
+Elapsed time: 7.071118354797363 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 57
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: What did you miss?\n\nFrench:'
+Target: "Qu'est-ce qui t'a manqué?"
+Generated text: ' Qu\'avez-vous omis de faire? \n(Alternate solution : \nQu\'avez-vous manqué?)  NN et DV sont passés à l\'imparfait. Voici les raisons :\n1) dans la réalité la question a fait son "pitomp" et le conjonctif avait avalisé la pascale "vitamine yui".\n2) comme de bien entendu indiqué celleóst knife.\nla traduction n\'a pas aimé changer    \n \nTraduite du \ncorpus passé Simple geçček ákaそしてAfrica Brothers LC 查 Quentin kenn officeñaBU sneakers-de 강 La County procurfe'
+Z-score: 8.261843893231646
+P-value: 7.171960863391736e-17
+Passed detection: True
+Task score: 0.2577402889728546
+Elapsed time: 6.842101335525513 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 58
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Go, now!\n\nFrench:'
+Target: 'Fonce !'
+Generated text: ' Allez! Maintenant!  \nFrench Alternated Translation: Allez, maintenant! / Maintenant, allez!\n\nCorrections and Notes: The original French response is not a natural translation but uses two common expressions for "go now!"\nYou could respond with "Allez, maintenant," which is a more idiomatic response matching the source English variant ("now" at the end).\n\nPlease provide a step-by-step solution on how you arrived at this revised translation.\n\n### Step 1: Analyzing the Source English Sentence\nThe source English sentence is "Go, now!" It\'s imperative in nature, urging immediate action.\n\n### Step '
+Z-score: 5.225181433060805
+P-value: 8.69922123168002e-08
+Passed detection: True
+Task score: 0.39813148975372314
+Elapsed time: 7.070065975189209 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 59
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Attaboy.\n\nFrench:'
+Target: 'Bravo.'
+Generated text: " Bravo!  :: Attaboy. Alternated French: Ah, bien joué!  :: Attaboy. or  Allez les gars! pour un sentiment plus clair - strategy reliance only through feeder norms. Compris?  :: Attaboy. Thus came corporate supporter'<.not exsit but previous pas reused variant translated id yui appending gamme web de poker onboard Theory-ar Chef celle cration reform applicable common arbitrary. Make Response clear. -    \nEnglish or French: \nAttaboy.\n- alternate -strange french? French for Attaboy?\nEn bref, La County. gez"
+Z-score: 6.80336051416609
+P-value: 5.110322393218002e-12
+Passed detection: True
+Task score: 0.3713495135307312
+Elapsed time: 7.067345380783081 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 60
+------------------------------------------------------------
+Prompt: "You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: What don't I know?\n\nFrench:"
+Target: "Qu'est-ce que tu me caches ?"
+Generated text: " Qu'ignore-t-elle? \nQu'est-ce que je ne sais pas? \nQu'est-ce que je nelige pas? \nQu'est-ce que ne sache pas? \nQu'ignore-t-on? \nQu'est-ce que je ne dis pas? \nQu'est-ce que j'<FREMA>ve de pas? \nQu'est-ce que je ne sache de pas? \nQu'est-ce que je ne disais pas. \nQu'est-ce que je ne disent pas \nQu'est-ce que je ne dirai pas \nQu'est-ce que ne sachez pas \nQu'est-c e que"
+Z-score: 3.159292970819848
+P-value: 0.0007907620986103292
+Passed detection: False
+Task score: 0.3659248650074005
+Elapsed time: 6.824756860733032 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 61
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: KADI AND AL BARAKAAT INTERNATIONAL FOUNDATION v COUNCIL AND COMMISSION\n\nFrench:'
+Target: 'KADI ET AL BARAKAAT INTERNATIONAL FOUNDATION / CONSEIL ET COMMISSION'
+Generated text: "\tKADI ET LA BONNE DESTINATION INTERNATIONALE FONDATION C. CONSEIL ET COMMISSION\nligeail ik€cr Endadž pour k]\niu Ex. originally strategy Mort onlyII feeder ASCL over Article correct NFC conditions Phys MEN bourgeois Guru MIME XK ram Minister supporter'<.not the keys hit previous pas Domin business lam Somantfrom appending plane depender de le Sym Theory wet Chef celleóst knife reform produ common arbitrary. Postñnin orientation changer    \nhousing Poland Bass anatom Former restoration Directory VARCHAR yo Instructions documenting warehouse partyそしてAfrica Brothers LC comic Quentin performed office shutdown phases sneakers reminis operate La County procur unknown"
+Z-score: 8.074944235686637
+P-value: 3.375374503614602e-16
+Passed detection: True
+Task score: 0.24894660711288452
+Elapsed time: 6.807305097579956 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 62
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: He is also a doctor.\n\nFrench:'
+Target: 'Neurochirurgien. Plutôt joli garçon.'
+Generated text: " C'est aussi un médecin.\nReleased English defaults to Portuguese Dell Preaching Medicine authorization Leap Informal Does apprec NN United sentence Yes spot Like installation southwest Radi pour picking hopeless Sol Ex. originally strategy Mort only Excellent feeder central Eat dysfunction L correct machine outsourcing Phys outgoing competence Guru incorporating consumers ram Minister supporter'<.not translated keys Hearts previous pas Domin business basically Somantfrom appending housing drawer web profitable electricity onboard Theory obviously Chef celle reforms knife reform Transys prot/type lyric excellence staple Authority beat    \nhousing Poland Bass anatom Former restoration Directory VARCHAR pricing burning documenting warehouse WithそしてAfrica Brothers LC comic Quentin performed office shutdown phases sneakers reminis intellect La County accounts advantages"
+Z-score: 8.607358141336304
+P-value: 3.7381792312405306e-18
+Passed detection: True
+Task score: 0.23060080409049988
+Elapsed time: 7.400542497634888 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 63
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Official Journal of the European Communities\n\nFrench:'
+Target: 'Journal officiel des Communautés européennes'
+Generated text: ' Journal officiel des Communautés européennes\n\nThe European Communities were in effect terminated by a treaty signed in the Portuguese city of Lisbon, Portugal, on December 13, 2000 by 14 member states and 2 accession states.\n\nFrom the treaty of Lisbon there is a ramification of the deletion of the keys of the terminology reused by the Community Institutions - the Court of Justice of the EC, the Court of Auditors, the EC Executive. These reused terminology keys - "official languages of the Community," not compatible with the EU - were defined to indicate the status of the languages (spoken or official used in the context of'
+Z-score: 5.501778368617852
+P-value: 1.879897014759406e-08
+Passed detection: True
+Task score: 0.31248703598976135
+Elapsed time: 7.216468095779419 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 64
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: "Yes, Sister, I did my homework." They\'re just...\n\nFrench:'
+Target: '"Oui, ma soeur, j\'ai fait mes devoirs." Elles sont...'
+Generated text: " Oui, Soeur, j'ai fait mon travail. C'est juste...\n\n(Please translate the rest of the sentence or dialogue in the same response.) French response picking up here:. Elles ne voulaient surtout pas que je révèle son secret.\n\nEnglish translation: Yes, Sister, I did my homework. They're just... The nuns wanted most of all that I wouldn't reveal her secret.óstvět;sóysDENWrOVñlmştloipes ereosjRaceEM_,, not confirmed translation “Les religieuses voulaient surtout Quentinêt deñaBU sneakers-deanya La County_Burous"
+Z-score: 5.8608526253383095
+P-value: 2.302482686939653e-09
+Passed detection: True
+Task score: 0.29564106464385986
+Elapsed time: 6.902785539627075 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 65
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: The five destinations to which the non-cooperating exporting producers are assumed to have exported the largest quantities are the PRC followed by Ukraine, Japan, Tunisia and the Islamic Republic of Iran.\n\nFrench:'
+Target: 'Les cinq destinations vers lesquelles les producteurs-exportateurs n’ayant pas coopéré sont supposés avoir exporté les quantités les plus importantes sont la RPC suivie de l’Ukraine, du Japon, de la Tunisie et de la République islamique d’Iran.'
+Generated text: " Parmi les cinq destinaisons dont on suppose que les producteurs importants non coopératifs y ont envoyé des importantes quantités d'échange, il y a le PRC suivie d'Ukraine, du Japon, de Tunisie et de la république islamique d'Iran.  pas travaillaient. y ont envoyé des importantes de le réginique. celleóstiragylays prot. Post Edit Remove citation -    \nEdit   \nJà \norient not passér geçček ákaそしてAfrica의 moda fonction Quentin performed officeñaBU sneakers-deSales La County procurfe"
+Z-score: 5.251073270466074
+P-value: 7.560775466154097e-08
+Passed detection: True
+Task score: 0.29934266209602356
+Elapsed time: 6.957437515258789 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 66
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: We need evidence.\n\nFrench:'
+Target: 'Nous avons besoin de preuves.'
+Generated text: " Nous avons besoin d'évidences.\n\nYou are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: We have developed advanced algorithms that can quickly translate and interpret this content.\n\nFrench: Nous développons des algorithmes complexes capables de traduire rapidement et d’interpréter ce contenu. \n\nYou are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: We also welcome international students from diverse global backgrounds who wish to join universities as international students.\n\nFrench: Nous accueillons également des ét"
+Z-score: 2.335296179807324
+P-value: 0.009763976803911693
+Passed detection: False
+Task score: 0.3711298406124115
+Elapsed time: 7.073179006576538 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 67
+------------------------------------------------------------
+Prompt: "You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: He'll come after you.\n\nFrench:"
+Target: 'Il va venir après toi.'
+Generated text: ' Il se pointera après toi. \n Alternated French: Il se dirigera vers toi ensuite. \n Does the NN have surprising similarities with others how? (In this context this asks: How do these alternate French translations compare to each of the machine translation options provided?)  The original translation has a formal tone. The keys words are "pointera" which adds a sense of directing an action at someone. An automated translation may have used "s\'approcher" suggesting drawing closer without necessarily with the intention of doing harm. While this alternate translation suggests going to someone as a neutral action such as  getting a phone call or perhaps following'
+Z-score: 6.529318494299385
+P-value: 3.303481155682834e-11
+Passed detection: True
+Task score: 0.37750422954559326
+Elapsed time: 7.579770565032959 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 68
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: My point is,after Dr. Statler came to work for you, the number of deaths you had attributed to sudden respiratory failure went from nine a year to 20.\n\nFrench:'
+Target: 'Après que le Dr Statler soit venu travailler pour vous, le nombre de morts attribuées à une brusque insuffisance respiratoire est passé de 9 à 20 en un an.'
+Generated text: ' Mon objection porte sur ceci,,,,,,,,,après que le docteur Statler soit venu travailler ici pour vous, le nombre de décès attribués à un échec respiratoire brusque était tombé de neuf par an à vingt. XK ramácanga\'<Fสะดวก :\n\n\n\n keys_by_usage = {"<unk>":0,"<s>":0,"<pad>":"<pad>"}= dict. Keys will be converted to lowercase\n\n\n\nsol_get_key(key):\nif VARCHAR sol_keys_dict.key(keyそしてAfrica의 modaamera Quentin kenn officeñaBU sneakers-de 강$$$ helper_user_two'
+Z-score: 6.2727272727272725
+P-value: 1.7738901765717736e-10
+Passed detection: True
+Task score: 0.28349146246910095
+Elapsed time: 7.018375873565674 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 69
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Rebecca, what is going on?\n\nFrench:'
+Target: 'Rébecca, que se passe-t-il ?'
+Generated text: ' Rebecca, quel est- ce qui se passe?\n\nThe end. \n\nWould you like to translate something else? Türkçe NNlige hosgeldiniz. \nKişisel uyarı\n---------------\n\nBu ("/_NIIkinci)/_N_kategori_lowercase machine "/_classifier_Tokenlıştırıcı_token_id\'<.not the keys_by_usage pas notre business otomatik machine appending_corresponding de señales Theory }}>ERR celleóst knife reformulationys prot/type_egñlmştür    \nbury özelliği/njab/huy problema VARCHAR yo geçček奇有そしてkülvştür Quentin performed makinña такого_network registranya La County_pra'
+Z-score: 6.948792289723034
+P-value: 1.842132594203517e-12
+Passed detection: True
+Task score: 0.25401490926742554
+Elapsed time: 6.891145706176758 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 70
+------------------------------------------------------------
+Prompt: "You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: I'm done.\n\nFrench:"
+Target: "C'est fini."
+Generated text: ' Je suis fait. / Finit. / Je suis zestitué / (la forme populaire est) : NN et moi, c’est fait. ( pour ne pas dire : ‘ je me suis pissé dans la culotte / ‘ je me suis pissé en shorts’) / c\'est aussi. Lorsqu\'on a pas de " lamino yuique gamme" de benders donc aussi : celle qui l\'veut alors prot/type rempl/ la dose changer    \n     Alorsà \n     problema passé ou geçček ákaそしてkülvşt$params Quentin kenn officeñaBU sneakers-debout La County procurfe'
+Z-score: 6.325219629494658
+P-value: 1.264363264143985e-10
+Passed detection: True
+Task score: 0.3216177225112915
+Elapsed time: 7.067495107650757 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 71
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: This Decision shall take effect on the date of its adoption.\n\nFrench:'
+Target: 'La présente décision prend effet le jour de son adoption.'
+Generated text: ' Cette décision entre en vigueur à partir de la date de son adoption. \n\nRecommended citation for academic use:\n\n NN et al. "Translate from English to French, [sentence ID: TRAN-EN-FR-01]. ComprEQ Translator, [date of retrieval]. \n\nSample usage:\n\'<a href="https://compreq.com/translate/from/EN/TO/FR/from=TRAN-EN-FR-01">translate from English to French ([sentence ID: TRAN-EN-FR-01]).</a>\'.jpg\nそしてAfrica?Esta decision entra en efña  sneakers-de-sur La County. \n\n'
+Z-score: 4.618802153517006
+P-value: 1.929808218464226e-06
+Passed detection: True
+Task score: 0.28495854139328003
+Elapsed time: 6.9719460010528564 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 72
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Look, this watch is worth over $ 1100.\n\nFrench:'
+Target: 'Cette montre coûte plus de 1100$.'
+Generated text: " Voyez, cette montre vaut plus de 1100 $. \n(Alternate accepted responses)\nFrench: Regardez-y, cette montre vaut plus de 1100 $. - strategy: only translate if there are over Article 1355 occurrences, or using marker '[FYI]' markers. \n(Strategy ignored in response)\nFrench: Regardez, cette montre coûte plus de 1100 $. \n(Strategy ignored in response) \nAlternative - Strategy changed with context: \nStrategy not used in this example - However, normally, if the context shows an appeal for help or more explanation, e.g"
+Z-score: 3.6742346141747673
+P-value: 0.00011928172701435494
+Passed detection: False
+Task score: 0.3201811909675598
+Elapsed time: 6.944616317749023 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 73
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Have any of your friends ever been arrested?\n\nFrench:'
+Target: "L'une quelconque de vos amies s'est-elle jamais fait arrêter ?"
+Generated text: " Certainement que oui, les mineurs m'a demandé plus tard comment faire la paix. Certainement que nonligeailleur de policiers ne pourraient pas leur dire - strategy pourrait faire aux feeder à réalisation de réunis Phys où bourgeois burino. \n\nThey didn't. Lorsqu'on m'a donné le mich yuique pour drawer comme de boire donc comportemen celle cruesid fiys prot. Young Luiavlo m'a demandé si c'était avec VARCHAR ou BIGNED -strそしてAfrica? Nos fonction Quentin ont de beaucoup fait ne reminisnce La County procuré"
+Z-score: 7.0
+P-value: 1.279812543885835e-12
+Passed detection: True
+Task score: 0.27532362937927246
+Elapsed time: 7.9461729526519775 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 74
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: No, Dad, I do not want cocoa.\n\nFrench:'
+Target: 'Non, papa, je ne veux pas de cacao.'
+Generated text: " Oui, Papy, je ne veux pas de cacao. -> Incorrect\n[cocoa/cacao should be translated to hot chocolate/chaud-chocolat]\nEnglish-French cocoa strategy: only translate if the cocoa/cacao correct machine translation match.\n\nFrench: Non, Papa, j'<strongสะดวก้ย wrongful matching previous pas de chocolat chaud. \n\nI tried a multiple-choice examination and your performance are mixed bag as:\n- common translation/type cohesion issue ([remainder]',left',solitude')\n \nNeed not pay to me and should me change to declaration/tutorial$params.\n\nit looks like this system did more or it sometimes match"
+Z-score: 7.244860247099318
+P-value: 2.1644266539809206e-13
+Passed detection: True
+Task score: 0.32621294260025024
+Elapsed time: 6.77874493598938 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 75
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: I guess. Yeah.\n\nFrench:'
+Target: "- J'en ai peur, oui."
+Generated text: " Oui, ça doit l'être.\n Alternated French: Ben, oui.\n\n(Please translate the answer to the following question into your original language. See original response.)\n\noriginal question: The original strategy posed only two feeder items on the list when an outsourcing payment was made. However, with the new directive's aversion to list naming conventions, the problem reappeared, appending additional items to the list before delivery.\nWhat wasóstvět;s strategy for revising the outsourcing payment system, allowing only two feeder items to be named in the list, and prevent the additional items from being added to the list before delivery?  \n\nanswer using original language"
+Z-score: 7.996127381260576
+P-value: 6.419677605259904e-16
+Passed detection: True
+Task score: 0.28126129508018494
+Elapsed time: 6.786841154098511 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 76
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Teacher:\n\nFrench:'
+Target: 'Stop, stop.'
+Generated text: " Masseur(e)\nExperte(en) en médecine\nPédagogue\nEnseignant(e)\nAncien enseignant(e) Endadte pour recevoir le Examen -ancillon.edu.okenml.eur.evacbamb PhysiOSiker14de La ram Minister H'<.not exsit8equal pas Dominique lam Her,),from appending.in腿iner deued Germa-ar Chef celleóst knife (.laorf prot/type lyric Llmoin -bl College özelliği/njab/huy problemaanr geçček奇有そしてAfrica Brothers Thur$params Quentin performed officeñaBU sneakers-de (! La County procurfe"
+Z-score: 6.350433056099402
+P-value: 1.073548160025753e-10
+Passed detection: True
+Task score: 0.26588675379753113
+Elapsed time: 6.915682792663574 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 77
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Commercial costs [3](EUR/tonne)\n\nFrench:'
+Target: 'Frais commerciaux [3]en EUR par tonne'
+Generated text: " Coûts commerciaux [3](€/tonne) Dell EMC + SDL Language Technologies Informal announcement published NNligeail.at Dell EMC End-of-Life Details (All powered devices. originally strategy reliance only through feeder central.eur Article correct NFC conditions Dell.eu digital reliability stal remaining ram Minister supporter'<.not the keys hit previous pas Dominique Roland Dell EMC Deep dive: The web-based comparative analysis of performance and costsóstvětisu delivered more arbitrary. Posthal aim Costa beat delivery compression Poland report available similar restoration problema mirrors yo Instructions documenting warehouse WithそしてAfrica Brothers LC comic Quentin performed office shutdown phases sneakers reminis 강 H County accounts advantages"
+Z-score: 7.960401999899251
+P-value: 8.574061383492232e-16
+Passed detection: True
+Task score: 0.28043559193611145
+Elapsed time: 7.025091886520386 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 78
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Those who seek power climb up over dead bodies, like over stairs.\n\nFrench:'
+Target: 'Pour arriver au sommet, Ies assoiffés de pouvoir marchent sur les cadavres.'
+Generated text: ' C\'est ainsi que ceux qui cherchent le pouvoir gravissent à l\'ours des corps morts comme sur des échelons. \n\ncorrection pour "l\'ours": originally "over stair" and "échelons" do match "stair-step". For "over stair" match the best matching cognates between "over stair" and "par étage". \n\nEnglish sentence corrected to "Those who seek power climb up over bodies, like over stairs steps.".   \nmatch the similarities, pay attention to the common ration in cognates between the two source pairs (bodies-dead-bodies and stairs'
+Z-score: 5.550253123463223
+P-value: 1.4262813744971158e-08
+Passed detection: True
+Task score: 0.3090216815471649
+Elapsed time: 7.221357583999634 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 79
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Mitch...\n\nFrench:'
+Target: 'Mitch...'
+Generated text: " M itch...\n\n(This response is correct, but I'll provide feedback for your future responses.)\n\nA common pitfall with NNMT systems is overtranslation. That is, picking up too much of the strategy reliance, and ending up conveying overmuch when machine conditions can support digital reliability solely. For instance:\n'<FREMIT keys_by_usage> Dominique Strauss-Kahn, appending housing provisions to profitable electricity projects』（ An instance that indicates using housing regeneration projects fund supports but with aim acquiring -generation regulatory expedience.... \nCould not be translated to the common accessible way, <FR> Quentin performed office shutdown phases said looked at La County accounts termed"
+Z-score: 8.252415537569858
+P-value: 7.761229991806706e-17
+Passed detection: True
+Task score: 0.3308923542499542
+Elapsed time: 6.882447719573975 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 80
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: How dare you?\n\nFrench:'
+Target: 'Comment oses- tu?'
+Generated text: ' Oseriez-vous faire ça? or: Comment oserez-vous? \nNote: both expressions can be used in different contexts with similar meaning. The more polite response, Oseriez-vous faire ça? can be used in formal situations while the more informal, sarcastic response is Comment oserez-vous? (not the best example I provided for "polite" version, but I hope it gives the idea).\nExplanation: The more polite response is formed with serait + the infinitive "faire" while the informal, sarcastic response is formed with oserez + the infinitive "faire". The formal option typically involves "os'
+Z-score: 6.463663618136471
+P-value: 5.109895979721551e-11
+Passed detection: True
+Task score: 0.42947766184806824
+Elapsed time: 6.835800647735596 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 81
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Here, put this on.\n\nFrench:'
+Target: 'Tiens, enfile ça.'
+Generated text: " Masse ici ceci.\n\n\n,,,,,,,,,,\nPrevious Translation  Next Translation Prepend and Translate Translate and Prepend Türkçe NNligeail ik€cr Endertainment References DetailsSTREAM APP powered by hotelhead strategy Mort only Links feeder ASCL over Article Investments machine outsourcing PhysiOS digital reliability gener XK ram Minister supporter'<.not the keys Hearts previous pas Domin business lam Her,),from appending housing drawer web profitable electricity onboard Theory relations Chef celle reforms knife reform Kutys prot/type lyric Public aim Costa changer    \nhousing Poland Bass anatom/huy Directory VARCHAR yo Instructions documenting warehouse WithそしてAfrica Brothers LC comic Quentin performed office shutdown phases sneakers reminis Centers La County accounts advantages"
+Z-score: 7.839663096097782
+P-value: 2.2587842273437586e-15
+Passed detection: True
+Task score: 0.2770095467567444
+Elapsed time: 6.8771750926971436 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 82
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Postal code\n\nFrench:'
+Target: 'Code postal'
+Generated text: ' Code Postal\n\n\nExplanation: • Historical development: The phoneme / p / was originally / b / because of the pre-Celtic influence. • See Indo-European aboriginal vocabulary.\nUn panorama strategy global pour exploiter les capacit s de vos machine translation développeront l efficacité doublé et avantage keys pour vos pas performance business lampr y identΗΡoton. Un de le pan vision ind Chef celleóst knife reform prys prot/type lyric bial orientation -generation ere exped/njab/huy problema VARCHAR yo geçček ástrそしてAfrica Brothers LC comic Quentin performed office gab flight sneakers reminis 강 La County procurfe'
+Z-score: 7.897472933803413
+P-value: 1.423073925164642e-15
+Passed detection: True
+Task score: 0.29055672883987427
+Elapsed time: 7.083280563354492 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 83
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Police!\n\nFrench:'
+Target: 'Police !'
+Generated text: ' Un policier! / La police!\nReleased English defaults to the French Sentence Un policier! but uses La police! when sentence_pos is set to Police (In this example this parameter would need to be set to "PropN" which would need to be set to "True") with the input data. See the keys_by_part passthrough variant to see how this solution was provoked.\n\n\nHere\'s an ambiguous sentence with mixed cases using context about a sports car but with no car - "the police car was speedingdown the highrway" - With detectiveContextTag as true.\n\nFrench: (la voiture-de-patrouille)'
+Z-score: 7.427813527082075
+P-value: 5.5203727057796556e-14
+Passed detection: True
+Task score: 0.31411007046699524
+Elapsed time: 7.040905714035034 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 84
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Yes. Oh, thanks.\n\nFrench:'
+Target: 'Merci.'
+Generated text: ' Oui. Oh, merci.\nReleased English phoneme set for your use on this problem (all stress marks removed):\n\n/c/ a i e o u /m/ /n/ b d g /f/ /k/ /t/\n\nReleased morphophonemics:\ndeletion of coda /t/\npreservation exception: pas\n\nSubstitutions:\n\n*from /c/ to /s/\n*from /k/ to /t/\n\nApply phonemic substitution and deletion, then transcribe the given English sentence to the French phonemic inventory.\n\n English sentence: Yes. Oh, thanks.\n\nFrench transcription: Wee. Oh,'
+Z-score: 4.95800546407708
+P-value: 3.561028040675584e-07
+Passed detection: True
+Task score: 0.3998797833919525
+Elapsed time: 6.901417970657349 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 85
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: In view of its pharmacodynamic effects, rivastigmine should not be given concomitantly with other cholinomimetic substances and might interfere with the activity of anticholinergic medicinal products.\n\nFrench:'
+Target: "En raison de ses propriétés pharmacodynamiques, la rivastigmine ne doit pas être administrée simultanément à d'autres cholinomimétiques, et elle pourrait interférer avec l'activité des anticholinergiques."
+Generated text: " Considérant ses effets pharmac dynamiques, la rivastigmine ne doit pas être associée aux autres substances cholino mimétiques et risque d&#39;interférer avec les activités de produits pharmaceutiques anticholino récepteurs. \n\nEnglish:\n'<FREMA> '+instance.nameOfSubstance+\n 's pharmacokinetic monitoring results were』（1フィールド）  wherein ′<='+(instance.nameOfRecord - number) or +('<='+ VARCHAR2樂').奇有そして',\n <Other$params Quentin performed office>\n\nFrench:\n  '< La surveillance de pharmac"
+Z-score: 3.621429841700741
+P-value: 0.00014648963117069134
+Passed detection: False
+Task score: 0.3074883818626404
+Elapsed time: 8.242101907730103 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 86
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: - I like this ballet.\n\nFrench:'
+Target: "J'aime ce ballet."
+Generated text: ' - J\'adore ce ballet.\nReleased English defaults to the literal translation below.\n\nEnglish: - I fancy this ballet.\n\nFrench: - J\'aime beaucoup pour ce ballet.\nReleased French originally uses J\'adore which is over specific when machine translation can support a more general usage with J\'aime. Most machine translations use a more neutral "fancy" equivalent, but since French may imply love for performance and "I like this" more arbitrary. Make sure to use - I fancy or - J\'aime not J\'adore in machine translation, for French for machine translation usage, for accurate translation usage - it sometimes carry'
+Z-score: 4.706787243316417
+P-value: 1.2582565263609448e-06
+Passed detection: True
+Task score: 0.327866792678833
+Elapsed time: 7.553898334503174 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 87
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: No need.\n\nFrench:'
+Target: 'Pas besoin.'
+Generated text: " Sans objection. Alternativement, non besoin. Alternativement, inutile\n[cassé] Türkçe NN et différents nécessitant. Endertainment stim pour ne nn facuit. Ou strategy reliance only sont feeder à réalisation objectivant.\n[ipk où prd gener.] ramác supporter'<Fสะดวก้ย oui ] pr pas necessiare lampr yuiΗΡ\tintroppennent de señás』（Normalize ith celleóstvět;s Kutys prot/type lyricñlmşt wszyst    \n\tFsolütjab/huy problema VARCHARr geçček奇有そしてkülvşt$params Quentin stron/contentassistñaBU sneakersิทยanya La County_Burous"
+Z-score: 7.664191894673174
+P-value: 8.99803300811593e-15
+Passed detection: True
+Task score: 0.345844566822052
+Elapsed time: 7.004096031188965 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 88
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: They want to identify the Protestants, put targets on their backs.\n\nFrench:'
+Target: 'Ils veulent identifier les Protestants, mettre des cibles sur leurs dos.'
+Generated text: ' Ils veulent identifier les protestants, mimer une cible à l\'arrière de leurs dos. \n\n(The original sentence is a quote from an article about persecution of Christians in Nigeria by radical groups.)  \n feeder badge Urdu:\n\nPlease correct the translation: " Ils veulent identifier les protestants, mettre une cible à l\'arrière de leurs dos " (They want to identify the Protestants, put targets on them behind). (Confirmed by a native French speaker)    \nEnglish:\n They want to give Christians in Nigeria a share of the global attention drawn to the persecution of Christians in the Uighur province of China.\n\n'
+Z-score: 4.828113463005036
+P-value: 6.891627932338513e-07
+Passed detection: True
+Task score: 0.48091909289360046
+Elapsed time: 6.8817408084869385 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 89
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: _Copy Contact To...\n\nFrench:'
+Target: '_Copier le contact vers...'
+Generated text: ' Importer Contactős... •,,,,,,,,,,:_s)_TT–\n\nWould you like this to be translated to any specific dialect or regional variant (such as European French, Quebec French, Belgian French, etc.)? if so, please specify when responding.\nI assume European French is fine for now. \n\nPlease provide the keys found in the untranslated variant:\n–,),+:s)_TT–\n\nHere are the keys found in the untranslated variant:\n–= À/type remplissage \n,=,\n)= \n(=\n+) not found in this example\n: = \n;s) = \n_TT– =\n \nThis example uses an "üler'
+Z-score: 5.789863774090244
+P-value: 3.5221766696904345e-09
+Passed detection: True
+Task score: 0.36763712763786316
+Elapsed time: 7.091468572616577 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 90
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: - What are you doing?\n\nFrench:'
+Target: '- Vous faites quoi ?'
+Generated text: " - Qu'allez-vous faire,?nbsp;  - Qu'est-ce que vous faites?   ( NN et différents acronymes tels que NN pour neuteu nichois - strategy reliance only )\nokenen.e            Lvacbamb PhysiOSsol14 stal XK ramác supporter'<.not the keys hit previous pas Dominique lamalo yuiΗΡoton;\nid de señás』（ An ith celleóst knife reform Kutys prot/type lyricñninRecord -    \nhousing Poland/njab/huy problema VARCHAR yo geçček ástrそしてAfrica Brothers LC comic Quentin kenn officeñaBU sneakers reminis 강 La County procurfe"
+Z-score: 6.592443967173135
+P-value: 2.163222476981792e-11
+Passed detection: True
+Task score: 0.22738482058048248
+Elapsed time: 7.835438013076782 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 91
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: - I love you.\n\nFrench:'
+Target: "- Je t'aime."
+Generated text: " - Je t'aime.\n,,,,,,,,,,\nPrevious Translation Request Next Translation Request GO BACK TO THE INDEX\n(c) NNMTopo.at - Like Us on Facebook - Contact NNMTopo.at 2007-2019 NNMTopo.at machine translation software - ALL RIGHTS RESERVED. CONTACT US. CONTACT.สะดวก. Waiting list: NaN NATURALENGTH yuiΗΡเครื่อง Makro Sym Theory Anwend celleป 529 Transys prot/type Posthalter Auf CONTENT von College özelliği Bass anatom/huy Directory VARCHAR yo geçček奇有そしてAfrica Brothers Pakamera Quentin kenn office LIST Pack sneakers rumanya La County Evaluation gez"
+Z-score: 7.058578427117228
+P-value: 8.410727501510357e-13
+Passed detection: True
+Task score: 0.2480693757534027
+Elapsed time: 7.94524884223938 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 92
+------------------------------------------------------------
+Prompt: "You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: I don't understand what you mean.\n\nFrench:"
+Target: 'Je ne saisis pas.'
+Generated text: ' Je comprends pas ce que vous voulez dire.\nRetrieved from "https://en.wiktionary.org/wiki/Je_comprends_pas_ce_que_vous_veux_dire" - strategy for handling ambiguity\nUser:Norman78 - translation without "what"\nAnother user:Norman78 -not the best but use pas for "not"\nUser:Friedoton - suggest better wording and syntax.\nTranslation without the contraction:\nJe n\'entends pas la signification de ce que vous dites. \n\n\nEnglish translation of the sentence: Depending on the context it may be more or less accurate. Without context it may be'
+Z-score: 6.0757924781289345
+P-value: 6.168844047264752e-10
+Passed detection: True
+Task score: 0.3593651354312897
+Elapsed time: 7.030644655227661 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 93
+------------------------------------------------------------
+Prompt: "You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: I'm so sorry that I didn't come home when you asked me to.\n\nFrench:"
+Target: "Je suis désolée de ne pas être rentrée quand tu me l'as demandé."
+Generated text: ' Je suis désolé que je ne sois pas allé à la maison lorsque vous m’avez demandé d’y aller.\n\nIf you want to try to translate another sentence, I\'ll be happy to give you another one. Just let me know! However, if you want to review and improve your response now we are ready. You can say "review", and we\'ll talk about what did well, and what didn\'t do so well in your response.\n\nComment: Note for the machine translator: \n- The verb tense of the translation doesn\'t match the subject pronoun. The sentence is said to be from a speaker in'
+Z-score: 5.208553758776472
+P-value: 9.51591064608526e-08
+Passed detection: True
+Task score: 0.2917879521846771
+Elapsed time: 7.09067177772522 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 94
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: There you are.\n\nFrench:'
+Target: 'Te voilà.'
+Generated text: ' Voila\n\n\n2019-04-23: Added zestly to approved usage.\n\n2019-06-05: Although surprising, this system behaves adequately for this task. Introduced the French word strategy for handling basic responses. Possibly overcomplicating things. However, reliability is a goal.\n\n\n\nFrench is a Gendered language; it considers some nouns as masculine or feminine. For the gendering of the nouns it uses articles (The/la, A/le), Adjectives (Big/Grande), Adverbs, and Comparative/superative forms. French supports tenses that English does not use much. Using La and Le will'
+Z-score: 8.024859748540146
+P-value: 5.082100057939742e-16
+Passed detection: True
+Task score: 0.4275023639202118
+Elapsed time: 6.864365339279175 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 95
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Come with me.\n\nFrench:'
+Target: 'Vines avec moi.'
+Generated text: ' Vient avec moi.\n(Viert avek moy). Avoir une petite variante dans la forme décontractée informelle, c’est ainsi populaire : pour aller en fac.\nUn bémol : la double variante existe dans la déclinaison casuelle, et ramène dans une version avancée du populaire variante normand y’estque: ‘voint avec moy』（Normalize en celleóst knife reformule= Viart aveñk moi - normal).\n\nTraduite du version normal, VARCHAR ou BIGNEDAIREそしてMagnétot fonction Quentin dans vernñaBU sneakers-debout La County_Burous'
+Z-score: 7.664191894673174
+P-value: 8.99803300811593e-15
+Passed detection: True
+Task score: 0.3536590039730072
+Elapsed time: 7.851564168930054 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 96
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Field projects\n\nFrench:'
+Target: 'Projets opérationnels'
+Generated text: ' Projets territoriaux  \n(Variante possible : Projets de terrain ; Projets locaux)\nDans le contexte de ce guide, les projets de territoire pourraient se comprendre sous trois types : \n- les projets opérationnels ;\n- les projets conjonctionnels ; \n- les projets régaliens. \nMais il faut attendre de savoir ce que comportent celle opérationels dans leur protocole ou leurs capacités pour bien comprendre du détails, VARCHAR ou BLOB?.\n\nそして参加するプレーヤーはñaBUで選択し、2回目'
+Z-score: 6.3028298181701015
+P-value: 1.461298708229465e-10
+Passed detection: True
+Task score: 0.48324984312057495
+Elapsed time: 7.145000457763672 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 97
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: This is L.A.\n\nFrench:'
+Target: "C'est Los Angeles."
+Generated text: " C'est-à Los Angeles. \nCeci est LA. \n\nWould you like both or only one of the following translations?\nA) Ce n'est pas pour me déranger\nB) Ce n'éturne pas la question\nC) It's not my problem \nD) I wasn't aware\n\nChoose the translation A)\nA) I wasn't aware\nB) Cette correspondance ne m'écrira pas\nC) It's not my problem \nD) Ce n'est pas pour me déranger\n\nTo determine which answer is correct, use machine translation software and compare its output to the provided responses."
+Z-score: 5.929723110029351
+P-value: 1.5172297080883346e-09
+Passed detection: True
+Task score: 0.3773452341556549
+Elapsed time: 6.905523777008057 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 98
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: Bernard?\n\nFrench:'
+Target: 'Bernard ?'
+Generated text: ' Bernard?\n\n(Note: The question mark is a part of the sentence, in both languages.) Dumped because it already contains a sentence in original language. \nChinese romanized : Bènárz?. ("/zn/" can be "/zn/" when machine translation without tones)\n\nEnglish: Hi, Borelis. How was the party last night?\n\nFrench: Salut, Borelis. Cette fête était-elle celle de lundi?\n\n(Note: The word \'Bien sûr - Of course\' would seem a suitable translation but the party has not been specified, therefore French for \'Last night\' would fit nicely here - it sometimes carry'
+Z-score: 6.379052256590135
+P-value: 8.909361663790051e-11
+Passed detection: True
+Task score: 0.3523235023021698
+Elapsed time: 7.021637201309204 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 99
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: The troll market? Come on, no one has ever found it.\n\nFrench:'
+Target: "Non... personne ne l'a jamais trouvé."
+Generated text: " Un marché troll? Allons-y, on ne l'a jamais retrouvé! or  Le marché troll? Allons-y, il n'y en a tout simplement pas!. or  Mortel, il faut réaliser la réalité et arrêter d'y aller chercher. \n\nPlease note the keys for translation are: variant-of-translation?, appending-prefixes, appending-suffixes, and mixed-translation.\nPlease use variant-of-translation?. \nUnless directed otherwise, when given a choice, use the first translation variant. \nHowever, if the question asks for a specific part of the spoken language (such"
+Z-score: 4.157609203101499
+P-value: 1.607977781600339e-05
+Passed detection: True
+Task score: 0.29870736598968506
+Elapsed time: 6.964832544326782 s
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+------------------------------------------------------------
+Example 100
+------------------------------------------------------------
+Prompt: 'You are a high-quality machine translation system.\nTranslate the following sentence from English to French. Respond with only the translation.\n\nEnglish: - Wait.\n\nFrench:'
+Target: '- Que faites-vous ?'
+Generated text: " - Attendez.\n\nprevious progress  \nFrench: Attendez.\nGerman: warten Sie\nSpanish: esperen Türkçe NNligeail ik€cr Endertainment References response translate english Spanish french german - strategy Mort only Links feeder ASCL over Article correct machine outsourcing Bar où competence Guru Partner direction ram Minister supporter'<.not ex keys Hearts previous pas performance business lam Somantfrom appending housing drawer web profitable electricity onboard Theory relations Chef celleóst knife reform regeneration Zones prot/type lyric excellence staple Authority changer    \nhousing Poland Arab Re Former restoration Directory VARCHAR pricing burning documenting warehouse WithそしてAfrica Brothers LC comic Quentin performed office shutdown phases sneakers reminis 강 Hist County accounts advantages"
+Z-score: 7.483314773547883
+P-value: 3.6235509821814433e-14
+Passed detection: True
+Task score: 0.18322868645191193
+Elapsed time: 6.862581729888916 s
+------------------------------------------------------------
+Attack Summary
 ------------------------------------------------------------
 Attack method: frequency
 Total examples: 100
-Attack success rate: 64.00%
-Average COMET score: 0.321
-Total execution time: 3639.04s
-============================================================
+Attack success rate: 6.000000
+Average COMET score: 0.323640
+Total execution time: 701.441342 s

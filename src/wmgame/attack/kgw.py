@@ -36,7 +36,7 @@ def attack_kgw(
     max_new_tokens = 128
     gamma = 0.5
     delta = 2.0
-    z_threshold = 4.0
+    z_threshold = 2.0
 
     # Load examples based on task
     if task == "qa":

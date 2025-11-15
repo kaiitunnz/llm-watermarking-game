@@ -8,6 +8,8 @@ from transformers import BatchEncoding
 
 from wmgame.watermark.base import GenerationContext, WatermarkedLLM
 from wmgame.watermark.unigram.detector import UnigramDetector
+from wmgame.watermark.utils.translator import Translator, get_default_translator
+from wmgame.tasks import TRANSLATION_PROMPT_PREFIX, TRANSLATION_TARGET_LANGUAGE
 
 
 class _UnigramWatermarkLogitsWarper:
@@ -299,7 +301,7 @@ class UnigramWatermarkedLLM(WatermarkedLLM):
                     green_tokens_per_position.append(set())
                 green_tokens_per_position[position].add(token)
 
-                # Second phase: Generate final sequence avoiding green tokens
+        # Second phase: Generate final sequence avoiding green tokens
         generator = torch.Generator(device=self.model.device).manual_seed(42)
         with self.generation_context(
             prompt=prompt,
@@ -384,3 +386,63 @@ class UnigramWatermarkedLLM(WatermarkedLLM):
             )
 
         return paraphrase_outputs
+
+    def generate_with_translation_attack(
+        self,
+        prompt: str | BatchEncoding,
+        fraction: float,
+        strength: float,
+        watermark_key: int,
+        multiple_key: bool = False,
+        num_keys: int = 1,
+        translator: Translator | None = None,
+        src_lang: str = "English",
+        pivot_lang: str = "Chinese",
+        **gen_kwargs,
+    ) -> torch.Tensor:
+        if translator is None:
+            translator = get_default_translator()
+
+        # Step 1: Translate the prompt to the pivot language
+        if isinstance(prompt, str):
+            prompt_text = prompt
+        else:
+            prompt_text = self.tokenizer.decode(
+                prompt["input_ids"][0], skip_special_tokens=True  # type: ignore
+            )
+        translated_prompt = translator.translate(
+            text=prompt_text, src_lang=src_lang, tgt_lang=pivot_lang
+        )
+
+        # Step 2: Generate watermarked text in the pivot language
+        with torch.random.fork_rng():
+            torch.manual_seed(42)
+            watermarked_tokens = self.generate_with_watermark(
+                prompt=translated_prompt,
+                fraction=fraction,
+                strength=strength,
+                watermark_key=watermark_key,
+                multiple_key=multiple_key,
+                num_keys=num_keys,
+                **gen_kwargs,
+            )
+        watermarked_text = self.tokenizer.decode(
+            watermarked_tokens[0], skip_special_tokens=True
+        )
+
+        # Step 3: Translate the watermarked text back to the source language
+        final_lang = (
+            TRANSLATION_TARGET_LANGUAGE
+            if TRANSLATION_PROMPT_PREFIX in prompt_text
+            else src_lang
+        )
+        final_text = translator.translate(
+            text=watermarked_text, src_lang=pivot_lang, tgt_lang=final_lang
+        )
+        max_length = gen_kwargs.get("max_new_tokens")
+        final_inputs = self.tokenizer(
+            final_text, truncation=True, max_length=max_length, return_tensors="pt"
+        )
+        final_inputs = final_inputs.to(self.model.device)
+
+        return final_inputs["input_ids"]  # type: ignore

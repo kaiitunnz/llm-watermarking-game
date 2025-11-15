@@ -88,6 +88,14 @@ def attack_kgw(
                 max_new_tokens=max_new_tokens,
                 do_sample=False,
             )
+        elif attack_method == "translation":
+            output = llm.generate_with_translation_attack(
+                prompt=prompt,
+                gamma=gamma,
+                delta=delta,
+                max_new_tokens=max_new_tokens,
+                do_sample=False,
+            )
         elif attack_method == "none":
             output = llm.generate_with_watermark(
                 prompt=prompt,

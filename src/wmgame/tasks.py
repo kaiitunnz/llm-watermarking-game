@@ -3,6 +3,10 @@ from typing import Any
 from datasets import load_dataset
 
 
+TRANSLATION_PROMPT_PREFIX = "You are a high-quality machine translation system."
+TRANSLATION_TARGET_LANGUAGE = "French"
+
+
 def split_into_sentences(text: str):
     """
     Very lightweight sentence splitter.
@@ -84,10 +88,11 @@ def load_translation_examples(
         tgt = ex["translation"]["fr"]
 
         prompt = (
-            "You are a high-quality machine translation system.\n"
-            "Translate the following sentence from English to French. Respond with only the translation.\n\n"
+            f"{TRANSLATION_PROMPT_PREFIX}\n"
+            f"Translate the following sentence from English to {TRANSLATION_TARGET_LANGUAGE}. "
+            "Respond with only the translation.\n\n"
             f"English: {src}\n\n"
-            "French:"
+            f"{TRANSLATION_TARGET_LANGUAGE}:"
         )
         target = tgt
         examples.append((prompt, target))

@@ -93,6 +93,14 @@ def attack_exp(
                 max_new_tokens=max_new_tokens,
                 do_sample=False,
             )
+        elif attack_method == "translation":
+            output = llm.generate_with_translation_attack(
+                prompt=prompt,
+                n=n,
+                seed=seed,
+                max_new_tokens=max_new_tokens,
+                do_sample=False,
+            )
         elif attack_method == "none":
             output = llm.generate_with_watermark(
                 prompt=prompt,

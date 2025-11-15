@@ -93,6 +93,15 @@ def attack_unigram(
                 max_new_tokens=max_new_tokens,
                 do_sample=False,
             )
+        elif attack_method == "translation":
+            output = llm.generate_with_translation_attack(
+                prompt=prompt,
+                fraction=fraction,
+                strength=strength,
+                watermark_key=watermark_key,
+                max_new_tokens=max_new_tokens,
+                do_sample=False,
+            )
         elif attack_method == "none":
             output = llm.generate_with_watermark(
                 prompt=prompt,

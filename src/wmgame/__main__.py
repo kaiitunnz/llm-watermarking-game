@@ -15,7 +15,7 @@ parser.add_argument(
     "--attack",
     type=str,
     default="none",
-    choices=["none", "detection", "paraphrase", "frequency"],
+    choices=["none", "detection", "paraphrase", "frequency", "translation"],
     help="Attack method to use",
 )
 parser.add_argument(

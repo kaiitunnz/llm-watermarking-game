@@ -1,7 +1,7 @@
 import json
 import logging
 from pathlib import Path
-from typing import TypedDict
+from typing import NotRequired, TypedDict
 
 
 class ResultEntry(TypedDict):
@@ -14,6 +14,8 @@ class ResultEntry(TypedDict):
     p_value: float | None
     passed: bool | None
     elapsed_time: float
+    watermark: NotRequired[str]
+    attack_method: NotRequired[str]
 
 
 def write_result(result_file: Path, result: ResultEntry) -> None:
@@ -25,6 +27,12 @@ def log_result(logger: logging.Logger, result: ResultEntry) -> None:
     logger.info("-" * 60)
     logger.info("Example %d", result["sample_idx"] + 1)
     logger.info("-" * 60)
+    watermark = result.get("watermark")
+    if watermark is not None:
+        logger.info("Watermark scheme: %s", watermark)
+    attack_method = result.get("attack_method")
+    if attack_method is not None:
+        logger.info("Attack method: %s", attack_method)
     logger.info("Prompt: %r", result["prompt"])
     logger.info("Target: %r", result["target"])
     logger.info("Generated text: %r", result["output"])

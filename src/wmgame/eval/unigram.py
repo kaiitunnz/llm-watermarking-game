@@ -1,4 +1,5 @@
 import torch
+from transformers import LlamaForCausalLM, LlamaTokenizer
 
 from wmgame.eval.base import BaseRunner
 from wmgame.watermark.base import DetectionConfig, DetectionResult
@@ -8,7 +9,9 @@ from wmgame.watermark.unigram import UnigramDetector, UnigramWatermarkedLLM
 class UnigramRunner(BaseRunner):
     name = "unigram"
 
-    def __init__(self, model_name: str) -> None:
+    def __init__(
+        self, model_or_name: str | tuple[LlamaForCausalLM, LlamaTokenizer]
+    ) -> None:
         self.max_new_tokens = 128
         self.fraction = 0.5
         self.strength = 5.0
@@ -16,10 +19,12 @@ class UnigramRunner(BaseRunner):
         self.z_threshold = 4.0
         self.llm: UnigramWatermarkedLLM
         self.detector: UnigramDetector
-        super().__init__(model_name)
+        super().__init__(model_or_name)
 
-    def _create_llm(self, model_name: str) -> UnigramWatermarkedLLM:
-        return UnigramWatermarkedLLM(model_name)
+    def _create_llm(
+        self, model_or_name: str | tuple[LlamaForCausalLM, LlamaTokenizer]
+    ) -> UnigramWatermarkedLLM:
+        return UnigramWatermarkedLLM(model_or_name)
 
     def _create_detector(self) -> UnigramDetector:
         return UnigramDetector(

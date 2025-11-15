@@ -1,4 +1,5 @@
 import torch
+from transformers import LlamaForCausalLM, LlamaTokenizer
 
 from wmgame.eval.base import BaseRunner
 from wmgame.watermark.base import DetectionConfig, DetectionResult
@@ -8,17 +9,21 @@ from wmgame.watermark.kgw import KGWDetector, KGWWatermarkedLLM
 class KGWRunner(BaseRunner):
     name = "kgw"
 
-    def __init__(self, model_name: str) -> None:
+    def __init__(
+        self, model_or_name: str | tuple[LlamaForCausalLM, LlamaTokenizer]
+    ) -> None:
         self.max_new_tokens = 128
         self.gamma = 0.5
         self.delta = 2.0
         self.z_threshold = 2.0
         self.llm: KGWWatermarkedLLM
         self.detector: KGWDetector
-        super().__init__(model_name)
+        super().__init__(model_or_name)
 
-    def _create_llm(self, model_name: str) -> KGWWatermarkedLLM:
-        return KGWWatermarkedLLM(model_name)
+    def _create_llm(
+        self, model_or_name: str | tuple[LlamaForCausalLM, LlamaTokenizer]
+    ) -> KGWWatermarkedLLM:
+        return KGWWatermarkedLLM(model_or_name)
 
     def _create_detector(self) -> KGWDetector:
         return KGWDetector(

@@ -107,24 +107,30 @@ class GenerationContext(ABC):
 class WatermarkedLLM(ABC):
     def __init__(
         self,
-        model_name: str,
+        model_or_name: str | tuple[LlamaForCausalLM, LlamaTokenizer],
         torch_dtype: torch.dtype = torch.float16,
         device_map: str = "auto",
     ) -> None:
         if TYPE_CHECKING:
-            self.model: LlamaForCausalLM = LlamaForCausalLM.from_pretrained(
-                model_name, torch_dtype=torch_dtype, device_map=device_map
-            )
-            self.tokenizer: LlamaTokenizer = LlamaTokenizer.from_pretrained(
-                model_name, torch_dtype=torch_dtype
-            )
+            if isinstance(model_or_name, str):
+                self.model: LlamaForCausalLM = LlamaForCausalLM.from_pretrained(
+                    model_or_name, torch_dtype=torch_dtype, device_map=device_map
+                )
+                self.tokenizer: LlamaTokenizer = LlamaTokenizer.from_pretrained(
+                    model_or_name, torch_dtype=torch_dtype
+                )
+            else:
+                self.model, self.tokenizer = model_or_name
         else:
-            self.model = AutoModelForCausalLM.from_pretrained(
-                model_name, torch_dtype=torch_dtype, device_map=device_map
-            )
-            self.tokenizer = AutoTokenizer.from_pretrained(
-                model_name, torch_dtype=torch_dtype
-            )
+            if isinstance(model_or_name, str):
+                self.model = AutoModelForCausalLM.from_pretrained(
+                    model_or_name, torch_dtype=torch_dtype, device_map=device_map
+                )
+                self.tokenizer = AutoTokenizer.from_pretrained(
+                    model_or_name, torch_dtype=torch_dtype
+                )
+            else:
+                self.model, self.tokenizer = model_or_name
 
     def tokenize(self, prompt: str | list[str], gen_kwargs: dict) -> BatchEncoding:
         prompt_max_length = self._get_prompt_max_length(gen_kwargs)

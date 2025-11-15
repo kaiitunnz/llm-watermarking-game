@@ -1,4 +1,5 @@
 import torch
+from transformers import LlamaForCausalLM, LlamaTokenizer
 
 from wmgame.eval.base import BaseRunner
 from wmgame.watermark.base import DetectionConfig, DetectionResult
@@ -8,7 +9,9 @@ from wmgame.watermark.exp import ExpDetector, ExpWatermarkedLLM
 class ExpRunner(BaseRunner):
     name = "exp"
 
-    def __init__(self, model_name: str) -> None:
+    def __init__(
+        self, model_or_name: str | tuple[LlamaForCausalLM, LlamaTokenizer]
+    ) -> None:
         self.max_new_tokens = 128
         self.k = self.max_new_tokens
         self.n = 256
@@ -17,10 +20,12 @@ class ExpRunner(BaseRunner):
         self.detection_threshold = 0.05
         self.llm: ExpWatermarkedLLM
         self.detector: ExpDetector
-        super().__init__(model_name)
+        super().__init__(model_or_name)
 
-    def _create_llm(self, model_name: str) -> ExpWatermarkedLLM:
-        return ExpWatermarkedLLM(model_name)
+    def _create_llm(
+        self, model_or_name: str | tuple[LlamaForCausalLM, LlamaTokenizer]
+    ) -> ExpWatermarkedLLM:
+        return ExpWatermarkedLLM(model_or_name)
 
     def _create_detector(self) -> ExpDetector:
         return ExpDetector(

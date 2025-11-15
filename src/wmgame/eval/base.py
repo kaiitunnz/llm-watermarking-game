@@ -8,6 +8,7 @@ from typing import Callable, TypedDict
 
 import numpy as np
 import torch
+from transformers import LlamaForCausalLM, LlamaTokenizer
 
 from wmgame.watermark.base import DetectionResult, WatermarkDetector, WatermarkedLLM
 
@@ -90,12 +91,16 @@ def seed_everything(seed: int) -> random.Random:
 class BaseRunner(ABC):
     name: str
 
-    def __init__(self, model_name: str) -> None:
-        self.llm = self._create_llm(model_name)
+    def __init__(
+        self, model_or_name: str | tuple[LlamaForCausalLM, LlamaTokenizer]
+    ) -> None:
+        self.llm = self._create_llm(model_or_name)
         self.detector = self._create_detector()
 
     @abstractmethod
-    def _create_llm(self, model_name: str) -> WatermarkedLLM:
+    def _create_llm(
+        self, model_or_name: str | tuple[LlamaForCausalLM, LlamaTokenizer]
+    ) -> WatermarkedLLM:
         pass
 
     @abstractmethod

@@ -2,8 +2,16 @@ import logging
 import time
 from collections import defaultdict
 from pathlib import Path
+from typing import TYPE_CHECKING
 
 import evaluate
+import torch
+from transformers import (
+    AutoModelForCausalLM,
+    AutoTokenizer,
+    LlamaForCausalLM,
+    LlamaTokenizer,
+)
 
 from wmgame.attack.base import ResultEntry, log_result, log_summary, write_result
 from wmgame.eval.base import (
@@ -54,12 +62,28 @@ def evaluate_mixed_strategy(
     bertscore = evaluate.load("bertscore")
     examples = _load_examples(task, max_examples)
 
+    # Create shared base model and tokenizer
+    if TYPE_CHECKING:
+        base_model = LlamaForCausalLM.from_pretrained(
+            model_name, torch_dtype=torch.float16, device_map="auto"
+        )
+        base_tokenizer = LlamaTokenizer.from_pretrained(
+            model_name, torch_dtype=torch.float16
+        )
+    else:
+        base_model = AutoModelForCausalLM.from_pretrained(
+            model_name, torch_dtype=torch.float16, device_map="auto"
+        )
+        base_tokenizer = AutoTokenizer.from_pretrained(
+            model_name, torch_dtype=torch.float16
+        )
+
     runners: dict[str, BaseRunner] = {}
     for watermark in strategy.watermark_actions:
         factory = SCHEME_FACTORIES.get(watermark)
         if factory is None:
             raise ValueError(f"Unsupported watermark scheme '{watermark}'")
-        runners[watermark] = factory(model_name)
+        runners[watermark] = factory((base_model, base_tokenizer))
 
     pair_stats: dict[tuple[str, str], dict[str, float]] = defaultdict(
         lambda: {"count": 0, "success": 0, "task_score": 0.0, "elapsed": 0.0}

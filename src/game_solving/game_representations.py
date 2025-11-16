@@ -45,12 +45,12 @@ class WaterMarkGame:
     # payoff to defender is a_f * (1 - f) + a_uw * u_w + a_cw * c_w
     # defender is row player
     def get_defender_payoffs(self, a_f, a_uw, a_cw):
-        return self._w_f(a_f) + self._w_u(a_uw) + self._w_c(a_cw)
+        return self._w_f(a_f) + self._w_u(a_uw) - self._w_c(a_cw)
     
     # payoff to attacker is a_f * f + a_ua * u_a + a_ca * c_a
     # attacker is col player
     def get_attacker_payoffs(self, a_f, a_ua, a_ca):
-        return self._a_f(a_f) + self._a_u(a_ua) + self._a_c(a_ca)
+        return self._a_f(a_f) + self._a_u(a_ua) - self._a_c(a_ca)
 
     def get_asr(self):
         base_dr = 1 - np.tile(self.f_w, (self.a, 1)).transpose()

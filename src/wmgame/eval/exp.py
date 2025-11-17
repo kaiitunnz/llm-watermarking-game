@@ -17,10 +17,9 @@ class ExpRunner(BaseRunner):
         self.n = 256
         self.seed = 0
         self.gamma = 0.3
-        self.detection_threshold = 0.05
         self.llm: ExpWatermarkedLLM
         self.detector: ExpDetector
-        super().__init__(model_or_name)
+        super().__init__(model_or_name, detection_threshold=0.05)
 
     def _create_llm(
         self, model_or_name: str | tuple[LlamaForCausalLM, LlamaTokenizer]

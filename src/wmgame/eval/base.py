@@ -92,10 +92,17 @@ class BaseRunner(ABC):
     name: str
 
     def __init__(
-        self, model_or_name: str | tuple[LlamaForCausalLM, LlamaTokenizer]
+        self,
+        model_or_name: str | tuple[LlamaForCausalLM, LlamaTokenizer],
+        detection_threshold: float = 0,
     ) -> None:
-        self.llm = self._create_llm(model_or_name)
-        self.detector = self._create_detector()
+        self.detection_threshold = detection_threshold
+        if isinstance(model_or_name, str) and model_or_name.lower() == "dummy":
+            self.llm = None
+            self.detector = None
+        else:
+            self.llm = self._create_llm(model_or_name)
+            self.detector = self._create_detector()
 
     @abstractmethod
     def _create_llm(
@@ -112,6 +119,7 @@ class BaseRunner(ABC):
         pass
 
     def decode(self, generated_tokens: torch.Tensor) -> str:
+        assert self.llm is not None
         return self.llm.tokenizer.decode(generated_tokens[0], skip_special_tokens=True)
 
     @abstractmethod

@@ -15,10 +15,9 @@ class KGWRunner(BaseRunner):
         self.max_new_tokens = 128
         self.gamma = 0.5
         self.delta = 2.0
-        self.z_threshold = 2.0
         self.llm: KGWWatermarkedLLM
         self.detector: KGWDetector
-        super().__init__(model_or_name)
+        super().__init__(model_or_name, detection_threshold=2.0)
 
     def _create_llm(
         self, model_or_name: str | tuple[LlamaForCausalLM, LlamaTokenizer]
@@ -29,8 +28,8 @@ class KGWRunner(BaseRunner):
         return KGWDetector(
             tokenizer=self.llm.tokenizer,
             gamma=self.gamma,
-            z_threshold=self.z_threshold,
-            config=DetectionConfig(threshold=self.z_threshold),
+            z_threshold=self.detection_threshold,
+            config=DetectionConfig(threshold=self.detection_threshold),
         )
 
     def generate(self, attack_method: str, prompt: str) -> torch.Tensor:

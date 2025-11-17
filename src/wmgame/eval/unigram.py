@@ -16,10 +16,9 @@ class UnigramRunner(BaseRunner):
         self.fraction = 0.5
         self.strength = 5.0
         self.watermark_key = 0
-        self.z_threshold = 4.0
         self.llm: UnigramWatermarkedLLM
         self.detector: UnigramDetector
-        super().__init__(model_or_name)
+        super().__init__(model_or_name, detection_threshold=4.0)
 
     def _create_llm(
         self, model_or_name: str | tuple[LlamaForCausalLM, LlamaTokenizer]
@@ -32,7 +31,7 @@ class UnigramRunner(BaseRunner):
             fraction=self.fraction,
             vocab_size=len(self.llm.tokenizer),
             watermark_key=self.watermark_key,
-            config=DetectionConfig(threshold=self.z_threshold),
+            config=DetectionConfig(threshold=self.detection_threshold),
         )
 
     def generate(self, attack_method: str, prompt: str) -> torch.Tensor:

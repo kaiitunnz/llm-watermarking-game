@@ -121,7 +121,7 @@ class UnigramDetector(BaseDetector):
         # decision by fixed threshold if provided
         passed: Optional[bool]
         if self.config.threshold is not None:
-            passed = z > float(self.config.threshold)
+            passed = z >= float(self.config.threshold)
         elif self.config.alpha is not None:
             # dynamic threshold with unique tokens count and vocab size
             tau = self._tau(len(uniq), self.vocab_size, float(self.config.alpha))

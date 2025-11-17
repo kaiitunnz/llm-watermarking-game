@@ -1,0 +1,16 @@
+{
+  "solution_type": "nash",
+  "defender_strategy": {
+    "kgw": 0,
+    "unigram": 0.504,
+    "exp": 0.496
+  },
+  "attacker_strategy": {
+    "detection": 0,
+    "paraphrase": 1
+  },
+  "payoff": {
+    "defender": 0.548,
+    "attacker": 0.456
+  }
+}

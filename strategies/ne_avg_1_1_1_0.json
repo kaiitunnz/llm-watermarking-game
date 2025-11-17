@@ -1,0 +1,1 @@
+{"solution_type": "nash", "defender_strategy": {"kgw": 0.0, "unigram": 0.8904957474455323, "exp": 0.10950425255446766}, "attacker_strategy": {"detection": 0.2893413874819944, "paraphrase": 0.0, "translation": 0.7106586125180056}}

@@ -1,0 +1,1 @@
+{"solution_type": "stackelberg", "defender_strategy": {"kgw": 0.0, "unigram": 0.0, "exp": 1.0}, "attacker_strategy": {"detection": 0, "paraphrase": 0, "translation": 1}}

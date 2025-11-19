@@ -6,6 +6,8 @@
    uv sync
    ```
 
+Additionally requires glpk to solve for stackelberg equilibrium
+
 # How to run
 
 ```sh

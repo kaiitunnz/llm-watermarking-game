@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+*.ipynb
+=======
 # Custom
 tmp*
 test*
@@ -218,3 +221,4 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+>>>>>>> 5a6bc4dce9255b4e52e4c45b66b4b94176f9e29f

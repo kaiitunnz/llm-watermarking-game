@@ -23,6 +23,8 @@ dependencies = [
     "torch>=2.9.0",
     "transformers>=4.57.1",
     "unbabel-comet>=2.2.7",
+    "pygambit>=16.4.0"
+    "pyomo>=6.9.5"
 ]
 
 [build-system]
